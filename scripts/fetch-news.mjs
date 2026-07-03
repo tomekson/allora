@@ -9,22 +9,19 @@ const KEY = process.env.DEEPL_API_KEY || '';
 
 /* datum v Praze */
 const now = new Date();
-const praha = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Prague', year: 'numeric', month: '2-digit', day: '2-digit' }).format(now); // YYYY-MM-DD
-const [y, m, d] = praha.split('-').map(Number);
+const prahaFmt = t => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Prague', year: 'numeric', month: '2-digit', day: '2-digit' }).format(t); // YYYY-MM-DD
+const praha = prahaFmt(now);
+const vcera = prahaFmt(new Date(now.getTime() - 86400000));
+const [y] = praha.split('-').map(Number);
 const MONTHS = ['January','February','March','April','May','June','July','August','September','October','November','December'];
-const page = `Portal:Current_events/${y}_${MONTHS[m - 1]}_${d}`;
 
-/* ---- 1. stáhni wikitext ---- */
-const api = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(page)}&format=json&prop=wikitext&formatversion=2`;
-const res = await fetch(api, { headers: { 'User-Agent': 'allora-news/1.0 (personal learning app; github.com/tomekson/allora)' } });
-const body = await res.json();
-if (body.error) {
-  console.log(`Stránka ${page} zatím neexistuje (${body.error.code}), končím bez chyby.`);
-  process.exit(0);
+function pageFor(dateStr) {
+  const [yy, mm, dd] = dateStr.split('-').map(Number);
+  return `Portal:Current_events/${yy}_${MONTHS[mm - 1]}_${dd}`;
 }
-const wikitext = body.parse.wikitext;
+const page = pageFor(praha);
 
-/* ---- 2. vytáhni věty z odrážek ---- */
+/* ---- pomocné ---- */
 function cleanWiki(s) {
   return s
     .replace(/\[https?:\/\/[^\]]*\]/g, '')        // externí odkazy [url (Zdroj)]
@@ -37,19 +34,41 @@ function cleanWiki(s) {
     .trim();
 }
 
-const stories = [];
-let lastTopic = null; // článek události z nadřazené odrážky (pro Approfondimento)
-for (const line of wikitext.split('\n')) {
-  if (!/^\*+\s*\S/.test(line)) continue;
-  const text = cleanWiki(line.replace(/^\*+/, ''));
-  const isSentence = text.length >= 60 && /[.!?]$/.test(text);
-  if (!isSentence) {
-    const lm = line.match(/^\*+\s*\[\[([^\]|]+)/);
-    if (lm) lastTopic = lm[1].trim();
-    continue;
+/* ---- 1+2. světové zprávy: dnešní stránka, doplněná ze včerejška ---- */
+async function fetchWorld(dateStr) {
+  const p = pageFor(dateStr);
+  const api = `https://en.wikipedia.org/w/api.php?action=parse&page=${encodeURIComponent(p)}&format=json&prop=wikitext&formatversion=2`;
+  const res = await fetch(api, { headers: { 'User-Agent': 'allora-news/1.0 (personal learning app; github.com/tomekson/allora)' } });
+  const body = await res.json();
+  if (body.error) {
+    console.log(`Stránka ${p} zatím neexistuje (${body.error.code}).`);
+    return [];
   }
-  stories.push({ text, topic: lastTopic });
-  if (stories.length >= STORIES_MAX) break;
+  const items = [];
+  let lastTopic = null; // článek události z nadřazené odrážky (pro Approfondimento)
+  for (const line of body.parse.wikitext.split('\n')) {
+    if (!/^\*+\s*\S/.test(line)) continue;
+    const text = cleanWiki(line.replace(/^\*+/, ''));
+    const isSentence = text.length >= 60 && /[.!?]$/.test(text);
+    if (!isSentence) {
+      const lm = line.match(/^\*+\s*\[\[([^\]|]+)/);
+      if (lm) lastTopic = lm[1].trim();
+      continue;
+    }
+    items.push({ text, topic: lastTopic });
+    if (items.length >= STORIES_MAX) break;
+  }
+  return items;
+}
+
+const stories = await fetchWorld(praha);
+if (stories.length < STORIES_MAX) {
+  console.log(`Dnešní stránka má jen ${stories.length} zpráv, doplňuji ze včerejška (${vcera}).`);
+  const seen = new Set(stories.map(s => s.text));
+  for (const it of await fetchWorld(vcera)) {
+    if (stories.length >= STORIES_MAX) break;
+    if (!seen.has(it.text)) stories.push(it);
+  }
 }
 
 /* ---- 2b. české zprávy: cs.wikipedia Portál:Aktuality (CC BY-SA) ---- */
