@@ -73,7 +73,7 @@ Moduly (SPA taby):
 
 | Modul | Co dělá | Bez AI? |
 |-------|---------|---------|
-| 📰 Notizie | denní zprávy; IT zdroje přímo, CZ zprávy s AI přepisem ze session; tap na slovo → překlad z offline slovníku | ✅ (AI jen přepis CZ→IT) |
+| 📰 Notizie | denní zprávy; IT zdroje přímo, CZ zprávy s AI přepisem ze session; tap na slovo → překlad z offline slovníku. **Multi-level texty** (inspirace lingvo.club): každá AI přepsaná zpráva se generuje ve variantách `levels: {a1, a2, b1}`, přepínač úrovně v UI; default úrovně = aktuální týden kurikula, ruční změna je dočasná odchylka per text (ne globální), aby slider nenahradil imerzní křivku. U surových zdrojů level = výběr zdroje (EasyItalianNews ≈ A2/B1, ANSA = C1) | ✅ (AI jen přepis CZ→IT) |
 | 🃏 Slovíčka | SRS flashcards (SM-2 algoritmus) nad `vocab.json` + `dictionary/core.json`, TTS výslovnost | ✅ |
 | 🎧 Ascolto | přehrání podcast scriptu přes Web Speech API (IT hlas), rychlost 0.7–1.0; náhrada NotebookLM pro pasivní poslech | ✅ |
 | 🔊 Pronuncia | drily z sessions, minimal pairs pro česká interference (r/ř, gli, délky) + nahrání vlastního hlasu (MediaRecorder) pro porovnání | ✅ |
@@ -153,5 +153,5 @@ Všechny feedy tahat přes **GitHub Actions** (CORS v browseru nespolehlivý).
 
 1. **v1.0 — skeleton:** SPA + PWA + verzování, `curriculum.json`, ruční import stávajícího `vocab` z `italian-log.md`, SRS flashcards, TTS
 2. **v2.0 — news pipeline:** Actions fetch RSS → Notizie modul + tap-to-translate (slovník build)
-3. **v3.0 — sessions:** úprava `/allora` skillu na JSON výstup, moduly Ascolto/Pronuncia/Grammatica
+3. **v3.0 — sessions:** úprava `/allora` skillu na JSON výstup (vč. multi-level variant zpráv `levels: {a1, a2, b1}`), moduly Ascolto/Pronuncia/Grammatica
 4. **v4.0 — MCP:** generování sessions přes MCP, případně sync progressu

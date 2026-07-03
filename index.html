@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>allora — italština</title>
+<meta name="description" content="Allora — osobní aplikace na učení italštiny">
+<meta name="theme-color" content="#008C45">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="allora">
+<link rel="stylesheet" href="style.css">
+<script>const APP_VERSION = '1.00';</script>
+</head>
+<body>
+<div class="tricolore"></div>
+
+<header>
+  <h1>allora<span class="dot">.</span></h1>
+  <button id="week-badge" class="week-badge" title="Aktuální týden kurikula">týden 1</button>
+</header>
+
+<div id="update-banner" class="update-banner hidden">
+  <span>Je k dispozici nová verze</span>
+  <button id="update-btn">Obnovit</button>
+</div>
+
+<main id="main"></main>
+
+<nav class="tabbar">
+  <button data-tab="notizie"><span class="ico">📰</span>Notizie</button>
+  <button data-tab="parole"><span class="ico">🃏</span>Parole</button>
+  <button data-tab="grammatica"><span class="ico">📚</span>Grammatica</button>
+  <button data-tab="progresso"><span class="ico">📊</span>Progresso</button>
+</nav>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+{
+  "words": [
+    { "id": "tornare",     "it": "tornare",        "pos": "sloveso",  "cz": "vrátit se",        "phon": "[tor-NÁ-re]",        "week": 1, "source": "news", "note": "pozor: r, ne ř" },
+    { "id": "nuovo",       "it": "nuovo / nuova",  "pos": "přídavné", "cz": "nový / nová",      "phon": "[NUO-vo]",           "week": 1, "source": "news", "note": "krátké u!" },
+    { "id": "importante",  "it": "importante",     "pos": "přídavné", "cz": "důležitý",         "phon": "[im-por-TAN-te]",    "week": 1, "source": "news", "note": "tvrdé T, žádné ťe" },
+    { "id": "problema",    "it": "il problema",    "pos": "m",        "cz": "problém",          "phon": "[il pro-BLÉ-ma]",    "week": 1, "source": "news", "note": "mužský rod, i když končí -a!" },
+    { "id": "luna",        "it": "la Luna",        "pos": "f",        "cz": "Měsíc",            "phon": "[la LU-na]",         "week": 1, "source": "news", "note": "krátké u!" },
+    { "id": "buongiorno",  "it": "buongiorno",     "pos": "pozdrav",  "cz": "dobrý den",        "phon": "[bwon-DŽÓR-no]",     "week": 1, "source": "lesson", "note": "do ~17:00" },
+    { "id": "buonasera",   "it": "buonasera",      "pos": "pozdrav",  "cz": "dobrý večer",      "phon": "[bwo-na-SÉ-ra]",     "week": 1, "source": "lesson", "note": "od ~17:00" },
+    { "id": "ciao",        "it": "ciao",           "pos": "pozdrav",  "cz": "ahoj (i nashle)",  "phon": "[ČÁO]",              "week": 1, "source": "lesson", "note": "neformální, na pozdrav i rozloučení" },
+    { "id": "arrivederci", "it": "arrivederci",    "pos": "pozdrav",  "cz": "na shledanou",     "phon": "[ar-ri-ve-DÉR-či]",  "week": 1, "source": "lesson", "note": "dvojité rr — klepni 2×" },
+    { "id": "perfavore",   "it": "per favore",     "pos": "fráze",    "cz": "prosím (žádost)",  "phon": "[per fa-VÓ-re]",     "week": 1, "source": "lesson", "note": "" },
+    { "id": "grazie",      "it": "grazie",         "pos": "fráze",    "cz": "děkuji",           "phon": "[GRÁ-cje]",          "week": 1, "source": "lesson", "note": "zie = [cje], ne [zie]" },
+    { "id": "prego",       "it": "prego",          "pos": "fráze",    "cz": "prosím (odpověď)", "phon": "[PRÉ-go]",           "week": 1, "source": "lesson", "note": "odpověď na grazie; i „račte“" },
+    { "id": "scusi",       "it": "scusi",          "pos": "fráze",    "cz": "promiňte",         "phon": "[SKÚ-zi]",           "week": 1, "source": "lesson", "note": "formální; neformálně scusa" },
+    { "id": "caffe",       "it": "il caffè",       "pos": "m",        "cz": "káva (espresso)",  "phon": "[il kaf-FÈ]",        "week": 1, "source": "lesson", "note": "v baru = automaticky espresso" },
+    { "id": "acqua",       "it": "l'acqua",        "pos": "f",        "cz": "voda",             "phon": "[LÁ-kwa]",           "week": 1, "source": "lesson", "note": "naturale / frizzante" },
+    { "id": "bar",         "it": "il bar",         "pos": "m",        "cz": "kavárna, bar",     "phon": "[il BAR]",           "week": 1, "source": "lesson", "note": "italský bar = kavárna" },
+    { "id": "vorrei",      "it": "vorrei",         "pos": "fráze",    "cz": "chtěl bych",       "phon": "[vor-RÈI]",          "week": 1, "source": "lesson", "note": "klíčová objednávací fráze" },
+    { "id": "conto",       "it": "il conto",       "pos": "m",        "cz": "účet",             "phon": "[il KON-to]",        "week": 1, "source": "lesson", "note": "Il conto, per favore!" },
+    { "id": "quantocosta", "it": "quanto costa?",  "pos": "fráze",    "cz": "kolik to stojí?",  "phon": "[KWAN-to KOS-ta]",   "week": 1, "source": "lesson", "note": "" },
+    { "id": "essere",      "it": "essere",         "pos": "sloveso",  "cz": "být",              "phon": "[ÈS-se-re]",         "week": 1, "source": "grammar", "note": "io sono, tu sei, lui/lei è" },
+    { "id": "iosono",      "it": "io sono",        "pos": "fráze",    "cz": "já jsem",          "phon": "[ío SÓ-no]",         "week": 1, "source": "grammar", "note": "Io sono Tomek." },
+    { "id": "pizza",       "it": "la pizza",       "pos": "f",        "cz": "pizza",            "phon": "[la PIC-ca]",        "week": 1, "source": "lesson", "note": "krátké i, dvojité zz = [cc]" }
+  ]
+}

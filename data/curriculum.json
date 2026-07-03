@@ -1,0 +1,16 @@
+{
+  "weeks": [
+    { "week": 1,  "grammar": "essere + pozdravy + il/la",            "topic": "Café, bar",        "ratio": "70% CZ/EN", "level": "a1" },
+    { "week": 2,  "grammar": "avere + členy",                        "topic": "Jídlo, rodina",    "ratio": "70% CZ/EN", "level": "a1" },
+    { "week": 3,  "grammar": "Přítomný čas (-are)",                  "topic": "Denní rutina",     "ratio": "65% CZ/EN", "level": "a1" },
+    { "week": 4,  "grammar": "Přítomný čas (-ere/-ire) + zápor",     "topic": "Restaurace",       "ratio": "60% CZ/EN", "level": "a1" },
+    { "week": 5,  "grammar": "Shoda přídavných jmen",                "topic": "Popis míst",       "ratio": "50/50",     "level": "a2" },
+    { "week": 6,  "grammar": "Předložky + směry",                    "topic": "Doprava, město",   "ratio": "50/50",     "level": "a2" },
+    { "week": 7,  "grammar": "Minulý čas (s avere)",                 "topic": "Cestování",        "ratio": "60% IT",    "level": "a2" },
+    { "week": 8,  "grammar": "Minulý čas (s essere) + zájmena",      "topic": "Výlety, jídlo",    "ratio": "65% IT",    "level": "a2" },
+    { "week": 9,  "grammar": "Imperfetto (popis, zvyk)",             "topic": "Vzpomínky",        "ratio": "80% IT",    "level": "b1" },
+    { "week": 10, "grammar": "Budoucí čas + kondicionál",            "topic": "Plány, přání",     "ratio": "85% IT",    "level": "b1" },
+    { "week": 11, "grammar": "Konjunktiv (úvod)",                    "topic": "Názory",           "ratio": "90% IT",    "level": "b1" },
+    { "week": 12, "grammar": "Volná konverzace",                     "topic": "Vše",              "ratio": "100% IT",   "level": "b1" }
+  ]
+}

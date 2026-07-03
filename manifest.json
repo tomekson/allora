@@ -1,0 +1,16 @@
+{
+  "name": "Allora — italština",
+  "short_name": "allora",
+  "description": "Osobní aplikace na učení italštiny",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#F4F5F0",
+  "theme_color": "#008C45",
+  "lang": "cs",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "icon-180.png", "sizes": "180x180", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" }
+  ]
+}
