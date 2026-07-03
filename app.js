@@ -129,7 +129,7 @@ async function renderNotizie(el) {
         <div class="cz-text hidden">${esc(n.cz)}</div>
       </div>`;
     });
-    html += `<p class="muted" style="font-size:0.75rem">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia Current events</a> (CC BY-SA) · překlad DeepL</p>`;
+    html += `<p class="muted" style="font-size:0.75rem">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · překlad ${esc(daily.translator || 'automatický')}</p>`;
   }
 
   html += `

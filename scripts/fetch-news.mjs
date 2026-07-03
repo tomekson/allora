@@ -87,16 +87,11 @@ console.log(`Nalezeno ${stories.length} světových zpráv (${page}) + ${czItems
 stories.forEach((s, i) => console.log(`  W${i + 1}. ${s.slice(0, 100)}…`));
 czItems.forEach((s, i) => console.log(`  CZ${i + 1}. [${s.date}] ${s.text.slice(0, 100)}…`));
 
-if (!KEY) {
-  console.log('DEEPL_API_KEY není nastaven, daily.json nezapisuji (dry run).');
-  process.exit(0);
-}
-
-/* ---- 3. DeepL překlad ---- */
+/* ---- 3. překlad: DeepL (pokud je klíč), jinak/při selhání MyMemory ---- */
 const endpoint = KEY.endsWith(':fx') ? 'https://api-free.deepl.com/v2/translate' : 'https://api.deepl.com/v2/translate';
+let engine = KEY ? 'DeepL' : 'MyMemory';
 
-async function translate(texts, source, target) {
-  if (!texts.length) return [];
+async function deepl(texts, source, target) {
   const r = await fetch(endpoint, {
     method: 'POST',
     headers: {
@@ -110,6 +105,29 @@ async function translate(texts, source, target) {
   return j.translations.map(t => t.text);
 }
 
+async function myMemory(text, source, target) {
+  const u = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${source.toLowerCase()}|${target.toLowerCase()}`;
+  const r = await fetch(u);
+  const j = await r.json();
+  if (!j.responseData || j.responseStatus !== 200) throw new Error(`MyMemory ${source}→${target}: ${JSON.stringify(j.responseStatus)} ${j.responseDetails || ''}`);
+  return j.responseData.translatedText;
+}
+
+async function translate(texts, source, target) {
+  if (!texts.length) return [];
+  if (KEY) {
+    try {
+      return await deepl(texts, source, target);
+    } catch (e) {
+      console.log(`DeepL selhal (${e.message.slice(0, 120)}), přepínám na MyMemory.`);
+      engine = 'MyMemory (DeepL fallback)';
+    }
+  }
+  const out = [];
+  for (const t of texts) out.push(await myMemory(t, source, target));
+  return out;
+}
+
 const [it, cz, czIt] = await Promise.all([
   translate(stories, 'EN', 'IT'),
   translate(stories, 'EN', 'CS'),
@@ -121,7 +139,7 @@ const out = {
   date: praha,
   source: 'Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)',
   sourceUrl: `https://en.wikipedia.org/wiki/${page.replaceAll(' ', '_')}`,
-  translator: 'DeepL',
+  translator: engine,
   stories: [
     ...czItems.map((item, i) => ({ it: czIt[i], cz: item.text, origin: 'cz' })),
     ...stories.map((en, i) => ({ en, it: it[i], cz: cz[i], origin: 'world' })),
