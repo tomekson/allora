@@ -1,5 +1,5 @@
 /* allora service worker — verze CACHE drž synchronně s APP_VERSION (index.html) a version.json */
-const CACHE = 'allora-v3.91';
+const CACHE = 'allora-v4.01';
 
 const SHELL = [
   './',

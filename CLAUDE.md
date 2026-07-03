@@ -9,6 +9,7 @@ Projekt se jmenuje **`allora.`** a píše se VŽDY malými písmeny s tečkou na
 - Žádné pomlčky (—) v uživatelsky viditelných textech
 - Žádné technické detaily ani vysvětlování záměru návrhu, jen co má uživatel udělat
 - Slovo "kurikulum" nepoužívat (týdenní plán = viaggio / tappa)
+- Shadow věta v lekci musí tematicky odpovídat tématu lekce (caffè lekce = věta z baru, ne z novin)
 
 ## Kontext
 

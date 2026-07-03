@@ -266,17 +266,7 @@ hr.sep {
   margin: 22px 0 4px;
 }
 
-details.pronuncia { margin: 14px 0; }
-
-details.pronuncia summary {
-  cursor: pointer;
-  color: var(--grigio);
-  font-weight: 600;
-  font-size: 0.9rem;
-  padding: 8px 2px;
-}
-
-details.pronuncia[open] summary { color: var(--verde-scuro); }
+.clickable, .notizia, .article { cursor: pointer; }
 
 .notizia .testo { line-height: 1.55; margin: 8px 0; }
 

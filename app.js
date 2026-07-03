@@ -119,7 +119,7 @@ async function renderNotizie(el) {
   let html = '';
   if (daily && daily.shadow) {
     html += `
-    <div class="shadow-box" style="margin-top:10px">
+    <div class="shadow-box clickable" id="dshadow-box" style="margin-top:10px">
       <div class="muted">Shadow věta dne: 3× pomalu, 3× normálně</div>
       <div class="it">${esc(daily.shadow.it)}</div>
       <div class="phon">${esc(daily.shadow.phon)}</div>
@@ -179,9 +179,11 @@ async function renderNotizie(el) {
   el.innerHTML = html;
 
   if (daily.shadow) {
-    $('#dshadow-tts').onclick = () => speak(daily.shadow.it, 0.75);
+    $('#dshadow-tts').onclick = e => { e.stopPropagation(); speak(daily.shadow.it, 0.75); };
+    const czToggle = () => $('#dshadow-cztext') && $('#dshadow-cztext').classList.toggle('hidden');
+    $('#dshadow-box').onclick = czToggle;
     const czBtn = $('#dshadow-cz');
-    if (czBtn) czBtn.onclick = () => $('#dshadow-cztext').classList.toggle('hidden');
+    if (czBtn) czBtn.onclick = e => { e.stopPropagation(); czToggle(); };
   }
   const groups = renderNotizie._groups || [];
   el.querySelectorAll('.digest-item').forEach(row => {
@@ -193,8 +195,10 @@ async function renderNotizie(el) {
     };
   });
   if (daily.article) {
-    $('#art-tts').onclick = () => speak(daily.article.it);
-    $('#art-cz').onclick = () => el.querySelector('.article .cz-text').classList.toggle('hidden');
+    const artToggle = () => el.querySelector('.article .cz-text').classList.toggle('hidden');
+    el.querySelector('.article').onclick = artToggle;
+    $('#art-tts').onclick = e => { e.stopPropagation(); speak(daily.article.it); };
+    $('#art-cz').onclick = e => { e.stopPropagation(); artToggle(); };
   }
 }
 
@@ -236,7 +240,7 @@ async function renderLezione(el) {
   });
 
   html += `
-    <div class="shadow-box">
+    <div class="shadow-box clickable" id="lshadow-box">
       <div class="muted">Shadow věta: 3× pomalu, 3× normálně</div>
       <div class="it">${esc(s.shadow.it)}</div>
       <div class="phon">${esc(s.shadow.phon)}</div>
@@ -246,8 +250,7 @@ async function renderLezione(el) {
       </div>
       ${s.shadow.cz ? `<div class="cz-text hidden" id="shadow-cztext">${esc(s.shadow.cz)}</div>` : ''}
     </div>
-    <details class="pronuncia">
-      <summary>Pronuncia · ${s.drills.length} výslovnostní drily</summary>`;
+    <h2>Pronuncia</h2>`;
 
   s.drills.forEach(d => {
     html += `
@@ -259,30 +262,32 @@ async function renderLezione(el) {
     </div>`;
   });
 
-  html += `</details>`;
-
   el.innerHTML = html;
 
   el.querySelectorAll('.notizia').forEach(card => {
     const idx = +card.dataset.idx;
     const n = s.notizie[idx];
     let level = defaultLevel;
+    const czToggle = () => card.querySelector('.cz-text').classList.toggle('hidden');
+    card.onclick = czToggle;
     card.querySelectorAll('.level-chips button').forEach(btn => {
-      btn.onclick = () => {
+      btn.onclick = e => {
+        e.stopPropagation();
         level = btn.dataset.level;
         card.querySelectorAll('.level-chips button').forEach(b => b.classList.toggle('active', b === btn));
         card.querySelector('.testo').textContent = n.levels[level].it;
         card.querySelector('.cz-text').textContent = n.levels[level].cz;
       };
     });
-    card.querySelector('[data-tts]').onclick = () => speak(n.levels[level].it);
-    card.querySelector('[data-cz]').onclick = () =>
-      card.querySelector('.cz-text').classList.toggle('hidden');
+    card.querySelector('[data-tts]').onclick = e => { e.stopPropagation(); speak(n.levels[level].it); };
+    card.querySelector('[data-cz]').onclick = e => { e.stopPropagation(); czToggle(); };
   });
 
-  $('#shadow-tts').onclick = () => speak(s.shadow.it, 0.75);
+  $('#shadow-tts').onclick = e => { e.stopPropagation(); speak(s.shadow.it, 0.75); };
+  const lshCzToggle = () => $('#shadow-cztext') && $('#shadow-cztext').classList.toggle('hidden');
+  $('#lshadow-box').onclick = lshCzToggle;
   const shCz = $('#shadow-cz');
-  if (shCz) shCz.onclick = () => $('#shadow-cztext').classList.toggle('hidden');
+  if (shCz) shCz.onclick = e => { e.stopPropagation(); lshCzToggle(); };
 }
 
 /* ---------------- Parole (SRS flashcards) ---------------- */
