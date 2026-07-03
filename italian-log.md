@@ -20,7 +20,8 @@
 - **Grammar:** essere + pozdravy + rod (il/la) — opakování
 - **News stories:** zákaz alkoholu ve Sněmovně · summit NATO Ankara · soud lanovka Ještěd
 - **Vocab:** la regola, bere, la guerra, parlare, il tribunale
-- **Pronunciation focus:** r vs ř (regola, parlare), krátké samohlásky, tvrdé t/n (tribunale, niente)
+- **Pronunciation focus:** dvojité souhlásky/gemináty (guerra, tutto), krátké samohlásky, tvrdé t/n (tribunale, niente)
+- **Oprava 2026-07-03:** „r vs ř" drill odstraněn ze všech materiálů — byl zcestný (čeština má trylkované r stejné jako italština); nahrazen drilem na gemináty, viz `~/.claude/skills/allora/references/czech-phonetics.md`
 
 ---
 

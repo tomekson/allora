@@ -6,6 +6,8 @@
   --verde: #008C45;
   --verde-scuro: #00693A;
   --rosso: #CD212A;
+  --azzurro: #2168A8;
+  --ambra: #96660A;
   --latte: #F5F3EB;
   --carta: #FFFFFF;
   --inchiostro: #26251E;
@@ -194,7 +196,7 @@ h2 {
 .cz-toggle {
   background: none;
   border: none;
-  color: var(--rosso);
+  color: var(--azzurro);
   font-size: 0.83rem;
   font-weight: 600;
   cursor: pointer;
@@ -203,7 +205,7 @@ h2 {
 
 .cz-text {
   background: var(--latte);
-  border-left: 3px solid var(--rosso);
+  border-left: 3px solid var(--azzurro);
   padding: 8px 12px;
   border-radius: 0 8px 8px 0;
   font-size: 0.9rem;
@@ -242,7 +244,7 @@ h2 {
 
 .drill { border-left: 3px solid var(--verde); padding-left: 12px; margin: 12px 0; }
 .drill .shadow { font-weight: 600; margin: 4px 0; }
-.drill .trap { color: var(--rosso); font-size: 0.87rem; }
+.drill .trap { color: var(--ambra); font-size: 0.87rem; }
 .drill .fix { color: var(--verde-scuro); font-size: 0.87rem; }
 
 /* ---------- kartičky ---------- */

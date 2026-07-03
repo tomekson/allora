@@ -124,10 +124,10 @@ async function renderNotizie(el) {
         ${['a1', 'a2', 'b1'].map(l =>
           `<button data-level="${l}" class="${l === defaultLevel ? 'active' : ''}">${l}</button>`).join('')}
       </div>
-      <p class="testo">${esc(n.levels[defaultLevel])}</p>
+      <p class="testo">${esc(n.levels[defaultLevel].it)}</p>
       <button class="tts-btn" data-tts="${i}">🔊 Ascolta</button>
-      <button class="cz-toggle" data-cz="${i}">🇨🇿 co se stalo</button>
-      <div class="cz-text hidden">${esc(n.cz)}</div>
+      <button class="cz-toggle" data-cz="${i}">🇨🇿 česky</button>
+      <div class="cz-text hidden">${esc(n.levels[defaultLevel].cz)}</div>
     </div>`;
   });
 
@@ -160,10 +160,11 @@ async function renderNotizie(el) {
       btn.onclick = () => {
         level = btn.dataset.level;
         card.querySelectorAll('.level-chips button').forEach(b => b.classList.toggle('active', b === btn));
-        card.querySelector('.testo').textContent = n.levels[level];
+        card.querySelector('.testo').textContent = n.levels[level].it;
+        card.querySelector('.cz-text').textContent = n.levels[level].cz;
       };
     });
-    card.querySelector('[data-tts]').onclick = () => speak(n.levels[level]);
+    card.querySelector('[data-tts]').onclick = () => speak(n.levels[level].it);
     card.querySelector('[data-cz]').onclick = () =>
       card.querySelector('.cz-text').classList.toggle('hidden');
   });
@@ -189,7 +190,7 @@ function drawCard(el) {
       <div class="card done-box">
         <div class="big">🇮🇹</div>
         <h3>Perfetto! Na dnešek hotovo.</h3>
-        <p class="muted">Všech ${total} kartiček zopakováno. Vrať se zítra — bude připravená další dávka opakování.</p>
+        <p class="muted">Všech ${total} kartiček zopakováno. Vrať se zítra, bude připravená další dávka opakování.</p>
       </div>`;
     return;
   }

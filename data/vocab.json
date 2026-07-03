@@ -1,6 +1,6 @@
 {
   "words": [
-    { "id": "tornare",     "it": "tornare",        "pos": "sloveso",  "cz": "vrátit se",        "phon": "[tor-NÁ-re]",        "week": 1, "source": "news", "note": "pozor: r, ne ř" },
+    { "id": "tornare",     "it": "tornare",        "pos": "sloveso",  "cz": "vrátit se",        "phon": "[tor-NÁ-re]",        "week": 1, "source": "news", "note": "přízvuk na NÁ" },
     { "id": "nuovo",       "it": "nuovo / nuova",  "pos": "přídavné", "cz": "nový / nová",      "phon": "[NUO-vo]",           "week": 1, "source": "news", "note": "krátké u!" },
     { "id": "importante",  "it": "importante",     "pos": "přídavné", "cz": "důležitý",         "phon": "[im-por-TAN-te]",    "week": 1, "source": "news", "note": "tvrdé T, žádné ťe" },
     { "id": "problema",    "it": "il problema",    "pos": "m",        "cz": "problém",          "phon": "[il pro-BLÉ-ma]",    "week": 1, "source": "news", "note": "mužský rod, i když končí -a!" },
@@ -8,7 +8,7 @@
     { "id": "buongiorno",  "it": "buongiorno",     "pos": "pozdrav",  "cz": "dobrý den",        "phon": "[bwon-DŽÓR-no]",     "week": 1, "source": "lesson", "note": "do ~17:00" },
     { "id": "buonasera",   "it": "buonasera",      "pos": "pozdrav",  "cz": "dobrý večer",      "phon": "[bwo-na-SÉ-ra]",     "week": 1, "source": "lesson", "note": "od ~17:00" },
     { "id": "ciao",        "it": "ciao",           "pos": "pozdrav",  "cz": "ahoj (i nashle)",  "phon": "[ČÁO]",              "week": 1, "source": "lesson", "note": "neformální, na pozdrav i rozloučení" },
-    { "id": "arrivederci", "it": "arrivederci",    "pos": "pozdrav",  "cz": "na shledanou",     "phon": "[ar-ri-ve-DÉR-či]",  "week": 1, "source": "lesson", "note": "dvojité rr — klepni 2×" },
+    { "id": "arrivederci", "it": "arrivederci",    "pos": "pozdrav",  "cz": "na shledanou",     "phon": "[ar-ri-ve-DÉR-či]",  "week": 1, "source": "lesson", "note": "dvojité rr, podrž déle" },
     { "id": "perfavore",   "it": "per favore",     "pos": "fráze",    "cz": "prosím (žádost)",  "phon": "[per fa-VÓ-re]",     "week": 1, "source": "lesson", "note": "" },
     { "id": "grazie",      "it": "grazie",         "pos": "fráze",    "cz": "děkuji",           "phon": "[GRÁ-cje]",          "week": 1, "source": "lesson", "note": "zie = [cje], ne [zie]" },
     { "id": "prego",       "it": "prego",          "pos": "fráze",    "cz": "prosím (odpověď)", "phon": "[PRÉ-go]",           "week": 1, "source": "lesson", "note": "odpověď na grazie; i „račte“" },
@@ -24,8 +24,8 @@
     { "id": "pizza",       "it": "la pizza",       "pos": "f",        "cz": "pizza",            "phon": "[la PIC-ca]",        "week": 1, "source": "lesson", "note": "krátké i, dvojité zz = [cc]" },
     { "id": "regola",      "it": "la regola",      "pos": "f",        "cz": "pravidlo",         "phon": "[la RÉ-go-la]",      "week": 1, "source": "news", "note": "přízvuk na první slabice" },
     { "id": "bere",        "it": "bere",           "pos": "sloveso",  "cz": "pít",              "phon": "[BÉ-re]",            "week": 1, "source": "news", "note": "" },
-    { "id": "guerra",      "it": "la guerra",      "pos": "f",        "cz": "válka",            "phon": "[la GWÈR-ra]",       "week": 1, "source": "news", "note": "dvojité rr, klepni 2×" },
-    { "id": "parlare",     "it": "parlare",        "pos": "sloveso",  "cz": "mluvit",           "phon": "[par-LÁ-re]",        "week": 1, "source": "news", "note": "r jako v „rak“, ne ř" },
+    { "id": "guerra",      "it": "la guerra",      "pos": "f",        "cz": "válka",            "phon": "[la GWÈR-ra]",       "week": 1, "source": "news", "note": "dvojité rr, podrž déle" },
+    { "id": "parlare",     "it": "parlare",        "pos": "sloveso",  "cz": "mluvit",           "phon": "[par-LÁ-re]",        "week": 1, "source": "news", "note": "" },
     { "id": "tribunale",   "it": "il tribunale",   "pos": "m",        "cz": "soud",             "phon": "[il tri-bu-NÁ-le]",  "week": 1, "source": "news", "note": "tvrdé n před a" }
   ]
 }

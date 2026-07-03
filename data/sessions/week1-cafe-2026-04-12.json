@@ -5,39 +5,63 @@
   "title": "Caffè al bar",
   "grammar": {
     "point": "essere + pozdravy + rod (il/la)",
-    "summary": "Sloveso essere (být): io sono, tu sei, lui/lei è. Pozdravy podle denní doby: buongiorno (do ~17h), buonasera (po 17h), ciao (neformální). Rod podstatných jmen: il = mužský, la = ženský — pozor na výjimky (il problema je mužský!)."
+    "summary": "Sloveso essere (být): io sono, tu sei, lui/lei è. Pozdravy podle denní doby: buongiorno (do ~17h), buonasera (po 17h), ciao (neformální). Rod podstatných jmen: il = mužský, la = ženský. Pozor na výjimky, il problema je mužský!"
   },
   "notizie": [
     {
       "id": "ungheria",
       "title": "In Ungheria c'è un cambiamento politico",
-      "cz": "V Maďarsku probíhají volby. Opoziční strana Pétera Magyara získává výraznou většinu. Viktor Orbán poprvé za 20 let čelí ztrátě moci.",
       "levels": {
-        "a1": "In Ungheria oggi ci sono le elezioni. Un nuovo partito politico vince con molti voti. Viktor Orbán è il primo ministro, ma oggi la situazione è molto difficile per lui.",
-        "a2": "In Ungheria ci sono state le elezioni. Il partito di Péter Magyar ha vinto molti voti. Per Viktor Orbán, primo ministro da venti anni, è un momento molto difficile: forse perde il potere.",
-        "b1": "In Ungheria si è verificato un cambiamento politico importante: il partito d'opposizione guidato da Péter Magyar ha ottenuto una netta maggioranza alle elezioni. Viktor Orbán, al potere da vent'anni, rischia per la prima volta di perdere il governo."
+        "a1": {
+          "it": "In Ungheria oggi ci sono le elezioni. Un nuovo partito politico vince con molti voti. Viktor Orbán è il primo ministro, ma oggi la situazione è molto difficile per lui.",
+          "cz": "V Maďarsku jsou dnes volby. Nová politická strana vyhrává s mnoha hlasy. Viktor Orbán je premiér, ale dnes je pro něj situace velmi těžká."
+        },
+        "a2": {
+          "it": "In Ungheria ci sono state le elezioni. Il partito di Péter Magyar ha vinto molti voti. Per Viktor Orbán, primo ministro da venti anni, è un momento molto difficile: forse perde il potere.",
+          "cz": "V Maďarsku proběhly volby. Strana Pétera Magyara získala mnoho hlasů. Pro Viktora Orbána, premiéra už dvacet let, je to velmi těžká chvíle: možná ztrácí moc."
+        },
+        "b1": {
+          "it": "In Ungheria si è verificato un cambiamento politico importante: il partito d'opposizione guidato da Péter Magyar ha ottenuto una netta maggioranza alle elezioni. Viktor Orbán, al potere da vent'anni, rischia per la prima volta di perdere il governo.",
+          "cz": "V Maďarsku došlo k důležité politické změně: opoziční strana vedená Péterem Magyarem získala ve volbách výraznou většinu. Viktor Orbán, u moci dvacet let, poprvé riskuje ztrátu vlády."
+        }
       },
       "vocab": ["nuovo"]
     },
     {
       "id": "artemis",
       "title": "Gli astronauti tornano sulla Terra",
-      "cz": "Čtveřice astronautů mise Artemis II se vrátila na Zemi po letu okolo Měsíce. NASA označuje misi za počátek nové éry.",
       "levels": {
-        "a1": "Quattro astronauti tornano sulla Terra oggi. La missione si chiama Artemis Due. Gli astronauti sono andati vicino alla Luna: è molto bello!",
-        "a2": "Quattro astronauti della missione Artemis Due sono tornati sulla Terra dopo un viaggio intorno alla Luna. Per la NASA è l'inizio di una nuova era dell'esplorazione spaziale.",
-        "b1": "I quattro astronauti della missione Artemis II sono rientrati sulla Terra dopo aver completato il volo intorno alla Luna. La NASA definisce la missione l'inizio di una nuova era: il prossimo passo sarà lo sbarco sulla superficie lunare."
+        "a1": {
+          "it": "Quattro astronauti tornano sulla Terra oggi. La missione si chiama Artemis Due. Gli astronauti sono andati vicino alla Luna: è molto bello!",
+          "cz": "Čtyři astronauti se dnes vrací na Zemi. Mise se jmenuje Artemis II. Astronauti byli blízko Měsíce: je to moc krásné!"
+        },
+        "a2": {
+          "it": "Quattro astronauti della missione Artemis Due sono tornati sulla Terra dopo un viaggio intorno alla Luna. Per la NASA è l'inizio di una nuova era dell'esplorazione spaziale.",
+          "cz": "Čtyři astronauti mise Artemis II se vrátili na Zemi po cestě kolem Měsíce. Pro NASA je to začátek nové éry vesmírného průzkumu."
+        },
+        "b1": {
+          "it": "I quattro astronauti della missione Artemis II sono rientrati sulla Terra dopo aver completato il volo intorno alla Luna. La NASA definisce la missione l'inizio di una nuova era: il prossimo passo sarà lo sbarco sulla superficie lunare.",
+          "cz": "Čtyři astronauti mise Artemis II se vrátili na Zemi po dokončení letu kolem Měsíce. NASA misi označuje za začátek nové éry: dalším krokem bude přistání na měsíčním povrchu."
+        }
       },
       "vocab": ["tornare", "luna"]
     },
     {
       "id": "iran",
       "title": "Gli Stati Uniti e l'Iran: un problema difficile",
-      "cz": "Trump oznámil blokádu lodí platících Íránu v Hormuzském průlivu. Írán odmítl ustoupit.",
       "levels": {
-        "a1": "Gli Stati Uniti hanno un problema con l'Iran. Il presidente vuole bloccare le navi nel mare. È una situazione importante nel mondo.",
-        "a2": "Gli Stati Uniti hanno un problema serio con l'Iran. Il presidente Trump vuole bloccare le navi che pagano l'Iran nello stretto di Hormuz. L'Iran non vuole cambiare posizione.",
-        "b1": "Cresce la tensione tra gli Stati Uniti e l'Iran: il presidente Trump ha annunciato un blocco delle navi che pagano l'Iran nello stretto di Hormuz. Teheran ha rifiutato di fare marcia indietro, e la situazione preoccupa il mondo intero."
+        "a1": {
+          "it": "Gli Stati Uniti hanno un problema con l'Iran. Il presidente vuole bloccare le navi nel mare. È una situazione importante nel mondo.",
+          "cz": "Spojené státy mají problém s Íránem. Prezident chce blokovat lodě na moři. Je to důležitá situace ve světě."
+        },
+        "a2": {
+          "it": "Gli Stati Uniti hanno un problema serio con l'Iran. Il presidente Trump vuole bloccare le navi che pagano l'Iran nello stretto di Hormuz. L'Iran non vuole cambiare posizione.",
+          "cz": "Spojené státy mají s Íránem vážný problém. Prezident Trump chce blokovat lodě, které platí Íránu v Hormuzském průlivu. Írán nechce změnit postoj."
+        },
+        "b1": {
+          "it": "Cresce la tensione tra gli Stati Uniti e l'Iran: il presidente Trump ha annunciato un blocco delle navi che pagano l'Iran nello stretto di Hormuz. Teheran ha rifiutato di fare marcia indietro, e la situazione preoccupa il mondo intero.",
+          "cz": "Napětí mezi Spojenými státy a Íránem roste: prezident Trump oznámil blokádu lodí platících Íránu v Hormuzském průlivu. Teherán odmítl ustoupit a situace znepokojuje celý svět."
+        }
       },
       "vocab": ["problema", "importante"]
     }
@@ -48,21 +72,21 @@
   },
   "drills": [
     {
-      "name": "r (ne ř!)",
-      "shadow": "Roma → tornare → vorrei → ristretto → arrivederci",
-      "trap": "Říkáš „tor-ňáre“ nebo „voříej“ — přidáváš ř kvalitu automaticky.",
-      "fix": "Italské R = české R v „rak“. Špička jazyka klepe za horní zuby — žádná retroflexe."
+      "name": "Dvojité souhlásky (rr, tt, ll)",
+      "shadow": "quattro → terra → arrivederci → caffè → sulla",
+      "trap": "Čeština dvojité souhlásky nemá, řekneš „kvatro“ nebo „tera“ s jednou.",
+      "fix": "Dvojitou souhlásku podrž skoro dvakrát déle, mění význam: caro (drahý) × carro (vůz)."
     },
     {
       "name": "Krátké samohlásky",
       "shadow": "caf-FÈ → LU-na → NUO-vo → im-por-TAN-te → pro-BLE-ma",
-      "trap": "„caffÈÈÈ“, „lúna“, „nuóvo“ — čeština tě učí, že délka mění význam.",
-      "fix": "V italštině délka samohlásky NIKDY nic nemění. Všechny krátké a ostré."
+      "trap": "„caffÉÉÉ“, „lúna“, „nuóvo“ s dlouhými samohláskami po česku.",
+      "fix": "V italštině délka samohlásky nikdy nemění význam. Všechny krátké a ostré."
     },
     {
       "name": "Tvrdé t a n",
       "shadow": "tornare → importante → la Luna → astronauti → italiano",
-      "trap": "„importan-ťe“, „ital-ňano“ — automatická palatalizace před e/i.",
+      "trap": "„importan-ťe“, „ital-ňano“, automatická palatalizace před e/i.",
       "fix": "Italské T/N vždy tvrdé, jako české T/N před A/O/U."
     }
   ]
