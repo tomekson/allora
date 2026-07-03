@@ -193,6 +193,52 @@ h2 {
   margin-bottom: 6px;
 }
 
+/* denní digest */
+.digest h3, .article h3 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  margin-bottom: 4px;
+  color: var(--verde-scuro);
+}
+
+.digest-item {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  padding: 10px 0;
+  border-bottom: 1px solid var(--linea);
+  cursor: pointer;
+}
+
+.digest-item:last-child { border-bottom: none; padding-bottom: 2px; }
+
+.digest-item .testo { line-height: 1.5; margin: 0; }
+
+.tts-mini {
+  border: 1.5px solid var(--verde);
+  background: var(--carta);
+  color: var(--verde-scuro);
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  cursor: pointer;
+  font-size: 0.85rem;
+  margin-top: 2px;
+}
+
+.tts-mini:active { background: var(--verde); }
+
+.cz-line {
+  color: var(--grigio);
+  font-size: 0.88rem;
+  margin-top: 4px;
+  border-left: 3px solid var(--azzurro);
+  padding-left: 8px;
+}
+
+.article .testo { line-height: 1.6; margin: 8px 0; }
+
 .notizia .testo { line-height: 1.55; margin: 8px 0; }
 
 .cz-toggle {

@@ -38,12 +38,17 @@ function cleanWiki(s) {
 }
 
 const stories = [];
+let lastTopic = null; // článek události z nadřazené odrážky (pro Approfondimento)
 for (const line of wikitext.split('\n')) {
   if (!/^\*+\s*\S/.test(line)) continue;
   const text = cleanWiki(line.replace(/^\*+/, ''));
-  // jen skutečné věty, ne nadpisy témat (ty nemají tečku ani sloveso navíc)
-  if (text.length < 60 || !/[.!?]$/.test(text)) continue;
-  stories.push(text);
+  const isSentence = text.length >= 60 && /[.!?]$/.test(text);
+  if (!isSentence) {
+    const lm = line.match(/^\*+\s*\[\[([^\]|]+)/);
+    if (lm) lastTopic = lm[1].trim();
+    continue;
+  }
+  stories.push({ text, topic: lastTopic });
   if (stories.length >= STORIES_MAX) break;
 }
 
@@ -79,12 +84,34 @@ async function fetchCzAktuality() {
 
 const czItems = await fetchCzAktuality();
 
+/* ---- 2c. Approfondimento: úvod wiki článku k první události s tématem ---- */
+async function fetchExtract(title) {
+  const u = `https://en.wikipedia.org/w/api.php?action=query&prop=extracts&exintro&explaintext&titles=${encodeURIComponent(title)}&format=json&formatversion=2&redirects=1`;
+  const r = await fetch(u, { headers: { 'User-Agent': 'allora-news/1.0 (personal learning app; github.com/tomekson/allora)' } });
+  const j = await r.json();
+  const p = j.query && j.query.pages && j.query.pages[0];
+  return p && !p.missing ? (p.extract || '').trim() : '';
+}
+
+let article = null;
+const seenTopics = new Set();
+for (const s of stories) {
+  if (!s.topic || seenTopics.has(s.topic)) continue;
+  seenTopics.add(s.topic);
+  let extract = await fetchExtract(s.topic);
+  if (extract.length > 800) {
+    const cut = extract.slice(0, 800);
+    extract = cut.slice(0, Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('.')) + 1) || cut;
+  }
+  if (extract.length >= 250) { article = { topic: s.topic, en: extract }; break; }
+}
+
 if (!stories.length && !czItems.length) {
   console.log('Žádné položky k překladu, končím.');
   process.exit(0);
 }
-console.log(`Nalezeno ${stories.length} světových zpráv (${page}) + ${czItems.length} českých (Portál:Aktuality):`);
-stories.forEach((s, i) => console.log(`  W${i + 1}. ${s.slice(0, 100)}…`));
+console.log(`Nalezeno ${stories.length} světových zpráv (${page}) + ${czItems.length} českých (Portál:Aktuality)${article ? ` + approfondimento: ${article.topic}` : ''}:`);
+stories.forEach((s, i) => console.log(`  W${i + 1}. ${s.text.slice(0, 100)}…`));
 czItems.forEach((s, i) => console.log(`  CZ${i + 1}. [${s.date}] ${s.text.slice(0, 100)}…`));
 
 /* ---- 3. překlad: DeepL (pokud je klíč), jinak/při selhání MyMemory ---- */
@@ -105,12 +132,29 @@ async function deepl(texts, source, target) {
   return j.translations.map(t => t.text);
 }
 
+/* MyMemory bere max ~500 znaků na dotaz → delší texty dělíme po větách */
+function sentenceChunks(text, max = 440) {
+  const parts = text.match(/[^.!?]+[.!?]+["')\]]*\s*|[^.!?]+$/g) || [text];
+  const chunks = [];
+  let cur = '';
+  for (const p of parts) {
+    if ((cur + p).length > max && cur) { chunks.push(cur.trim()); cur = p; }
+    else cur += p;
+  }
+  if (cur.trim()) chunks.push(cur.trim());
+  return chunks;
+}
+
 async function myMemory(text, source, target) {
-  const u = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text)}&langpair=${source.toLowerCase()}|${target.toLowerCase()}`;
-  const r = await fetch(u);
-  const j = await r.json();
-  if (!j.responseData || j.responseStatus !== 200) throw new Error(`MyMemory ${source}→${target}: ${JSON.stringify(j.responseStatus)} ${j.responseDetails || ''}`);
-  return j.responseData.translatedText;
+  const out = [];
+  for (const chunk of sentenceChunks(text)) {
+    const u = `https://api.mymemory.translated.net/get?q=${encodeURIComponent(chunk)}&langpair=${source.toLowerCase()}|${target.toLowerCase()}`;
+    const r = await fetch(u);
+    const j = await r.json();
+    if (!j.responseData || j.responseStatus !== 200) throw new Error(`MyMemory ${source}→${target}: ${JSON.stringify(j.responseStatus)} ${j.responseDetails || ''}`);
+    out.push(j.responseData.translatedText);
+  }
+  return out.join(' ');
 }
 
 async function translate(texts, source, target) {
@@ -128,10 +172,13 @@ async function translate(texts, source, target) {
   return out;
 }
 
-const [it, cz, czIt] = await Promise.all([
-  translate(stories, 'EN', 'IT'),
-  translate(stories, 'EN', 'CS'),
+const worldTexts = stories.map(s => s.text);
+const [it, cz, czIt, artIt, artCz] = await Promise.all([
+  translate(worldTexts, 'EN', 'IT'),
+  translate(worldTexts, 'EN', 'CS'),
   translate(czItems.map(i => i.text), 'CS', 'IT'),
+  translate(article ? [article.en] : [], 'EN', 'IT'),
+  translate(article ? [article.en] : [], 'EN', 'CS'),
 ]);
 
 /* ---- 4. zapiš JSON — české zprávy napřed ---- */
@@ -142,8 +189,15 @@ const out = {
   translator: engine,
   stories: [
     ...czItems.map((item, i) => ({ it: czIt[i], cz: item.text, origin: 'cz' })),
-    ...stories.map((en, i) => ({ en, it: it[i], cz: cz[i], origin: 'world' })),
+    ...stories.map((s, i) => ({ en: s.text, it: it[i], cz: cz[i], origin: 'world' })),
   ],
+  article: article ? {
+    topic: article.topic,
+    url: `https://en.wikipedia.org/wiki/${article.topic.replaceAll(' ', '_')}`,
+    en: article.en,
+    it: artIt[0],
+    cz: artCz[0],
+  } : null,
 };
 mkdirSync('data/news', { recursive: true });
 writeFileSync('data/news/daily.json', JSON.stringify(out, null, 2) + '\n');

@@ -44,10 +44,17 @@
       "origin": "world"
     },
     {
-      "en": "In Pakistan, a bus en route from Quetta to Islamabad plunges into a deep roadside ditch in Sherani District, Balochistan, killing 40 people and injuring eight others.",
-      "it": "In Pakistan, un autobus in viaggio da Quetta a Islamabad si tuffa in un profondo fossato sul ciglio della strada nel distretto di Sherani, in Belucistan, uccidendo 40 persone e ferendone altre otto.",
-      "cz": "V Pákistánu se autobus na cestě z Kvéty do Islámábádu vrhá do hlubokého silničního příkopu v okrese Sherani v Balúčistánu, zabil 40 lidí a osm dalších zranil.",
+      "en": "The Times Square in New York City drops the ball eight times for each American time zones to kick off the 250th anniversary of the United States Declaration of Independence ahead of the Fourth of July, making it the first time the ball drops on a day other than New Year's Eve.",
+      "it": "The Times Square a New York City lascia cadere la palla otto volte per ogni fuso orario americano per dare il via al 250° anniversario della Dichiarazione di Indipendenza degli Stati Uniti prima del 4 luglio, rendendola la prima volta che la palla cade in un giorno diverso da Capodanno.",
+      "cz": "Times Square v New Yorku spustí míč osmkrát pro každé americké časové pásmo, aby zahájilo 250. výročí Deklarace nezávislosti Spojených států před 4. červencem, což je poprvé, kdy míč spadne v jiný den než na Silvestra.",
       "origin": "world"
     }
-  ]
+  ],
+  "article": {
+    "topic": "Crimea attacks (2022–present)",
+    "url": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022–present)",
+    "en": "Beginning in July 2022, a series of explosions and fires occurred on the Russian-occupied Crimean Peninsula, from where the Russian Army had launched its offensive on Southern Ukraine during the Russo-Ukrainian war. Occupied since 2014, Crimea was a base for the subsequent Russian occupation of Kherson Oblast and Russian occupation of Zaporizhzhia Oblast.\nVladimir Putin has called Crimea a \"sacred place\" and a \"holy land\". Deputy Chairman of the Security Council of Russia Dmitry Medvedev said in July 2022 that the consequence of an attack on Crimea will be that, \"the Day of Judgment will come for all of them there at once. Very fast and heavy. It will be very difficult to hide\".",
+    "it": "A partire dal luglio 2022, una serie di esplosioni e incendi si sono verificati nella penisola di Crimea occupata dalla Russia, da dove l'esercito russo aveva lanciato la sua offensiva sull'Ucraina meridionale durante la guerra russo-ucraina. Occupata dal 2014, la Crimea è stata una base per la successiva occupazione russa dell'Oblast di Cherson e l'occupazione russa dell'Oblast di Zaporizhzhia.\nVladimir Putin ha definito la Crimea un “luogo sacro” e una “terra santa”. Il vicepresidente del Consiglio di sicurezza della Russia Dmitry Medvedev ha dichiarato nel luglio 2022 che la conseguenza di un attacco alla Crimea sarà che \"il Giorno del Giudizio arriverà per tutti loro lì contemporaneamente. Molto veloce e pesante. Sarà molto difficile nascondersi».",
+    "cz": "Počínaje červencem 2022 došlo k sérii výbuchů a požárů na Ruskem okupovaném Krymském poloostrově, odkud ruská armáda zahájila ofenzívu na jižní Ukrajině během rusko-ukrajinské války. Krym, okupovaný od roku 2014, byl základnou pro následnou ruskou okupaci Chersonské oblasti a ruskou okupaci Záporožské oblasti.\nVladimir Putin nazval Krym „posvátným místem“ a „svatou zemí“. Místopředseda Rady bezpečnosti Ruska Dmitrij Medveděv v červenci 2022 řekl, že důsledkem útoku na Krym bude, že „tam pro ně všechny najednou přijde Soudný den. Velmi rychlá a těžká. Bude velmi těžké se schovat.“"
+  }
 }

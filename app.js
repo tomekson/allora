@@ -125,25 +125,51 @@ async function renderNotizie(el) {
       <h2>Notizie del giorno</h2>
       <span class="muted">${daily.date}</span>
     </div>
-    <p class="muted">Čerstvé světové zprávy, každé ráno automaticky. Jedna úroveň, bez výběru obtížnosti.</p>`;
-    daily.stories.forEach((n, i) => {
-      html += `
-      <div class="card daily" data-idx="${i}">
-        <p class="testo">${esc(n.it)}</p>
-        <button class="tts-btn" data-dtts="${i}">🔊 Ascolta</button>
-        <button class="cz-toggle" data-dcz="${i}">🇨🇿 česky</button>
-        <div class="cz-text hidden">${esc(n.cz)}</div>
-      </div>`;
+    <p class="muted">Každé ráno čerstvé. Tapni na zprávu pro češtinu.</p>`;
+
+    const groups = [
+      { title: 'Dalla Cechia', items: daily.stories.filter(n => n.origin === 'cz') },
+      { title: 'Dal mondo', items: daily.stories.filter(n => n.origin !== 'cz') },
+    ].filter(g => g.items.length);
+
+    groups.forEach((g, gi) => {
+      html += `<div class="card digest"><h3>${esc(g.title)}</h3>`;
+      g.items.forEach((n, i) => {
+        html += `
+        <div class="digest-item" data-g="${gi}" data-i="${i}">
+          <button class="tts-mini" title="Ascolta">🔊</button>
+          <div class="digest-text">
+            <p class="testo">${esc(n.it)}</p>
+            <p class="cz-line hidden">${esc(n.cz)}</p>
+          </div>
+        </div>`;
+      });
+      html += `</div>`;
     });
+
+    if (daily.article) {
+      html += `
+      <div class="card article">
+        <h3>Approfondimento</h3>
+        <p class="testo">${esc(daily.article.it)}</p>
+        <button class="tts-btn" id="art-tts">🔊 Ascolta</button>
+        <button class="cz-toggle" id="art-cz">🇨🇿 česky</button>
+        <div class="cz-text hidden">${esc(daily.article.cz)}</div>
+      </div>`;
+    }
+
     html += `<p class="muted" style="font-size:0.75rem">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · překlad ${esc(daily.translator || 'automatický')}</p>`;
+
+    // připrav skupiny pro event handlery
+    renderNotizie._groups = groups;
   }
 
   html += `
     <div class="session-meta">
-      <h2>${esc(s.title)}</h2>
+      <h2>Lezione: ${esc(s.title)}</h2>
       <span class="muted">tappa ${s.week} · ${s.date}</span>
     </div>
-    <p class="muted">České zprávy v italštině. Obtížnost si u každé zprávy přepneš tlačítky.</p>`;
+    <p class="muted">Zprávy z lekce ve třech úrovních. Obtížnost přepneš tlačítky A1/A2/B1, čeština se přepne s ní.</p>`;
 
   s.notizie.forEach((n, i) => {
     html += `
@@ -182,12 +208,17 @@ async function renderNotizie(el) {
   el.innerHTML = html;
 
   if (daily && daily.stories) {
-    el.querySelectorAll('.daily').forEach(card => {
-      const n = daily.stories[+card.dataset.idx];
-      card.querySelector('[data-dtts]').onclick = () => speak(n.it);
-      card.querySelector('[data-dcz]').onclick = () =>
-        card.querySelector('.cz-text').classList.toggle('hidden');
+    const groups = renderNotizie._groups || [];
+    el.querySelectorAll('.digest-item').forEach(row => {
+      const n = groups[+row.dataset.g].items[+row.dataset.i];
+      row.querySelector('.tts-mini').onclick = e => { e.stopPropagation(); speak(n.it); };
+      row.querySelector('.digest-text').onclick = () =>
+        row.querySelector('.cz-line').classList.toggle('hidden');
     });
+    if (daily.article) {
+      $('#art-tts').onclick = () => speak(daily.article.it);
+      $('#art-cz').onclick = () => el.querySelector('.article .cz-text').classList.toggle('hidden');
+    }
   }
 
   el.querySelectorAll('.notizia').forEach(card => {
