@@ -350,7 +350,7 @@ const tabs = {
   progresso: renderProgresso,
 };
 
-let currentTab = 'parole';
+let currentTab = 'notizie';
 
 async function show(tab) {
   currentTab = tab;
