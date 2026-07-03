@@ -1,15 +1,19 @@
-/* allora — italská trikolóra: verde #008C45 · bianco #F4F5F0 · rosso #CD212A */
+/* allora v2 — viaggio in Italia
+   paleta: verde bandiera #008C45 · rosso bandiera #CD212A · latte #F5F3EB
+           carta #FFF · inchiostro #26251E · linea #E5E1D4
+   typografie: ui-serif (New York / Georgia) pro wordmark a nadpisy, systémový sans pro obsah */
 :root {
   --verde: #008C45;
-  --verde-scuro: #006B35;
+  --verde-scuro: #00693A;
   --rosso: #CD212A;
-  --bianco: #F4F5F0;
+  --latte: #F5F3EB;
   --carta: #FFFFFF;
-  --inchiostro: #1F2A24;
-  --grigio: #6B7570;
-  --linea: #E2E5E0;
-  --ombra: 0 1px 3px rgba(31, 42, 36, 0.10);
+  --inchiostro: #26251E;
+  --grigio: #74705F;
+  --linea: #E5E1D4;
+  --ombra: 0 1px 3px rgba(38, 37, 30, 0.08);
   --radius: 14px;
+  --serif: ui-serif, "New York", Georgia, "Times New Roman", serif;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -18,47 +22,54 @@ html { -webkit-text-size-adjust: 100%; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  background: var(--bianco);
+  background: var(--latte);
   color: var(--inchiostro);
   min-height: 100vh;
-  padding-bottom: calc(70px + env(safe-area-inset-bottom));
+  padding-bottom: calc(76px + env(safe-area-inset-bottom));
 }
 
+/* stužka: trikolóra jako jeden celek, linka + stín ji oddělí od pozadí */
 .tricolore {
-  height: 6px;
+  height: 8px;
   background: linear-gradient(90deg,
-    var(--verde) 0 33.33%,
-    #fff 33.33% 66.66%,
-    var(--rosso) 66.66% 100%);
+    var(--verde) 0 33.4%,
+    #FFFFFF 33.4% 66.7%,
+    var(--rosso) 66.7% 100%);
+  border-bottom: 1px solid var(--linea);
+  box-shadow: 0 1px 4px rgba(38, 37, 30, 0.10);
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 14px 18px 10px;
+  padding: 16px 18px 10px;
   max-width: 640px;
   margin: 0 auto;
 }
 
 h1 {
-  font-size: 1.7rem;
-  font-weight: 800;
-  letter-spacing: -0.02em;
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 2rem;
+  font-weight: 700;
   color: var(--verde-scuro);
+  letter-spacing: 0.01em;
 }
 
-h1 .dot { color: var(--rosso); }
+h1 .dot { color: var(--rosso); font-style: normal; }
 
 .week-badge {
   border: 1.5px solid var(--verde);
   color: var(--verde-scuro);
-  background: #fff;
+  background: var(--carta);
   border-radius: 999px;
-  padding: 5px 14px;
+  padding: 6px 15px;
   font-size: 0.85rem;
   font-weight: 600;
   cursor: pointer;
+  font-family: var(--serif);
+  font-style: italic;
 }
 
 main {
@@ -68,10 +79,14 @@ main {
 }
 
 h2 {
-  font-size: 1.15rem;
-  margin: 18px 2px 10px;
+  font-family: var(--serif);
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 20px 2px 10px;
   color: var(--inchiostro);
 }
+
+.muted { color: var(--grigio); font-size: 0.85rem; }
 
 .card {
   background: var(--carta);
@@ -82,14 +97,12 @@ h2 {
   border: 1px solid var(--linea);
 }
 
-.muted { color: var(--grigio); font-size: 0.85rem; }
-
-/* ---------- tabs ---------- */
+/* ---------- spodní menu ---------- */
 .tabbar {
   position: fixed;
   bottom: 0; left: 0; right: 0;
   display: flex;
-  background: #fff;
+  background: var(--carta);
   border-top: 1px solid var(--linea);
   padding-bottom: env(safe-area-inset-bottom);
   z-index: 20;
@@ -99,7 +112,7 @@ h2 {
   flex: 1;
   border: none;
   background: none;
-  padding: 8px 0 9px;
+  padding: 9px 0 10px;
   font-size: 0.72rem;
   font-weight: 600;
   color: var(--grigio);
@@ -107,12 +120,37 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 3px;
 }
 
-.tabbar button .ico { font-size: 1.25rem; }
+.tabbar button svg {
+  width: 22px;
+  height: 22px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
 .tabbar button.active { color: var(--verde-scuro); }
-.tabbar button.active .ico { transform: scale(1.1); }
+
+/* na širokém monitoru menu neroztahovat: plovoucí pilulka uprostřed */
+@media (min-width: 700px) {
+  .tabbar {
+    left: 50%;
+    right: auto;
+    transform: translateX(-50%);
+    bottom: 16px;
+    width: 420px;
+    border: 1px solid var(--linea);
+    border-radius: 999px;
+    box-shadow: 0 6px 20px rgba(38, 37, 30, 0.13);
+    padding-bottom: 0;
+    overflow: hidden;
+  }
+  body { padding-bottom: 110px; }
+}
 
 /* ---------- notizie ---------- */
 .session-meta {
@@ -127,7 +165,7 @@ h2 {
 
 .level-chips button {
   border: 1.5px solid var(--linea);
-  background: #fff;
+  background: var(--carta);
   color: var(--grigio);
   border-radius: 999px;
   padding: 4px 14px;
@@ -135,6 +173,7 @@ h2 {
   font-weight: 700;
   cursor: pointer;
   text-transform: uppercase;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 
 .level-chips button.active {
@@ -143,11 +182,14 @@ h2 {
   color: #fff;
 }
 
-.notizia h3 { font-size: 1.02rem; margin-bottom: 6px; font-style: italic; }
+.notizia h3 {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.08rem;
+  margin-bottom: 6px;
+}
 
 .notizia .testo { line-height: 1.55; margin: 8px 0; }
-
-.notizia .testo strong { color: var(--verde-scuro); }
 
 .cz-toggle {
   background: none;
@@ -160,7 +202,7 @@ h2 {
 }
 
 .cz-text {
-  background: var(--bianco);
+  background: var(--latte);
   border-left: 3px solid var(--rosso);
   padding: 8px 12px;
   border-radius: 0 8px 8px 0;
@@ -170,7 +212,7 @@ h2 {
 
 .tts-btn {
   border: 1.5px solid var(--verde);
-  background: #fff;
+  background: var(--carta);
   border-radius: 999px;
   padding: 5px 12px;
   font-size: 0.85rem;
@@ -182,14 +224,20 @@ h2 {
 .tts-btn:active { background: var(--verde); color: #fff; }
 
 .shadow-box {
-  background: linear-gradient(135deg, #F0F7F3, #FDF2F2);
+  background: var(--carta);
   border-radius: var(--radius);
   padding: 14px 16px;
   margin: 12px 0;
   border: 1px solid var(--linea);
+  border-top: 3px solid var(--verde);
 }
 
-.shadow-box .it { font-size: 1.05rem; font-weight: 700; font-style: italic; }
+.shadow-box .it {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
 .shadow-box .phon { color: var(--grigio); font-size: 0.88rem; margin-top: 4px; }
 
 .drill { border-left: 3px solid var(--verde); padding-left: 12px; margin: 12px 0; }
@@ -197,7 +245,7 @@ h2 {
 .drill .trap { color: var(--rosso); font-size: 0.87rem; }
 .drill .fix { color: var(--verde-scuro); font-size: 0.87rem; }
 
-/* ---------- flashcards ---------- */
+/* ---------- kartičky ---------- */
 .flashcard {
   background: var(--carta);
   border-radius: var(--radius);
@@ -215,7 +263,13 @@ h2 {
   -webkit-tap-highlight-color: transparent;
 }
 
-.flashcard .front-word { font-size: 1.9rem; font-weight: 800; color: var(--verde-scuro); }
+.flashcard .front-word {
+  font-family: var(--serif);
+  font-style: italic;
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: var(--verde-scuro);
+}
 .flashcard .pos { color: var(--grigio); font-size: 0.85rem; margin-top: 6px; }
 .flashcard .cz { font-size: 1.35rem; font-weight: 700; margin-top: 10px; }
 .flashcard .phon { color: var(--rosso); font-weight: 600; margin-top: 8px; }
@@ -236,16 +290,16 @@ h2 {
 }
 
 .g-again { background: var(--rosso); }
-.g-hard  { background: #C77B00; }
+.g-hard  { background: #B97A1F; }
 .g-good  { background: var(--verde); }
-.g-easy  { background: #3D8B63; }
+.g-easy  { background: #45876A; }
 
 .queue-info { text-align: center; margin: 8px 0; }
 
 .done-box { text-align: center; padding: 40px 16px; }
 .done-box .big { font-size: 2.4rem; }
 
-/* ---------- grammatica ---------- */
+/* ---------- viaggio ---------- */
 .week-row {
   display: flex;
   align-items: center;
@@ -261,15 +315,21 @@ h2 {
   border-radius: 50%;
   display: flex; align-items: center; justify-content: center;
   font-weight: 700; font-size: 0.85rem;
-  background: var(--bianco); color: var(--grigio);
+  background: var(--latte); color: var(--grigio);
   flex-shrink: 0;
 }
 .week-row.done .num { background: var(--verde); color: #fff; }
 .week-row.current .num { background: var(--rosso); color: #fff; }
-.week-row.current { background: #FDF6F6; }
+.week-row.current { background: #FBF4F0; }
 .week-row .info { flex: 1; }
-.week-row .info .g { font-weight: 600; font-size: 0.92rem; }
-.week-row .info .t { color: var(--grigio); font-size: 0.8rem; }
+.week-row .info .citta {
+  font-family: var(--serif);
+  font-style: italic;
+  font-weight: 700;
+  font-size: 0.95rem;
+}
+.week-row .info .g { font-size: 0.85rem; }
+.week-row .info .t { color: var(--grigio); font-size: 0.78rem; }
 .week-row .ratio { font-size: 0.72rem; color: var(--grigio); white-space: nowrap; }
 
 /* ---------- progresso ---------- */
@@ -290,7 +350,7 @@ h2 {
 
 .btn {
   border: 1.5px solid var(--verde);
-  background: #fff;
+  background: var(--carta);
   color: var(--verde-scuro);
   border-radius: 10px;
   padding: 9px 14px;
@@ -304,7 +364,7 @@ h2 {
 /* ---------- update banner ---------- */
 .update-banner {
   max-width: 640px;
-  margin: 0 auto 8px;
+  margin: 0 16px 8px;
   background: var(--verde);
   color: #fff;
   border-radius: 12px;
@@ -312,7 +372,6 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 16px; margin-right: 16px;
 }
 
 @media (min-width: 672px) { .update-banner { margin-left: auto; margin-right: auto; } }
@@ -328,3 +387,9 @@ h2 {
 }
 
 .hidden { display: none !important; }
+
+:focus-visible { outline: 2px solid var(--verde); outline-offset: 2px; }
+
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}

@@ -16,6 +16,12 @@
 - **News stories:** Orbán volby Maďarsko · Artemis II návrat · USA/Írán Hormuz
 - **Pronunciation focus:** r vs ř, krátké samohlásky, tvrdé t/n
 
+### 2026-07-03 — Week 1, Topic: caffè — session 3 (první v allora web app, multi-level A1/A2/B1)
+- **Grammar:** essere + pozdravy + rod (il/la) — opakování
+- **News stories:** zákaz alkoholu ve Sněmovně · summit NATO Ankara · soud lanovka Ještěd
+- **Vocab:** la regola, bere, la guerra, parlare, il tribunale
+- **Pronunciation focus:** r vs ř (regola, parlare), krátké samohlásky, tvrdé t/n (tribunale, niente)
+
 ---
 
 ## Running Vocabulary
@@ -27,3 +33,8 @@
 | importante | adj | důležitý | Week 1 Day 1 | news (Iran) |
 | il problema | m | problém | Week 1 Day 1 | news (Iran) |
 | la Luna | f | Měsíc | Week 1 Day 1 | news (Artemis II) |
+| la regola | f | pravidlo | Week 1 session 3 | news (Sněmovna) |
+| bere | verb | pít | Week 1 session 3 | news (Sněmovna) |
+| la guerra | f | válka | Week 1 session 3 | news (NATO) |
+| parlare | verb | mluvit | Week 1 session 3 | news (NATO) |
+| il tribunale | m | soud | Week 1 session 3 | news (Ještěd) |

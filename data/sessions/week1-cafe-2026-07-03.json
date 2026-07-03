@@ -1,0 +1,69 @@
+{
+  "week": 1,
+  "topic": "caffè",
+  "date": "2026-07-03",
+  "title": "Caffè al bar",
+  "grammar": {
+    "point": "essere + pozdravy + rod (il/la)",
+    "summary": "Sloveso essere (být): io sono, tu sei, lui/lei è. Pozdravy podle denní doby: buongiorno (do ~17h), buonasera (po 17h), ciao (neformální). Rod podstatných jmen: il = mužský, la = ženský. Pozor na výjimky, il problema je mužský!"
+  },
+  "notizie": [
+    {
+      "id": "alcol-parlamento",
+      "title": "Niente alcol nel parlamento ceco",
+      "cz": "Poslanci schválili zákaz konzumace alkoholu a dalších návykových látek ve Sněmovně. Kdo pravidlo poruší, může být vykázán ze schůze.",
+      "levels": {
+        "a1": "Il parlamento ceco ha una nuova regola: niente alcol. I politici non possono bere birra o vino al lavoro. È una regola importante.",
+        "a2": "Il parlamento ceco approva una nuova regola: è vietato bere alcol durante le sedute. Un deputato che beve deve lasciare la sala. Molti dicono che è una buona idea.",
+        "b1": "La Camera dei deputati ceca ha approvato il divieto di consumare alcol e altre sostanze durante le sedute. La proposta è arrivata dal partito STAN; chi non rispetta la regola rischia di essere espulso dalla seduta."
+      },
+      "vocab": ["regola", "bere"]
+    },
+    {
+      "id": "nato-ankara",
+      "title": "Il summit della NATO ad Ankara",
+      "cz": "Na summitu NATO v Ankaře se řeší rusko-ukrajinský konflikt, Blízký východ a připravenost Evropy. Moskva podle expertů doufá v neshody mezi spojenci.",
+      "levels": {
+        "a1": "Oggi c'è un summit della NATO ad Ankara. I politici parlano della guerra e della pace. È un giorno importante per l'Europa.",
+        "a2": "Ad Ankara comincia il summit della NATO. I paesi parlano della guerra in Ucraina e della sicurezza in Europa. Gli esperti dicono che la Russia spera in problemi tra i paesi.",
+        "b1": "Ad Ankara si apre il summit della NATO: sul tavolo il conflitto russo-ucraino, il Medio Oriente e la preparazione militare dell'Europa. Secondo gli esperti, Mosca conta su possibili divisioni tra gli alleati."
+      },
+      "vocab": ["guerra", "parlare"]
+    },
+    {
+      "id": "funivia-liberec",
+      "title": "La funivia di Liberec: comincia il processo",
+      "cz": "Pád lanovky na Ještěd z října 2021, při kterém zemřel strojvedoucí, míří k soudu. Obžalované jsou tři osoby a České dráhy.",
+      "levels": {
+        "a1": "A Liberec c'è un processo. Una cabina della funivia è caduta nel 2021. Oggi il tribunale cerca la verità.",
+        "a2": "Comincia il processo per l'incidente della funivia di Liberec. Nel 2021 una cabina è caduta e un uomo è morto. Tre persone e le Ferrovie Ceche sono davanti al tribunale.",
+        "b1": "Davanti al tribunale arriva il caso della funivia di Ještěd, caduta nell'ottobre 2021: nell'incidente morì il macchinista. Sono accusate tre persone e anche le Ferrovie Ceche come azienda."
+      },
+      "vocab": ["tribunale"]
+    }
+  ],
+  "shadow": {
+    "it": "I politici parlano della guerra e della pace.",
+    "phon": "[i po-LÍ-ti-či PÁR-la-no DÉL-la GWÈR-ra e DÉL-la PÁ-če]"
+  },
+  "drills": [
+    {
+      "name": "r (ne ř!)",
+      "shadow": "regola → parlare → guerra → tribunale → arrivederci",
+      "trap": "Říkáš „paříáre“ nebo „gueřa“, přidáváš ř kvalitu automaticky.",
+      "fix": "Italské R = české R v „rak“. Špička jazyka klepe za horní zuby, žádná retroflexe."
+    },
+    {
+      "name": "Krátké samohlásky",
+      "shadow": "RÉ-go-la → GWÈR-ra → tri-bu-NÁ-le → PÁ-če → BÉ-re",
+      "trap": "„régóla“, „tribunále“ s dlouhými samohláskami po česku.",
+      "fix": "V italštině délka samohlásky nikdy nemění význam. Všechny krátké a ostré."
+    },
+    {
+      "name": "Tvrdé t a n",
+      "shadow": "tribunale → niente → parlamento → importante → politici",
+      "trap": "„parlamen-ťe“, „nien-ťe“, automatická palatalizace před e/i.",
+      "fix": "Italské T/N vždy tvrdé, jako české T/N před A/O/U."
+    }
+  ]
+}

@@ -111,8 +111,8 @@ async function renderNotizie(el) {
 
   let html = `
     <div class="session-meta">
-      <h2>📰 ${esc(s.title)}</h2>
-      <span class="muted">týden ${s.week} · ${s.date}</span>
+      <h2>${esc(s.title)}</h2>
+      <span class="muted">tappa ${s.week} · ${s.date}</span>
     </div>
     <p class="muted">České zprávy v italštině. Obtížnost si u každé zprávy přepneš tlačítky.</p>`;
 
@@ -133,12 +133,12 @@ async function renderNotizie(el) {
 
   html += `
     <div class="shadow-box">
-      <div class="muted">Shadow věta — 3× pomalu, 3× normálně</div>
+      <div class="muted">Shadow věta: 3× pomalu, 3× normálně</div>
       <div class="it">${esc(s.shadow.it)}</div>
       <div class="phon">${esc(s.shadow.phon)}</div>
       <button class="tts-btn" id="shadow-tts" style="margin-top:8px">🔊 Ascolta</button>
     </div>
-    <h2>🔊 Drily</h2>`;
+    <h2>Pronuncia</h2>`;
 
   s.drills.forEach(d => {
     html += `
@@ -185,7 +185,7 @@ function drawCard(el) {
   const total = data.vocab.words.length;
   if (!queue.length) {
     el.innerHTML = `
-      <h2>🃏 Parole</h2>
+      <h2>Parole</h2>
       <div class="card done-box">
         <div class="big">🇮🇹</div>
         <h3>Perfetto! Na dnešek hotovo.</h3>
@@ -196,7 +196,7 @@ function drawCard(el) {
   const w = queue[0];
   flipped = false;
   el.innerHTML = `
-    <h2>🃏 Parole</h2>
+    <h2>Parole</h2>
     <p class="queue-info muted">zbývá ${queue.length} · celkem ${total} slov</p>
     <div class="flashcard" id="fc">
       <div class="front-word">${esc(w.it)}</div>
@@ -234,12 +234,12 @@ function drawCard(el) {
   el.querySelector('.g-easy').onclick = () => grade(5);
 }
 
-/* ---------------- Grammatica ---------------- */
+/* ---------------- Viaggio ---------------- */
 
-function renderGrammatica(el) {
+function renderViaggio(el) {
   let html = `
-    <h2>📚 Kurikulum — 12 týdnů</h2>
-    <p class="muted">Tapni na týden pro nastavení aktuálního. Zelené = probrané, červený = teď.</p>
+    <h2>Viaggio: 12 tapp po Itálii</h2>
+    <p class="muted">Každý týden jedna tappa v jiném městě. Tapni na tu, kde právě jsi.</p>
     <div class="card" style="padding:4px 2px">`;
   for (const w of data.curriculum.weeks) {
     const cls = w.week < state.week ? 'done' : w.week === state.week ? 'current' : '';
@@ -247,6 +247,7 @@ function renderGrammatica(el) {
       <div class="week-row ${cls}" data-week="${w.week}">
         <div class="num">${w.week}</div>
         <div class="info">
+          <div class="citta">${esc(w.citta)}</div>
           <div class="g">${esc(w.grammar)}</div>
           <div class="t">${esc(w.topic)} · ${w.level.toUpperCase()}</div>
         </div>
@@ -261,7 +262,7 @@ function renderGrammatica(el) {
       state.week = +row.dataset.week;
       save();
       updateWeekBadge();
-      renderGrammatica(el);
+      renderViaggio(el);
     };
   });
 }
@@ -284,14 +285,14 @@ function renderProgresso(el) {
   const due = dueWords().length;
 
   el.innerHTML = `
-    <h2>📊 Progresso</h2>
+    <h2>Progresso</h2>
     <div class="stat-grid">
-      <div class="stat"><div class="val">${streak()} 🔥</div><div class="lbl">streak (dny po sobě)</div></div>
-      <div class="stat"><div class="val">${state.week}/12</div><div class="lbl">týden kurikula</div></div>
+      <div class="stat"><div class="val">${streak()} ☕</div><div class="lbl">dní v řadě</div></div>
+      <div class="stat"><div class="val">${state.week}/12</div><div class="lbl">tappa na cestě</div></div>
       <div class="stat"><div class="val">${started}/${total}</div><div class="lbl">slov v oběhu</div></div>
       <div class="stat"><div class="val">${learned}</div><div class="lbl">naučeno dlouhodobě</div></div>
       <div class="stat"><div class="val">${due}</div><div class="lbl">k opakování teď</div></div>
-      <div class="stat"><div class="val">${state.days.length}</div><div class="lbl">aktivních dní celkem</div></div>
+      <div class="stat"><div class="val">${state.days.length}</div><div class="lbl">dní s italštinou</div></div>
     </div>
     <h2>Data</h2>
     <div class="card">
@@ -340,7 +341,7 @@ function renderProgresso(el) {
 const tabs = {
   notizie: renderNotizie,
   parole: renderParole,
-  grammatica: renderGrammatica,
+  viaggio: renderViaggio,
   progresso: renderProgresso,
 };
 
@@ -361,7 +362,7 @@ async function show(tab) {
 }
 
 function updateWeekBadge() {
-  $('#week-badge').textContent = 'týden ' + state.week;
+  $('#week-badge').textContent = 'tappa ' + state.week;
 }
 
 /* ---------------- update banner + SW ---------------- */
@@ -390,7 +391,7 @@ if ('serviceWorker' in navigator) {
 
 (async function init() {
   document.querySelectorAll('.tabbar button').forEach(b => b.onclick = () => show(b.dataset.tab));
-  $('#week-badge').onclick = () => show('grammatica');
+  $('#week-badge').onclick = () => show('viaggio');
   updateWeekBadge();
   const [vocab, curriculum] = await Promise.all([
     fetchJson('data/vocab.json'),
