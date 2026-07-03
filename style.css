@@ -239,6 +239,45 @@ h2 {
 
 .article .testo { line-height: 1.6; margin: 8px 0; }
 
+.digest-item .chev {
+  margin-left: auto;
+  flex-shrink: 0;
+  color: var(--grigio);
+  font-size: 0.72rem;
+  margin-top: 5px;
+  white-space: nowrap;
+  transition: opacity 0.15s;
+}
+
+.digest-item.open .chev { opacity: 0.35; }
+
+.fonte {
+  text-align: right;
+  font-size: 0.7rem;
+  color: var(--grigio);
+  margin: 2px 2px 0;
+}
+
+.fonte a { color: var(--grigio); }
+
+hr.sep {
+  border: none;
+  border-top: 1px solid var(--linea);
+  margin: 22px 0 4px;
+}
+
+details.pronuncia { margin: 14px 0; }
+
+details.pronuncia summary {
+  cursor: pointer;
+  color: var(--grigio);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 8px 2px;
+}
+
+details.pronuncia[open] summary { color: var(--verde-scuro); }
+
 .notizia .testo { line-height: 1.55; margin: 8px 0; }
 
 .cz-toggle {

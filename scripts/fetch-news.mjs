@@ -181,6 +181,88 @@ const [it, cz, czIt, artIt, artCz] = await Promise.all([
   translate(article ? [article.en] : [], 'EN', 'CS'),
 ]);
 
+/* ---- 3b. shadow věta dne: nejkratší vhodná IT věta + rule-based fonetika ---- */
+
+function transcribe(w) {
+  let out = '';
+  for (let i = 0; i < w.length; i++) {
+    const c = w[i], n = w[i + 1] || '', n2 = w[i + 2] || '';
+    if (c === 'g' && n === 'l' && n2 === 'i') { out += 'lj'; i += 2; continue; }
+    if (c === 'g' && n === 'n') { out += 'ň'; i += 1; continue; }
+    if (c === 's' && n === 'c' && n2 === 'i' && /[aeiouàèéìòóù]/.test(w[i + 3] || '')) { out += 'š'; i += 2; continue; }
+    if (c === 's' && n === 'c' && /[eiéèì]/.test(n2)) { out += 'š'; i += 1; continue; }
+    if (c === 'c' && n === 'h') { out += 'k'; i += 1; continue; }
+    if (c === 'g' && n === 'h') { out += 'g'; i += 1; continue; }
+    if (c === 'c' && n === 'i' && /[aeiouàèéòóù]/.test(n2)) { out += 'č'; i += 1; continue; }
+    if (c === 'c' && /[eiéèì]/.test(n)) { out += 'č'; continue; }
+    if (c === 'c') { out += 'k'; continue; }
+    if (c === 'g' && n === 'i' && /[aeiouàèéòóù]/.test(n2)) { out += 'dž'; i += 1; continue; }
+    if (c === 'g' && /[eiéèì]/.test(n)) { out += 'dž'; continue; }
+    if (c === 'q' && n === 'u') { out += 'kv'; i += 1; continue; }
+    if (c === 'h') continue;
+    if (c === 'z') { out += 'c'; continue; }
+    if (c === 's' && /[aeiouàèéìòóù]/.test(w[i - 1] || '') && /[aeiouàèéìòóù]/.test(n)) { out += 'z'; continue; }
+    out += c;
+  }
+  return out;
+}
+
+function syllabify(t) {
+  const V = /[aeiouàèéìòóù]/;
+  const sy = [];
+  let cur = '';
+  let i = 0;
+  while (i < t.length) {
+    cur += t[i];
+    if (V.test(t[i])) {
+      while (V.test(t[i + 1] || '')) { i++; cur += t[i]; } // dvojhlásky drž pohromadě
+      let j = i + 1, cons = '';
+      while (j < t.length && !V.test(t[j])) { cons += t[j]; j++; }
+      if (j >= t.length) { cur += cons; sy.push(cur); return sy; }
+      if (cons.length <= 1) { sy.push(cur); cur = ''; i++; continue; }
+      let take = Math.ceil(cons.length / 2);
+      if (cons[take - 1] === 'd' && cons[take] === 'ž') take -= 1; // dž nedělit
+      cur += cons.slice(0, take);
+      sy.push(cur);
+      cur = '';
+      i += take + 1;
+      continue;
+    }
+    i++;
+  }
+  if (cur) sy.push(cur);
+  return sy;
+}
+
+const ACUTE = { a: 'á', e: 'é', i: 'í', o: 'ó', u: 'ú', à: 'á', è: 'é', ì: 'í', ò: 'ó', ù: 'ú' };
+
+function phonWord(word) {
+  const w = word.toLowerCase().replace(/[^a-zàèéìòóù]/g, '');
+  if (!w) return null;
+  const sy = syllabify(transcribe(w));
+  if (sy.length === 1 || w.length <= 3) return sy.join('-');
+  let idx = sy.findIndex(s => /[àèéìòóù]/.test(s));
+  if (idx === -1) idx = sy.length - 2;
+  sy[idx] = sy[idx].replace(/[aeiouàèéìòóù]/, v => ACUTE[v] || v).toUpperCase();
+  return sy.join('-');
+}
+
+function phonSentence(sent) {
+  return '[' + sent.split(/\s+/).map(phonWord).filter(Boolean).join(' ') + ']';
+}
+
+function firstSentence(t) {
+  const m = t.match(/^.+?[.!?](\s|$)/);
+  return (m ? m[0] : t).trim();
+}
+
+function pickShadow(itTexts) {
+  const cands = itTexts.map(firstSentence);
+  const good = cands.filter(s => s.length >= 35 && s.length <= 90);
+  const pool = good.length ? good : cands;
+  return pool.sort((a, b) => a.length - b.length)[0] || null;
+}
+
 /* ---- 4. zapiš JSON — české zprávy napřed ---- */
 const out = {
   date: praha,
@@ -199,6 +281,9 @@ const out = {
     cz: artCz[0],
   } : null,
 };
+
+const shadowIt = pickShadow([...czIt, ...it]);
+if (shadowIt) out.shadow = { it: shadowIt, phon: phonSentence(shadowIt) };
 mkdirSync('data/news', { recursive: true });
 writeFileSync('data/news/daily.json', JSON.stringify(out, null, 2) + '\n');
 console.log(`Zapsáno data/news/daily.json (${out.stories.length} zpráv, ${praha}).`);

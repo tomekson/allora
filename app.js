@@ -119,13 +119,22 @@ async function renderNotizie(el) {
   try { daily = await fetchJson('data/news/daily.json'); } catch (e) { /* zatím žádné denní zprávy */ }
 
   let html = '';
+  if (daily && daily.shadow) {
+    html += `
+    <div class="shadow-box" style="margin-top:10px">
+      <div class="muted">Shadow věta dne: 3× pomalu, 3× normálně</div>
+      <div class="it">${esc(daily.shadow.it)}</div>
+      <div class="phon">${esc(daily.shadow.phon)}</div>
+      <button class="tts-btn" id="dshadow-tts" style="margin-top:8px">🔊 Ascolta</button>
+    </div>`;
+  }
   if (daily && daily.stories && daily.stories.length) {
     html += `
     <div class="session-meta">
       <h2>Notizie del giorno</h2>
       <span class="muted">${daily.date}</span>
     </div>
-    <p class="muted">Každé ráno čerstvé. Tapni na zprávu pro češtinu.</p>`;
+    <p class="muted">Každé ráno čerstvé. Tapnutím na zprávu rozbalíš češtinu.</p>`;
 
     const groups = [
       { title: 'Dalla Cechia', items: daily.stories.filter(n => n.origin === 'cz') },
@@ -142,6 +151,7 @@ async function renderNotizie(el) {
             <p class="testo">${esc(n.it)}</p>
             <p class="cz-line hidden">${esc(n.cz)}</p>
           </div>
+          <span class="chev" aria-hidden="true">🇨🇿 ▾</span>
         </div>`;
       });
       html += `</div>`;
@@ -158,7 +168,8 @@ async function renderNotizie(el) {
       </div>`;
     }
 
-    html += `<p class="muted" style="font-size:0.75rem">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · překlad ${esc(daily.translator || 'automatický')}</p>`;
+    html += `<p class="fonte">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · překlad ${esc(daily.translator || 'automatický')}</p>
+    <hr class="sep">`;
 
     // připrav skupiny pro event handlery
     renderNotizie._groups = groups;
@@ -193,7 +204,8 @@ async function renderNotizie(el) {
       <div class="phon">${esc(s.shadow.phon)}</div>
       <button class="tts-btn" id="shadow-tts" style="margin-top:8px">🔊 Ascolta</button>
     </div>
-    <h2>Pronuncia</h2>`;
+    <details class="pronuncia">
+      <summary>Pronuncia · ${s.drills.length} výslovnostní drily</summary>`;
 
   s.drills.forEach(d => {
     html += `
@@ -205,15 +217,22 @@ async function renderNotizie(el) {
     </div>`;
   });
 
+  html += `</details>`;
+
   el.innerHTML = html;
 
+  if (daily && daily.shadow) {
+    $('#dshadow-tts').onclick = () => speak(daily.shadow.it, 0.75);
+  }
   if (daily && daily.stories) {
     const groups = renderNotizie._groups || [];
     el.querySelectorAll('.digest-item').forEach(row => {
       const n = groups[+row.dataset.g].items[+row.dataset.i];
       row.querySelector('.tts-mini').onclick = e => { e.stopPropagation(); speak(n.it); };
-      row.querySelector('.digest-text').onclick = () =>
+      row.onclick = () => {
         row.querySelector('.cz-line').classList.toggle('hidden');
+        row.classList.toggle('open');
+      };
     });
     if (daily.article) {
       $('#art-tts').onclick = () => speak(daily.article.it);
