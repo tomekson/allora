@@ -391,7 +391,7 @@ function tabFromHash() {
 
 async function show(tab) {
   currentTab = tab;
-  if (location.hash !== '#/' + tab) location.hash = '/' + tab;
+  if (tabFromHash() !== tab) location.hash = tab;
   document.querySelectorAll('.tabbar button').forEach(b =>
     b.classList.toggle('active', b.dataset.tab === tab));
   const el = $('#main');
