@@ -123,7 +123,11 @@ async function renderNotizie(el) {
       <div class="muted">Shadow věta dne: 3× pomalu, 3× normálně</div>
       <div class="it">${esc(daily.shadow.it)}</div>
       <div class="phon">${esc(daily.shadow.phon)}</div>
-      <button class="tts-btn" id="dshadow-tts" style="margin-top:8px">🔊 Ascolta</button>
+      <div style="margin-top:8px">
+        <button class="tts-btn" id="dshadow-tts">🔊 Ascolta</button>
+        ${daily.shadow.cz ? '<button class="cz-toggle" id="dshadow-cz">🇨🇿 česky</button>' : ''}
+      </div>
+      ${daily.shadow.cz ? `<div class="cz-text hidden" id="dshadow-cztext">${esc(daily.shadow.cz)}</div>` : ''}
     </div>`;
   }
   if (daily && daily.stories && daily.stories.length) {
@@ -149,7 +153,7 @@ async function renderNotizie(el) {
             <p class="testo">${esc(n.it)}</p>
             <p class="cz-line hidden">${esc(n.cz)}</p>
           </div>
-          <span class="chev" aria-hidden="true">🇨🇿 ▾</span>
+          <span class="chev" aria-hidden="true">🇨🇿</span>
         </div>`;
       });
       html += `</div>`;
@@ -176,6 +180,8 @@ async function renderNotizie(el) {
 
   if (daily.shadow) {
     $('#dshadow-tts').onclick = () => speak(daily.shadow.it, 0.75);
+    const czBtn = $('#dshadow-cz');
+    if (czBtn) czBtn.onclick = () => $('#dshadow-cztext').classList.toggle('hidden');
   }
   const groups = renderNotizie._groups || [];
   el.querySelectorAll('.digest-item').forEach(row => {
@@ -234,7 +240,11 @@ async function renderLezione(el) {
       <div class="muted">Shadow věta: 3× pomalu, 3× normálně</div>
       <div class="it">${esc(s.shadow.it)}</div>
       <div class="phon">${esc(s.shadow.phon)}</div>
-      <button class="tts-btn" id="shadow-tts" style="margin-top:8px">🔊 Ascolta</button>
+      <div style="margin-top:8px">
+        <button class="tts-btn" id="shadow-tts">🔊 Ascolta</button>
+        ${s.shadow.cz ? '<button class="cz-toggle" id="shadow-cz">🇨🇿 česky</button>' : ''}
+      </div>
+      ${s.shadow.cz ? `<div class="cz-text hidden" id="shadow-cztext">${esc(s.shadow.cz)}</div>` : ''}
     </div>
     <details class="pronuncia">
       <summary>Pronuncia · ${s.drills.length} výslovnostní drily</summary>`;
@@ -271,6 +281,8 @@ async function renderLezione(el) {
   });
 
   $('#shadow-tts').onclick = () => speak(s.shadow.it, 0.75);
+  const shCz = $('#shadow-cz');
+  if (shCz) shCz.onclick = () => $('#shadow-cztext').classList.toggle('hidden');
 }
 
 /* ---------------- Parole (SRS flashcards) ---------------- */

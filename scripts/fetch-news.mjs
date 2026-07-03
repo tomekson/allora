@@ -256,11 +256,12 @@ function firstSentence(t) {
   return (m ? m[0] : t).trim();
 }
 
-function pickShadow(itTexts) {
-  const cands = itTexts.map(firstSentence);
-  const good = cands.filter(s => s.length >= 35 && s.length <= 90);
+function pickShadow(pairs) { // [{it, cz}]
+  const cands = pairs.map(p => ({ it: firstSentence(p.it), cz: firstSentence(p.cz) }));
+  const good = cands.filter(s => s.it.length >= 35 && s.it.length <= 90);
   const pool = good.length ? good : cands;
-  return pool.sort((a, b) => a.length - b.length)[0] || null;
+  pool.sort((a, b) => a.it.length - b.it.length);
+  return pool[0] || null;
 }
 
 /* ---- 4. zapiš JSON — české zprávy napřed ---- */
@@ -282,8 +283,8 @@ const out = {
   } : null,
 };
 
-const shadowIt = pickShadow([...czIt, ...it]);
-if (shadowIt) out.shadow = { it: shadowIt, phon: phonSentence(shadowIt) };
+const sh = pickShadow(out.stories);
+if (sh) out.shadow = { it: sh.it, cz: sh.cz, phon: phonSentence(sh.it) };
 mkdirSync('data/news', { recursive: true });
 writeFileSync('data/news/daily.json', JSON.stringify(out, null, 2) + '\n');
 console.log(`Zapsáno data/news/daily.json (${out.stories.length} zpráv, ${praha}).`);
