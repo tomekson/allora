@@ -107,16 +107,14 @@ async function fetchJson(path) {
 /* ---------------- Notizie ---------------- */
 
 async function renderNotizie(el) {
-  if (!data.sessions) data.sessions = await fetchJson('data/sessions/index.json');
-  const meta = data.sessions.sessions[data.sessions.sessions.length - 1];
-  if (!data.sessionCache[meta.file]) {
-    data.sessionCache[meta.file] = await fetchJson('data/sessions/' + meta.file);
-  }
-  const s = data.sessionCache[meta.file];
-  const defaultLevel = weekLevel(currentWeek());
-
   let daily = null;
   try { daily = await fetchJson('data/news/daily.json'); } catch (e) { /* zatím žádné denní zprávy */ }
+
+  if (!daily || !daily.stories || !daily.stories.length) {
+    el.innerHTML = `<h2>Notizie del giorno</h2>
+      <div class="card"><p class="muted">Dnešní zprávy zatím nejsou k dispozici. Zkus to později.</p></div>`;
+    return;
+  }
 
   let html = '';
   if (daily && daily.shadow) {
@@ -168,19 +166,53 @@ async function renderNotizie(el) {
       </div>`;
     }
 
-    html += `<p class="fonte">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · překlad ${esc(daily.translator || 'automatický')}</p>
-    <hr class="sep">`;
+    html += `<p class="fonte">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · překlad ${esc(daily.translator || 'automatický')}</p>`;
 
     // připrav skupiny pro event handlery
     renderNotizie._groups = groups;
   }
 
-  html += `
+  el.innerHTML = html;
+
+  if (daily.shadow) {
+    $('#dshadow-tts').onclick = () => speak(daily.shadow.it, 0.75);
+  }
+  const groups = renderNotizie._groups || [];
+  el.querySelectorAll('.digest-item').forEach(row => {
+    const n = groups[+row.dataset.g].items[+row.dataset.i];
+    row.querySelector('.tts-mini').onclick = e => { e.stopPropagation(); speak(n.it); };
+    row.onclick = () => {
+      row.querySelector('.cz-line').classList.toggle('hidden');
+      row.classList.toggle('open');
+    };
+  });
+  if (daily.article) {
+    $('#art-tts').onclick = () => speak(daily.article.it);
+    $('#art-cz').onclick = () => el.querySelector('.article .cz-text').classList.toggle('hidden');
+  }
+}
+
+/* ---------------- Lezione ---------------- */
+
+async function renderLezione(el) {
+  if (!data.sessions) data.sessions = await fetchJson('data/sessions/index.json');
+  const meta = data.sessions.sessions[data.sessions.sessions.length - 1];
+  if (!data.sessionCache[meta.file]) {
+    data.sessionCache[meta.file] = await fetchJson('data/sessions/' + meta.file);
+  }
+  const s = data.sessionCache[meta.file];
+  const defaultLevel = weekLevel(currentWeek());
+
+  let html = `
     <div class="session-meta">
       <h2>Lezione: ${esc(s.title)}</h2>
       <span class="muted">tappa ${s.week} · ${s.date}</span>
     </div>
-    <p class="muted">Zprávy z lekce ve třech úrovních. Obtížnost přepneš tlačítky A1/A2/B1, čeština se přepne s ní.</p>`;
+    <p class="muted">Zprávy z lekce ve třech úrovních. Obtížnost přepneš tlačítky A1/A2/B1, čeština se přepne s ní.</p>
+    <div class="card grammar">
+      <h3>Grammatica: ${esc(s.grammar.point)}</h3>
+      <p class="testo">${esc(s.grammar.summary)}</p>
+    </div>`;
 
   s.notizie.forEach((n, i) => {
     html += `
@@ -220,25 +252,6 @@ async function renderNotizie(el) {
   html += `</details>`;
 
   el.innerHTML = html;
-
-  if (daily && daily.shadow) {
-    $('#dshadow-tts').onclick = () => speak(daily.shadow.it, 0.75);
-  }
-  if (daily && daily.stories) {
-    const groups = renderNotizie._groups || [];
-    el.querySelectorAll('.digest-item').forEach(row => {
-      const n = groups[+row.dataset.g].items[+row.dataset.i];
-      row.querySelector('.tts-mini').onclick = e => { e.stopPropagation(); speak(n.it); };
-      row.onclick = () => {
-        row.querySelector('.cz-line').classList.toggle('hidden');
-        row.classList.toggle('open');
-      };
-    });
-    if (daily.article) {
-      $('#art-tts').onclick = () => speak(daily.article.it);
-      $('#art-cz').onclick = () => el.querySelector('.article .cz-text').classList.toggle('hidden');
-    }
-  }
 
   el.querySelectorAll('.notizia').forEach(card => {
     const idx = +card.dataset.idx;
@@ -421,6 +434,7 @@ function renderProgresso(el) {
 
 const tabs = {
   notizie: renderNotizie,
+  lezione: renderLezione,
   parole: renderParole,
   viaggio: renderViaggio,
   progresso: renderProgresso,
@@ -453,9 +467,6 @@ window.addEventListener('hashchange', () => {
   if (t !== currentTab) show(t);
 });
 
-function updateWeekBadge() {
-  $('#week-badge').textContent = 'tappa ' + currentWeek();
-}
 
 /* ---------------- update banner + SW ---------------- */
 
@@ -469,10 +480,7 @@ async function checkVersion() {
 
 document.addEventListener('visibilitychange', () => { if (!document.hidden) checkVersion(); });
 
-$('#update-btn').onclick = async () => {
-  const btn = $('#update-btn');
-  btn.disabled = true;
-  btn.textContent = 'Aktualizuji…';
+async function applyUpdate() {
   try {
     if (window.caches) {
       const keys = await caches.keys();
@@ -482,7 +490,60 @@ $('#update-btn').onclick = async () => {
     await Promise.all(regs.map(r => r.update().catch(() => {})));
   } catch (e) { /* i tak reloadneme */ }
   location.reload();
+}
+
+$('#update-btn').onclick = () => {
+  const btn = $('#update-btn');
+  btn.disabled = true;
+  btn.textContent = 'Aktualizuji…';
+  applyUpdate();
 };
+
+/* ---------------- pull-to-refresh (mobil) ---------------- */
+
+const ptr = $('#ptr');
+let ptrStart = 0;
+let ptrDist = 0;
+let ptrActive = false;
+
+async function ptrRefresh() {
+  ptr.textContent = 'Aktualizuji…';
+  try {
+    const r = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
+    const j = await r.json();
+    if (j.v !== APP_VERSION) { await applyUpdate(); return; }
+    data.sessions = null;
+    data.sessionCache = {};
+    await show(currentTab);
+  } catch (e) { /* offline, nevadí */ }
+  ptr.classList.add('hidden');
+}
+
+window.addEventListener('touchstart', e => {
+  if (window.scrollY <= 0) {
+    ptrStart = e.touches[0].clientY;
+    ptrDist = 0;
+    ptrActive = true;
+  }
+}, { passive: true });
+
+window.addEventListener('touchmove', e => {
+  if (!ptrActive) return;
+  ptrDist = e.touches[0].clientY - ptrStart;
+  if (ptrDist > 25 && window.scrollY <= 0) {
+    ptr.classList.remove('hidden');
+    ptr.textContent = ptrDist > 80 ? '↻ pusť pro obnovení' : '↓ přetáhni pro obnovení';
+    ptr.style.transform = `translate(-50%, ${Math.min(ptrDist / 2.5, 44)}px)`;
+  }
+}, { passive: true });
+
+window.addEventListener('touchend', () => {
+  if (!ptrActive) return;
+  ptrActive = false;
+  ptr.style.transform = 'translate(-50%, 12px)';
+  if (ptrDist > 80 && window.scrollY <= 0) ptrRefresh();
+  else ptr.classList.add('hidden');
+}, { passive: true });
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
@@ -500,7 +561,6 @@ toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
 (async function init() {
   document.querySelectorAll('.tabbar button').forEach(b => b.onclick = () => show(b.dataset.tab));
-  $('#week-badge').onclick = () => show('viaggio');
   $('#footer-version').textContent = 'v' + APP_VERSION;
   const [vocab, curriculum, sessions] = await Promise.all([
     fetchJson('data/vocab.json'),
@@ -510,7 +570,6 @@ toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   data.vocab = vocab;
   data.curriculum = curriculum;
   data.sessions = sessions;
-  updateWeekBadge();
   show(tabFromHash());
   checkVersion();
 })();

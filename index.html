@@ -13,14 +13,14 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="allora.">
 <link rel="stylesheet" href="style.css">
-<script>const APP_VERSION = '3.77';</script>
+<script>const APP_VERSION = '3.87';</script>
 </head>
 <body>
+<div id="ptr" class="ptr hidden">↓ přetáhni pro obnovení</div>
 <div class="tricolore"></div>
 
 <header>
   <h1><a href="./" title="Na úvod">allora<span class="dot">.</span></a></h1>
-  <button id="week-badge" class="week-badge" title="Kde na cestě právě jsi">tappa 1</button>
 </header>
 
 <div id="update-banner" class="update-banner hidden">
@@ -38,6 +38,10 @@
   <button data-tab="notizie" aria-label="Notizie">
     <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="14" height="14" rx="2"/><path d="M17.5 9H19a1.5 1.5 0 0 1 1.5 1.5v6A2.5 2.5 0 0 1 18 19H6"/><path d="M7 9h7M7 12.5h7M7 16h4"/></svg>
     Notizie
+  </button>
+  <button data-tab="lezione" aria-label="Lezione">
+    <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5.5C10 4 7.5 3.5 4.5 3.5v14c3 0 5.5.5 7.5 2 2-1.5 4.5-2 7.5-2v-14c-3 0-5.5.5-7.5 2z"/><path d="M12 5.5v14"/></svg>
+    Lezione
   </button>
   <button data-tab="parole" aria-label="Parole">
     <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect x="8" y="3.5" width="12.5" height="15.5" rx="2"/><path d="M5.5 7.5v11a2 2 0 0 0 2 2H16"/><path d="M11.5 12l2 2 3.5-4"/></svg>
