@@ -98,8 +98,8 @@ function currentWeek() {
   return ss.length ? Math.max(...ss.map(s => s.week)) : 1;
 }
 
-async function fetchJson(path) {
-  const r = await fetch(path);
+async function fetchJson(path, opts) {
+  const r = await fetch(path, opts);
   if (!r.ok) throw new Error(path + ' → ' + r.status);
   return r.json();
 }
@@ -108,7 +108,7 @@ async function fetchJson(path) {
 
 async function renderNotizie(el) {
   let daily = null;
-  try { daily = await fetchJson('data/news/daily.json'); } catch (e) { /* zatím žádné denní zprávy */ }
+  try { daily = await fetchJson('data/news/daily.json', { cache: 'no-cache' }); } catch (e) { /* zatím žádné denní zprávy */ }
 
   if (!daily || !daily.stories || !daily.stories.length) {
     el.innerHTML = `<h2>Notizie del giorno</h2>
