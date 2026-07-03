@@ -417,7 +417,6 @@ function renderProgresso(el) {
       if (!s || typeof s.srs !== 'object') throw new Error('bad file');
       Object.assign(state, { week: 1, srs: {}, days: [] }, s);
       save();
-      updateWeekBadge();
       renderProgresso(el);
     }).catch(() => alert('Soubor se nepodařilo načíst — je to export z allory?'));
   };
@@ -425,7 +424,6 @@ function renderProgresso(el) {
     if (!confirm('Opravdu smazat veškerý progress (SRS, streak, týden)?')) return;
     Object.assign(state, { week: 1, srs: {}, days: [] });
     save();
-    updateWeekBadge();
     renderProgresso(el);
   };
 }
