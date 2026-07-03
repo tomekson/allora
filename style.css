@@ -61,6 +61,8 @@ h1 {
 
 h1 .dot { color: var(--rosso); font-style: normal; }
 
+h1 a { color: inherit; text-decoration: none; }
+
 .week-badge {
   border: 1.5px solid var(--verde);
   color: var(--verde-scuro);
@@ -392,40 +394,37 @@ h2 {
 /* ---------- plovoucí nahoru ---------- */
 .to-top {
   position: fixed;
-  overflow: visible;
   right: 14px;
-  bottom: calc(78px + env(safe-area-inset-bottom));
-  width: 44px;
-  height: 44px;
+  bottom: calc(84px + env(safe-area-inset-bottom));
+  width: 46px;
+  height: 46px;
   border: none;
   padding: 0;
-  background: none;
-  border-radius: 12px;
+  background: var(--verde);
+  color: #fff;
+  border-radius: 50%;
   cursor: pointer;
-  box-shadow: 0 4px 14px rgba(38, 37, 30, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 14px rgba(38, 37, 30, 0.30);
   z-index: 30;
 }
 
-.to-top img { width: 100%; height: 100%; display: block; border-radius: 12px; }
-
-.to-top-arrow {
-  position: absolute;
-  top: -7px;
-  right: -7px;
-  width: 20px;
-  height: 20px;
-  background: #fff;
-  border: 1.5px solid var(--verde);
-  border-radius: 50%;
-  color: var(--verde-scuro);
-  font-size: 0.8rem;
-  font-weight: 800;
-  line-height: 17px;
-  text-align: center;
-}
+.to-top:active { background: var(--verde-scuro); }
 
 @media (min-width: 700px) {
-  .to-top { right: 24px; bottom: 24px; }
+  .to-top { right: 24px; bottom: 84px; }
+}
+
+/* ---------- patička ---------- */
+.site-footer {
+  max-width: 640px;
+  margin: 28px auto 0;
+  padding: 0 16px 10px;
+  text-align: center;
+  color: var(--grigio);
+  font-size: 0.8rem;
 }
 
 .footer-logo {
@@ -433,7 +432,7 @@ h2 {
   height: 20px;
   border-radius: 5px;
   vertical-align: -5px;
-  margin-right: 5px;
+  margin-right: 6px;
 }
 
 .hidden { display: none !important; }

@@ -13,13 +13,13 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-title" content="allora.">
 <link rel="stylesheet" href="style.css">
-<script>const APP_VERSION = '3.36';</script>
+<script>const APP_VERSION = '3.46';</script>
 </head>
 <body>
 <div class="tricolore"></div>
 
 <header>
-  <h1>allora<span class="dot">.</span></h1>
+  <h1><a href="./" title="Na úvod">allora<span class="dot">.</span></a></h1>
   <button id="week-badge" class="week-badge" title="Kde na cestě právě jsi">tappa 1</button>
 </header>
 
@@ -29,6 +29,10 @@
 </div>
 
 <main id="main"></main>
+
+<footer class="site-footer">
+  <img src="icon.svg" alt="" class="footer-logo"><span>allora. <span id="footer-version"></span></span>
+</footer>
 
 <nav class="tabbar">
   <button data-tab="notizie" aria-label="Notizie">
@@ -49,7 +53,9 @@
   </button>
 </nav>
 
-<button id="to-top" class="to-top hidden" aria-label="Zpět nahoru"><img src="icon.svg" alt=""><span class="to-top-arrow">↑</span></button>
+<button id="to-top" class="to-top hidden" aria-label="Zpět nahoru">
+  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 14.5l6-6 6 6"/></svg>
+</button>
 
 <script src="app.js"></script>
 </body>

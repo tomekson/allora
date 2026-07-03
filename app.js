@@ -341,7 +341,7 @@ function renderProgresso(el) {
       </div>
       <input type="file" id="import-file" accept=".json" class="hidden">
     </div>
-    <p class="muted" style="text-align:center;margin-top:16px"><img src="icon.svg" class="footer-logo" alt="">allora. v${APP_VERSION}</p>`;
+`;
 
   $('#btn-export').onclick = () => {
     const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
@@ -384,8 +384,14 @@ const tabs = {
 
 let currentTab = 'notizie';
 
+function tabFromHash() {
+  const t = (location.hash || '').replace(/^#\/?/, '');
+  return tabs[t] ? t : 'notizie';
+}
+
 async function show(tab) {
   currentTab = tab;
+  if (location.hash !== '#/' + tab) location.hash = '/' + tab;
   document.querySelectorAll('.tabbar button').forEach(b =>
     b.classList.toggle('active', b.dataset.tab === tab));
   const el = $('#main');
@@ -397,6 +403,11 @@ async function show(tab) {
   }
   window.scrollTo(0, 0);
 }
+
+window.addEventListener('hashchange', () => {
+  const t = tabFromHash();
+  if (t !== currentTab) show(t);
+});
 
 function updateWeekBadge() {
   $('#week-badge').textContent = 'tappa ' + state.week;
@@ -415,8 +426,17 @@ async function checkVersion() {
 document.addEventListener('visibilitychange', () => { if (!document.hidden) checkVersion(); });
 
 $('#update-btn').onclick = async () => {
-  const reg = await navigator.serviceWorker?.getRegistration();
-  if (reg) await reg.update();
+  const btn = $('#update-btn');
+  btn.disabled = true;
+  btn.textContent = 'Aktualizuji…';
+  try {
+    if (window.caches) {
+      const keys = await caches.keys();
+      await Promise.all(keys.map(k => caches.delete(k)));
+    }
+    const regs = await navigator.serviceWorker?.getRegistrations?.() || [];
+    await Promise.all(regs.map(r => r.update().catch(() => {})));
+  } catch (e) { /* i tak reloadneme */ }
   location.reload();
 };
 
@@ -437,6 +457,7 @@ toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 (async function init() {
   document.querySelectorAll('.tabbar button').forEach(b => b.onclick = () => show(b.dataset.tab));
   $('#week-badge').onclick = () => show('viaggio');
+  $('#footer-version').textContent = 'v' + APP_VERSION;
   updateWeekBadge();
   const [vocab, curriculum] = await Promise.all([
     fetchJson('data/vocab.json'),
@@ -444,6 +465,6 @@ toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   ]);
   data.vocab = vocab;
   data.curriculum = curriculum;
-  show(currentTab);
+  show(tabFromHash());
   checkVersion();
 })();
