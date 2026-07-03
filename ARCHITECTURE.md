@@ -51,13 +51,15 @@ data/
 - **Progress uživatele** (SRS intervaly, dokončené sessions, streak) → `localStorage`, klíč `allora-progress`, s tlačítkem export/import JSON (přenos mezi zařízeními).
 - **Obsah** (slovník, sessions, zprávy) → repo. Oddělení: obsah se commituje, progress ne.
 
-## Pipeline 1 — sběr zpráv (0 tokenů)
+## Pipeline 1 — denní zprávy (implementováno 2026-07, bez AI tokenů)
 
-GitHub Actions workflow `fetch-news.yml`:
-- **cron denně ráno** (~06:00 UTC) + `workflow_dispatch` pro ruční spuštění
-- Node/Python script: stáhne RSS (italské zdroje + české zdroje — viz Zdroje), vytáhne title + description, ořeže HTML, uloží `data/news/YYYY-MM-DD.json`, smaže soubory starší 30 dní, commit + push
-- Bez AI — jen parsing. App pak zprávy zobrazuje s tap-to-translate přes offline slovník.
-- Pozor: scheduled workflows GitHub po 60 dnech neaktivity repa vypne — commity z workflow samy počítají jako aktivita jen omezeně; řešení = workflow commituje do repa (aktivita) + keepalive step.
+GitHub Actions workflow `.github/workflows/fetch-news.yml` + `scripts/fetch-news.mjs`:
+- **cron denně 04:30 UTC** (~06:30 Prahy) + `workflow_dispatch` pro ruční spuštění
+- Zdroj: **Wikipedia Portal:Current_events** (CC BY-SA, denní jednověté zprávy anglicky) — původně plánovaná VOA Learning English je od března 2025 mrtvá (přestala publikovat), ANSA/iRozhlas nejsou licenčně čisté pro veřejné repo
+- Překlad: **DeepL API Free** (EN→IT + EN→CS), klíč v repo secretu `DEEPL_API_KEY`; free klíč končí `:fx` → endpoint api-free.deepl.com. Bez klíče script projede dry-run a nic nezapíše (cron nespadne)
+- Výstup: `data/news/daily.json` `{date, source, sourceUrl, stories: [{en, it, cz}]}` — jedna úroveň (~B1 dle zdroje), v app sekce "Notizie del giorno" nad session zprávami
+- Commit z workflow zároveň drží scheduled cron naživu (60denní auto-disable při neaktivitě)
+- Plně odstupňované A1/A2/B1 zprávy dál generuje jen Claude (`/allora` session, případně scheduled agent)
 
 ## Pipeline 2 — AI obohacení (subscription, žádné API tokeny)
 

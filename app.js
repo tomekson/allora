@@ -109,7 +109,30 @@ async function renderNotizie(el) {
   const s = data.sessionCache[meta.file];
   const defaultLevel = weekLevel(state.week);
 
-  let html = `
+  let daily = null;
+  try { daily = await fetchJson('data/news/daily.json'); } catch (e) { /* zatím žádné denní zprávy */ }
+
+  let html = '';
+  if (daily && daily.stories && daily.stories.length) {
+    html += `
+    <div class="session-meta">
+      <h2>Notizie del giorno</h2>
+      <span class="muted">${daily.date}</span>
+    </div>
+    <p class="muted">Čerstvé světové zprávy, každé ráno automaticky. Jedna úroveň, bez výběru obtížnosti.</p>`;
+    daily.stories.forEach((n, i) => {
+      html += `
+      <div class="card daily" data-idx="${i}">
+        <p class="testo">${esc(n.it)}</p>
+        <button class="tts-btn" data-dtts="${i}">🔊 Ascolta</button>
+        <button class="cz-toggle" data-dcz="${i}">🇨🇿 česky</button>
+        <div class="cz-text hidden">${esc(n.cz)}</div>
+      </div>`;
+    });
+    html += `<p class="muted" style="font-size:0.75rem">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia Current events</a> (CC BY-SA) · překlad DeepL</p>`;
+  }
+
+  html += `
     <div class="session-meta">
       <h2>${esc(s.title)}</h2>
       <span class="muted">tappa ${s.week} · ${s.date}</span>
@@ -151,6 +174,15 @@ async function renderNotizie(el) {
   });
 
   el.innerHTML = html;
+
+  if (daily && daily.stories) {
+    el.querySelectorAll('.daily').forEach(card => {
+      const n = daily.stories[+card.dataset.idx];
+      card.querySelector('[data-dtts]').onclick = () => speak(n.it);
+      card.querySelector('[data-dcz]').onclick = () =>
+        card.querySelector('.cz-text').classList.toggle('hidden');
+    });
+  }
 
   el.querySelectorAll('.notizia').forEach(card => {
     const idx = +card.dataset.idx;
@@ -309,7 +341,7 @@ function renderProgresso(el) {
       </div>
       <input type="file" id="import-file" accept=".json" class="hidden">
     </div>
-    <p class="muted" style="text-align:center;margin-top:16px">allora. v${APP_VERSION}</p>`;
+    <p class="muted" style="text-align:center;margin-top:16px"><img src="icon.svg" class="footer-logo" alt="">allora. v${APP_VERSION}</p>`;
 
   $('#btn-export').onclick = () => {
     const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });
@@ -391,6 +423,14 @@ $('#update-btn').onclick = async () => {
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker.register('sw.js');
 }
+
+/* ---------------- plovoucí nahoru ---------------- */
+
+const toTop = $('#to-top');
+window.addEventListener('scroll', () => {
+  toTop.classList.toggle('hidden', window.scrollY < 400);
+}, { passive: true });
+toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
 /* ---------------- init ---------------- */
 
