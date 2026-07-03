@@ -240,32 +240,36 @@ function drawCard(el) {
 function renderViaggio(el) {
   let html = `
     <h2>Viaggio: cesta italštinou</h2>
-    <p class="muted">12 týdnů, 12 měst. Aktuální tappa určuje obtížnost textů (A1/A2/B1) a jakou gramatiku dostaneš v další lekci. Hotovou tappu opustíš tapnutím na následující město.</p>
+    <p class="muted">Mapa tvé cesty. 12 týdnů, 12 měst, od začátků v Napoli po volnou konverzaci. U každého města vidíš, jaká gramatika a téma tě tam čeká. Lekce a texty se řídí tím, kde právě jsi.</p>
     <div class="card" style="padding:4px 2px">`;
   for (const w of data.curriculum.weeks) {
     const cls = w.week < state.week ? 'done' : w.week === state.week ? 'current' : '';
     html += `
-      <div class="week-row ${cls}" data-week="${w.week}">
+      <div class="week-row ${cls}">
         <div class="num">${w.week < state.week ? '✓' : w.week}</div>
         <div class="info">
           <div class="citta">${esc(w.citta)}</div>
           <div class="g">${esc(w.grammar)}</div>
           <div class="t">${esc(w.topic)}</div>
+          ${w.week === state.week && state.week < 12 ? '<button class="btn btn-avanti" id="tappa-done">Tuhle tappu mám, jedu dál →</button>' : ''}
+          ${w.week === state.week && state.week === 12 ? '<div class="muted" style="margin-top:6px">Sei arrivato! Konec cesty.</div>' : ''}
         </div>
-        <div class="ratio">${w.level.toUpperCase()}</div>
       </div>`;
   }
   html += `</div>`;
   el.innerHTML = html;
 
-  el.querySelectorAll('.week-row').forEach(row => {
-    row.onclick = () => {
-      state.week = +row.dataset.week;
+  const doneBtn = $('#tappa-done');
+  if (doneBtn) {
+    doneBtn.onclick = () => {
+      const next = data.curriculum.weeks[state.week]; // week je 1-based, index = další
+      if (!confirm(`Posunout se do města ${next.citta} (${next.grammar})?`)) return;
+      state.week++;
       save();
       updateWeekBadge();
       renderViaggio(el);
     };
-  });
+  }
 }
 
 /* ---------------- Progresso ---------------- */

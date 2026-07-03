@@ -308,8 +308,9 @@ h2 {
   gap: 12px;
   padding: 11px 14px;
   border-bottom: 1px solid var(--linea);
-  cursor: pointer;
 }
+
+.btn-avanti { margin-top: 8px; font-size: 0.82rem; padding: 7px 12px; }
 
 .week-row:last-child { border-bottom: none; }
 .week-row .num {
