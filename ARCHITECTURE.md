@@ -1,5 +1,6 @@
-# Allora — architektura
+# allora. architektura
 
+> Název projektu se píše vždy `allora.` (malá písmena, tečka na konci) v kódu, UI i dokumentaci.
 > Statická web app pro učení italštiny (čeština L1, A1→B1).
 > Repo: `github.com/tomekson/allora` · Web: `https://tomekson.github.io/allora/`
 > Vzor provozu: projekt banánovník (GitHub Pages PWA, free tier, verzování).

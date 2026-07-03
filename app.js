@@ -239,20 +239,20 @@ function drawCard(el) {
 
 function renderViaggio(el) {
   let html = `
-    <h2>Viaggio: 12 tapp po Itálii</h2>
-    <p class="muted">Každý týden jedna tappa v jiném městě. Tapni na tu, kde právě jsi.</p>
+    <h2>Viaggio: cesta italštinou</h2>
+    <p class="muted">12 týdnů, 12 měst. Aktuální tappa určuje obtížnost textů (A1/A2/B1) a jakou gramatiku dostaneš v další lekci. Hotovou tappu opustíš tapnutím na následující město.</p>
     <div class="card" style="padding:4px 2px">`;
   for (const w of data.curriculum.weeks) {
     const cls = w.week < state.week ? 'done' : w.week === state.week ? 'current' : '';
     html += `
       <div class="week-row ${cls}" data-week="${w.week}">
-        <div class="num">${w.week}</div>
+        <div class="num">${w.week < state.week ? '✓' : w.week}</div>
         <div class="info">
           <div class="citta">${esc(w.citta)}</div>
           <div class="g">${esc(w.grammar)}</div>
-          <div class="t">${esc(w.topic)} · ${w.level.toUpperCase()}</div>
+          <div class="t">${esc(w.topic)}</div>
         </div>
-        <div class="ratio">${esc(w.ratio)}</div>
+        <div class="ratio">${w.level.toUpperCase()}</div>
       </div>`;
   }
   html += `</div>`;
@@ -305,7 +305,7 @@ function renderProgresso(el) {
       </div>
       <input type="file" id="import-file" accept=".json" class="hidden">
     </div>
-    <p class="muted" style="text-align:center;margin-top:16px">allora v${APP_VERSION}</p>`;
+    <p class="muted" style="text-align:center;margin-top:16px">allora. v${APP_VERSION}</p>`;
 
   $('#btn-export').onclick = () => {
     const blob = new Blob([JSON.stringify(state, null, 2)], { type: 'application/json' });

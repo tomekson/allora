@@ -1,8 +1,18 @@
-# Allora — Italian Learning Project
+# allora. (Italian Learning Project)
+
+## Pravidlo názvu
+
+Projekt se jmenuje **`allora.`** a píše se VŽDY malými písmeny s tečkou na konci, napříč kódem, UI texty i dokumentací. Nikdy "Allora", nikdy "allora" bez tečky (výjimka: technické identifikátory jako název repa, složky, cache klíče).
+
+## Pravidla textů v UI
+
+- Žádné pomlčky (—) v uživatelsky viditelných textech
+- Žádné technické detaily ani vysvětlování záměru návrhu, jen co má uživatel udělat
+- Slovo "kurikulum" nepoužívat (týdenní plán = viaggio / tappa)
 
 ## Kontext
 
-Tento adresář je **allora** (dříve `~/italian`) — Italian immersion learning projekt: generování session souborů, tracking progress, vocabulary + statická web app na GitHub Pages.
+Tento adresář je **allora.** (dříve `~/italian`), Italian immersion learning projekt: generování session souborů, tracking progress, vocabulary + statická web app na GitHub Pages.
 
 - **Repo:** github.com/tomekson/allora, branch main, GitHub Pages
 - **URL:** https://tomekson.github.io/allora/
