@@ -1,0 +1,73 @@
+{
+  "week": 8,
+  "citta": "Palermo",
+  "topic": "Výlety, jídlo",
+  "title": "Gite e sapori di Sicilia",
+  "grammar": {
+    "point": "Minulý čas s essere + zájmena",
+    "summary": "Slovesa pohybu a změny stavu tvoří minulý čas s essere: sono andato/andata (šel/šla jsem), è tornata (vrátila se), siamo arrivati (přijeli jsme). Příčestí se shoduje s podmětem! Přímá zájmena: lo/la/li/le: Lo vedo (vidím ho), La compro (koupím ji). Mi piace = líbí se mi, mi piacciono (množné)."
+  },
+  "notizie": [
+    {
+      "id": "gita-al-mare",
+      "title": "Una gita al mare",
+      "levels": {
+        "a1": {
+          "it": "Domenica siamo andati al mare, a Mondello. L'acqua è azzurra e la spiaggia è bianca. Sono entrata in acqua subito! Poi siamo tornati a Palermo e abbiamo mangiato un gelato. La Sicilia mi piace moltissimo.",
+          "cz": "V neděli jsme jeli k moři, do Mondella. Voda je azurová a pláž bílá. Hned jsem vlezla do vody! Pak jsme se vrátili do Palerma a dali si zmrzlinu. Sicílie se mi moc líbí."
+        },
+        "a2": {
+          "it": "Siamo partiti presto e siamo arrivati al mercato di Ballarò alle nove. Che teatro! I venditori cantano, i pesci brillano, le arance costano un euro al chilo. Ho assaggiato il pane con la milza: l'ho comprato, l'ho guardato, l'ho mangiato. Coraggio premiato!",
+          "cz": "Vyrazili jsme brzy a na trh Ballarò dorazili v devět. To bylo divadlo! Prodavači zpívají, ryby se lesknou, pomeranče stojí euro za kilo. Ochutnal jsem chleba se slezinou: koupil jsem ho, prohlédl si ho a snědl. Odvaha odměněna!"
+        },
+        "b1": {
+          "it": "La Sicilia è un continente travestito da isola: i templi greci di Agrigento, i mosaici arabi, il barocco di Noto. Siamo saliti sull'Etna di mattina e siamo scesi in tempo per il pesce fresco al porto. Il cannolo va riempito davanti a te, mai prima: se la ricotta aspetta, la cialda si ammorbidisce. I siciliani su questo non scherzano.",
+          "cz": "Sicílie je kontinent převlečený za ostrov: řecké chrámy v Agrigentu, arabské mozaiky, baroko v Notu. Ráno jsme vystoupali na Etnu a sešli včas na čerstvé ryby v přístavu. Cannolo se má plnit před tebou, nikdy dřív: když ricotta čeká, trubička změkne. Sicilané v tomhle nežertují."
+        }
+      }
+    },
+    {
+      "id": "mi-piace",
+      "title": "Mi piace!",
+      "levels": {
+        "a1": {
+          "it": "Lucia: Ti piace la granita? Tomáš: Sì, mi piace molto! È come il sorbetto? Lucia: No! La granita è siciliana, è diversa. La mangiamo con la brioche, a colazione. Tomáš: Gelato a colazione?! La Sicilia mi piace sempre di più.",
+          "cz": "Lucia: Chutná ti granita? Tomáš: Ano, moc mi chutná! Je to jako sorbet? Lucia: Ne! Granita je sicilská, je jiná. Jíme ji s brioškou, k snídani. Tomáš: Zmrzlina k snídani?! Sicílie se mi líbí čím dál víc."
+        },
+        "a2": {
+          "it": "Mi piace funziona al contrario: la cosa piace a te. Si dice mi piace il mare, ma mi piacciono le spiagge, perché le spiagge sono plurali. Non mi piace è gentile; se vuoi essere onesto ma educato, dici: non è il mio piatto preferito. I siciliani apprezzano la diplomazia a tavola.",
+          "cz": "Mi piace funguje naopak: věc se líbí tobě. Mi piace il mare (moře se mi líbí), ale mi piacciono le spiagge, protože pláže jsou v množném čísle. Non mi piace je zdvořilé; když chceš být upřímný, ale slušný, řekni: není to moje oblíbené jídlo. Sicilané oceňují diplomacii u stolu."
+        },
+        "b1": {
+          "it": "Sono andato in Sicilia per una settimana e ci sono rimasto un mese: la frase più siciliana che esista. L'isola ti trattiene con la sua ospitalità testarda: il caffè lo paga sempre qualcun altro, il passaggio te lo offrono prima che tu lo chieda, e quando dici che ti piace la caponata, la nonna te la prepara per il viaggio.",
+          "cz": "Jel jsem na Sicílii na týden a zůstal měsíc: nejsicilštější věta, jaká existuje. Ostrov tě zadrží svou tvrdohlavou pohostinností: kávu vždycky zaplatí někdo jiný, svezení ti nabídnou dřív, než o něj požádáš, a když řekneš, že ti chutná caponata, babička ti ji připraví na cestu."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Siamo andati al mare e mi è piaciuto moltissimo.",
+    "cz": "Jeli jsme k moři a moc se mi to líbilo.",
+    "phon": "[SIÁ-mo an-DÁ-ti al MÁ-re e mi e pia-ČÚ-to mol-TÍS-si-mo]"
+  },
+  "drills": [
+    {
+      "name": "Shoda příčestí",
+      "shadow": "sono andato → sono andata → siamo andati → sono andate",
+      "trap": "Jedna forma pro všechny: „sono andato“ i pro ženu.",
+      "fix": "S essere se příčestí shoduje: žena říká sono andata."
+    },
+    {
+      "name": "Dvojité cc a zz",
+      "shadow": "piacciono → moltissimo → pizza → azzurro → arancia",
+      "trap": "„piačono“, „acuro“ s jednoduchou souhláskou.",
+      "fix": "piacciono = pia-ČČÓ-no, drž zdvojení; zz = [cc]."
+    },
+    {
+      "name": "gl a gn (Sicílie)",
+      "shadow": "famiglia → meglio → luglio → montagna → Sicilia",
+      "trap": "„me-glio“ jako g+l, „monta-gna“ jako g+n.",
+      "fix": "gli = lj jedním dotykem, gn = ň: meglio [MÈ-ljo], montagna [mon-TÁ-ňa]."
+    }
+  ]
+}

@@ -16,6 +16,12 @@
 - **News stories:** Orbán volby Maďarsko · Artemis II návrat · USA/Írán Hormuz
 - **Pronunciation focus:** r vs ř, krátké samohlásky, tvrdé t/n
 
+### 2026-07-04 — Kompletní viaggio: vygenerováno všech 12 lekcí (lezione-w01 až w12)
+- Nový model: lekce = nadčasový tematický obsah (gramatika, 2 texty × A1/A2/B1 s překlady, tematická shadow věta, 3 drily), denní zprávy žijí odděleně v Notizie
+- Slovník rozšířen na 115 slov (8 nových na tappu, odemykají se postupem)
+- Tappa = postup uživatele, posouvá se tlačítkem na konci lekce
+- Drily už bez zcestného r/ř, rotují: gemináty, gli, gn, ch/ci, němé h, přízvuky (-ano, futuro)
+
 ### 2026-07-03 — Week 1, Topic: caffè — session 3 (první v allora web app, multi-level A1/A2/B1)
 - **Grammar:** essere + pozdravy + rod (il/la) — opakování
 - **News stories:** zákaz alkoholu ve Sněmovně · summit NATO Ankara · soud lanovka Ještěd

@@ -390,6 +390,8 @@ hr.sep {
 .btn-avanti { margin-top: 8px; font-size: 0.82rem; padding: 7px 12px; }
 
 .week-row:last-child { border-bottom: none; }
+.week-row[data-week] { cursor: pointer; }
+.week-row.locked { opacity: 0.55; }
 .week-row .num {
   width: 30px; height: 30px;
   border-radius: 50%;
@@ -426,7 +428,9 @@ hr.sep {
 .stat .val { font-size: 1.7rem; font-weight: 800; color: var(--verde-scuro); }
 .stat .lbl { color: var(--grigio); font-size: 0.78rem; margin-top: 2px; }
 
-.btn-row { display: flex; gap: 8px; margin-top: 12px; flex-wrap: wrap; }
+.btn-row { display: flex; gap: 6px; margin-top: 12px; }
+
+.btn-row .btn { flex: 1; padding: 8px 4px; font-size: 0.8rem; white-space: nowrap; }
 
 .btn {
   border: 1.5px solid var(--verde);
@@ -437,6 +441,20 @@ hr.sep {
   font-size: 0.88rem;
   font-weight: 600;
   cursor: pointer;
+}
+
+.btn-avanti-big {
+  display: block;
+  width: 100%;
+  background: var(--verde);
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  padding: 13px;
+  font-size: 0.95rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin: 14px 0 4px;
 }
 
 .btn.danger { border-color: var(--rosso); color: var(--rosso); }

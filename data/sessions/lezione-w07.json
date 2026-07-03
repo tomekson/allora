@@ -1,0 +1,73 @@
+{
+  "week": 7,
+  "citta": "Firenze",
+  "topic": "Cestování",
+  "title": "In viaggio",
+  "grammar": {
+    "point": "Minulý čas (passato prossimo s avere)",
+    "summary": "Passato prossimo = avere + příčestí minulé: parlare → ho parlato, vedere → ho veduto/visto, dormire → ho dormito. Ho visitato Firenze = navštívil jsem Florencii. Časté nepravidelné tvary: fatto (fare), visto (vedere), preso (prendere), detto (dire), letto (leggere). Zápor: non ho capito."
+  },
+  "notizie": [
+    {
+      "id": "weekend-firenze",
+      "title": "Un weekend a Firenze",
+      "levels": {
+        "a1": {
+          "it": "Sabato ho visitato Firenze. Ho visto il Duomo e il Ponte Vecchio. Ho mangiato una bistecca enorme e ho comprato un gelato al pistacchio. Ho camminato tutto il giorno! La sera ho dormito come un bambino.",
+          "cz": "V sobotu jsem navštívil Florencii. Viděl jsem Dóm a Ponte Vecchio. Snědl jsem obrovský steak a koupil si pistáciovou zmrzlinu. Celý den jsem chodil! Večer jsem spal jako dítě."
+        },
+        "a2": {
+          "it": "Ho prenotato l'albergo due mesi fa e ho fatto bene: Firenze è sempre piena. Ho comprato il biglietto per gli Uffizi online e ho saltato la fila di tre ore. Davanti alla Nascita di Venere ho capito una cosa: le foto non servono. Ho guardato e basta.",
+          "cz": "Hotel jsem si zarezervoval před dvěma měsíci a udělal jsem dobře: Florencie je pořád plná. Lístek do Uffizi jsem koupil online a přeskočil tříhodinovou frontu. Před Zrozením Venuše jsem pochopil jednu věc: fotky jsou k ničemu. Díval jsem se a dost."
+        },
+        "b1": {
+          "it": "Ho sempre pensato che viaggiare significhi vedere cose nuove. A Firenze ho cambiato idea: qui ho rivisto cose che conoscevo da una vita, dai libri di scuola, e ho scoperto che dal vivo sono diverse. Il David non è una statua: è un gigante che respira. Ho fatto quello che fanno tutti, e non me ne sono pentito.",
+          "cz": "Vždycky jsem si myslel, že cestovat znamená vidět nové věci. Ve Florencii jsem změnil názor: tady jsem znovu viděl věci, které jsem znal celý život ze školních učebnic, a zjistil jsem, že naživo jsou jiné. David není socha: je to obr, který dýchá. Udělal jsem to, co dělají všichni, a nelituji toho."
+        }
+      }
+    },
+    {
+      "id": "cosa-hai-fatto",
+      "title": "Cosa hai fatto?",
+      "levels": {
+        "a1": {
+          "it": "Marco: Cosa hai fatto domenica? Anna: Ho dormito fino alle dieci! Poi ho letto un libro e ho cucinato. E tu? Marco: Io ho lavorato... Anna: Domenica?! Marco: Ho un ristorante, Anna. Anna: Ah, giusto. Hai mangiato bene almeno? Marco: Benissimo!",
+          "cz": "Marco: Co jsi dělala v neděli? Anna: Spala jsem do deseti! Pak jsem četla knížku a vařila. A ty? Marco: Já jsem pracoval... Anna: V neděli?! Marco: Mám restauraci, Anno. Anna: Aha, pravda. Najedl ses aspoň dobře? Marco: Výborně!"
+        },
+        "a2": {
+          "it": "Cosa hai fatto? è la domanda che apre ogni conversazione italiana del lunedì. La risposta ideale ha tre parti: il cibo (ho mangiato dalla nonna), le persone (ho visto gli amici) e una piccola lamentela (ma ho dormito poco). Con questa formula hai già fatto metà della conversazione.",
+          "cz": "„Co jsi dělal?“ je otázka, která otevírá každou italskou pondělní konverzaci. Ideální odpověď má tři části: jídlo (jedl jsem u babičky), lidi (viděl jsem přátele) a malé postěžování (ale málo jsem spal). S tímhle vzorcem máš půlku konverzace hotovou."
+        },
+        "b1": {
+          "it": "Il passato prossimo è il tempo della vita quotidiana: racconta quello che hai fatto oggi, ieri, quest'anno. Gli italiani lo usano anche dove i libri vorrebbero il passato remoto, che ormai vive solo nei romanzi e al sud. Impara bene i participi irregolari: fatto, visto, detto, letto, preso. Sono pochi, ma fanno metà del lavoro.",
+          "cz": "Passato prossimo je čas každodenního života: vypráví, co jsi dělal dnes, včera, letos. Italové ho používají i tam, kde by učebnice chtěly passato remoto, které už žije jen v románech a na jihu. Nauč se dobře nepravidelná příčestí: fatto, visto, detto, letto, preso. Je jich málo, ale odvedou půlku práce."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Ho visitato Firenze e ho visto il Ponte Vecchio.",
+    "cz": "Navštívil jsem Florencii a viděl Ponte Vecchio.",
+    "phon": "[o vi-zi-TÁ-to fi-RÈN-ce e o VÍS-to il PÓN-te VÈK-kio]"
+  },
+  "drills": [
+    {
+      "name": "Dvojité souhlásky (příčestí)",
+      "shadow": "fatto → detto → letto → scritto → visto",
+      "trap": "„fato“, „deto“, dvojité tt zní jako jedno.",
+      "fix": "fat-to, det-to: krátká pauza uvnitř slova. Fato (osud) × fatto (udělaný)!"
+    },
+    {
+      "name": "Němé h (ho/hai/ha)",
+      "shadow": "ho fatto → hai visto → ha detto → hanno preso",
+      "trap": "České H na začátku: „ho fatto“ s [h].",
+      "fix": "H je němé: [o FÁT-to], [ai VÍS-to]."
+    },
+    {
+      "name": "Krátké samohlásky (cestování)",
+      "shadow": "TRÉ-no → mu-ZÈ-o → al-BÈR-go → bi-LJÉT-to",
+      "trap": "„tréééno“, „muzééo“ s českou délkou.",
+      "fix": "Přízvuk ≠ délka. Přízvučná slabika je silnější, ne delší."
+    }
+  ]
+}

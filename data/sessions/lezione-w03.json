@@ -1,0 +1,73 @@
+{
+  "week": 3,
+  "citta": "Torino",
+  "topic": "Denní rutina",
+  "title": "La mia giornata",
+  "grammar": {
+    "point": "Přítomný čas sloves na -are",
+    "summary": "Pravidelná slovesa na -are: parlare → parlo, parli, parla, parliamo, parlate, parlano. Pozor na přízvuk ve 3. osobě množného čísla: PARlano, ne parlAno! Typická slovesa rutiny: lavorare (pracovat), studiare (studovat), mangiare (jíst), guardare (dívat se), comprare (kupovat)."
+  },
+  "notizie": [
+    {
+      "id": "giornata-torino",
+      "title": "Una giornata a Torino",
+      "levels": {
+        "a1": {
+          "it": "Paolo lavora a Torino. La mattina compra un caffè e un giornale. Lavora in ufficio e mangia alle tredici. La sera guarda la televisione o studia il ceco. Sì, Paolo studia il ceco: la sua ragazza è di Praga!",
+          "cz": "Paolo pracuje v Turíně. Ráno si kupuje kávu a noviny. Pracuje v kanceláři a jí v jednu hodinu. Večer se dívá na televizi nebo studuje češtinu. Ano, Paolo studuje češtinu: jeho přítelkyně je z Prahy!"
+        },
+        "a2": {
+          "it": "Torino è una città elegante e ordinata. La gente lavora molto, ma trova sempre il tempo per il rito del bicerin: caffè, cioccolato e crema in un bicchiere. Paolo arriva al lavoro alle nove, torna a casa alle diciotto e cucina la cena. Il sabato non lavora: cammina lungo il Po.",
+          "cz": "Turín je elegantní a spořádané město. Lidé hodně pracují, ale vždycky si najdou čas na rituál zvaný bicerin: káva, čokoláda a smetana ve skleničce. Paolo přichází do práce v devět, vrací se domů v osmnáct a vaří večeři. V sobotu nepracuje: prochází se podél Pádu."
+        },
+        "b1": {
+          "it": "La routine torinese ha un ritmo preciso, quasi industriale: qui è nata la FIAT e qui il tempo si rispetta. Eppure i torinesi coltivano piaceri lenti: il vermouth dell'aperitivo, i caffè storici con i tavoli di marmo, le passeggiate sotto i portici che proteggono dalla pioggia per diciotto chilometri.",
+          "cz": "Turínská rutina má přesný, skoro průmyslový rytmus: tady se narodil FIAT a čas se tu respektuje. Přesto Turíňané pěstují pomalé radosti: vermut při aperitivu, historické kavárny s mramorovými stolky, procházky pod podloubími, která chrání před deštěm celých osmnáct kilometrů."
+        }
+      }
+    },
+    {
+      "id": "che-ora",
+      "title": "A che ora?",
+      "levels": {
+        "a1": {
+          "it": "Marta: A che ora lavori? Paolo: Lavoro alle nove. E tu? Marta: Io studio la mattina e lavoro il pomeriggio. La sera cucino e ascolto la musica. Paolo: Cucini bene? Marta: Cucino... molto!",
+          "cz": "Marta: V kolik pracuješ? Paolo: Pracuji v devět. A ty? Marta: Já ráno studuji a odpoledne pracuji. Večer vařím a poslouchám hudbu. Paolo: Vaříš dobře? Marta: Vařím... hodně!"
+        },
+        "a2": {
+          "it": "Gli italiani mangiano tardi: il pranzo alle tredici, la cena alle venti o più tardi. La colazione è dolce e veloce: cappuccino e cornetto, spesso al bar. Nessuno mangia uova e pancetta la mattina! E il pomeriggio molti negozi chiudono: è la pausa, un'abitudine che il nord perde e il sud difende.",
+          "cz": "Italové jedí pozdě: oběd v jednu, večeře ve dvacet nebo později. Snídaně je sladká a rychlá: cappuccino a croissant, často v baru. Nikdo ráno nejí vejce se slaninou! A odpoledne řada obchodů zavírá: je pauza, zvyk, který sever ztrácí a jih brání."
+        },
+        "b1": {
+          "it": "Il tempo italiano si misura in riti, non in minuti. La colazione dura cinque minuti, ma il caffè dopo pranzo è obbligatorio. Si cena tardi e si parla a tavola per ore. Chi arriva in Italia impara presto una regola: gli orari sono importanti, ma le persone lo sono di più.",
+          "cz": "Italský čas se měří v rituálech, ne v minutách. Snídaně trvá pět minut, ale káva po obědě je povinná. Večeří se pozdě a u stolu se mluví hodiny. Kdo přijede do Itálie, rychle pochopí jedno pravidlo: časy jsou důležité, ale lidé jsou důležitější."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "La mattina compro un caffè e lavoro fino alle sei.",
+    "cz": "Ráno si kupuji kávu a pracuji do šesti.",
+    "phon": "[la mat-TÍ-na KOM-pro un kaf-FÈ e la-VÓ-ro FÍ-no ÁL-le SÈI]"
+  },
+  "drills": [
+    {
+      "name": "Přízvuk ve 3. os. mn. č.",
+      "shadow": "PAR-la-no → LA-vo-ra-no → GUAR-da-no → STU-dia-no",
+      "trap": "Dáváš přízvuk na předposlední slabiku: „parlÁno“.",
+      "fix": "U -ano/-ono koncovek jde přízvuk o slabiku dřív: PÁR-la-no."
+    },
+    {
+      "name": "Tvrdé t a n (rutina)",
+      "shadow": "mattina → gentile → sentire → dormire → routine",
+      "trap": "„mat-ťina“, „senťire“ s českým měkčením.",
+      "fix": "T/N před i/e vždy tvrdé jako před a/o/u."
+    },
+    {
+      "name": "sc před e/i",
+      "shadow": "esce → conosce → capisce → finisce → pesce",
+      "trap": "Čteš „es-ce“ nebo „es-ke“.",
+      "fix": "sc + e/i = š: esce [É-še], pesce [PÉ-še]."
+    }
+  ]
+}

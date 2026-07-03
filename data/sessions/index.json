@@ -1,6 +1,16 @@
 {
   "sessions": [
-    { "file": "week1-cafe-2026-04-12.json", "week": 1, "topic": "caffè", "date": "2026-04-12", "title": "Caffè al bar" },
-    { "file": "week1-cafe-2026-07-03.json", "week": 1, "topic": "caffè", "date": "2026-07-03", "title": "Caffè al bar" }
+    { "file": "lezione-w01.json", "week": 1,  "citta": "Napoli",         "topic": "Café, bar",      "title": "Al bar" },
+    { "file": "lezione-w02.json", "week": 2,  "citta": "Bologna",        "topic": "Jídlo, rodina",  "title": "La famiglia a tavola" },
+    { "file": "lezione-w03.json", "week": 3,  "citta": "Torino",         "topic": "Denní rutina",   "title": "La mia giornata" },
+    { "file": "lezione-w04.json", "week": 4,  "citta": "Roma",           "topic": "Restaurace",     "title": "Al ristorante" },
+    { "file": "lezione-w05.json", "week": 5,  "citta": "Venezia",        "topic": "Popis míst",     "title": "La città sull'acqua" },
+    { "file": "lezione-w06.json", "week": 6,  "citta": "Milano",         "topic": "Doprava, město", "title": "In giro per Milano" },
+    { "file": "lezione-w07.json", "week": 7,  "citta": "Firenze",        "topic": "Cestování",      "title": "In viaggio" },
+    { "file": "lezione-w08.json", "week": 8,  "citta": "Palermo",        "topic": "Výlety, jídlo",  "title": "Gite e sapori di Sicilia" },
+    { "file": "lezione-w09.json", "week": 9,  "citta": "Verona",         "topic": "Vzpomínky",      "title": "Ricordi" },
+    { "file": "lezione-w10.json", "week": 10, "citta": "Genova",         "topic": "Plány, přání",   "title": "Progetti e desideri" },
+    { "file": "lezione-w11.json", "week": 11, "citta": "Trieste",        "topic": "Názory",         "title": "Opinioni al caffè letterario" },
+    { "file": "lezione-w12.json", "week": 12, "citta": "Tutta l'Italia", "topic": "Volná konverzace", "title": "Il giro è completo" }
   ]
 }

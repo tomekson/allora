@@ -1,0 +1,73 @@
+{
+  "week": 11,
+  "citta": "Trieste",
+  "topic": "Názory",
+  "title": "Opinioni al caffè letterario",
+  "grammar": {
+    "point": "Konjunktiv (úvod)",
+    "summary": "Congiuntivo po slovesech názoru a pocitu: penso che sia (myslím, že je), credo che abbia (věřím, že má), spero che venga (doufám, že přijde). Přítomné tvary essere: sia, avere: abbia. Po vím/je jisté se nepoužívá: so che è. Jednoduchá past: penso che + congiuntivo, so che + indikativ."
+  },
+  "notizie": [
+    {
+      "id": "caffe-trieste",
+      "title": "Il caffè di Trieste",
+      "levels": {
+        "a1": {
+          "it": "Trieste è una città di caffè e di libri. Penso che sia la città più elegante d'Italia. Qui il cappuccino si chiama capo e il caffè si beve al tavolino, con calma. Credo che i triestini abbiano un segreto: non hanno mai fretta.",
+          "cz": "Terst je město kávy a knih. Myslím, že je to nejelegantnější město Itálie. Cappuccinu se tu říká capo a káva se pije u stolku, v klidu. Věřím, že Terstané mají tajemství: nikdy nespěchají."
+        },
+        "a2": {
+          "it": "Trieste beve più caffè di ogni altra città italiana: due volte la media nazionale. Nei suoi caffè storici scrivevano Joyce, Svevo e Saba. Ordinare qui è una scienza: un nero è l'espresso, un capo in b è un macchiato nel bicchiere. Penso che ogni tavolino di marmo abbia sentito più letteratura di una biblioteca.",
+          "cz": "Terst vypije víc kávy než kterékoli jiné italské město: dvakrát tolik, co národní průměr. V jeho historických kavárnách psali Joyce, Svevo a Saba. Objednat si tady je věda: un nero je espresso, un capo in b je macchiato ve skleničce. Myslím, že každý mramorový stolek tu slyšel víc literatury než knihovna."
+        },
+        "b1": {
+          "it": "Trieste è italiana da poco più di un secolo e non ha mai smesso di essere anche mitteleuropea: austriaca nei palazzi, slovena nei dintorni, greca e ebraica nei templi. Credo che proprio questa identità plurale sia la sua forza. La bora, il vento che qui soffia a cento all'ora, sembra fatta apposta per spazzare via le idee troppo semplici.",
+          "cz": "Terst je italský něco přes sto let a nikdy nepřestal být zároveň středoevropský: rakouský v palácích, slovinský v okolí, řecký a židovský v chrámech. Věřím, že právě tahle vícerá identita je jeho síla. Bora, vítr, který tu fouká stovkou, jako by byla stvořená k odfouknutí příliš jednoduchých myšlenek."
+        }
+      }
+    },
+    {
+      "id": "secondo-me",
+      "title": "Secondo me",
+      "levels": {
+        "a1": {
+          "it": "Lucia: Secondo me il caffè triestino è il migliore. Tomáš: Non sono d'accordo! A Napoli è più buono. Lucia: Hai ragione a metà: a Napoli è più forte. Tomáš: E secondo te, chi ha ragione? Lucia: Io, naturalmente!",
+          "cz": "Lucia: Podle mě je terstská káva nejlepší. Tomáš: Nesouhlasím! V Neapoli je lepší. Lucia: Máš napůl pravdu: v Neapoli je silnější. Tomáš: A podle tebe, kdo má pravdu? Lucia: Já, samozřejmě!"
+        },
+        "a2": {
+          "it": "Per discutere serve un kit di frasi: secondo me (podle mě), hai ragione (máš pravdu), non sono d'accordo (nesouhlasím), dipende (přijde na to). Gli italiani discutono forte ma senza rancore: la voce sale, le mani volano, e alla fine si ordina un altro giro di caffè. La discussione è uno sport, non una guerra.",
+          "cz": "K diskusi je potřeba sada frází: secondo me (podle mě), hai ragione (máš pravdu), non sono d'accordo (nesouhlasím), dipende (přijde na to). Italové diskutují nahlas, ale bez zášti: hlas stoupá, ruce létají a nakonec se objedná další runda kávy. Diskuse je sport, ne válka."
+        },
+        "b1": {
+          "it": "Il congiuntivo è il termometro dell'italiano colto: penso che sia giusto suona educato, penso che è giusto fa storcere il naso ai puristi. Ma attenzione al paradosso: metà degli italiani lo sbaglia allegramente ogni giorno. Usalo quando puoi, perdonati quando lo dimentichi, e ricorda che l'opinione conta più della grammatica che la veste.",
+          "cz": "Konjunktiv je teploměr kultivované italštiny: penso che sia zní vzdělaně, penso che è nutí puristy krčit nos. Ale pozor na paradox: půlka Italů ho vesele plete každý den. Používej ho, když můžeš, odpusť si, když ho zapomeneš, a pamatuj, že názor váží víc než gramatika, do které je oblečený."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Penso che Trieste sia la città più elegante d'Italia.",
+    "cz": "Myslím, že Terst je nejelegantnější město Itálie.",
+    "phon": "[PÈN-so ke tri-ÈS-te SÍ-a la čit-TÀ piu e-le-GÁN-te di-TÁ-lia]"
+  },
+  "drills": [
+    {
+      "name": "che = ke",
+      "shadow": "che → penso che → credo che → anche → perché",
+      "trap": "Čteš „če“ podle psané podoby.",
+      "fix": "ch před e/i je vždy K: che [ke], perché [per-KÉ]."
+    },
+    {
+      "name": "s mezi samohláskami = z",
+      "shadow": "cosa → così → chiesa → paese → mese",
+      "trap": "Ostré s všude: „kosa“, „kjesa“.",
+      "fix": "Mezi samohláskami s zní jako z: cosa [KÓ-za], paese [pa-É-ze]."
+    },
+    {
+      "name": "Dvojité souhlásky (názory)",
+      "shadow": "d'accordo → discussione → interessante → soprattutto",
+      "trap": "„dakordo“, „sopratuto“ zkráceně.",
+      "fix": "ac-COR-do, soprat-TUT-to: dvojice drž zřetelně."
+    }
+  ]
+}

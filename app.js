@@ -39,14 +39,24 @@ if ('speechSynthesis' in window) {
   speechSynthesis.onvoiceschanged = pickVoice;
 }
 
+let ttsCurrent = null; // text, který právě hraje: druhý klik = pauza, třetí = pokračování
+
 function speak(text, rate = 0.88) {
   if (!('speechSynthesis' in window)) return;
-  speechSynthesis.cancel();
+  const ss = speechSynthesis;
+  if (ttsCurrent === text && (ss.speaking || ss.paused)) {
+    if (ss.paused) ss.resume();
+    else ss.pause();
+    return;
+  }
+  ss.cancel();
+  ttsCurrent = text;
   const u = new SpeechSynthesisUtterance(text);
   u.lang = 'it-IT';
   if (itVoice) u.voice = itVoice;
   u.rate = rate;
-  speechSynthesis.speak(u);
+  u.onend = () => { if (ttsCurrent === text) ttsCurrent = null; };
+  ss.speak(u);
 }
 
 /* ---------------- SRS (SM-2 lite) ---------------- */
@@ -73,7 +83,9 @@ function dueWords() {
   const now = Date.now();
   const due = [];
   const fresh = [];
+  const unlocked = currentWeek();
   for (const w of data.vocab.words) {
+    if (w.week > unlocked) continue; // slovíčka budoucích tapp jsou zamčená
     const s = state.srs[w.id];
     if (!s) fresh.push(w);
     else if (s.due <= now) due.push(w);
@@ -92,11 +104,12 @@ function weekLevel(week) {
   return 'b1';
 }
 
-/* aktuální tappa = nejvyšší týden, pro který existuje lekce (stav obsahu, ne ruční přepínač) */
+/* aktuální tappa = tvůj postup; posouvá se tlačítkem na konci lekce */
 function currentWeek() {
-  const ss = (data.sessions && data.sessions.sessions) || [];
-  return ss.length ? Math.max(...ss.map(s => s.week)) : 1;
+  return Math.min(Math.max(state.week || 1, 1), 12);
 }
+
+let lessonView = null; // prohlížená lekce z Viaggia (null = aktuální tappa)
 
 async function fetchJson(path, opts) {
   const r = await fetch(path, opts);
@@ -206,19 +219,22 @@ async function renderNotizie(el) {
 
 async function renderLezione(el) {
   if (!data.sessions) data.sessions = await fetchJson('data/sessions/index.json');
-  const meta = data.sessions.sessions[data.sessions.sessions.length - 1];
+  const week = lessonView || currentWeek();
+  const meta = data.sessions.sessions.find(x => x.week === week) || data.sessions.sessions[0];
   if (!data.sessionCache[meta.file]) {
     data.sessionCache[meta.file] = await fetchJson('data/sessions/' + meta.file);
   }
   const s = data.sessionCache[meta.file];
-  const defaultLevel = weekLevel(currentWeek());
+  const defaultLevel = weekLevel(week);
+  const isCurrent = week === currentWeek();
 
   let html = `
     <div class="session-meta">
       <h2>Lezione: ${esc(s.title)}</h2>
-      <span class="muted">tappa ${s.week} · ${s.date}</span>
+      <span class="muted">tappa ${s.week} · ${esc(s.citta)}</span>
     </div>
-    <p class="muted">Zprávy z lekce ve třech úrovních. Obtížnost přepneš tlačítky A1/A2/B1, čeština se přepne s ní.</p>
+    ${isCurrent ? '' : `<p class="muted">Prohlížíš si dřívější tappu. Zpátky na aktuální se dostaneš přes Viaggio.</p>`}
+    <p class="muted">Texty ve třech úrovních. Obtížnost přepneš tlačítky A1/A2/B1, čeština se přepne s ní.</p>
     <div class="card grammar">
       <h3>Grammatica: ${esc(s.grammar.point)}</h3>
       <p class="testo">${esc(s.grammar.summary)}</p>
@@ -250,6 +266,8 @@ async function renderLezione(el) {
       </div>
       ${s.shadow.cz ? `<div class="cz-text hidden" id="shadow-cztext">${esc(s.shadow.cz)}</div>` : ''}
     </div>
+    ${isCurrent && week < 12 ? '<button class="btn btn-avanti-big" id="tappa-avanti">Tappa hotová, avanti! →</button>' : ''}
+    ${isCurrent && week === 12 ? '<p class="muted" style="text-align:center">Sei arrivato! Konec cesty, ale ne konec italštiny.</p>' : ''}
     <h2>Pronuncia</h2>`;
 
   s.drills.forEach(d => {
@@ -288,6 +306,19 @@ async function renderLezione(el) {
   $('#lshadow-box').onclick = lshCzToggle;
   const shCz = $('#shadow-cz');
   if (shCz) shCz.onclick = e => { e.stopPropagation(); lshCzToggle(); };
+
+  const avanti = $('#tappa-avanti');
+  if (avanti) {
+    avanti.onclick = () => {
+      const next = data.curriculum.weeks.find(w => w.week === currentWeek() + 1);
+      if (!next) return;
+      if (!confirm(`Uzavřít tappu ${currentWeek()} a pokračovat do města ${next.citta}? Odemknou se slovíčka a lekce další tappy.`)) return;
+      state.week = currentWeek() + 1;
+      lessonView = null;
+      save();
+      show('lezione');
+    };
+  }
 }
 
 /* ---------------- Parole (SRS flashcards) ---------------- */
@@ -301,7 +332,7 @@ function renderParole(el) {
 }
 
 function drawCard(el) {
-  const total = data.vocab.words.length;
+  const total = data.vocab.words.filter(w => w.week <= currentWeek()).length;
   if (!queue.length) {
     el.innerHTML = `
       <h2>Parole</h2>
@@ -359,13 +390,14 @@ function renderViaggio(el) {
   const week = currentWeek();
   let html = `
     <h2>Viaggio: cesta italštinou</h2>
-    <p class="muted">Mapa tvé cesty. 12 týdnů, 12 měst, od začátků v Napoli po volnou konverzaci. Tappa se posune sama, jakmile v aplikaci přibude lekce dalšího města — nic tu nenastavuješ, jen vidíš, kde jsi a co tě čeká.</p>
+    <p class="muted">Mapa tvé cesty. 12 týdnů, 12 měst, od začátků v Napoli po volnou konverzaci. Hotová a aktuální města si otevřeš tapnutím, další se odemknou tlačítkem na konci lekce.</p>
     <div class="card" style="padding:4px 2px">`;
   for (const w of data.curriculum.weeks) {
-    const cls = w.week < week ? 'done' : w.week === week ? 'current' : '';
+    const done = w.week < week;
+    const cls = done ? 'done' : w.week === week ? 'current' : 'locked';
     html += `
-      <div class="week-row ${cls}">
-        <div class="num">${w.week < week ? '✓' : w.week}</div>
+      <div class="week-row ${cls}" ${w.week <= week ? `data-week="${w.week}"` : ''}>
+        <div class="num">${done ? '✓' : w.week}</div>
         <div class="info">
           <div class="citta">${esc(w.citta)}</div>
           <div class="g">${esc(w.grammar)}</div>
@@ -376,6 +408,13 @@ function renderViaggio(el) {
   }
   html += `</div>`;
   el.innerHTML = html;
+
+  el.querySelectorAll('.week-row[data-week]').forEach(row => {
+    row.onclick = () => {
+      lessonView = +row.dataset.week;
+      show('lezione');
+    };
+  });
 }
 
 /* ---------------- Progresso ---------------- */
@@ -390,7 +429,7 @@ function streak() {
 }
 
 function renderProgresso(el) {
-  const total = data.vocab.words.length;
+  const total = data.vocab.words.filter(w => w.week <= currentWeek()).length;
   const learned = Object.values(state.srs).filter(s => s.interval >= 21).length;
   const started = Object.keys(state.srs).length;
   const due = dueWords().length;
@@ -409,9 +448,9 @@ function renderProgresso(el) {
     <div class="card">
       <p class="muted">Pokrok se ukládá jen v tomto zařízení. Přenos jinam: export → import.</p>
       <div class="btn-row">
-        <button class="btn" id="btn-export">⬇️ Export</button>
-        <button class="btn" id="btn-import">⬆️ Import</button>
-        <button class="btn danger" id="btn-reset">Smazat progress</button>
+        <button class="btn" id="btn-export">Export</button>
+        <button class="btn" id="btn-import">Import</button>
+        <button class="btn danger" id="btn-reset">Smazat</button>
       </div>
       <input type="file" id="import-file" accept=".json" class="hidden">
     </div>

@@ -1,0 +1,73 @@
+{
+  "week": 1,
+  "citta": "Napoli",
+  "topic": "Café, bar",
+  "title": "Al bar",
+  "grammar": {
+    "point": "essere + pozdravy + rod (il/la)",
+    "summary": "Sloveso essere (být): io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono. Pozdravy podle denní doby: buongiorno (do ~17h), buonasera (po 17h), ciao (neformální, pozdrav i rozloučení). Rod: il = mužský, la = ženský. Pozor na výjimky, il problema je mužský!"
+  },
+  "notizie": [
+    {
+      "id": "al-banco",
+      "title": "Al banco",
+      "levels": {
+        "a1": {
+          "it": "Buongiorno! Io sono Marco, il barista. Il bar è piccolo ma bello. Il caffè è buono e il cornetto è fresco. Tu sei turista? Benvenuto a Napoli!",
+          "cz": "Dobrý den! Já jsem Marco, barista. Bar je malý, ale hezký. Káva je dobrá a croissant je čerstvý. Ty jsi turista? Vítej v Neapoli!"
+        },
+        "a2": {
+          "it": "Sono le otto di mattina e il bar di Marco è già pieno. I napoletani bevono il caffè al banco, in piedi, in trenta secondi. Il cappuccino va bene solo la mattina: dopo pranzo è un errore da turisti!",
+          "cz": "Je osm hodin ráno a Marcův bar je už plný. Neapolitánci pijí kávu u pultu, ve stoje, za třicet vteřin. Cappuccino se hodí jen ráno: po obědě je to turistická chyba!"
+        },
+        "b1": {
+          "it": "Il bar all'italiana è un rito quotidiano: si entra, si saluta, si paga alla cassa e poi si beve l'espresso al banco. A Napoli esiste anche il caffè sospeso, una tradizione generosa: paghi due caffè, uno per te e uno per uno sconosciuto che verrà dopo.",
+          "cz": "Bar po italsku je každodenní rituál: vejdeš, pozdravíš, zaplatíš u kasy a pak vypiješ espresso u pultu. V Neapoli existuje i caffè sospeso, štědrá tradice: zaplatíš dvě kávy, jednu pro sebe a jednu pro neznámého, který přijde po tobě."
+        }
+      }
+    },
+    {
+      "id": "ordinare",
+      "title": "Come si ordina",
+      "levels": {
+        "a1": {
+          "it": "Cliente: Buongiorno, un caffè, per favore. Marco: Subito! Ecco il caffè. Cliente: Grazie! Quanto costa? Marco: Un euro. Cliente: Ecco. Arrivederci! Marco: Grazie, buona giornata!",
+          "cz": "Zákazník: Dobrý den, jednu kávu, prosím. Marco: Hned! Tady je káva. Zákazník: Děkuji! Kolik to stojí? Marco: Jedno euro. Zákazník: Tady je. Na shledanou! Marco: Děkuji, hezký den!"
+        },
+        "a2": {
+          "it": "In Italia il caffè è sempre un espresso: piccolo, forte e veloce. Se vuoi un caffè lungo, devi chiedere un americano. Vorrei è la parola magica: Vorrei un cappuccino e un cornetto, per favore. Con vorrei sei sempre gentile.",
+          "cz": "V Itálii je káva vždycky espresso: malé, silné a rychlé. Jestli chceš velkou kávu, musíš si říct o americano. Vorrei je kouzelné slovo: Chtěl bych cappuccino a croissant, prosím. S vorrei jsi vždycky zdvořilý."
+        },
+        "b1": {
+          "it": "Ordinare al bar ha le sue regole non scritte. Prima si paga alla cassa, poi si mostra lo scontrino al barista. Il ristretto è per i puristi, il macchiato ha una goccia di latte, il corretto nasconde un po' di grappa. E ricorda: chiedere un latte significa ricevere un bicchiere di latte freddo!",
+          "cz": "Objednávání v baru má svá nepsaná pravidla. Nejdřív se platí u kasy, pak se ukáže účtenka baristovi. Ristretto je pro puristy, macchiato má kapku mléka, corretto skrývá trochu grappy. A pamatuj: říct si o latte znamená dostat sklenici studeného mléka!"
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Vorrei un caffè, per favore.",
+    "cz": "Chtěl bych kávu, prosím.",
+    "phon": "[vor-RÈI un kaf-FÈ per fa-VÓ-re]"
+  },
+  "drills": [
+    {
+      "name": "Dvojité souhlásky (rr, ff, tt)",
+      "shadow": "vorrei → caffè → cornetto → arrivederci → tutto",
+      "trap": "Čeština dvojité souhlásky nemá, řekneš „kafé“ nebo „koneto“ s jednou.",
+      "fix": "Dvojitou souhlásku podrž skoro dvakrát déle, mění význam: caro (drahý) × carro (vůz)."
+    },
+    {
+      "name": "Krátké samohlásky",
+      "shadow": "caf-FÈ → LÚ-na → GRÁ-cie → pre-GO → BÁR",
+      "trap": "„kafééé“, „lúúna“ s českými délkami.",
+      "fix": "Délka samohlásky v italštině nikdy nemění význam. Všechny krátké a ostré."
+    },
+    {
+      "name": "Tvrdé t a n",
+      "shadow": "cornetto → niente → gentile → benvenuto → turista",
+      "trap": "„nien-ťe“, „genti-le“ s měkčením před e/i.",
+      "fix": "Italské T/N vždy tvrdé, jako české T/N před A/O/U."
+    }
+  ]
+}

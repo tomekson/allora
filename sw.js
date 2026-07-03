@@ -1,5 +1,5 @@
 /* allora service worker — verze CACHE drž synchronně s APP_VERSION (index.html) a version.json */
-const CACHE = 'allora-v4.01';
+const CACHE = 'allora-v5.01';
 
 const SHELL = [
   './',
@@ -12,8 +12,6 @@ const SHELL = [
   'data/vocab.json',
   'data/curriculum.json',
   'data/sessions/index.json',
-  'data/sessions/week1-cafe-2026-04-12.json',
-  'data/sessions/week1-cafe-2026-07-03.json',
 ];
 
 self.addEventListener('install', e => {

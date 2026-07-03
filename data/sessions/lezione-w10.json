@@ -1,0 +1,73 @@
+{
+  "week": 10,
+  "citta": "Genova",
+  "topic": "Plány, přání",
+  "title": "Progetti e desideri",
+  "grammar": {
+    "point": "Budoucí čas + kondicionál",
+    "summary": "Futuro: parlerò, parlerai, parlerà, parleremo, parlerete, parleranno. Přízvuk na koncovce: parlerÒ! Nepravidelné: sarò (essere), avrò (avere), andrò (andare), farò (fare). Kondicionál pro přání a zdvořilost: vorrei (chtěl bych), mi piacerebbe (líbilo by se mi), potrebbe...? (mohl byste...?)."
+  },
+  "notizie": [
+    {
+      "id": "anno-prossimo",
+      "title": "L'anno prossimo",
+      "levels": {
+        "a1": {
+          "it": "L'anno prossimo andrò in Italia per un mese. Visiterò Genova e il mare ligure. Mangerò il pesto ogni giorno! Parlerò solo italiano, niente ceco, niente inglese. Sarà difficile ma sarà bellissimo.",
+          "cz": "Příští rok pojedu na měsíc do Itálie. Navštívím Janov a ligurské moře. Každý den budu jíst pesto! Budu mluvit jen italsky, žádná čeština, žádná angličtina. Bude to těžké, ale bude to nádherné."
+        },
+        "a2": {
+          "it": "Genova è la città dei naviganti: da qui partivano le navi verso mondi nuovi. Il porto antico oggi ha l'acquario più grande d'Italia, e i vicoli, i famosi caruggi, nascondono botteghe che non cambieranno mai. Chi verrà qui capirà subito una cosa: il pesto vero non si compra al supermercato.",
+          "cz": "Janov je město mořeplavců: odsud vyplouvaly lodě do nových světů. Starý přístav má dnes největší akvárium v Itálii a uličky, slavné caruggi, skrývají krámky, které se nikdy nezmění. Kdo sem přijede, hned pochopí jednu věc: pravé pesto se v supermarketu nekoupí."
+        },
+        "b1": {
+          "it": "Fare progetti all'italiana è un'arte dell'equilibrio: il futuro esprime l'intenzione, il condizionale la prudenza. Verrò di sicuro suona impegnativo; mi piacerebbe venire lascia una via d'uscita elegante. Non è indecisione, è saggezza mediterranea: i piani migliori sono quelli che lasciano spazio al caso, e magari a un invito a cena.",
+          "cz": "Plánovat po italsku je umění rovnováhy: budoucí čas vyjadřuje záměr, kondicionál opatrnost. „Určitě přijdu“ zní závazně; „rád bych přišel“ nechává elegantní únikovou cestu. Není to nerozhodnost, je to středomořská moudrost: nejlepší plány jsou ty, které nechávají prostor náhodě, a třeba pozvání na večeři."
+        }
+      }
+    },
+    {
+      "id": "vorrei",
+      "title": "Vorrei...",
+      "levels": {
+        "a1": {
+          "it": "Tomáš: Un giorno vorrei parlare italiano perfettamente. Lucia: Perché? Tomáš: Vorrei ordinare al ristorante senza paura. E vorrei capire le canzoni! Lucia: Allora studierai ogni giorno. Tomáš: Sì. E un giorno vivrò in Italia... forse!",
+          "cz": "Tomáš: Jednou bych chtěl mluvit italsky dokonale. Lucia: Proč? Tomáš: Chtěl bych objednávat v restauraci beze strachu. A chtěl bych rozumět písničkám! Lucia: Tak budeš studovat každý den. Tomáš: Ano. A jednou budu žít v Itálii... možná!"
+        },
+        "a2": {
+          "it": "Vorrei è la parola più utile dell'italiano: apre tutte le porte con gentilezza. Vorrei un caffè, vorrei prenotare un tavolo, vorrei un'informazione. Al mercato funziona anche il condizionale dei sogni: quanto costerebbe questa giacca? Il venditore capisce che sei interessato ma prudente, e il prezzo, misteriosamente, scende.",
+          "cz": "Vorrei je nejužitečnější slovo italštiny: otevírá všechny dveře zdvořilostí. Chtěl bych kávu, chtěl bych zarezervovat stůl, chtěl bych informaci. Na trhu funguje i kondicionál snů: kolik by stála tahle bunda? Prodavač pochopí, že máš zájem, ale jsi opatrný, a cena záhadně klesá."
+        },
+        "b1": {
+          "it": "C'è una differenza sottile tra voglio e vorrei: la prima è una pretesa, la seconda un invito alla collaborazione. Gli italiani, maestri di diplomazia quotidiana, usano il condizionale anche quando sono sicurissimi: saprebbe dirmi che ore sono? La certezza vestita di dubbio è la forma più alta di cortesia.",
+          "cz": "Mezi voglio (chci) a vorrei (chtěl bych) je jemný rozdíl: první je požadavek, druhé pozvání ke spolupráci. Italové, mistři každodenní diplomacie, používají kondicionál, i když jsou si naprosto jistí: „uměl byste mi říct, kolik je hodin?“ Jistota oblečená do pochybnosti je nejvyšší forma zdvořilosti."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Un giorno vivrò in Italia e parlerò italiano.",
+    "cz": "Jednou budu žít v Itálii a budu mluvit italsky.",
+    "phon": "[un DŽÓR-no vi-VRÒ in i-TÁ-lia e par-le-RÒ i-ta-liÁ-no]"
+  },
+  "drills": [
+    {
+      "name": "Přízvuk futura (na konci!)",
+      "shadow": "parlerò → andrà → sarà → vivrò → farà",
+      "trap": "„parlÉro“, přízvuk na kmeni jako v přítomném čase.",
+      "fix": "Futuro má přízvuk na poslední slabice: parle-RÒ, sa-RÀ."
+    },
+    {
+      "name": "rr v kondicionálu",
+      "shadow": "vorrei → verrebbe → potrebbe → vorrebbero → arriverò",
+      "trap": "„vorei“ s jedním r.",
+      "fix": "vor-REI: dvojité r trylkni déle, jinak zní jako voleresti."
+    },
+    {
+      "name": "Krátké samohlásky (plány)",
+      "shadow": "fu-TÚ-ro → do-MÁ-ni → SÓ-ňo → pro-DŽÈT-to",
+      "trap": "„futúúro“, „domááni“ s délkami.",
+      "fix": "I přízvučná samohláska zůstává krátká a ostrá."
+    }
+  ]
+}

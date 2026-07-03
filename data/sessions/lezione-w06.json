@@ -1,0 +1,73 @@
+{
+  "week": 6,
+  "citta": "Milano",
+  "topic": "Doprava, město",
+  "title": "In giro per Milano",
+  "grammar": {
+    "point": "Předložky + směry",
+    "summary": "Předložky se členem se spojují: a + il = al, di + la = della, in + il = nel, su + il = sul. Vado al bar, vengo dalla stazione, sono nel treno. Směry: a destra (doprava), a sinistra (doleva), dritto (rovně), vicino a (blízko), lontano da (daleko od). Jedu do města = vado in città, jedu do Milána = vado a Milano (města = a, země = in)."
+  },
+  "notizie": [
+    {
+      "id": "metro-milano",
+      "title": "La metropolitana",
+      "levels": {
+        "a1": {
+          "it": "Milano ha la metropolitana: la linea rossa, verde, gialla, lilla e blu. Kateřina va al Duomo. Prende la linea rossa e scende alla fermata Duomo. Il biglietto costa due euro e venti. È facile! Ma attenzione: il biglietto va timbrato.",
+          "cz": "Milán má metro: červenou, zelenou, žlutou, fialovou a modrou linku. Kateřina jede k Dómu. Jede červenou linkou a vystupuje na zastávce Duomo. Lístek stojí dvě eura dvacet. Je to snadné! Ale pozor: lístek se musí označit."
+        },
+        "a2": {
+          "it": "A Milano tutto corre: i tram storici del ventotto, i treni della metro ogni due minuti, i milanesi con il caffè in mano. Dalla stazione Centrale vai al centro in dieci minuti. Il tram numero uno passa davanti al Teatro alla Scala e attraversa la città vecchia: è un museo su rotaie.",
+          "cz": "V Miláně všechno běží: historické tramvaje z osmadvacátého roku, vlaky metra každé dvě minuty, Milánčané s kávou v ruce. Z hlavního nádraží jsi v centru za deset minut. Tramvaj číslo jedna jezdí kolem divadla La Scala a projíždí starým městem: je to muzeum na kolejích."
+        },
+        "b1": {
+          "it": "Milano è l'unica città italiana dove il tempo è denaro e la puntualità una religione. Eppure anche qui vale la regola nazionale: l'ultimo chilometro si fa a piedi, perché la città si capisce solo camminando. Dal Duomo alla Galleria, dalla Galleria alla Scala: le distanze sono corte, le vetrine lunghissime.",
+          "cz": "Milán je jediné italské město, kde čas jsou peníze a dochvilnost náboženství. Přesto i tady platí národní pravidlo: poslední kilometr se jde pěšky, protože město pochopíš jen chůzí. Od Dómu ke Galerii, od Galerie k La Scale: vzdálenosti jsou krátké, výlohy nekonečné."
+        }
+      }
+    },
+    {
+      "id": "come-arrivo",
+      "title": "Come arrivo a...?",
+      "levels": {
+        "a1": {
+          "it": "Kateřina: Scusi, come arrivo alla stazione? Signore: Vada dritto, poi a sinistra al semaforo. La stazione è vicino alla banca. Kateřina: Quanto tempo? Signore: Cinque minuti a piedi. Kateřina: Perfetto, grazie mille!",
+          "cz": "Kateřina: Promiňte, jak se dostanu na nádraží? Pán: Jděte rovně, pak na semaforu doleva. Nádraží je blízko banky. Kateřina: Jak dlouho? Pán: Pět minut pěšky. Kateřina: Perfektní, mockrát děkuji!"
+        },
+        "a2": {
+          "it": "Chiedere la strada in Italia è un'esperienza sociale. La risposta arriva con le mani: sempre dritto significa un gesto lungo in avanti, a due passi vuol dire vicino, ma attenzione: per un italiano anche un chilometro è a due passi. Se la spiegazione è troppo lunga, il signore ti accompagna direttamente.",
+          "cz": "Zeptat se na cestu je v Itálii společenský zážitek. Odpověď přichází s rukama: pořád rovně znamená dlouhé gesto vpřed, „dva kroky odsud“ znamená blízko, ale pozor: pro Itala jsou i kilometr „dva kroky“. Když je vysvětlení moc dlouhé, pán tě rovnou doprovodí."
+        },
+        "b1": {
+          "it": "Il trasporto pubblico italiano ha le sue liturgie: il biglietto si compra in tabaccheria, si timbra alla macchinetta gialla e si conserva fino alla fine. Il controllore appare sempre quando meno te lo aspetti. E lo sciopero, annunciato con settimane di anticipo, è quasi un'istituzione nazionale: i milanesi lo chiamano semplicemente venerdì.",
+          "cz": "Italská veřejná doprava má své liturgie: lístek se kupuje v trafice, označuje ve žlutém strojku a schovává až do konce. Revizor se objeví vždycky, když ho nejmíň čekáš. A stávka, ohlášená týdny dopředu, je skoro národní instituce: Milánčané jí říkají prostě pátek."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Scusi, come arrivo alla stazione? Sempre dritto e poi a destra.",
+    "cz": "Promiňte, jak se dostanu na nádraží? Pořád rovně a pak doprava.",
+    "phon": "[SKÚ-zi KÓ-me ar-RÍ-vo ÁL-la sta-CIÓ-ne SÈM-pre DRÍT-to e pói a DÈS-tra]"
+  },
+  "drills": [
+    {
+      "name": "Spojené předložky",
+      "shadow": "al bar → alla stazione → nel treno → della città → sul tram",
+      "trap": "Říkáš „a la stazione“ odděleně.",
+      "fix": "Předložka + člen = jedno slovo: a+la = alla, vyslov vcelku."
+    },
+    {
+      "name": "Dvojité souhlásky (město)",
+      "shadow": "biglietto → tabaccheria → attraversa → dritto → fermata",
+      "trap": "„bileto“, „drito“ s jednou souhláskou.",
+      "fix": "biglietto = bi-ljét-to, podrž tt."
+    },
+    {
+      "name": "č vs. k (ci/chi)",
+      "shadow": "città → cinque → chilometro → macchina → vicino",
+      "trap": "Pleteš ci [či] a chi [ki]: „kità“, „čilometro“.",
+      "fix": "c+i/e = č (città), ch+i/e = k (chilometro)."
+    }
+  ]
+}

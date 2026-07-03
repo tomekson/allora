@@ -1,0 +1,73 @@
+{
+  "week": 4,
+  "citta": "Roma",
+  "topic": "Restaurace",
+  "title": "Al ristorante",
+  "grammar": {
+    "point": "Přítomný čas na -ere/-ire + zápor",
+    "summary": "Slovesa na -ere: prendere → prendo, prendi, prende, prendiamo, prendete, prendono. Na -ire: dormire → dormo; typ capire vkládá -isc-: capisco, capisci, capisce. Zápor je jednoduchý: non před sloveso. Non capisco = nerozumím. Non prendo il dolce = nedám si dezert."
+  },
+  "notizie": [
+    {
+      "id": "trattoria",
+      "title": "In trattoria",
+      "levels": {
+        "a1": {
+          "it": "Cameriere: Buonasera! Cosa prendete? Anna: Io prendo la carbonara. Marco: Io non mangio la carne. Avete un piatto senza carne? Cameriere: Certo! La pasta al pomodoro. Marco: Perfetto, e da bere prendiamo l'acqua e il vino della casa.",
+          "cz": "Číšník: Dobrý večer! Co si dáte? Anna: Já si dám carbonaru. Marco: Já nejím maso. Máte jídlo bez masa? Číšník: Jistě! Těstoviny s rajčaty. Marco: Perfektní, a k pití si dáme vodu a rozlévané víno."
+        },
+        "a2": {
+          "it": "A Roma la trattoria è una seconda casa. Il menù ha quattro parti: antipasto, primo, secondo e dolce, ma nessuno prende tutto. I romani difendono le loro quattro paste sacre: carbonara, amatriciana, gricia e cacio e pepe. Se chiedi la panna nella carbonara, il cameriere non risponde: piange.",
+          "cz": "V Římě je trattoria druhý domov. Menu má čtyři části: předkrm, první chod, druhý chod a dezert, ale nikdo si nedává všechno. Římané brání své čtyři svaté těstoviny: carbonara, amatriciana, gricia a cacio e pepe. Když si řekneš o smetanu do carbonary, číšník neodpoví: pláče."
+        },
+        "b1": {
+          "it": "Il coperto è la prima sorpresa del turista: uno o due euro per il pane e il posto a tavola. Non è una truffa, è tradizione. La seconda sorpresa: il conto non arriva mai da solo, bisogna chiederlo, perché nessun cameriere italiano vuole cacciare un ospite. E la mancia? Gradita ma non obbligatoria: il servizio si paga con il ritorno, non con le monete.",
+          "cz": "Coperto je první překvapení turisty: euro dvě za chleba a místo u stolu. Není to podvod, je to tradice. Druhé překvapení: účet nikdy nepřijde sám, musíš si o něj říct, protože žádný italský číšník nechce hosta vyhánět. A spropitné? Potěší, ale není povinné: obsluha se platí tím, že se vrátíš, ne mincemi."
+        }
+      }
+    },
+    {
+      "id": "non-capisco",
+      "title": "Non capisco!",
+      "levels": {
+        "a1": {
+          "it": "Tomáš legge il menù ma non capisce una parola. Chiede: Scusi, cosa sono i saltimbocca? Il cameriere sorride e risponde: Carne con prosciutto e salvia. Molto buoni! Tomáš prende i saltimbocca. Dopo dice: Ora capisco il nome: saltano in bocca!",
+          "cz": "Tomáš čte menu, ale nerozumí ani slovu. Ptá se: Promiňte, co jsou saltimbocca? Číšník se usměje a odpoví: Maso se šunkou a šalvějí. Moc dobré! Tomáš si dá saltimbocca. Potom říká: Teď rozumím tomu názvu: skáčou do pusy!"
+        },
+        "a2": {
+          "it": "Al ristorante le parole nuove non finiscono mai. Non capisci qualcosa? Chiedi senza paura: Cosa significa? oppure Cosa mi consiglia? I camerieri romani amano spiegare e odiano i clienti che ordinano senza guardare. Chi chiede, mangia meglio.",
+          "cz": "V restauraci nová slova nikdy nekončí. Něčemu nerozumíš? Zeptej se beze strachu: Co to znamená? nebo Co mi doporučíte? Římští číšníci milují vysvětlování a nesnáší zákazníky, kteří objednávají bez koukání. Kdo se ptá, ten se nají líp."
+        },
+        "b1": {
+          "it": "Il vero test dell'italiano non è il museo, è il ristorante. Qui senti il dialetto, le battute veloci, i nomi dei piatti che nessun corso insegna. Il segreto è semplice: non fingere di capire. Un onesto non ho capito, può ripetere? apre più porte di dieci frasi perfette imparate a memoria.",
+          "cz": "Skutečný test italštiny není muzeum, ale restaurace. Tady slyšíš dialekt, rychlé vtipy, názvy jídel, které žádný kurz neučí. Tajemství je prosté: nepředstírej, že rozumíš. Upřímné „nerozuměl jsem, můžete to zopakovat?“ otevře víc dveří než deset dokonalých vět naučených nazpaměť."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Non capisco. Cosa mi consiglia?",
+    "cz": "Nerozumím. Co mi doporučíte?",
+    "phon": "[non ka-PÍS-ko KÓ-za mi kon-SÍL-ja]"
+  },
+  "drills": [
+    {
+      "name": "gn (gnocchi!)",
+      "shadow": "gnocchi → signora → lasagne → bisogno → ogni",
+      "trap": "Čteš „g-nokki“ se dvěma hláskami.",
+      "fix": "gn = české ň: gnocchi [ŇÓK-ki], signora [si-ŇÓ-ra]."
+    },
+    {
+      "name": "Dvojité souhlásky (jídlo)",
+      "shadow": "spaghetti → mozzarella → tagliatelle → bruschetta → panna",
+      "trap": "„spageti“, „mocarela“ po česku s jednou souhláskou.",
+      "fix": "Zastav se na dvojité souhlásce: spa-ghet-ti, moz-za-rel-la."
+    },
+    {
+      "name": "ch = k (bruschetta!)",
+      "shadow": "bruschetta → chianti → zucchine → che → chiedo",
+      "trap": "Říkáš „brušeta“ podle angličtiny.",
+      "fix": "ch je vždy K: bruschetta [brus-KÉT-ta], Chianti [ki-ÁN-ti]."
+    }
+  ]
+}

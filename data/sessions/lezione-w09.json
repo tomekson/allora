@@ -1,0 +1,73 @@
+{
+  "week": 9,
+  "citta": "Verona",
+  "topic": "Vzpomínky",
+  "title": "Ricordi",
+  "grammar": {
+    "point": "Imperfetto (popis a zvyk v minulosti)",
+    "summary": "Imperfetto popisuje, jaké to bývalo: parlavo, parlavi, parlava, parlavamo, parlavate, parlavano. Essere: ero, eri, era... Používá se pro zvyky (ogni estate andavamo al mare = každé léto jsme jezdili k moři) a popisy (era una bella giornata = byl krásný den). Kombinace s passato prossimo: Dormivo quando hai chiamato = spal jsem, když jsi zavolal."
+  },
+  "notizie": [
+    {
+      "id": "estate-nonni",
+      "title": "Le estati dai nonni",
+      "levels": {
+        "a1": {
+          "it": "Da bambino passavo le estati dai nonni vicino a Verona. La nonna cucinava e cantava. Il nonno aveva un orto e un cane, Bruno. Ogni sera mangiavamo fuori e guardavamo le stelle. Ero felice e non lo sapevo.",
+          "cz": "Jako dítě jsem trávil léta u prarodičů blízko Verony. Babička vařila a zpívala. Děda měl zahradu a psa Bruna. Každý večer jsme jedli venku a dívali se na hvězdy. Byl jsem šťastný a nevěděl jsem to."
+        },
+        "a2": {
+          "it": "La casa dei nonni era vecchia e profumava di legna. La mattina il gallo cantava alle cinque e io mi arrabbiavo; oggi pagherei per sentirlo. Il nonno raccontava sempre le stesse storie della guerra, e noi bambini le ascoltavamo come se fossero nuove. Erano gli anni in cui il tempo non correva: camminava.",
+          "cz": "Dům prarodičů byl starý a voněl dřevem. Ráno kohout kokrhal v pět a já se zlobil; dneska bych za to zaplatil. Děda vyprávěl pořád ty samé historky z války a my děti jsme je poslouchaly, jako by byly nové. Byly to roky, kdy čas neběžel: šel krokem."
+        },
+        "b1": {
+          "it": "Verona è la città giusta per i ricordi: qui Shakespeare ambientò la storia d'amore più famosa del mondo senza averla mai vista. Sotto il balcone di Giulietta i turisti lasciano biglietti d'amore, e non importa che il balcone sia stato aggiunto nel Novecento. La memoria, come l'amore, non ha bisogno di essere esatta per essere vera.",
+          "cz": "Verona je to pravé město pro vzpomínky: Shakespeare sem zasadil nejslavnější milostný příběh světa, aniž by ji kdy viděl. Pod Juliiným balkonem nechávají turisté milostné vzkazy a nevadí, že balkon byl přistavěn až ve dvacátém století. Paměť, stejně jako láska, nepotřebuje být přesná, aby byla pravdivá."
+        }
+      }
+    },
+    {
+      "id": "quando-ero-piccolo",
+      "title": "Quando ero piccolo",
+      "levels": {
+        "a1": {
+          "it": "Anna: Cosa facevi da piccola? Marta: Giocavo in strada con i vicini. Non avevamo il telefonino! Anna: E cosa guardavi in TV? Marta: I cartoni, ogni pomeriggio alle cinque. Anna: Anche io! Forse guardavamo gli stessi.",
+          "cz": "Anna: Co jsi dělala jako malá? Marta: Hrála jsem si na ulici se sousedy. Neměli jsme mobil! Anna: A na co ses dívala v televizi? Marta: Na kreslené pohádky, každé odpoledne v pět. Anna: Já taky! Možná jsme se dívaly na ty samé."
+        },
+        "a2": {
+          "it": "Quando ero piccolo è l'inizio perfetto per ogni racconto italiano. Con l'imperfetto descrivi il mondo com'era: la scuola cominciava alle otto, la mamma preparava la merenda, d'estate andavamo sempre dagli zii. È il tempo della nostalgia, e l'Italia della nostalgia è una specialista mondiale.",
+          "cz": "„Když jsem byl malý“ je dokonalý začátek každého italského vyprávění. Imperfektem popíšeš svět, jaký býval: škola začínala v osm, máma chystala svačinu, v létě jsme vždycky jezdili ke strýci. Je to čas nostalgie a Itálie je na nostalgii světový specialista."
+        },
+        "b1": {
+          "it": "L'imperfetto e il passato prossimo lavorano in coppia come una macchina da presa: l'imperfetto filma la scena (pioveva, la strada era vuota), il passato prossimo registra l'azione (è arrivato un uomo). Chi padroneggia questa danza racconta storie vere; chi la ignora elenca fatti. E gli italiani, si sa, non elencano mai: raccontano.",
+          "cz": "Imperfetto a passato prossimo pracují v páru jako filmová kamera: imperfetto natáčí scénu (pršelo, ulice byla prázdná), passato prossimo zaznamenává děj (přišel muž). Kdo zvládne tenhle tanec, vypráví skutečné příběhy; kdo ho ignoruje, vyjmenovává fakta. A Italové, jak známo, nikdy nevyjmenovávají: vyprávějí."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Da bambino passavo le estati dai nonni.",
+    "cz": "Jako dítě jsem trávil léta u prarodičů.",
+    "phon": "[da bam-BÍ-no pas-SÁ-vo le es-TÁ-ti dai NÓN-ni]"
+  },
+  "drills": [
+    {
+      "name": "Přízvuk imperfetta",
+      "shadow": "par-LÁ-vo → par-LÁ-va → par-la-VÁ-mo → PAR-la-va-no",
+      "trap": "„parlavÁno“ s přízvukem na -va- ve 3. os. mn. č.",
+      "fix": "loro parlavano = par-LÁ-va-no, přízvuk zůstává na kmeni."
+    },
+    {
+      "name": "Dvojité ss a nn",
+      "shadow": "passavo → interessante → anno → nonni → sassi",
+      "trap": "„pasavo“, „ano“ s jednou souhláskou.",
+      "fix": "anno (rok) × ano (řitní otvor!) — tady dvojité n opravdu rozhoduje."
+    },
+    {
+      "name": "v vs. b",
+      "shadow": "avevo → bevevo → viveva → arrivavano",
+      "trap": "Polykáš retozubné v, zní jako obouretné.",
+      "fix": "Italské v = české v, jasně zuby na ret: a-VÉ-vo."
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "week": 2,
+  "citta": "Bologna",
+  "topic": "Jídlo, rodina",
+  "title": "La famiglia a tavola",
+  "grammar": {
+    "point": "avere + členy",
+    "summary": "Sloveso avere (mít): io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno. H se nikdy nevyslovuje! Určité členy: il/lo/la (jednotné), i/gli/le (množné). Neurčité: un/uno/una. Ho fame = mám hlad, ho sete = mám žízeň (doslova „mám hlad/žízeň“, ne „jsem hladový“)."
+  },
+  "notizie": [
+    {
+      "id": "pranzo-domenica",
+      "title": "Il pranzo della domenica",
+      "levels": {
+        "a1": {
+          "it": "La famiglia Rossi ha una casa a Bologna. La nonna ha ottanta anni e ha una cucina grande. La domenica tutta la famiglia mangia insieme: la pasta, la carne e il dolce. Il pranzo è lungo ma è bello!",
+          "cz": "Rodina Rossiových má dům v Boloni. Babička má osmdesát let a má velkou kuchyni. V neděli jí celá rodina spolu: těstoviny, maso a dezert. Oběd je dlouhý, ale je to krásné!"
+        },
+        "a2": {
+          "it": "A Bologna il pranzo della domenica è sacro. La nonna prepara le tagliatelle al ragù dalla mattina. A tavola ci sono i genitori, i figli, gli zii e i cugini. Tutti parlano, tutti hanno fame e nessuno ha fretta.",
+          "cz": "V Boloni je nedělní oběd svatý. Babička připravuje tagliatelle s ragù už od rána. U stolu jsou rodiče, děti, strýcové a bratranci. Všichni mluví, všichni mají hlad a nikdo nespěchá."
+        },
+        "b1": {
+          "it": "Bologna si chiama la Grassa per la sua cucina ricca. Qui il ragù non si mette mai sugli spaghetti: i bolognesi lo servono con le tagliatelle fresche. La famiglia italiana si riunisce a tavola, e dire ho mangiato dalla nonna significa aver mangiato meglio che in qualsiasi ristorante.",
+          "cz": "Boloni se říká la Grassa (Tlustá) kvůli její bohaté kuchyni. Ragù se tu nikdy nedává na špagety: Boloňané ho servírují s čerstvými tagliatellemi. Italská rodina se schází u stolu, a říct „jedl jsem u babičky“ znamená najíst se líp než v jakékoli restauraci."
+        }
+      }
+    },
+    {
+      "id": "mercato",
+      "title": "Al mercato",
+      "levels": {
+        "a1": {
+          "it": "Anna ha una borsa grande. Al mercato ha bisogno di: il pane, la frutta, il formaggio e il prosciutto. Il mercato ha tutto! Anna ha anche un fratello, Luca. Luca ha sempre fame.",
+          "cz": "Anna má velkou tašku. Na trhu potřebuje: chleba, ovoce, sýr a šunku. Trh má všechno! Anna má také bratra, Luku. Luca má pořád hlad."
+        },
+        "a2": {
+          "it": "Il mercato di mezzo è il cuore di Bologna. Anna compra il parmigiano vecchio due anni e la mortadella profumata. Il fruttivendolo ha le mani veloci e la voce forte: Signora, ho le pesche dolci come il miele!",
+          "cz": "Mercato di mezzo je srdce Boloně. Anna kupuje dva roky starý parmazán a voňavou mortadellu. Zelinář má rychlé ruce a silný hlas: Paní, mám broskve sladké jako med!"
+        },
+        "b1": {
+          "it": "Fare la spesa al mercato è un'arte che gli italiani hanno nel sangue. Non si tocca la frutta senza guanti, si chiede consiglio al venditore e si discute del pranzo con perfetti sconosciuti. Chi ha fretta va al supermercato; chi ha gusto va al mercato.",
+          "cz": "Nakupovat na trhu je umění, které mají Italové v krvi. Na ovoce se nesahá bez rukavic, prodavač se ptá na radu a o obědě se debatuje s úplně cizími lidmi. Kdo spěchá, jde do supermarketu; kdo má vkus, jde na trh."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Ho fame! La nonna ha la pasta fresca.",
+    "cz": "Mám hlad! Babička má čerstvé těstoviny.",
+    "phon": "[o FÁ-me la NÓN-na a la PÁS-ta FRÉS-ka]"
+  },
+  "drills": [
+    {
+      "name": "Němé h (avere)",
+      "shadow": "ho → hai → ha → hanno → ho fame",
+      "trap": "Vyslovuješ „ho“ s českým H jako v „hora“.",
+      "fix": "H v italštině je vždy němé: ho = [o], hanno = [ÁN-no]."
+    },
+    {
+      "name": "gli (rodina!)",
+      "shadow": "famiglia → figli → gli zii → tagliatelle → meglio",
+      "trap": "Říkáš „fami-gli-a“ jako tři hlásky g-l-i.",
+      "fix": "gli je jedna měkká hláska, jako lj vyslovené najednou (million)."
+    },
+    {
+      "name": "Dvojité souhlásky",
+      "shadow": "nonna → tutto → mamma → formaggio → otto",
+      "trap": "„nona“, „tuto“ s jednou souhláskou po česku.",
+      "fix": "Podrž ji déle: nonna (babička) × nona (devátá)."
+    }
+  ]
+}

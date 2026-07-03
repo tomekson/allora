@@ -1,0 +1,73 @@
+{
+  "week": 5,
+  "citta": "Venezia",
+  "topic": "Popis míst",
+  "title": "La città sull'acqua",
+  "grammar": {
+    "point": "Shoda přídavných jmen",
+    "summary": "Přídavné jméno se shoduje s podstatným v rodě i čísle: il ponte vecchio, la casa vecchia, i ponti vecchi, le case vecchie. Typ -e má jen dva tvary: grande/grandi. Bello před podstatným jménem se chová jako člen: bel ponte, bell'isola, bei canali, begli occhi."
+  },
+  "notizie": [
+    {
+      "id": "venezia-mattina",
+      "title": "Venezia la mattina",
+      "levels": {
+        "a1": {
+          "it": "Venezia è una città piccola ma famosa. Le case sono vecchie e colorate: rosse, gialle e rosa. I canali sono verdi e le gondole sono nere. La piazza San Marco è grande e bella. E i turisti? I turisti sono... tanti!",
+          "cz": "Benátky jsou malé, ale slavné město. Domy jsou staré a barevné: červené, žluté a růžové. Kanály jsou zelené a gondoly jsou černé. Náměstí svatého Marka je velké a krásné. A turisté? Turistů je... hodně!"
+        },
+        "a2": {
+          "it": "La Venezia vera si sveglia presto. I veneziani comprano il pesce fresco al mercato di Rialto e bevono l'ombra, un bicchiere di vino, già prima di pranzo. Le calli strette sono silenziose, l'acqua alta è un problema serio e i palazzi antichi hanno le fondamenta di legno.",
+          "cz": "Skutečné Benátky se budí brzy. Benátčané kupují čerstvé ryby na trhu Rialto a pijí ombra, skleničku vína, už před obědem. Úzké uličky jsou tiché, vysoká voda je vážný problém a starobylé paláce mají základy ze dřeva."
+        },
+        "b1": {
+          "it": "Venezia è costruita su milioni di pali di legno piantati nella laguna mille anni fa. Sott'acqua il legno non marcisce: diventa duro come la pietra. La città ha centosedici isole, quattrocento ponti e nessuna automobile. È fragile e maestosa insieme, e ogni anno affonda di qualche millimetro, come una nave troppo carica di bellezza.",
+          "cz": "Benátky jsou postavené na milionech dřevěných kůlů zaražených do laguny před tisíci lety. Pod vodou dřevo nehnije: tvrdne jako kámen. Město má sto šestnáct ostrovů, čtyři sta mostů a žádné auto. Je křehké a majestátní zároveň a každý rok se potopí o pár milimetrů, jako loď příliš naložená krásou."
+        }
+      }
+    },
+    {
+      "id": "com-e",
+      "title": "Com'è? Dov'è?",
+      "levels": {
+        "a1": {
+          "it": "Turista: Scusi, dov'è il ponte di Rialto? Veneziana: È vicino! Sempre dritto e poi a destra. Turista: È lontana la stazione? Veneziana: No, è vicina. Venezia è piccola. Turista: Grazie! Venezia è bellissima. Veneziana: Lo so.",
+          "cz": "Turista: Promiňte, kde je most Rialto? Benátčanka: Je blízko! Pořád rovně a pak doprava. Turista: Je nádraží daleko? Benátčanka: Ne, je blízko. Benátky jsou malé. Turista: Děkuji! Benátky jsou překrásné. Benátčanka: Já vím."
+        },
+        "a2": {
+          "it": "Descrivere un posto è facile con le coppie giuste: grande o piccolo, vecchio o nuovo, caro o economico, pieno o vuoto. Venezia è tutto insieme: le piazze famose sono piene e care, le calli nascoste sono vuote e misteriose. Il segreto è girare l'angolo sbagliato: lì comincia la città vera.",
+          "cz": "Popsat místo je snadné se správnými dvojicemi: velký nebo malý, starý nebo nový, drahý nebo levný, plný nebo prázdný. Benátky jsou všechno najednou: slavná náměstí jsou plná a drahá, skryté uličky prázdné a tajemné. Tajemství je zahnout za špatný roh: tam začíná skutečné město."
+        },
+        "b1": {
+          "it": "L'italiano ama i superlativi: non basta bello, serve bellissimo. Una cena non è buona, è buonissima. Questa generosità descrittiva non è esagerazione, è cortesia: chi descrive con entusiasmo regala qualcosa a chi ascolta. A Venezia, città già esagerata di suo, il superlativo è semplicemente realismo.",
+          "cz": "Italština miluje superlativy: nestačí bello, chce to bellissimo. Večeře není dobrá, je výborná. Tahle popisná štědrost není přehánění, je to zdvořilost: kdo popisuje s nadšením, něco daruje tomu, kdo poslouchá. V Benátkách, městě už tak přehnaném, je superlativ prostě realismus."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Venezia è bellissima! Le case vecchie sono colorate.",
+    "cz": "Benátky jsou překrásné! Staré domy jsou barevné.",
+    "phon": "[ve-NÉ-cia e bel-LÍS-si-ma le KÁ-ze VÈK-kie SÓ-no ko-lo-RÁ-te]"
+  },
+  "drills": [
+    {
+      "name": "Dvojité ll a ss",
+      "shadow": "bellissima → bello → quella → rosso → basso",
+      "trap": "„belisima“, „roso“ s jednou souhláskou.",
+      "fix": "Podrž l a s déle: bel-lo, ros-so. Casa (dům) × cassa (kasa)!"
+    },
+    {
+      "name": "Koncovky -o/-a/-i/-e",
+      "shadow": "vecchio → vecchia → vecchi → vecchie",
+      "trap": "Polykáš koncovky, všechny zní jako -e.",
+      "fix": "Koncovka nese rod a číslo, vyslov ji jasně a krátce."
+    },
+    {
+      "name": "gli a chi",
+      "shadow": "gli occhi → begli → vecchi → chiesa → chiave",
+      "trap": "„okči“ místo [ÓK-ki], „gli“ jako g-l-i.",
+      "fix": "cchi = kk + i, gli = jedno měkké lj."
+    }
+  ]
+}

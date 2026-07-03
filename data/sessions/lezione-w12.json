@@ -1,0 +1,73 @@
+{
+  "week": 12,
+  "citta": "Tutta l'Italia",
+  "topic": "Volná konverzace",
+  "title": "Il giro è completo",
+  "grammar": {
+    "point": "Volná konverzace, opakování",
+    "summary": "Žádná nová gramatika: teď se všechno spojuje. Přítomný čas pro teď, passato prossimo a imperfetto pro příběhy, futuro a kondicionál pro plány a zdvořilost, congiuntivo pro názory. Konverzační záchranná brzda: Come si dice...? (jak se řekne...?), Può ripetere? (můžete to zopakovat?), Più lentamente, per favore (pomaleji, prosím)."
+  },
+  "notizie": [
+    {
+      "id": "giro-completo",
+      "title": "Dodici settimane dopo",
+      "levels": {
+        "a1": {
+          "it": "Dodici settimane, dodici città. Ho ordinato il caffè a Napoli e ho mangiato le tagliatelle a Bologna. Ho visto Venezia e ho preso la metro a Milano. Adesso parlo italiano: non perfettamente, ma parlo! E questo è l'importante.",
+          "cz": "Dvanáct týdnů, dvanáct měst. Objednal jsem si kávu v Neapoli a snědl tagliatelle v Boloni. Viděl jsem Benátky a jel metrem v Miláně. Teď mluvím italsky: ne dokonale, ale mluvím! A to je to hlavní."
+        },
+        "a2": {
+          "it": "All'inizio conoscevo tre parole: ciao, pizza e cappuccino. Poi sono arrivati i verbi, i passati, i congiuntivi. Ho fatto errori bellissimi: una volta ho ordinato un anno di birra invece di un altro giro. Il cameriere ha riso, io ho riso, e la lingua è entrata anche così: ridendo.",
+          "cz": "Na začátku jsem znal tři slova: ciao, pizza a cappuccino. Pak přišla slovesa, minulé časy, konjunktivy. Dělal jsem nádherné chyby: jednou jsem si objednal rok piva místo další rundy. Číšník se smál, já se smál a jazyk se dostal dovnitř i takhle: smíchem."
+        },
+        "b1": {
+          "it": "Imparare l'italiano non significa arrivare, significa viaggiare. Ogni conversazione è una tappa nuova: il fruttivendolo che ti corregge con dolcezza, il film che capisci senza sottotitoli, la battuta che finalmente fa ridere anche te. Il giro d'Italia è completo, ma la strada, per fortuna, non finisce mai.",
+          "cz": "Naučit se italsky neznamená dorazit, znamená cestovat. Každá konverzace je nová tappa: zelinář, který tě laskavě opraví, film, kterému rozumíš bez titulků, vtip, který konečně rozesměje i tebe. Okruh Itálií je hotový, ale cesta, naštěstí, nikdy nekončí."
+        }
+      }
+    },
+    {
+      "id": "cosa-dire",
+      "title": "Cosa dire quando non sai cosa dire",
+      "levels": {
+        "a1": {
+          "it": "Non capisci? Di': Scusi, può ripetere? Parlano veloce? Di': Più lentamente, per favore! Non sai una parola? Chiedi: Come si dice...? E quando tutto va male, sorridi e di': Sto imparando l'italiano. Funziona sempre.",
+          "cz": "Nerozumíš? Řekni: Promiňte, můžete to zopakovat? Mluví rychle? Řekni: Pomaleji, prosím! Neznáš slovo? Zeptej se: Jak se řekne...? A když všechno selže, usměj se a řekni: Učím se italsky. Funguje to vždycky."
+        },
+        "a2": {
+          "it": "La frase sto imparando l'italiano è una chiave magica: apre pazienza, sorrisi e complimenti immeritati. Gli italiani amano chi prova a parlare la loro lingua e perdonano ogni errore. Ti correggeranno con entusiasmo, ti insegneranno le parolacce e alla fine diranno: ma parli benissimo! Non è vero, ma fa piacere.",
+          "cz": "Věta „učím se italsky“ je kouzelný klíč: otevírá trpělivost, úsměvy a nezasloužené komplimenty. Italové milují každého, kdo zkouší mluvit jejich jazykem, a odpustí každou chybu. Budou tě nadšeně opravovat, naučí tě sprostá slova a nakonec řeknou: vždyť mluvíš výborně! Není to pravda, ale potěší to."
+        },
+        "b1": {
+          "it": "Il segreto finale non è grammaticale ma psicologico: la conversazione perfetta non esiste, esiste quella vera. Fatta di pause, gesti, parole sbagliate e capite lo stesso. L'italiano si impara ai tavoli, nei mercati, sugli autobus: ogni sconosciuto è un insegnante che non sa di esserlo. Allora, coraggio: la prossima conversazione ti aspetta.",
+          "cz": "Poslední tajemství není gramatické, ale psychologické: dokonalá konverzace neexistuje, existuje ta skutečná. Složená z pauz, gest, špatných slov, kterým je stejně rozumět. Italština se učí u stolů, na trzích, v autobusech: každý neznámý je učitel, který o tom neví. Allora, odvahu: další konverzace na tebe čeká."
+        }
+      }
+    }
+  ],
+  "shadow": {
+    "it": "Sto imparando l'italiano. Può ripetere, per favore?",
+    "cz": "Učím se italsky. Můžete to zopakovat, prosím?",
+    "phon": "[sto im-pa-RÁN-do li-ta-liÁ-no puo RÍ-pe-te-re per fa-VÓ-re]"
+  },
+  "drills": [
+    {
+      "name": "Velké finále: dvojité souhlásky",
+      "shadow": "tutto → benissimo → soprattutto → arrivederci → caffè",
+      "trap": "Po dvanácti týdnech pořád „tuto“ a „kafé“?",
+      "fix": "Dvojitá souhláska = malá pauza uvnitř slova. Poslední kontrola: caro × carro."
+    },
+    {
+      "name": "Velké finále: gli + gn",
+      "shadow": "famiglia → meglio → voglio → signora → insegnante",
+      "trap": "g-l-i a g-n jako oddělené hlásky.",
+      "fix": "gli = lj najednou, gn = ň. Voglio parlare = [VÒ-ljo par-LÁ-re]."
+    },
+    {
+      "name": "Velké finále: přízvuky",
+      "shadow": "PAR-la-no → parle-RÒ → par-LÁ-va-no → cit-TÀ",
+      "trap": "Český přízvuk na první slabice všude.",
+      "fix": "Základ je předposlední slabika, -ano/-avano dřív, futuro a città na konci."
+    }
+  ]
+}
