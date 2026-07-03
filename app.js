@@ -114,7 +114,7 @@ async function renderNotizie(el) {
       <h2>📰 ${esc(s.title)}</h2>
       <span class="muted">týden ${s.week} · ${s.date}</span>
     </div>
-    <p class="muted">Zprávy z české kotliny v italštině. Přepínač úrovně je dočasná odchylka — default drží týden kurikula.</p>`;
+    <p class="muted">České zprávy v italštině. Obtížnost si u každé zprávy přepneš tlačítky.</p>`;
 
   s.notizie.forEach((n, i) => {
     html += `
@@ -289,7 +289,7 @@ function renderProgresso(el) {
       <div class="stat"><div class="val">${streak()} 🔥</div><div class="lbl">streak (dny po sobě)</div></div>
       <div class="stat"><div class="val">${state.week}/12</div><div class="lbl">týden kurikula</div></div>
       <div class="stat"><div class="val">${started}/${total}</div><div class="lbl">slov v oběhu</div></div>
-      <div class="stat"><div class="val">${learned}</div><div class="lbl">naučeno (interval ≥ 21 dní)</div></div>
+      <div class="stat"><div class="val">${learned}</div><div class="lbl">naučeno dlouhodobě</div></div>
       <div class="stat"><div class="val">${due}</div><div class="lbl">k opakování teď</div></div>
       <div class="stat"><div class="val">${state.days.length}</div><div class="lbl">aktivních dní celkem</div></div>
     </div>
