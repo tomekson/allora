@@ -92,6 +92,12 @@ function weekLevel(week) {
   return 'b1';
 }
 
+/* aktuální tappa = nejvyšší týden, pro který existuje lekce (stav obsahu, ne ruční přepínač) */
+function currentWeek() {
+  const ss = (data.sessions && data.sessions.sessions) || [];
+  return ss.length ? Math.max(...ss.map(s => s.week)) : 1;
+}
+
 async function fetchJson(path) {
   const r = await fetch(path);
   if (!r.ok) throw new Error(path + ' → ' + r.status);
@@ -107,7 +113,7 @@ async function renderNotizie(el) {
     data.sessionCache[meta.file] = await fetchJson('data/sessions/' + meta.file);
   }
   const s = data.sessionCache[meta.file];
-  const defaultLevel = weekLevel(state.week);
+  const defaultLevel = weekLevel(currentWeek());
 
   let daily = null;
   try { daily = await fetchJson('data/news/daily.json'); } catch (e) { /* zatím žádné denní zprávy */ }
@@ -270,38 +276,26 @@ function drawCard(el) {
 /* ---------------- Viaggio ---------------- */
 
 function renderViaggio(el) {
+  const week = currentWeek();
   let html = `
     <h2>Viaggio: cesta italštinou</h2>
-    <p class="muted">Mapa tvé cesty. 12 týdnů, 12 měst, od začátků v Napoli po volnou konverzaci. U každého města vidíš, jaká gramatika a téma tě tam čeká. Lekce a texty se řídí tím, kde právě jsi.</p>
+    <p class="muted">Mapa tvé cesty. 12 týdnů, 12 měst, od začátků v Napoli po volnou konverzaci. Tappa se posune sama, jakmile v aplikaci přibude lekce dalšího města — nic tu nenastavuješ, jen vidíš, kde jsi a co tě čeká.</p>
     <div class="card" style="padding:4px 2px">`;
   for (const w of data.curriculum.weeks) {
-    const cls = w.week < state.week ? 'done' : w.week === state.week ? 'current' : '';
+    const cls = w.week < week ? 'done' : w.week === week ? 'current' : '';
     html += `
       <div class="week-row ${cls}">
-        <div class="num">${w.week < state.week ? '✓' : w.week}</div>
+        <div class="num">${w.week < week ? '✓' : w.week}</div>
         <div class="info">
           <div class="citta">${esc(w.citta)}</div>
           <div class="g">${esc(w.grammar)}</div>
           <div class="t">${esc(w.topic)}</div>
-          ${w.week === state.week && state.week < 12 ? '<button class="btn btn-avanti" id="tappa-done">Tuhle tappu mám, jedu dál →</button>' : ''}
-          ${w.week === state.week && state.week === 12 ? '<div class="muted" style="margin-top:6px">Sei arrivato! Konec cesty.</div>' : ''}
+          ${w.week === week ? '<div class="muted" style="margin-top:4px">Tady právě jsi. Texty jedou na úrovni ' + weekLevel(week).toUpperCase() + '.</div>' : ''}
         </div>
       </div>`;
   }
   html += `</div>`;
   el.innerHTML = html;
-
-  const doneBtn = $('#tappa-done');
-  if (doneBtn) {
-    doneBtn.onclick = () => {
-      const next = data.curriculum.weeks[state.week]; // week je 1-based, index = další
-      if (!confirm(`Posunout se do města ${next.citta} (${next.grammar})?`)) return;
-      state.week++;
-      save();
-      updateWeekBadge();
-      renderViaggio(el);
-    };
-  }
 }
 
 /* ---------------- Progresso ---------------- */
@@ -325,7 +319,7 @@ function renderProgresso(el) {
     <h2>Progresso</h2>
     <div class="stat-grid">
       <div class="stat"><div class="val">${streak()} ☕</div><div class="lbl">dní v řadě</div></div>
-      <div class="stat"><div class="val">${state.week}/12</div><div class="lbl">tappa na cestě</div></div>
+      <div class="stat"><div class="val">${currentWeek()}/12</div><div class="lbl">tappa na cestě</div></div>
       <div class="stat"><div class="val">${started}/${total}</div><div class="lbl">slov v oběhu</div></div>
       <div class="stat"><div class="val">${learned}</div><div class="lbl">naučeno dlouhodobě</div></div>
       <div class="stat"><div class="val">${due}</div><div class="lbl">k opakování teď</div></div>
@@ -410,7 +404,7 @@ window.addEventListener('hashchange', () => {
 });
 
 function updateWeekBadge() {
-  $('#week-badge').textContent = 'tappa ' + state.week;
+  $('#week-badge').textContent = 'tappa ' + currentWeek();
 }
 
 /* ---------------- update banner + SW ---------------- */
@@ -458,13 +452,15 @@ toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   document.querySelectorAll('.tabbar button').forEach(b => b.onclick = () => show(b.dataset.tab));
   $('#week-badge').onclick = () => show('viaggio');
   $('#footer-version').textContent = 'v' + APP_VERSION;
-  updateWeekBadge();
-  const [vocab, curriculum] = await Promise.all([
+  const [vocab, curriculum, sessions] = await Promise.all([
     fetchJson('data/vocab.json'),
     fetchJson('data/curriculum.json'),
+    fetchJson('data/sessions/index.json'),
   ]);
   data.vocab = vocab;
   data.curriculum = curriculum;
+  data.sessions = sessions;
+  updateWeekBadge();
   show(tabFromHash());
   checkVersion();
 })();
