@@ -5,7 +5,7 @@
   "translator": "DeepL",
   "stories": [
     {
-      "it": "La Russia ha chiuso diversi valichi ferroviari di frontiera con la Finlandia, l'Estonia e la Lettonia.",
+      "it": "La Russia ha chiuso diversi valichi di frontiera ferroviari con la Finlandia, l'Estonia e la Lettonia.",
       "cz": "Rusko uzavřelo několik železničních hraničních přechodů do Finska, Estonska a Lotyšska.",
       "origin": "cz"
     },
@@ -20,27 +20,21 @@
       "origin": "cz"
     },
     {
-      "en": "The Israeli military and Shin Bet confirm that Hamas militant Muhammad Na'im Jandiya, who took part in taking hostages, including Captain Daniel Perez, during the attack on the Nahal Oz kibbutz in the October 7 attacks on Israel, has been eliminated in an airstrike in the northern Gaza Strip.",
-      "it": "L'esercito israeliano e lo Shin Bet confermano che il militante di Hamas Muhammad Na'im Jandiya, che ha preso parte alla presa di ostaggi, tra cui il capitano Daniel Perez, durante l'attacco al kibbutz di Nahal Oz nel corso degli attacchi del 7 ottobre contro Israele, è stato eliminato in un attacco aereo nella parte settentrionale della Striscia di Gaza.",
-      "cz": "Izraelská armáda a bezpečnostní služba Šin Bet potvrdily, že militant hnutí Hamás Muhammad Na'im Jandiya, který se podílel na zajetí rukojmí, včetně kapitána Daniela Pereze, během útoku na kibuc Nahal Oz v rámci útoků na Izrael ze 7. října, byl zneškodněn při leteckém úderu v severní části pásma Gazy.",
-      "origin": "world"
-    },
-    {
       "en": "Ukraine declares a day of mourning for the victims of the Russian bombardment of Kyiv on July 2 as the death toll rises to 30.",
       "it": "L'Ucraina dichiara una giornata di lutto per le vittime del bombardamento russo su Kiev del 2 luglio, mentre il bilancio delle vittime sale a 30.",
       "cz": "Ukrajina vyhlásila den smutku za oběti ruského bombardování Kyjeva ze 2. července, přičemž počet obětí vzrostl na 30.",
       "origin": "world"
     },
     {
-      "en": "Russian missile and drone strikes kill at least five people and wound ten others across Ukraine, including three people in Sumy when a drone struck their apartment building.",
+      "en": "Russian missile and drone strikes kill at least five people and injure ten others across Ukraine, including three people in Sumy when a drone struck their apartment building.",
       "it": "Gli attacchi missilistici e con droni russi hanno causato la morte di almeno cinque persone e il ferimento di altre dieci in diverse zone dell’Ucraina, tra cui tre persone a Sumy, dove un drone ha colpito il loro condominio.",
-      "cz": "Ruské raketové a dronové útoky si na území Ukrajiny vyžádaly nejméně pět mrtvých a deset zraněných, z toho tři osoby v Sumách, kde dron zasáhl jejich bytový dům.",
+      "cz": "Při ruských raketových a dronových útocích zahynulo na území Ukrajiny nejméně pět lidí a dalších deset bylo zraněno, včetně tří osob v Sumách, kde dron zasáhl jejich bytový dům.",
       "origin": "world"
     },
     {
       "en": "Ukrainian forces strike nine substations across Russian-occupied Crimea causing power outages as part of a campaign to make the peninsula \"unusable\" for the Russian military. Saky air base and Gvardeyskoye air base are also targeted with seven jets destroyed or damaged.",
       "it": "Le forze ucraine hanno colpito nove sottostazioni in tutta la Crimea occupata dalla Russia, provocando interruzioni di corrente nell'ambito di una campagna volta a rendere la penisola \"inutilizzabile\" per le forze armate russe. Sono state prese di mira anche le basi aeree di Saky e Gvardeyskoye, dove sette aerei sono stati distrutti o danneggiati.",
-      "cz": "Ukrajinské síly zaútočily na devět rozvodných stanic na ruskou okupovaném Krymu, čímž způsobily výpadky elektřiny v rámci kampaně, jejímž cílem je učinit poloostrov „nepoužitelným“ pro ruskou armádu. Útokům byly vystaveny také letecké základny Saky a Gvardeyskoye, kde bylo zničeno nebo poškozeno sedm stíhaček.",
+      "cz": "Ukrajinské síly zaútočily na devět rozvodných stanic na rusky okupovaném Krymu, čímž způsobily výpadky elektřiny v rámci kampaně, jejímž cílem je učinit poloostrov „nepoužitelným“ pro ruskou armádu. Útokům byly vystaveny také letecké základny Saky a Gvardeyskoye, kde bylo zničeno nebo poškozeno sedm stíhaček.",
       "origin": "world"
     },
     {
@@ -48,14 +42,20 @@
       "it": "Il responsabile dei diritti umani delle Nazioni Unite, Volker Türk, lancia un \"allarme rosso\" a El-Obeid, nel Kordofan settentrionale, in Sudan, mettendo in guardia da una \"catastrofe\" e da episodi di violenza nella città.",
       "cz": "Volker Türk, vysoký komisař OSN pro lidská práva, vydal v El-Obeidu v severním Kordofanu v Súdánu „červený poplach“ a varoval před „katastrofou“ a násilím ve městě.",
       "origin": "world"
+    },
+    {
+      "en": "Sudanese foreign minister Mohi El-Din Salem says that the Sudanese government is ready to engage in \"sincere initiatives\" aimed at ending the civil war that started in April 2023. He also says that initiatives submitted by Sovereign Council chairman and military head Abdel Fattah al-Burhan to the United Nations last year must be a part of this process.",
+      "it": "Il ministro degli Esteri sudanese Mohi El-Din Salem afferma che il governo sudanese è pronto a intraprendere “iniziative sincere” volte a porre fine alla guerra civile iniziata nell’aprile 2023. Ha inoltre aggiunto che le iniziative presentate lo scorso anno alle Nazioni Unite dal presidente del Consiglio sovrano e capo delle forze armate Abdel Fattah al-Burhan devono far parte di questo processo.",
+      "cz": "Súdánský ministr zahraničí Mohi El-Din Salem uvádí, že súdánská vláda je připravena zapojit se do „upřímných iniciativ“ zaměřených na ukončení občanské války, která vypukla v dubnu 2023. Dále uvádí, že součástí tohoto procesu musí být i iniciativy, které loni předložil OSN předseda Suverénní rady a nejvyšší vojenský velitel Abdel Fattah al-Burhan.",
+      "origin": "world"
     }
   ],
   "article": {
-    "topic": "Gaza war",
-    "url": "https://en.wikipedia.org/wiki/Gaza_war",
-    "en": "The Gaza war is an armed conflict in the Gaza Strip and Israel, fought as part of the unresolved Israeli–Palestinian and Gaza–Israel conflicts. The war began on 7 October 2023, when the Palestinian militant group Hamas led a surprise attack on Israel, in which 1,195 Israelis and foreign nationals were killed and 251 were taken hostage. Since the start of the Israeli offensive that followed, over 73,000 Palestinians in Gaza have been killed. Several studies in The Lancet indicate this figure is likely a significant undercount. Many scholarly sources and international organizations—including UN bodies, NGOs, and the International Association of Genocide Scholars have concluded that Israel's actions in Gaza constitute genocide under international law.",
-    "it": "La guerra di Gaza è un conflitto armato che coinvolge la Striscia di Gaza e Israele, combattuto nell’ambito dei conflitti irrisolti tra Israele e Palestina e tra Gaza e Israele. La guerra è iniziata il 7 ottobre 2023, quando il gruppo militante palestinese Hamas ha sferrato un attacco a sorpresa contro Israele, nel corso del quale sono stati uccisi 1.195 israeliani e cittadini stranieri e 251 sono stati presi in ostaggio. Dall’inizio dell’offensiva israeliana che ne è seguita, sono stati uccisi oltre 73.000 palestinesi a Gaza. Diversi studi pubblicati su *The Lancet* indicano che questa cifra è probabilmente notevolmente sottostimata. Numerose fonti accademiche e organizzazioni internazionali — tra cui organismi delle Nazioni Unite, ONG e l’Associazione Internazionale degli Studiosi del Genocidio — hanno concluso che le azioni di Israele a Gaza costituiscono un genocidio ai sensi del diritto internazionale.",
-    "cz": "Válka v Gaze je ozbrojený konflikt v pásmu Gazy a v Izraeli, který probíhá v rámci dosud nevyřešených izraelsko-palestinských a gázsko-izraelských konfliktů. Válka začala 7. října 2023, kdy palestinská militantní skupina Hamás provedla překvapivý útok na Izrael, při kterém bylo zabito 1 195 Izraelců a cizinců a 251 osob bylo zajato jako rukojmí. Od začátku následné izraelské ofenzívy bylo v Gaze zabito přes 73 000 Palestinců. Několik studií publikovaných v časopise The Lancet naznačuje, že tento počet je pravděpodobně výrazně podhodnocen. Mnoho odborných zdrojů a mezinárodních organizací – včetně orgánů OSN, nevládních organizací a Mezinárodní asociace odborníků na genocidu – dospělo k závěru, že jednání Izraele v Gaze představuje podle mezinárodního práva genocidu."
+    "topic": "Crimea attacks (2022–present)",
+    "url": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022–present)",
+    "en": "Beginning in July 2022, a series of explosions and fires occurred on the Russian-occupied Crimean Peninsula, from where the Russian Army had launched its offensive on Southern Ukraine during the Russo-Ukrainian war. Occupied since 2014, Crimea was a base for the subsequent Russian occupation of Kherson Oblast and Russian occupation of Zaporizhzhia Oblast.\nVladimir Putin has called Crimea a \"sacred place\" and a \"holy land\". Deputy Chairman of the Security Council of Russia Dmitry Medvedev said in July 2022 that the consequence of an attack on Crimea will be that, \"the Day of Judgment will come for all of them there at once. Very fast and heavy. It will be very difficult to hide\".",
+    "it": "A partire dal luglio 2022, si sono verificati una serie di esplosioni e incendi nella penisola di Crimea occupata dalla Russia, da dove l’esercito russo aveva lanciato la propria offensiva contro l’Ucraina meridionale durante la guerra russo-ucraina. Occupata dal 2014, la Crimea è stata una base per la successiva occupazione russa dell’oblast di Kherson e dell’oblast di Zaporizhzhia.\nVladimir Putin ha definito la Crimea un «luogo sacro» e una «terra santa». Il vicepresidente del Consiglio di sicurezza della Russia, Dmitry Medvedev, ha dichiarato nel luglio 2022 che la conseguenza di un attacco alla Crimea sarà che «il Giorno del Giudizio arriverà per tutti loro lì, in un colpo solo. Molto rapidamente e con grande violenza. Sarà molto difficile nascondersi».",
+    "cz": "Od července 2022 došlo na ruskou armádou okupovaném Krymském poloostrově k sérii výbuchů a požárů; právě odtud ruská armáda během rusko-ukrajinské války zahájila ofenzívu na jižní Ukrajinu. Krym, okupovaný od roku 2014, sloužil jako základna pro následnou ruskou okupaci Chersonské oblasti a ruskou okupaci Záporožské oblasti.\nVladimir Putin označil Krym za „posvátné místo“ a „svatou zemi“. Místopředseda Rady bezpečnosti Ruska Dmitrij Medveděv v červenci 2022 prohlásil, že důsledkem útoku na Krym bude to, že „pro všechny tam najednou nastane Soudný den. Velmi rychlý a krutý. Bude velmi těžké se před ním schovat“."
   },
   "shadow": {
     "it": "La Slovacchia ha assunto la presidenza del Gruppo di Visegrád per un anno.",
