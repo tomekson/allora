@@ -179,7 +179,18 @@ async function fetchEu() {
       ((b.it && b.cz) ? 1 : 0) - ((a.it && a.cz) ? 1 : 0) ||
       (b.pressRelease ? 1 : 0) - (a.pressRelease ? 1 : 0) ||
       a.order - b.order);
-    return cands.slice(0, 3);
+    // šablonovité zprávy (schválení platby z fondu obnovy pro různé země znějí skoro identicky) — nejvýš jedna
+    const templateSig = c => (c.en.match(/greenlights?.{0,40}payment request|payment request.{0,40}(approved|greenlight)/i) ? 'ngeu-payment' : null);
+    const out = [];
+    const usedTemplates = new Set();
+    for (const c of cands) {
+      const sig = templateSig(c);
+      if (sig && usedTemplates.has(sig)) continue;
+      if (sig) usedTemplates.add(sig);
+      out.push(c);
+      if (out.length >= 3) break;
+    }
+    return out;
   } catch (e) {
     console.log('EU RSS selhal:', e.message);
     return [];
@@ -233,6 +244,34 @@ async function fetchIstat() {
 }
 const istatItems = await fetchIstat();
 console.log(`Economia (Istat): ${istatItems.length} zpráv.`);
+
+/* ---- 2c5. Giornale — The Guardian Open Platform (developer key, nekomerční, zdarma)
+   Bez GUARDIAN_API_KEY se přeskočí, nic nespadne. Registrace: https://bonobo.capi.gutools.co.uk/register/developer */
+const GUARDIAN_KEY = process.env.GUARDIAN_API_KEY || '';
+async function fetchGuardian() {
+  if (!GUARDIAN_KEY) return [];
+  try {
+    const sections = ['business', 'technology', 'money'];
+    const u = `https://content.guardianapis.com/search?section=${sections.join('|')}&order-by=newest&page-size=15&show-fields=trailText&api-key=${GUARDIAN_KEY}`;
+    const r = await fetch(u);
+    const j = await r.json();
+    const results = (j.response && j.response.results) || [];
+    const out = [];
+    for (const item of results) {
+      const trail = (item.fields && item.fields.trailText || '').replace(/<[^>]*>/g, '').trim();
+      const text = trail ? `${item.webTitle}. ${trail}` : item.webTitle;
+      if (anyMatch(FILTER.block, text)) continue;
+      out.push(text);
+      if (out.length >= 3) break;
+    }
+    return out;
+  } catch (e) {
+    console.log('Guardian API selhal:', e.message);
+    return [];
+  }
+}
+const guardianItems = await fetchGuardian();
+console.log(`Giornale (Guardian): ${guardianItems.length} zpráv${GUARDIAN_KEY ? '' : ' (bez klíče, přeskočeno)'}.`);
 
 /* ---- 2d. Lo sapevi? — Did you know z Wikipedie (CC BY-SA), pozitivní kuriozity ---- */
 async function fetchDyk() {
@@ -359,7 +398,7 @@ async function translate(texts, source, target) {
 const worldTexts = stories.map(s => s.text);
 const euNeedIt = euRaw.filter(e => !e.it).map(e => e.en);
 const euNeedCz = euRaw.filter(e => !e.cz).map(e => e.en);
-const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt, cnbIt, cnbCz, istatIt, istatCz] = await Promise.all([
+const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt, cnbIt, cnbCz, istatIt, istatCz, guardianIt, guardianCz] = await Promise.all([
   translate(worldTexts, 'EN', 'IT'),
   translate(worldTexts, 'EN', 'CS'),
   translate(czItems.map(i => i.text), 'CS', 'IT'),
@@ -373,6 +412,8 @@ const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt, cnbIt, cnbCz, i
   translate(cnbItems, 'EN', 'CS'),
   translate(istatItems, 'EN', 'IT'),
   translate(istatItems, 'EN', 'CS'),
+  translate(guardianItems, 'EN', 'IT'),
+  translate(guardianItems, 'EN', 'CS'),
 ]);
 let itIdx = 0, czIdx = 0;
 const euItems = euRaw.map(e => ({
@@ -475,6 +516,7 @@ const out = {
     ...euItems.map(e => ({ en: e.en, it: e.it, cz: e.cz, origin: 'eu' })),
     ...cnbItems.map((en, i) => ({ en, it: cnbIt[i], cz: cnbCz[i], origin: 'econ' })),
     ...istatItems.map((en, i) => ({ en, it: istatIt[i], cz: istatCz[i], origin: 'econ' })),
+    ...guardianItems.map((en, i) => ({ en, it: guardianIt[i], cz: guardianCz[i], origin: 'guardian' })),
     ...stories.map((s, i) => ({ en: s.text, it: it[i], cz: cz[i], origin: 'world' })),
     ...dykItems.map((en, i) => ({ en, it: dykIt[i], cz: dykCz[i], origin: 'dyk' })),
   ],
