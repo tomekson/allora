@@ -16,7 +16,7 @@
     "hostage", "troops", "shelling", "bombard", "front ?line", "invasion",
     "Gaza", "Hamas", "Hezbollah", "Ukrain", "Russia", "Kyiv", "Kremlin", "Israel",
     "\\bdefen[cs]e\\b", "obrann",
-    "válk", "útok", "raket", "armád", "ostřelování", "vojensk", "Ukrajin", "Rusk", "Izrael",
+    "válk", "útok", "raket", "armád", "ostřelování", "mrtv", "smrt", "vojensk", "Ukrajin", "Rusk", "Izrael",
     "football", "soccer", "hockey", "champions", "tournament", "\\bleague\\b", "skating",
     "olympi", "FIFA", "UEFA", "NHL", "Grand Slam", "grand prix",
     "fotbal", "hokej", "mistrovství", "turnaj", "\\bliga\\b", "bruslení", "zápas"
