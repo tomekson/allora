@@ -5,11 +5,6 @@
   "translator": "DeepL",
   "stories": [
     {
-      "it": "La Russia ha chiuso diversi valichi di frontiera ferroviari con la Finlandia, l'Estonia e la Lettonia.",
-      "cz": "Rusko uzavřelo několik železničních hraničních přechodů do Finska, Estonska a Lotyšska.",
-      "origin": "cz"
-    },
-    {
       "it": "La Slovacchia ha assunto la presidenza del Gruppo di Visegrád per un anno.",
       "cz": "Slovensko na jeden rok převzalo předsednictví Visegrádské skupiny.",
       "origin": "cz"
@@ -20,42 +15,54 @@
       "origin": "cz"
     },
     {
-      "en": "Ukraine declares a day of mourning for the victims of the Russian bombardment of Kyiv on July 2 as the death toll rises to 30.",
-      "it": "L'Ucraina dichiara una giornata di lutto per le vittime del bombardamento russo su Kiev del 2 luglio, mentre il bilancio delle vittime sale a 30.",
-      "cz": "Ukrajina vyhlásila den smutku za oběti ruského bombardování Kyjeva ze 2. července, přičemž počet obětí vzrostl na 30.",
+      "en": "United Airlines grounds its first premium Boeing 787-9 Dreamliner after unresolved TCAS manufacturing issues.",
+      "it": "United Airlines mette a terra il suo primo Boeing 787-9 Dreamliner della classe premium a causa di problemi di fabbricazione del sistema TCAS ancora irrisolti.",
+      "cz": "Společnost United Airlines vyřadila z provozu svůj první prémiový letoun Boeing 787-9 Dreamliner kvůli nevyřešeným výrobním problémům se systémem TCAS.",
       "origin": "world"
     },
     {
-      "en": "Russian missile and drone strikes kill at least five people and injure ten others across Ukraine, including three people in Sumy when a drone struck their apartment building.",
-      "it": "Gli attacchi missilistici e con droni russi hanno causato la morte di almeno cinque persone e il ferimento di altre dieci in diverse zone dell’Ucraina, tra cui tre persone a Sumy, dove un drone ha colpito il loro condominio.",
-      "cz": "Při ruských raketových a dronových útocích zahynulo na území Ukrajiny nejméně pět lidí a dalších deset bylo zraněno, včetně tří osob v Sumách, kde dron zasáhl jejich bytový dům.",
+      "en": "In Pakistan, a bus en route from Quetta to Islamabad plunges into a deep roadside ditch in Sherani District, Balochistan, killing 40 people and injuring eight others.",
+      "it": "In Pakistan, un autobus in viaggio da Quetta a Islamabad è precipitato in un profondo fossato lungo la strada nel distretto di Sherani, nel Balochistan, causando la morte di 40 persone e il ferimento di altre otto.",
+      "cz": "V Pákistánu se autobus jedoucí z Quetty do Islámábádu zřítil do hlubokého příkopu u silnice v okrese Šerani v Balúčistánu; při nehodě zahynulo 40 lidí a dalších osm bylo zraněno.",
       "origin": "world"
     },
     {
-      "en": "Ukrainian forces strike nine substations across Russian-occupied Crimea causing power outages as part of a campaign to make the peninsula \"unusable\" for the Russian military. Saky air base and Gvardeyskoye air base are also targeted with seven jets destroyed or damaged.",
-      "it": "Le forze ucraine hanno colpito nove sottostazioni in tutta la Crimea occupata dalla Russia, provocando interruzioni di corrente nell'ambito di una campagna volta a rendere la penisola \"inutilizzabile\" per le forze armate russe. Sono state prese di mira anche le basi aeree di Saky e Gvardeyskoye, dove sette aerei sono stati distrutti o danneggiati.",
-      "cz": "Ukrajinské síly zaútočily na devět rozvodných stanic na rusky okupovaném Krymu, čímž způsobily výpadky elektřiny v rámci kampaně, jejímž cílem je učinit poloostrov „nepoužitelným“ pro ruskou armádu. Útokům byly vystaveny také letecké základny Saky a Gvardeyskoye, kde bylo zničeno nebo poškozeno sedm stíhaček.",
+      "en": "Four people are killed, ten are missing and eight others are injured during the collision of a car with a bus, carrying Afghan refugees returning from Pakistan, on the Kabul–Nangarhar highway in Laghman Province, Afghanistan.",
+      "it": "Quattro persone hanno perso la vita, dieci risultano disperse e altre otto sono rimaste ferite in seguito alla collisione tra un'auto e un autobus che trasportava rifugiati afghani di ritorno dal Pakistan, avvenuta sull'autostrada Kabul-Nangarhar nella provincia di Laghman, in Afghanistan.",
+      "cz": "Při srážce osobního automobilu s autobusem, který vezl afghánské uprchlíky vracející se z Pákistánu, na dálnici Kábul–Nangarhar v provincii Laghman v Afghánistánu zahynuly čtyři osoby, deset je pohřešováno a dalších osm bylo zraněno.",
       "origin": "world"
     },
     {
-      "en": "United Nations human rights chief Volker Türk issues a \"red alert\" warning in El-Obeid, North Kordofan, Sudan, of an \"catastrophe\" and violence in the city.",
-      "it": "Il responsabile dei diritti umani delle Nazioni Unite, Volker Türk, lancia un \"allarme rosso\" a El-Obeid, nel Kordofan settentrionale, in Sudan, mettendo in guardia da una \"catastrofe\" e da episodi di violenza nella città.",
-      "cz": "Volker Türk, vysoký komisař OSN pro lidská práva, vydal v El-Obeidu v severním Kordofanu v Súdánu „červený poplach“ a varoval před „katastrofou“ a násilím ve městě.",
+      "en": "Health officials in Belgium report a 39% increase of deaths, compared to the week prior, from heat waves in the country during June, while France saw a 29.1% increase.",
+      "it": "Le autorità sanitarie belghe segnalano un aumento del 39% dei decessi, rispetto alla settimana precedente, causati dalle ondate di caldo che hanno colpito il Paese nel mese di giugno, mentre in Francia si è registrato un aumento del 29,1%.",
+      "cz": "Belgické zdravotnické úřady hlásí 39% nárůst počtu úmrtí v důsledku červnových vln veder v zemi ve srovnání s předchozím týdnem, zatímco ve Francii byl zaznamenán nárůst o 29,1 %.",
       "origin": "world"
     },
     {
-      "en": "Sudanese foreign minister Mohi El-Din Salem says that the Sudanese government is ready to engage in \"sincere initiatives\" aimed at ending the civil war that started in April 2023. He also says that initiatives submitted by Sovereign Council chairman and military head Abdel Fattah al-Burhan to the United Nations last year must be a part of this process.",
-      "it": "Il ministro degli Esteri sudanese Mohi El-Din Salem afferma che il governo sudanese è pronto a intraprendere “iniziative sincere” volte a porre fine alla guerra civile iniziata nell’aprile 2023. Ha inoltre aggiunto che le iniziative presentate lo scorso anno alle Nazioni Unite dal presidente del Consiglio sovrano e capo delle forze armate Abdel Fattah al-Burhan devono far parte di questo processo.",
-      "cz": "Súdánský ministr zahraničí Mohi El-Din Salem uvádí, že súdánská vláda je připravena zapojit se do „upřímných iniciativ“ zaměřených na ukončení občanské války, která vypukla v dubnu 2023. Dále uvádí, že součástí tohoto procesu musí být i iniciativy, které loni předložil OSN předseda Suverénní rady a nejvyšší vojenský velitel Abdel Fattah al-Burhan.",
+      "en": "The French health agency reports that over 2,025 people in France have died in heat waves last month between June 22 and June 28.",
+      "it": "L'agenzia sanitaria francese riferisce che oltre 2.025 persone sono morte in Francia a causa delle ondate di caldo verificatesi il mese scorso, tra il 22 e il 28 giugno.",
+      "cz": "Francouzský úřad pro veřejné zdraví uvádí, že během vlny veder v minulém měsíci, v období od 22. do 28. června, zemřelo ve Francii více než 2 025 lidí.",
       "origin": "world"
+    },
+    {
+      "en": "Did you know that James Smith signed the U.S. Declaration of Independence even though he was not in Congress to vote on it on July&nbsp;4, 1776?",
+      "it": "Lo sapevate che James Smith firmò la Dichiarazione d’Indipendenza degli Stati Uniti nonostante non fosse presente al Congresso per votarla il 4 luglio 1776?",
+      "cz": "Věděli jste, že James Smith podepsal Deklaraci nezávislosti Spojených států, i když 4. července 1776 nebyl přítomen v Kongresu, aby o ní hlasoval?",
+      "origin": "dyk"
+    },
+    {
+      "en": "Did you know that Manuel García de Sena 1811 translation of U.S. founding documents into Spanish influenced the first constitutions of Argentina, Chile, Mexico, Uruguay and Venezuela?",
+      "it": "Sapevate che la traduzione in spagnolo dei documenti fondatori degli Stati Uniti, realizzata da Manuel García de Sena nel 1811, ha influenzato le prime costituzioni di Argentina, Cile, Messico, Uruguay e Venezuela?",
+      "cz": "Věděli jste, že překlad zakládajících dokumentů Spojených států do španělštiny, který v roce 1811 pořídil Manuel García de Sena, ovlivnil první ústavy Argentiny, Chile, Mexika, Uruguaye a Venezuely?",
+      "origin": "dyk"
     }
   ],
   "article": {
-    "topic": "Crimea attacks (2022–present)",
-    "url": "https://en.wikipedia.org/wiki/Crimea_attacks_(2022–present)",
-    "en": "Beginning in July 2022, a series of explosions and fires occurred on the Russian-occupied Crimean Peninsula, from where the Russian Army had launched its offensive on Southern Ukraine during the Russo-Ukrainian war. Occupied since 2014, Crimea was a base for the subsequent Russian occupation of Kherson Oblast and Russian occupation of Zaporizhzhia Oblast.\nVladimir Putin has called Crimea a \"sacred place\" and a \"holy land\". Deputy Chairman of the Security Council of Russia Dmitry Medvedev said in July 2022 that the consequence of an attack on Crimea will be that, \"the Day of Judgment will come for all of them there at once. Very fast and heavy. It will be very difficult to hide\".",
-    "it": "A partire dal luglio 2022, si sono verificati una serie di esplosioni e incendi nella penisola di Crimea occupata dalla Russia, da dove l’esercito russo aveva lanciato la propria offensiva contro l’Ucraina meridionale durante la guerra russo-ucraina. Occupata dal 2014, la Crimea è stata una base per la successiva occupazione russa dell’oblast di Kherson e dell’oblast di Zaporizhzhia.\nVladimir Putin ha definito la Crimea un «luogo sacro» e una «terra santa». Il vicepresidente del Consiglio di sicurezza della Russia, Dmitry Medvedev, ha dichiarato nel luglio 2022 che la conseguenza di un attacco alla Crimea sarà che «il Giorno del Giudizio arriverà per tutti loro lì, in un colpo solo. Molto rapidamente e con grande violenza. Sarà molto difficile nascondersi».",
-    "cz": "Od července 2022 došlo na ruskou armádou okupovaném Krymském poloostrově k sérii výbuchů a požárů; právě odtud ruská armáda během rusko-ukrajinské války zahájila ofenzívu na jižní Ukrajinu. Krym, okupovaný od roku 2014, sloužil jako základna pro následnou ruskou okupaci Chersonské oblasti a ruskou okupaci Záporožské oblasti.\nVladimir Putin označil Krym za „posvátné místo“ a „svatou zemi“. Místopředseda Rady bezpečnosti Ruska Dmitrij Medveděv v červenci 2022 prohlásil, že důsledkem útoku na Krym bude to, že „pro všechny tam najednou nastane Soudný den. Velmi rychlý a krutý. Bude velmi těžké se před ním schovat“."
+    "topic": "2026 European heatwaves",
+    "url": "https://en.wikipedia.org/wiki/2026_European_heatwaves",
+    "en": "Since late May 2026, Europe has been struck by severe heatwaves. Temperature records have been broken in Austria, Belgium, Czechia, Denmark, France, Germany, Hungary, Italy, the Netherlands, Poland, Romania, Spain, and the United Kingdom. The first heatwave started on 24 May, with temperatures higher than normal, causing several deaths. Temperatures were the highest ever recorded for May, with climate change causing the earlier onset of Central European summer. Western Europe was the most affected area, with reports of record-breaking temperatures in France, Ireland and the United Kingdom. Other countries with unusually high temperatures were Portugal, at 40 °C (104 °F), and Spain, which was forecast to reach 38 °C (100 °F).",
+    "it": "Dalla fine di maggio 2026, l’Europa è stata colpita da gravi ondate di caldo. Sono stati battuti i record di temperatura in Austria, Belgio, Repubblica Ceca, Danimarca, Francia, Germania, Ungheria, Italia, Paesi Bassi, Polonia, Romania, Spagna e Regno Unito. La prima ondata di caldo è iniziata il 24 maggio, con temperature superiori alla media stagionale, causando diversi decessi. Le temperature hanno raggiunto i valori più alti mai registrati nel mese di maggio, con i cambiamenti climatici che hanno determinato l’inizio anticipato dell’estate nell’Europa centrale. L’Europa occidentale è stata la zona più colpita, con segnalazioni di temperature da record in Francia, Irlanda e Regno Unito. Altri paesi con temperature insolitamente elevate sono stati il Portogallo, con 40 °C (104 °F), e la Spagna, dove si prevedeva che la temperatura raggiungesse i 38 °C (100 °F).",
+    "cz": "Od konce května 2026 sužují Evropu silné vlny veder. Teplotní rekordy padly v Rakousku, Belgii, Česku, Dánsku, Francii, Německu, Maďarsku, Itálii, Nizozemsku, Polsku, Rumunsku, Španělsku a Spojeném království. První vlna veder začala 24. května, kdy teploty překročily normál a způsobily několik úmrtí. Teploty dosáhly nejvyšších hodnot, jaké kdy byly v květnu zaznamenány, přičemž změna klimatu způsobila dřívější nástup středoevropského léta. Nejvíce postiženou oblastí byla západní Evropa, kde byly hlášeny rekordní teploty ve Francii, Irsku a Spojeném království. Mezi další země s neobvykle vysokými teplotami patřilo Portugalsko s 40 °C (104 °F) a Španělsko, kde se podle předpovědí mělo dosáhnout 38 °C (100 °F)."
   },
   "shadow": {
     "it": "La Slovacchia ha assunto la presidenza del Gruppo di Visegrád per un anno.",
