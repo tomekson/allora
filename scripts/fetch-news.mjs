@@ -123,6 +123,27 @@ async function fetchCzAktuality() {
   return items.filter(i => new Date(i.date + 'T00:00:00Z').getTime() >= cutoff);
 }
 
+/* ---- 2d. Lo sapevi? — Did you know z Wikipedie (CC BY-SA), pozitivní kuriozity ---- */
+async function fetchDyk() {
+  const u = 'https://en.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent('Template:Did you know') + '&format=json&prop=wikitext&formatversion=2';
+  const r = await fetch(u, { headers: { 'User-Agent': 'allora-news/1.0 (personal learning app; github.com/tomekson/allora)' } });
+  const j = await r.json();
+  if (!j.parse) return [];
+  const out = [];
+  for (const line of j.parse.wikitext.split('\n')) {
+    if (!/^\*\s*\.\.\.\s*that/i.test(line.trim())) continue;
+    let text = cleanWiki(line.replace(/^\*\s*/, '')).replace(/^\.\.\.\s*that\s+/i, '').replace(/\(pictured[^)]*\)\s*/i, '');
+    if (!/\?$/.test(text) || text.length < 50 || text.length > 220) continue;
+    text = 'Did you know that ' + text;
+    if (anyMatch(FILTER.block, text)) continue;
+    out.push(text);
+    if (out.length >= 2) break;
+  }
+  return out;
+}
+const dykItems = await fetchDyk();
+console.log(`Lo sapevi?: ${dykItems.length} kuriozity.`);
+
 const czPool = await fetchCzAktuality();
 const czItems = czPool
   .filter(i => !anyMatch(FILTER.block, i.text))
@@ -225,12 +246,14 @@ async function translate(texts, source, target) {
 }
 
 const worldTexts = stories.map(s => s.text);
-const [it, cz, czIt, artIt, artCz] = await Promise.all([
+const [it, cz, czIt, artIt, artCz, dykIt, dykCz] = await Promise.all([
   translate(worldTexts, 'EN', 'IT'),
   translate(worldTexts, 'EN', 'CS'),
   translate(czItems.map(i => i.text), 'CS', 'IT'),
   translate(article ? [article.en] : [], 'EN', 'IT'),
   translate(article ? [article.en] : [], 'EN', 'CS'),
+  translate(dykItems, 'EN', 'IT'),
+  translate(dykItems, 'EN', 'CS'),
 ]);
 
 /* ---- 3b. shadow věta dne: nejkratší vhodná IT věta + rule-based fonetika ---- */
@@ -325,6 +348,7 @@ const out = {
   stories: [
     ...czItems.map((item, i) => ({ it: czIt[i], cz: item.text, origin: 'cz' })),
     ...stories.map((s, i) => ({ en: s.text, it: it[i], cz: cz[i], origin: 'world' })),
+    ...dykItems.map((en, i) => ({ en, it: dykIt[i], cz: dykCz[i], origin: 'dyk' })),
   ],
   article: article ? {
     topic: article.topic,

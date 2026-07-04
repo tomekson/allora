@@ -153,7 +153,8 @@ async function renderNotizie(el) {
 
     const groups = [
       { title: 'Dalla Cechia', items: daily.stories.filter(n => n.origin === 'cz') },
-      { title: 'Dal mondo', items: daily.stories.filter(n => n.origin !== 'cz') },
+      { title: 'Dal mondo', items: daily.stories.filter(n => n.origin === 'world' || !n.origin) },
+      { title: 'Lo sapevi?', items: daily.stories.filter(n => n.origin === 'dyk') },
     ].filter(g => g.items.length);
 
     groups.forEach((g, gi) => {
