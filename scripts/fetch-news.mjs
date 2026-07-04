@@ -190,6 +190,28 @@ const euRaw = await fetchEu();
 const euOfficial = euRaw.filter(e => e.it && e.cz).length;
 console.log(`Dall'UE: ${euRaw.length} zpráv, z toho ${euOfficial} s oficiálním překladem IT+CS.`);
 
+/* ---- 2c3. Economia — tiskové zprávy České národní banky (reuse s uvedením zdroje "the CNB") ---- */
+async function fetchCnb() {
+  try {
+    const r = await fetch('https://www.cnb.cz/en/.content/rss-feed/rss-feed_tz.xml', EU_UA);
+    const items = parseRss(await r.text());
+    const out = [];
+    for (const item of items) {
+      if (!item.title) continue;
+      const text = euText(item.title, item.desc);
+      if (anyMatch(FILTER.block, text)) continue;
+      out.push(text);
+      if (out.length >= 2) break;
+    }
+    return out;
+  } catch (e) {
+    console.log('ČNB RSS selhal:', e.message);
+    return [];
+  }
+}
+const cnbItems = await fetchCnb();
+console.log(`Economia (ČNB): ${cnbItems.length} zpráv.`);
+
 /* ---- 2d. Lo sapevi? — Did you know z Wikipedie (CC BY-SA), pozitivní kuriozity ---- */
 async function fetchDyk() {
   const u = 'https://en.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent('Template:Did you know') + '&format=json&prop=wikitext&formatversion=2';
@@ -315,7 +337,7 @@ async function translate(texts, source, target) {
 const worldTexts = stories.map(s => s.text);
 const euNeedIt = euRaw.filter(e => !e.it).map(e => e.en);
 const euNeedCz = euRaw.filter(e => !e.cz).map(e => e.en);
-const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt] = await Promise.all([
+const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt, cnbIt, cnbCz] = await Promise.all([
   translate(worldTexts, 'EN', 'IT'),
   translate(worldTexts, 'EN', 'CS'),
   translate(czItems.map(i => i.text), 'CS', 'IT'),
@@ -325,6 +347,8 @@ const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt] = await Promise
   translate(dykItems, 'EN', 'CS'),
   translate(euNeedIt, 'EN', 'IT'),
   translate(euNeedCz, 'EN', 'CS'),
+  translate(cnbItems, 'EN', 'IT'),
+  translate(cnbItems, 'EN', 'CS'),
 ]);
 let itIdx = 0, czIdx = 0;
 const euItems = euRaw.map(e => ({
@@ -425,6 +449,7 @@ const out = {
   stories: [
     ...czItems.map((item, i) => ({ it: czIt[i], cz: item.text, origin: 'cz' })),
     ...euItems.map(e => ({ en: e.en, it: e.it, cz: e.cz, origin: 'eu' })),
+    ...cnbItems.map((en, i) => ({ en, it: cnbIt[i], cz: cnbCz[i], origin: 'econ' })),
     ...stories.map((s, i) => ({ en: s.text, it: it[i], cz: cz[i], origin: 'world' })),
     ...dykItems.map((en, i) => ({ en, it: dykIt[i], cz: dykCz[i], origin: 'dyk' })),
   ],

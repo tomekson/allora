@@ -158,6 +158,7 @@ async function renderNotizie(el) {
     const groups = [
       { title: 'Dalla Cechia', items: daily.stories.filter(n => n.origin === 'cz') },
       { title: "Dall'Unione Europea", items: daily.stories.filter(n => n.origin === 'eu') },
+      { title: 'Economia', items: daily.stories.filter(n => n.origin === 'econ') },
       { title: 'Dal mondo', items: daily.stories.filter(n => n.origin === 'world' || !n.origin) },
       { title: 'Lo sapevi?', items: daily.stories.filter(n => n.origin === 'dyk') },
     ].filter(g => g.items.length);
@@ -189,7 +190,7 @@ async function renderNotizie(el) {
       </div>`;
     }
 
-    html += `<p class="fonte">Zdroje: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · <a href="https://ec.europa.eu/commission/presscorner/">Evropská komise</a> · překlad ${esc(daily.translator || 'automatický')}</p>`;
+    html += `<p class="fonte">Zdroje: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · <a href="https://ec.europa.eu/commission/presscorner/">Evropská komise</a> · <a href="https://www.cnb.cz/en/general/rss/">ČNB</a> · překlad ${esc(daily.translator || 'automatický')}</p>`;
 
     // připrav skupiny pro event handlery
     renderNotizie._groups = groups;
