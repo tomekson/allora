@@ -6,6 +6,7 @@
     "\\bwar\\b", "military", "missile", "air ?strike", "drone strike", "offensive", "ceasefire",
     "hostage", "troops", "shelling", "bombard", "front ?line", "invasion",
     "Gaza", "Hamas", "Hezbollah", "Ukrain", "Russia", "Kyiv", "Kremlin", "Israel",
+    "\\bdefen[cs]e\\b", "difesa", "obrann",
     "válk", "útok", "raket", "armád", "ostřelování", "vojensk", "Ukrajin", "Rusk", "Izrael",
     "football", "soccer", "hockey", "champions", "tournament", "\\bleague\\b", "skating",
     "olympi", "FIFA", "UEFA", "NHL", "Grand Slam", "grand prix",

@@ -123,32 +123,54 @@ async function fetchCzAktuality() {
   return items.filter(i => new Date(i.date + 'T00:00:00Z').getTime() >= cutoff);
 }
 
-/* ---- 2c2. Dall'UE — tiskové zprávy Evropské komise (reuse s uvedením zdroje) ---- */
+/* ---- 2c2. Dall'UE — tiskové zprávy Evropské komise s OFICIÁLNÍMI překlady (IT/CS feedy) ---- */
+const EU_UA = { headers: { 'User-Agent': 'allora-news/1.0 (personal learning app; github.com/tomekson/allora)' } };
+
+function parseRss(xml) {
+  return [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => {
+    const g = re => ((m[1].match(re) || [])[1] || '').trim();
+    return { title: g(/<title>([\s\S]*?)<\/title>/), desc: g(/<description>([\s\S]*?)<\/description>/), link: g(/<link>([\s\S]*?)<\/link>/) };
+  });
+}
+
+function euText(title, desc) {
+  const d = desc
+    .replace(/<!\[CDATA\[|\]\]>/g, '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+    .replace(/^.{0,90}?\d{1,2}[.\s]+[\wěščřžýáíéůú]+[.\s]+\d{4}\s*/i, '') // úvodní boilerplate s datem
+    .replace(/\s+/g, ' ').trim();
+  let text = title.replace(/[.!?]$/, '') + '. ' + d;
+  if (text.length > 320) {
+    const cut = text.slice(0, 320);
+    text = cut.slice(0, Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('.')) + 1) || cut;
+  }
+  return text;
+}
+
+const docId = link => (link.match(/detail\/[a-z]{2}\/([a-z]+_\d+_\d+)/) || [])[1] || null;
+const isOfficial = (link, lang) => link.includes(`/detail/${lang}/`);
+
 async function fetchEu() {
   try {
-    const r = await fetch('https://ec.europa.eu/commission/presscorner/api/rss?language=en', {
-      headers: { 'User-Agent': 'allora-news/1.0 (personal learning app; github.com/tomekson/allora)' },
-    });
-    const xml = await r.text();
-    const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => m[1]);
+    const [en, itF, csF] = await Promise.all(['en', 'it', 'cs'].map(async l => {
+      const r = await fetch(`https://ec.europa.eu/commission/presscorner/api/rss?language=${l}`, EU_UA);
+      return parseRss(await r.text());
+    }));
+    const byId = (list, lang) => Object.fromEntries(list.filter(x => isOfficial(x.link, lang)).map(x => [docId(x.link), x]));
+    const itMap = byId(itF, 'it');
+    const csMap = byId(csF, 'cs');
     const out = [];
-    for (const it of items) {
-      const title = ((it.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '').trim();
-      if (!title || /^Daily News/i.test(title)) continue; // agregát mnoha témat, přeskočit
-      let desc = ((it.match(/<description>([\s\S]*?)<\/description>/) || [])[1] || '')
-        .replace(/<!\[CDATA\[|\]\]>/g, '')
-        .replace(/<[^>]*>/g, ' ')
-        .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>')
-        .replace(/^\s*European Commission\s+(Press release|Statement|Daily news|Speech|Announcement)?\s*/i, '')
-        .replace(/^[A-Za-zÀ-ž'\/ ]+,\s*\d{1,2}\s+\w+\s+\d{4}\s*/, '')
-        .replace(/\s+/g, ' ').trim();
-      let text = title.replace(/[.!?]$/, '') + '. ' + desc;
-      if (text.length > 320) {
-        const cut = text.slice(0, 320);
-        text = cut.slice(0, Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('.')) + 1) || cut;
-      }
-      if (anyMatch(FILTER.block, text)) continue;
-      out.push(text);
+    for (const item of en) {
+      const id = docId(item.link);
+      if (!id || /^mex_/.test(id) || /^Daily News/i.test(item.title)) continue; // denní agregát přeskočit
+      const enText = euText(item.title, item.desc);
+      if (anyMatch(FILTER.block, enText)) continue;
+      out.push({
+        en: enText,
+        it: itMap[id] ? euText(itMap[id].title, itMap[id].desc) : null,
+        cz: csMap[id] ? euText(csMap[id].title, csMap[id].desc) : null,
+      });
       if (out.length >= 3) break;
     }
     return out;
@@ -157,8 +179,10 @@ async function fetchEu() {
     return [];
   }
 }
-const euItems = await fetchEu();
-console.log(`Dall'UE: ${euItems.length} zpráv.`);
+
+const euRaw = await fetchEu();
+const euOfficial = euRaw.filter(e => e.it && e.cz).length;
+console.log(`Dall'UE: ${euRaw.length} zpráv, z toho ${euOfficial} s oficiálním překladem IT+CS.`);
 
 /* ---- 2d. Lo sapevi? — Did you know z Wikipedie (CC BY-SA), pozitivní kuriozity ---- */
 async function fetchDyk() {
@@ -283,7 +307,9 @@ async function translate(texts, source, target) {
 }
 
 const worldTexts = stories.map(s => s.text);
-const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euIt, euCz] = await Promise.all([
+const euNeedIt = euRaw.filter(e => !e.it).map(e => e.en);
+const euNeedCz = euRaw.filter(e => !e.cz).map(e => e.en);
+const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt] = await Promise.all([
   translate(worldTexts, 'EN', 'IT'),
   translate(worldTexts, 'EN', 'CS'),
   translate(czItems.map(i => i.text), 'CS', 'IT'),
@@ -291,9 +317,15 @@ const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euIt, euCz] = await Promise.all
   translate(article ? [article.en] : [], 'EN', 'CS'),
   translate(dykItems, 'EN', 'IT'),
   translate(dykItems, 'EN', 'CS'),
-  translate(euItems, 'EN', 'IT'),
-  translate(euItems, 'EN', 'CS'),
+  translate(euNeedIt, 'EN', 'IT'),
+  translate(euNeedCz, 'EN', 'CS'),
 ]);
+let itIdx = 0, czIdx = 0;
+const euItems = euRaw.map(e => ({
+  en: e.en,
+  it: e.it || euItMt[itIdx++],
+  cz: e.cz || euCzMt[czIdx++],
+}));
 
 /* ---- 3b. shadow věta dne: nejkratší vhodná IT věta + rule-based fonetika ---- */
 
@@ -386,7 +418,7 @@ const out = {
   translator: engine,
   stories: [
     ...czItems.map((item, i) => ({ it: czIt[i], cz: item.text, origin: 'cz' })),
-    ...euItems.map((en, i) => ({ en, it: euIt[i], cz: euCz[i], origin: 'eu' })),
+    ...euItems.map(e => ({ en: e.en, it: e.it, cz: e.cz, origin: 'eu' })),
     ...stories.map((s, i) => ({ en: s.text, it: it[i], cz: cz[i], origin: 'world' })),
     ...dykItems.map((en, i) => ({ en, it: dykIt[i], cz: dykCz[i], origin: 'dyk' })),
   ],
