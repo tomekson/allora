@@ -529,7 +529,10 @@ async function checkVersion() {
   try {
     const r = await fetch('version.json?t=' + Date.now(), { cache: 'no-store' });
     const j = await r.json();
-    if (j.v !== APP_VERSION) $('#update-banner').classList.remove('hidden');
+    if (j.v !== APP_VERSION) {
+      $('#update-text').textContent = `Je k dispozici nová verze v${j.v}`;
+      $('#update-banner').classList.remove('hidden');
+    }
   } catch (e) { /* offline — v pohodě */ }
 }
 
