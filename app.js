@@ -190,7 +190,7 @@ async function renderNotizie(el) {
       </div>`;
     }
 
-    html += `<p class="fonte">Zdroje: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · <a href="https://ec.europa.eu/commission/presscorner/">Evropská komise</a> · <a href="https://www.cnb.cz/en/general/rss/">ČNB</a> · překlad ${esc(daily.translator || 'automatický')}</p>`;
+    html += `<p class="fonte">Zdroje: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · <a href="https://ec.europa.eu/commission/presscorner/">Evropská komise</a> · <a href="https://www.cnb.cz/en/general/rss/">ČNB</a> · <a href="https://www.istat.it/en/">Istat</a> (CC BY 3.0) · překlad ${esc(daily.translator || 'automatický')}</p>`;
 
     // připrav skupiny pro event handlery
     renderNotizie._groups = groups;

@@ -212,6 +212,28 @@ async function fetchCnb() {
 const cnbItems = await fetchCnb();
 console.log(`Economia (ČNB): ${cnbItems.length} zpráv.`);
 
+/* ---- 2c4. Economia — Istat, statistické releasy (CC BY 3.0, uvedení zdroje) ---- */
+async function fetchIstat() {
+  try {
+    const r = await fetch('https://www.istat.it/en/feed/', EU_UA);
+    const items = parseRss(await r.text());
+    const out = [];
+    for (const item of items) {
+      if (!item.title) continue;
+      const text = euText(item.title.replace(/&#8211;/g, '-'), item.desc);
+      if (anyMatch(FILTER.block, text)) continue;
+      out.push(text);
+      if (out.length >= 2) break;
+    }
+    return out;
+  } catch (e) {
+    console.log('Istat RSS selhal:', e.message);
+    return [];
+  }
+}
+const istatItems = await fetchIstat();
+console.log(`Economia (Istat): ${istatItems.length} zpráv.`);
+
 /* ---- 2d. Lo sapevi? — Did you know z Wikipedie (CC BY-SA), pozitivní kuriozity ---- */
 async function fetchDyk() {
   const u = 'https://en.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent('Template:Did you know') + '&format=json&prop=wikitext&formatversion=2';
@@ -337,7 +359,7 @@ async function translate(texts, source, target) {
 const worldTexts = stories.map(s => s.text);
 const euNeedIt = euRaw.filter(e => !e.it).map(e => e.en);
 const euNeedCz = euRaw.filter(e => !e.cz).map(e => e.en);
-const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt, cnbIt, cnbCz] = await Promise.all([
+const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt, cnbIt, cnbCz, istatIt, istatCz] = await Promise.all([
   translate(worldTexts, 'EN', 'IT'),
   translate(worldTexts, 'EN', 'CS'),
   translate(czItems.map(i => i.text), 'CS', 'IT'),
@@ -349,6 +371,8 @@ const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euItMt, euCzMt, cnbIt, cnbCz] =
   translate(euNeedCz, 'EN', 'CS'),
   translate(cnbItems, 'EN', 'IT'),
   translate(cnbItems, 'EN', 'CS'),
+  translate(istatItems, 'EN', 'IT'),
+  translate(istatItems, 'EN', 'CS'),
 ]);
 let itIdx = 0, czIdx = 0;
 const euItems = euRaw.map(e => ({
@@ -450,6 +474,7 @@ const out = {
     ...czItems.map((item, i) => ({ it: czIt[i], cz: item.text, origin: 'cz' })),
     ...euItems.map(e => ({ en: e.en, it: e.it, cz: e.cz, origin: 'eu' })),
     ...cnbItems.map((en, i) => ({ en, it: cnbIt[i], cz: cnbCz[i], origin: 'econ' })),
+    ...istatItems.map((en, i) => ({ en, it: istatIt[i], cz: istatCz[i], origin: 'econ' })),
     ...stories.map((s, i) => ({ en: s.text, it: it[i], cz: cz[i], origin: 'world' })),
     ...dykItems.map((en, i) => ({ en, it: dykIt[i], cz: dykCz[i], origin: 'dyk' })),
   ],
