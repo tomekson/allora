@@ -2,10 +2,22 @@
    Běží v GitHub Actions (Node 20+, bez závislostí). Bez DEEPL_API_KEY jen vypíše, co by přeložil. */
 'use strict';
 
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, mkdirSync, readFileSync } from 'node:fs';
 
 const STORIES_MAX = 5;
 const KEY = process.env.DEEPL_API_KEY || '';
+
+/* ---- filtr témat (data/news-filter.json, editovatelný bez zásahu do kódu) ---- */
+const FILTER = JSON.parse(readFileSync('data/news-filter.json', 'utf8'));
+const anyMatch = (patterns, text) => patterns.some(p => new RegExp(p, 'i').test(text));
+const isBlocked = item =>
+  anyMatch(FILTER.block, item.text) ||
+  (item.section && anyMatch(FILTER.blockSections, item.section));
+const scoreOf = item => {
+  let s = FILTER.prefer.filter(p => new RegExp(p, 'i').test(item.text)).length;
+  if (item.section && anyMatch(FILTER.preferSections, item.section)) s += 1;
+  return s;
+};
 
 /* datum v Praze */
 const now = new Date();
@@ -46,7 +58,10 @@ async function fetchWorld(dateStr) {
   }
   const items = [];
   let lastTopic = null; // článek události z nadřazené odrážky (pro Approfondimento)
+  let section = null;   // '''Armed conflicts and attacks''' apod.
   for (const line of body.parse.wikitext.split('\n')) {
+    const sm = line.match(/^'''(.+?)'''/);
+    if (sm) { section = sm[1]; lastTopic = null; continue; }
     if (!/^\*+\s*\S/.test(line)) continue;
     const text = cleanWiki(line.replace(/^\*+/, ''));
     const isSentence = text.length >= 60 && /[.!?]$/.test(text);
@@ -55,21 +70,28 @@ async function fetchWorld(dateStr) {
       if (lm) lastTopic = lm[1].trim();
       continue;
     }
-    items.push({ text, topic: lastTopic });
-    if (items.length >= STORIES_MAX) break;
+    items.push({ text, topic: lastTopic, section });
   }
   return items;
 }
 
-const stories = await fetchWorld(praha);
-if (stories.length < STORIES_MAX) {
-  console.log(`Dnešní stránka má jen ${stories.length} zpráv, doplňuji ze včerejška (${vcera}).`);
-  const seen = new Set(stories.map(s => s.text));
-  for (const it of await fetchWorld(vcera)) {
-    if (stories.length >= STORIES_MAX) break;
-    if (!seen.has(it.text)) stories.push(it);
-  }
+/* dnešek + včerejšek → filtr → řazení podle preferencí */
+const poolToday = await fetchWorld(praha);
+const poolYesterday = await fetchWorld(vcera);
+const seen = new Set();
+const pool = [];
+for (const it of [...poolToday, ...poolYesterday]) {
+  if (seen.has(it.text)) continue;
+  seen.add(it.text);
+  pool.push(it);
 }
+const blockedCount = pool.filter(isBlocked).length;
+const stories = pool
+  .filter(it => !isBlocked(it))
+  .map((it, i) => ({ ...it, score: scoreOf(it), order: i }))
+  .sort((a, b) => b.score - a.score || a.order - b.order)
+  .slice(0, STORIES_MAX);
+console.log(`Světový pool: ${pool.length} zpráv, ${blockedCount} odfiltrováno (konflikty/sport), vybráno ${stories.length} podle preferencí.`);
 
 /* ---- 2b. české zprávy: cs.wikipedia Portál:Aktuality (CC BY-SA) ---- */
 const CZ_MAX = 4;
@@ -98,10 +120,16 @@ async function fetchCzAktuality() {
   // jen poslední 3 dny; nejnovější napřed
   items.sort((a, b) => b.date.localeCompare(a.date));
   const cutoff = new Date(`${praha}T00:00:00Z`).getTime() - 3 * 86400000;
-  return items.filter(i => new Date(i.date + 'T00:00:00Z').getTime() >= cutoff).slice(0, CZ_MAX);
+  return items.filter(i => new Date(i.date + 'T00:00:00Z').getTime() >= cutoff);
 }
 
-const czItems = await fetchCzAktuality();
+const czPool = await fetchCzAktuality();
+const czItems = czPool
+  .filter(i => !anyMatch(FILTER.block, i.text))
+  .map((i, idx) => ({ ...i, score: FILTER.prefer.filter(p => new RegExp(p, 'i').test(i.text)).length, order: idx }))
+  .sort((a, b) => b.score - a.score || a.order - b.order)
+  .slice(0, CZ_MAX);
+console.log(`Český pool: ${czPool.length} zpráv, ${czPool.filter(i => anyMatch(FILTER.block, i.text)).length} odfiltrováno, vybráno ${czItems.length}.`);
 
 /* ---- 2c. Approfondimento: úvod wiki článku k první události s tématem ---- */
 async function fetchExtract(title) {
@@ -130,8 +158,13 @@ if (!stories.length && !czItems.length) {
   process.exit(0);
 }
 console.log(`Nalezeno ${stories.length} světových zpráv (${page}) + ${czItems.length} českých (Portál:Aktuality)${article ? ` + approfondimento: ${article.topic}` : ''}:`);
-stories.forEach((s, i) => console.log(`  W${i + 1}. ${s.text.slice(0, 100)}…`));
-czItems.forEach((s, i) => console.log(`  CZ${i + 1}. [${s.date}] ${s.text.slice(0, 100)}…`));
+stories.forEach((s, i) => console.log(`  W${i + 1}. [${s.score}b|${s.section || '?'}] ${s.text.slice(0, 90)}…`));
+czItems.forEach((s, i) => console.log(`  CZ${i + 1}. [${s.score}b|${s.date}] ${s.text.slice(0, 90)}…`));
+
+if (process.env.DRY_RUN) {
+  console.log('DRY_RUN: končím před překladem, nic nezapisuji.');
+  process.exit(0);
+}
 
 /* ---- 3. překlad: DeepL (pokud je klíč), jinak/při selhání MyMemory ---- */
 const endpoint = KEY.endsWith(':fx') ? 'https://api-free.deepl.com/v2/translate' : 'https://api.deepl.com/v2/translate';

@@ -1,0 +1,25 @@
+{
+  "_komentar": "Filtr témat pro denní zprávy. block = tvrdé vyloučení, prefer = přednost při výběru (každá shoda +1 bod, vybírá se podle bodů). Vzory jsou regulární výrazy, velikost písmen se nerozlišuje. Platí pro anglické i české texty.",
+  "blockSections": ["Armed conflicts", "Sport"],
+  "preferSections": ["Business and econom", "Science and technology", "Law and crime"],
+  "block": [
+    "\\bwar\\b", "military", "missile", "air ?strike", "drone strike", "offensive", "ceasefire",
+    "hostage", "troops", "shelling", "bombard", "front ?line", "invasion",
+    "Gaza", "Hamas", "Hezbollah", "Ukrain", "Russia", "Kyiv", "Kremlin", "Israel",
+    "válk", "útok", "raket", "armád", "ostřelování", "vojensk", "Ukrajin", "Rusk", "Izrael",
+    "football", "soccer", "hockey", "champions", "tournament", "\\bleague\\b", "skating",
+    "olympi", "FIFA", "UEFA", "NHL", "Grand Slam", "grand prix",
+    "fotbal", "hokej", "mistrovství", "turnaj", "\\bliga\\b", "bruslení", "zápas"
+  ],
+  "prefer": [
+    "econom", "inflation", "\\bGDP\\b", "interest rate", "central bank", "\\bstocks?\\b", "shares",
+    "market", "tariff", "\\btrade\\b", "\\btax\\b", "budget", "eurozone",
+    "European Union", "\\bEU\\b", "European Commission", "European Parliament", "Brussels",
+    "Iceland", "Reykjav", "Spain", "Spanish", "Madrid", "Catalonia",
+    "artificial intelligence", "\\bAI\\b", "OpenAI", "chatbot", "algorithm", "machine learning",
+    "GDPR", "data protection", "cybersecurity", "digital", "antitrust", "regulation", "\\btech\\b",
+    "consumer", "e-commerce", "startup",
+    "ekonomi", "inflace", "\\bHDP\\b", "bank", "sazb", "akci[ei]", "daň", "rozpočet", "trh",
+    "Evropsk", "Island", "Španěl", "umělá inteligence", "spotřebitel", "podnikat", "digitál", "kyber", "regulace"
+  ]
+}
