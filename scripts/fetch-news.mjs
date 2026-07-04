@@ -160,20 +160,26 @@ async function fetchEu() {
     const byId = (list, lang) => Object.fromEntries(list.filter(x => isOfficial(x.link, lang)).map(x => [docId(x.link), x]));
     const itMap = byId(itF, 'it');
     const csMap = byId(csF, 'cs');
-    const out = [];
-    for (const item of en) {
+    const cands = [];
+    en.forEach((item, order) => {
       const id = docId(item.link);
-      if (!id || /^mex_/.test(id) || /^Daily News/i.test(item.title)) continue; // denní agregát přeskočit
+      if (!id || /^mex_/.test(id) || /^Daily News/i.test(item.title)) return; // denní agregát přeskočit
       const enText = euText(item.title, item.desc);
-      if (anyMatch(FILTER.block, enText)) continue;
-      out.push({
+      if (anyMatch(FILTER.block, enText)) return;
+      cands.push({
+        order,
+        pressRelease: /^ip_/.test(id),
         en: enText,
         it: itMap[id] ? euText(itMap[id].title, itMap[id].desc) : null,
         cz: csMap[id] ? euText(csMap[id].title, csMap[id].desc) : null,
       });
-      if (out.length >= 3) break;
-    }
-    return out;
+    });
+    // přednost: oficiálně přeložené, pak tiskové zprávy, pak pořadí ve feedu
+    cands.sort((a, b) =>
+      ((b.it && b.cz) ? 1 : 0) - ((a.it && a.cz) ? 1 : 0) ||
+      (b.pressRelease ? 1 : 0) - (a.pressRelease ? 1 : 0) ||
+      a.order - b.order);
+    return cands.slice(0, 3);
   } catch (e) {
     console.log('EU RSS selhal:', e.message);
     return [];
