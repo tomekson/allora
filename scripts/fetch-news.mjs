@@ -123,6 +123,43 @@ async function fetchCzAktuality() {
   return items.filter(i => new Date(i.date + 'T00:00:00Z').getTime() >= cutoff);
 }
 
+/* ---- 2c2. Dall'UE — tiskové zprávy Evropské komise (reuse s uvedením zdroje) ---- */
+async function fetchEu() {
+  try {
+    const r = await fetch('https://ec.europa.eu/commission/presscorner/api/rss?language=en', {
+      headers: { 'User-Agent': 'allora-news/1.0 (personal learning app; github.com/tomekson/allora)' },
+    });
+    const xml = await r.text();
+    const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map(m => m[1]);
+    const out = [];
+    for (const it of items) {
+      const title = ((it.match(/<title>([\s\S]*?)<\/title>/) || [])[1] || '').trim();
+      if (!title || /^Daily News/i.test(title)) continue; // agregát mnoha témat, přeskočit
+      let desc = ((it.match(/<description>([\s\S]*?)<\/description>/) || [])[1] || '')
+        .replace(/<!\[CDATA\[|\]\]>/g, '')
+        .replace(/<[^>]*>/g, ' ')
+        .replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#0?39;|&apos;/g, "'").replace(/&lt;/g, '<').replace(/&gt;/g, '>')
+        .replace(/^\s*European Commission\s+(Press release|Statement|Daily news|Speech|Announcement)?\s*/i, '')
+        .replace(/^[A-Za-zÀ-ž'\/ ]+,\s*\d{1,2}\s+\w+\s+\d{4}\s*/, '')
+        .replace(/\s+/g, ' ').trim();
+      let text = title.replace(/[.!?]$/, '') + '. ' + desc;
+      if (text.length > 320) {
+        const cut = text.slice(0, 320);
+        text = cut.slice(0, Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('.')) + 1) || cut;
+      }
+      if (anyMatch(FILTER.block, text)) continue;
+      out.push(text);
+      if (out.length >= 3) break;
+    }
+    return out;
+  } catch (e) {
+    console.log('EU RSS selhal:', e.message);
+    return [];
+  }
+}
+const euItems = await fetchEu();
+console.log(`Dall'UE: ${euItems.length} zpráv.`);
+
 /* ---- 2d. Lo sapevi? — Did you know z Wikipedie (CC BY-SA), pozitivní kuriozity ---- */
 async function fetchDyk() {
   const u = 'https://en.wikipedia.org/w/api.php?action=parse&page=' + encodeURIComponent('Template:Did you know') + '&format=json&prop=wikitext&formatversion=2';
@@ -246,7 +283,7 @@ async function translate(texts, source, target) {
 }
 
 const worldTexts = stories.map(s => s.text);
-const [it, cz, czIt, artIt, artCz, dykIt, dykCz] = await Promise.all([
+const [it, cz, czIt, artIt, artCz, dykIt, dykCz, euIt, euCz] = await Promise.all([
   translate(worldTexts, 'EN', 'IT'),
   translate(worldTexts, 'EN', 'CS'),
   translate(czItems.map(i => i.text), 'CS', 'IT'),
@@ -254,6 +291,8 @@ const [it, cz, czIt, artIt, artCz, dykIt, dykCz] = await Promise.all([
   translate(article ? [article.en] : [], 'EN', 'CS'),
   translate(dykItems, 'EN', 'IT'),
   translate(dykItems, 'EN', 'CS'),
+  translate(euItems, 'EN', 'IT'),
+  translate(euItems, 'EN', 'CS'),
 ]);
 
 /* ---- 3b. shadow věta dne: nejkratší vhodná IT věta + rule-based fonetika ---- */
@@ -347,6 +386,7 @@ const out = {
   translator: engine,
   stories: [
     ...czItems.map((item, i) => ({ it: czIt[i], cz: item.text, origin: 'cz' })),
+    ...euItems.map((en, i) => ({ en, it: euIt[i], cz: euCz[i], origin: 'eu' })),
     ...stories.map((s, i) => ({ en: s.text, it: it[i], cz: cz[i], origin: 'world' })),
     ...dykItems.map((en, i) => ({ en, it: dykIt[i], cz: dykCz[i], origin: 'dyk' })),
   ],
@@ -359,8 +399,13 @@ const out = {
   } : null,
 };
 
-const sh = pickShadow(out.stories);
-if (sh) out.shadow = { it: sh.it, cz: sh.cz, phon: phonSentence(sh.it) };
+/* shadow věty: víc kandidátů, app mezi nimi rotuje */
+out.shadows = out.stories
+  .map(p => ({ it: firstSentence(p.it), cz: firstSentence(p.cz) }))
+  .filter(s => s.it.length >= 30 && s.it.length <= 110)
+  .map(s => ({ ...s, phon: phonSentence(s.it) }));
+const sh = out.shadows[0] || null;
+if (sh) out.shadow = sh;
 mkdirSync('data/news', { recursive: true });
 writeFileSync('data/news/daily.json', JSON.stringify(out, null, 2) + '\n');
 console.log(`Zapsáno data/news/daily.json (${out.stories.length} zpráv, ${praha}).`);

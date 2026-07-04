@@ -129,18 +129,22 @@ async function renderNotizie(el) {
     return;
   }
 
+  const shPool = (daily && daily.shadows && daily.shadows.length) ? daily.shadows
+    : (daily && daily.shadow ? [daily.shadow] : []);
+  const dShadow = shPool.length ? shPool[Math.floor(Math.random() * shPool.length)] : null;
+
   let html = '';
-  if (daily && daily.shadow) {
+  if (dShadow) {
     html += `
     <div class="shadow-box clickable" id="dshadow-box" style="margin-top:10px">
-      <div class="muted">Shadow věta dne: 3× pomalu, 3× normálně</div>
-      <div class="it">${esc(daily.shadow.it)}</div>
-      <div class="phon">${esc(daily.shadow.phon)}</div>
+      <div class="muted">Shadow věta: 3× pomalu, 3× normálně · další věta = přepni záložku a zpět</div>
+      <div class="it">${esc(dShadow.it)}</div>
+      <div class="phon">${esc(dShadow.phon)}</div>
       <div style="margin-top:8px">
         <button class="tts-btn" id="dshadow-tts">🔊 Ascolta</button>
-        ${daily.shadow.cz ? '<button class="cz-toggle" id="dshadow-cz">🇨🇿 česky</button>' : ''}
+        ${dShadow.cz ? '<button class="cz-toggle" id="dshadow-cz">🇨🇿 česky</button>' : ''}
       </div>
-      ${daily.shadow.cz ? `<div class="cz-text hidden" id="dshadow-cztext">${esc(daily.shadow.cz)}</div>` : ''}
+      ${dShadow.cz ? `<div class="cz-text hidden" id="dshadow-cztext">${esc(dShadow.cz)}</div>` : ''}
     </div>`;
   }
   if (daily && daily.stories && daily.stories.length) {
@@ -153,6 +157,7 @@ async function renderNotizie(el) {
 
     const groups = [
       { title: 'Dalla Cechia', items: daily.stories.filter(n => n.origin === 'cz') },
+      { title: "Dall'Unione Europea", items: daily.stories.filter(n => n.origin === 'eu') },
       { title: 'Dal mondo', items: daily.stories.filter(n => n.origin === 'world' || !n.origin) },
       { title: 'Lo sapevi?', items: daily.stories.filter(n => n.origin === 'dyk') },
     ].filter(g => g.items.length);
@@ -184,7 +189,7 @@ async function renderNotizie(el) {
       </div>`;
     }
 
-    html += `<p class="fonte">Zdroj: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · překlad ${esc(daily.translator || 'automatický')}</p>`;
+    html += `<p class="fonte">Zdroje: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · <a href="https://ec.europa.eu/commission/presscorner/">Evropská komise</a> · překlad ${esc(daily.translator || 'automatický')}</p>`;
 
     // připrav skupiny pro event handlery
     renderNotizie._groups = groups;
@@ -192,8 +197,8 @@ async function renderNotizie(el) {
 
   el.innerHTML = html;
 
-  if (daily.shadow) {
-    $('#dshadow-tts').onclick = e => { e.stopPropagation(); speak(daily.shadow.it, 0.75); };
+  if (dShadow) {
+    $('#dshadow-tts').onclick = e => { e.stopPropagation(); speak(dShadow.it, 0.75); };
     const czToggle = () => $('#dshadow-cztext') && $('#dshadow-cztext').classList.toggle('hidden');
     $('#dshadow-box').onclick = czToggle;
     const czBtn = $('#dshadow-cz');
