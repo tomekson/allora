@@ -260,6 +260,10 @@ h2 {
 
 .fonte a { color: var(--grigio); }
 
+#archivio-link { color: var(--verde-scuro); font-weight: 600; font-size: 0.9rem; text-decoration: none; }
+.archivio-day-content { padding: 2px 4px 10px; }
+.archivio-day-content .digest-item:first-child { padding-top: 4px; }
+
 hr.sep {
   border: none;
   border-top: 1px solid var(--linea);

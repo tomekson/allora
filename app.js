@@ -191,7 +191,8 @@ async function renderNotizie(el) {
       </div>`;
     }
 
-    html += `<p class="fonte">Zdroje: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · <a href="https://ec.europa.eu/commission/presscorner/">Evropská komise</a> · <a href="https://www.cnb.cz/en/general/rss/">ČNB</a> · <a href="https://www.istat.it/en/">Istat</a> (CC BY 3.0)${daily.stories.some(s => s.origin === 'guardian') ? ' · <a href="https://www.theguardian.com/">The Guardian</a> (Open Platform)' : ''} · překlad ${esc(daily.translator || 'automatický')}</p>`;
+    html += `<p class="fonte">Zdroje: <a href="${esc(daily.sourceUrl)}">Wikipedia</a> (CC BY-SA) · <a href="https://ec.europa.eu/commission/presscorner/">Evropská komise</a> · <a href="https://www.cnb.cz/en/general/rss/">ČNB</a> · <a href="https://www.istat.it/en/">Istat</a> (CC BY 3.0)${daily.stories.some(s => s.origin === 'guardian') ? ' · <a href="https://www.theguardian.com/">The Guardian</a> (Open Platform)' : ''} · překlad ${esc(daily.translator || 'automatický')}</p>
+    <p style="text-align:center;margin-top:14px"><a href="#" id="archivio-link">📚 Archivio — starší dny</a></p>`;
 
     // připrav skupiny pro event handlery
     renderNotizie._groups = groups;
@@ -221,6 +222,113 @@ async function renderNotizie(el) {
     $('#art-tts').onclick = e => { e.stopPropagation(); speak(daily.article.it); };
     $('#art-cz').onclick = e => { e.stopPropagation(); artToggle(); };
   }
+  const arch = $('#archivio-link');
+  if (arch) arch.onclick = () => show('archivio');
+}
+
+/* ---------------- Archivio (historie denních zpráv) ---------------- */
+
+const ARCHIVE_PAGE_SIZE = 14;
+let archivioPage = 0;
+let archivioOpenDate = null;
+
+async function renderArchivio(el) {
+  let index = [];
+  try { index = await fetchJson('data/news/archive/index.json', { cache: 'no-cache' }); } catch (e) { /* archiv zatím prázdný */ }
+  index.sort((a, b) => b.date.localeCompare(a.date));
+
+  if (!index.length) {
+    el.innerHTML = `
+      <h2>Archivio</h2>
+      <p class="muted"><a href="#" id="archivio-back">← Notizie</a></p>
+      <div class="card"><p class="muted">Archiv se teprve začíná plnit. Vrať se zítra.</p></div>`;
+    $('#archivio-back').onclick = e => { e.preventDefault(); show('notizie'); };
+    return;
+  }
+
+  const pages = Math.ceil(index.length / ARCHIVE_PAGE_SIZE);
+  archivioPage = Math.min(Math.max(archivioPage, 0), pages - 1);
+  const slice = index.slice(archivioPage * ARCHIVE_PAGE_SIZE, (archivioPage + 1) * ARCHIVE_PAGE_SIZE);
+
+  let html = `
+    <h2>Archivio</h2>
+    <p class="muted"><a href="#" id="archivio-back">← Notizie</a> · ${index.length} dní, stránka ${archivioPage + 1}/${pages}</p>
+    <div class="card" style="padding:4px 2px" id="archivio-list">`;
+  for (const d of slice) {
+    html += `
+      <div class="week-row archivio-day" data-date="${d.date}" style="cursor:pointer">
+        <div class="info">
+          <div class="citta">${esc(d.date)}</div>
+          <div class="t">${d.count} zpráv</div>
+        </div>
+      </div>
+      <div class="archivio-day-content hidden" data-date-content="${d.date}"></div>`;
+  }
+  html += `</div>
+    <div class="btn-row">
+      <button class="btn" id="archivio-prev" ${archivioPage <= 0 ? 'disabled' : ''}>← Novější</button>
+      <button class="btn" id="archivio-next" ${archivioPage >= pages - 1 ? 'disabled' : ''}>Starší →</button>
+    </div>`;
+
+  el.innerHTML = html;
+  $('#archivio-back').onclick = e => { e.preventDefault(); show('notizie'); };
+  $('#archivio-prev').onclick = () => { archivioPage--; renderArchivio(el); };
+  $('#archivio-next').onclick = () => { archivioPage++; renderArchivio(el); };
+
+  el.querySelectorAll('.archivio-day').forEach(row => {
+    row.onclick = async () => {
+      const date = row.dataset.date;
+      const content = el.querySelector(`[data-date-content="${date}"]`);
+      const isOpen = !content.classList.contains('hidden');
+      el.querySelectorAll('.archivio-day-content').forEach(c => c.classList.add('hidden'));
+      if (isOpen) return;
+      content.classList.remove('hidden');
+      if (!content.dataset.loaded) {
+        content.innerHTML = '<p class="muted" style="padding:8px">Caricamento…</p>';
+        try {
+          const day = await fetchJson(`data/news/archive/${date}.json`);
+          let dh = '';
+          day.stories.forEach((n, i) => {
+            dh += `
+            <div class="digest-item archivio-item" data-idx="${i}">
+              <button class="tts-mini" title="Ascolta">🔊</button>
+              <div class="digest-text">
+                <p class="testo">${esc(n.it)}</p>
+                <p class="cz-line hidden">${esc(n.cz)}</p>
+              </div>
+              <span class="chev" aria-hidden="true">🇨🇿</span>
+            </div>`;
+          });
+          if (day.article) {
+            dh += `
+            <div class="card article" style="margin-top:8px">
+              <h3>Approfondimento</h3>
+              <p class="testo">${esc(day.article.it)}</p>
+              <button class="tts-btn" data-art-tts>🔊 Ascolta</button>
+              <button class="cz-toggle" data-art-cz>🇨🇿 česky</button>
+              <div class="cz-text hidden">${esc(day.article.cz)}</div>
+            </div>`;
+          }
+          content.innerHTML = dh;
+          content.dataset.loaded = '1';
+          content.querySelectorAll('.archivio-item').forEach(row2 => {
+            const n = day.stories[+row2.dataset.idx];
+            row2.querySelector('.tts-mini').onclick = e => { e.stopPropagation(); speak(n.it); };
+            row2.onclick = () => row2.querySelector('.cz-line').classList.toggle('hidden');
+          });
+          const artBox = content.querySelector('.article');
+          if (artBox) {
+            const toggle = () => artBox.querySelector('.cz-text').classList.toggle('hidden');
+            artBox.onclick = toggle;
+            artBox.querySelector('[data-art-tts]').onclick = e => { e.stopPropagation(); speak(day.article.it); };
+            artBox.querySelector('[data-art-cz]').onclick = e => { e.stopPropagation(); toggle(); };
+          }
+        } catch (e) {
+          content.innerHTML = `<p class="muted" style="padding:8px">Nepodařilo se načíst.</p>`;
+        }
+      }
+    };
+  });
 }
 
 /* ---------------- Lezione ---------------- */
@@ -500,6 +608,7 @@ const tabs = {
   parole: renderParole,
   viaggio: renderViaggio,
   progresso: renderProgresso,
+  archivio: renderArchivio,
 };
 
 let currentTab = 'notizie';

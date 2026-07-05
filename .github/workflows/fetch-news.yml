@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "allora-bot"
           git config user.email "actions@github.com"
-          git add data/news/daily.json || true
+          git add data/news/daily.json data/news/archive/ || true
           if git diff --cached --quiet; then
             echo "Beze změn."
           else
