@@ -3,6 +3,7 @@ name: fetch-news
 on:
   schedule:
     - cron: "30 4 * * *"   # denně ~06:30 Prahy (letní čas)
+    - cron: "0 7 * * *"    # záložní pokus ~09:00 Prahy — GitHub scheduled runs mívají zpoždění i několik hodin
   workflow_dispatch:
 
 permissions:
