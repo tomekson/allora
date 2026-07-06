@@ -5,7 +5,7 @@
   "translator": "DeepL",
   "stories": [
     {
-      "it": "A Karlovy Vary ha preso il via la 60ª edizione del Festival Internazionale del Cinema, alla quale ha partecipato, tra gli altri, l'attore Dustin Hoffman.",
+      "it": "A Karlovy Vary è stata inaugurata la 60ª edizione del Festival Internazionale del Cinema, alla quale ha partecipato, tra gli altri, l'attore Dustin Hoffman.",
       "cz": "V&nbsp;Karlových Varech byl zahájen 60.&nbsp;ročník Mezinárodního filmového festivalu, mimo jiné za účasti herce Dustina Hoffmana.",
       "origin": "cz"
     },
@@ -35,49 +35,55 @@
     },
     {
       "en": "IMF and World Bank representatives meet in Prague after eight years. , the Ministry of Finance and the Czech National Bank (CNB) hosted meetings of the International Monetary Fund (IMF) and World Bank constituencies, of which the Czech Republic is a ...",
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni. Il Ministero delle Finanze e la Banca Nazionale Ceca (CNB) hanno ospitato le riunioni dei gruppi di membri del Fondo Monetario Internazionale (FMI) e della Banca Mondiale, di cui la Repubblica Ceca è...",
+      "it": "I rappresentanti del FMI e della Banca Mondiale si incontrano a Praga dopo otto anni. Il Ministero delle Finanze e la Banca Nazionale Ceca (CNB) hanno ospitato le riunioni dei gruppi di membri del Fondo Monetario Internazionale (FMI) e della Banca Mondiale, di cui la Repubblica Ceca è...",
       "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze. Ministerstvo financí a Česká národní banka (ČNB) uspořádaly setkání členů Mezinárodního měnového fondu (MMF) a Světové banky, jejichž členem je Česká republika...",
       "origin": "econ"
     },
     {
       "en": "Retail trade - May 2026. In May 2026 the index +0.2% over April and +2.2% y-o-y",
       "it": "Commercio al dettaglio - maggio 2026. A maggio 2026 l'indice è aumentato dello 0,2% rispetto ad aprile e del 2,2% su base annua",
-      "cz": "Maloobchod – květen 2026. V květnu 2026 vzrostl index o +0,2 % oproti dubnu a o +2,2 % meziročně.",
+      "cz": "Maloobchod – květen 2026. V květnu 2026 vzrostl index o 0,2 % oproti dubnu a o 2,2 % meziročně.",
       "origin": "econ"
     },
     {
       "en": "Employment and unemployment (provisional data) - May 2026. In May 2026, employment decreased (-0.1%). Unemployment rate down to 5.0% (-0.1 p.p.)",
-      "it": "Occupazione e disoccupazione (dati provvisori) - maggio 2026. A maggio 2026 l'occupazione è diminuita (-0,1%). Il tasso di disoccupazione è sceso al 5,0% (-0,1 p.p.)",
+      "it": "Occupazione e disoccupazione (dati provvisori) - maggio 2026. A maggio 2026, l'occupazione è diminuita (-0,1%). Il tasso di disoccupazione è sceso al 5,0% (-0,1 p.p.)",
       "cz": "Zaměstnanost a nezaměstnanost (předběžné údaje) – květen 2026. V květnu 2026 došlo k poklesu zaměstnanosti (-0,1 %). Míra nezaměstnanosti klesla na 5,0 % (-0,1 p.p.).",
       "origin": "econ"
     },
     {
+      "en": "‘Smart operator’: how BT’s first female CEO helped turn telecom around. The firm’s share price has risen 80% under Allison Kirkby’s leadership – but pressure remains for her to deliver further growth",
+      "it": "\"Una dirigente brillante\": come la prima donna amministratore delegato di BT ha contribuito a rilanciare l'azienda di telecomunicazioni. Sotto la guida di Allison Kirkby, il prezzo delle azioni della società è aumentato dell'80%, ma su di lei continua a gravare la pressione di dover garantire un'ulteriore crescita",
+      "cz": "„Chytrá manažerka“: Jak první žena v pozici generální ředitelky společnosti BT pomohla obrátit osud telekomunikační firmy. Cena akcií společnosti pod vedením Allison Kirkbyové vzrostla o 80 % – i nadále však na ni vyvíjí tlak, aby zajistila další růst.",
+      "origin": "guardian"
+    },
+    {
       "en": "Sky owner strikes £1.6bn ITV deal; easyJet shares hit four-year high after it agrees £5.5bn takeover ‘in principle’ - business live. Rolling coverage of the latest economic and financial news",
-      "it": "Il proprietario di Sky conclude un accordo da 1,6 miliardi di sterline con ITV; le azioni di easyJet raggiungono il massimo degli ultimi quattro anni dopo l’accordo “di massima” per l’acquisizione da 5,5 miliardi di sterline - business live. Copertura in tempo reale delle ultime notizie economiche e finanziarie",
+      "it": "Il proprietario di Sky conclude un accordo da 1,6 miliardi di sterline con ITV; le azioni di easyJet raggiungono il massimo degli ultimi quattro anni dopo l’accordo “di massima” per un’acquisizione da 5,5 miliardi di sterline - business live. Copertura in tempo reale delle ultime notizie economiche e finanziarie",
       "cz": "Majitel Sky uzavřel dohodu s ITV v hodnotě 1,6 mld. liber; akcie easyJetu dosáhly čtyřletého maxima poté, co společnost „v zásadě“ souhlasila s převzetím za 5,5 mld. liber – business live. Průběžné zpravodajství o nejnovějších ekonomických a finančních zprávách",
       "origin": "guardian"
     },
     {
-      "en": "Sky owner announces £1.6bn takeover of ITV’s broadcasting arm. US telecom giant Comcast to snap up free-to-air TV channels and streaming platform to create UK’s biggest commercial broadcaster",
-      "it": "Il proprietario di Sky annuncia l'acquisizione, per 1,6 miliardi di sterline, della divisione televisiva di ITV. Il colosso statunitense delle telecomunicazioni Comcast acquisirà i canali televisivi in chiaro e la piattaforma di streaming per creare la più grande emittente commerciale del Regno Unito",
-      "cz": "Majitel společnosti Sky oznámil převzetí vysílací divize ITV za 1,6 mld. liber. Americký telekomunikační gigant Comcast tak získá volně dostupné televizní kanály a streamovací platformu, čímž vznikne největší komerční vysílatel ve Velké Británii.",
-      "origin": "guardian"
-    },
-    {
-      "en": "‘It’s smoke and mirrors’: hope turns to fear in Scottish village chosen for AI datacentre. Suspicions grow in Lanarkshire that local people have been misled on supposed benefits of the huge development",
-      "it": "«Sono solo fumo negli occhi»: la speranza si trasforma in paura in un villaggio scozzese scelto per ospitare un data center dedicato all’intelligenza artificiale. Nel Lanarkshire crescono i sospetti che la popolazione locale sia stata ingannata sui presunti benefici di questo imponente progetto",
-      "cz": "„Jsou to jen kouřové clony“: v skotské vesnici, která byla vybrána pro datové centrum umělé inteligence, se naděje mění ve strach. V Lanarkshire sílí podezření, že místní obyvatelé byli uvedeni v omyl ohledně údajných přínosů tohoto obrovského projektu",
+      "en": "Boost City regulator’s powers to help protect UK consumers from AI, says watchdog. FCA’s review into how tech will reshape financial services warns about amplified risks of cyber-crime and fraud",
+      "it": "\"Occorre rafforzare i poteri dell’autorità di regolamentazione per proteggere i consumatori britannici dall’intelligenza artificiale\", afferma l’organismo di vigilanza. La relazione della FCA su come la tecnologia ridisegnerà i servizi finanziari mette in guardia dall’aumento dei rischi legati alla criminalità informatica e alle frodi",
+      "cz": "„Je třeba posílit pravomoci městského regulačního orgánu, aby pomohl chránit britské spotřebitele před umělou inteligencí,“ uvádí dozorový orgán. Zpráva FCA o tom, jak technologie změní podobu finančních služeb, varuje před zvýšenými riziky kyberkriminality a podvodů",
       "origin": "guardian"
     },
     {
       "en": "Philippine police ⁠arrests senator Rodante Marcoleta, former representative Mike Defensor and a businessman in Quezon City, after an anti-graft court orders their arrest in relation to a plunder case filed by the Ombudsman. Another co-accused, also a businessman, remains at large.",
-      "it": "La polizia filippina ha arrestato il senatore Rodante Marcoleta, l’ex deputato Mike Defensor e un uomo d’affari a Quezon City, dopo che un tribunale anticorruzione ne aveva ordinato l’arresto in relazione a un caso di malversazione presentato dall’Ombudsman. Un altro coimputato, anch’egli uomo d’affari, è ancora latitante.",
+      "it": "La polizia filippina ha arrestato il senatore Rodante Marcoleta, l’ex deputato Mike Defensor e un uomo d’affari a Quezon City, dopo che un tribunale anticorruzione ne aveva ordinato l’arresto in relazione a un caso di appropriazione indebita denunciato dall’Ombudsman. Un altro coimputato, anch’egli uomo d’affari, è ancora latitante.",
       "cz": "Filipínská policie zatkla v Quezon City senátora Rodanteho Marcoletu, bývalého poslance Mikea Defensora a jednoho podnikatele poté, co soud pro boj proti korupci nařídil jejich zatčení v souvislosti s případem zpronevěry, který podal ombudsman. Další spoluobviněný, rovněž podnikatel, je stále na útěku.",
       "origin": "world"
     },
     {
+      "en": "Riots between inmates from rival drug gangs at a prison in Negombo, Sri Lanka, kill 25 people, including four officers, and injure more than 100 others.",
+      "it": "I disordini scoppiati tra detenuti appartenenti a bande rivali dedite al traffico di droga in un carcere di Negombo, nello Sri Lanka, hanno causato la morte di 25 persone, tra cui quattro agenti, e il ferimento di oltre 100 persone.",
+      "cz": "Při nepokojích mezi vězni z protichůdných drogových gangů ve věznici v Negombu na Srí Lance zahynulo 25 lidí, včetně čtyř dozorců, a více než 100 dalších bylo zraněno.",
+      "origin": "world"
+    },
+    {
       "en": "Puntland government issued a statement saying exclusive control over its marine resources, citing its constitution and Somalia's federal framework to block SOMTURK. a joint venture between Somalia's fisheries ministry and Turkey's OYAK fund, from operating without approval. The firm holds a federal licence for fishing permits across Somalia's economic zone, signed in Ankara last December to regulate fishing and curb illegal activities, following as leverage in stalled political talks as rich tuna grounds remain underdeveloped.",
-      "it": "Il governo del Puntland ha rilasciato una dichiarazione in cui rivendica il controllo esclusivo sulle proprie risorse marine, citando la propria costituzione e il quadro federale somalo per impedire a SOMTURK — una joint venture tra il ministero della Pesca somalo e il fondo turco OYAK — di operare senza autorizzazione. L’azienda detiene una licenza federale per i permessi di pesca in tutta la zona economica della Somalia, firmata ad Ankara lo scorso dicembre per regolamentare la pesca e arginare le attività illegali, che funge da leva nei negoziati politici in fase di stallo, mentre le ricche zone di pesca del tonno rimangono sottoutilizzate.",
+      "it": "Il governo del Puntland ha rilasciato una dichiarazione in cui rivendica il controllo esclusivo sulle proprie risorse marine, citando la propria costituzione e il quadro federale somalo per impedire a SOMTURK — una joint venture tra il ministero della Pesca somalo e il fondo turco OYAK — di operare senza autorizzazione. L’azienda detiene una licenza federale per i permessi di pesca in tutta la zona economica della Somalia, firmata ad Ankara lo scorso dicembre per regolamentare la pesca e contrastare le attività illegali, e utilizzata come leva nei negoziati politici in fase di stallo, mentre le ricche zone di pesca del tonno rimangono sottoutilizzate.",
       "cz": "Vláda Puntlandu vydala prohlášení, v němž se odvolává na svou ústavu a federální rámec Somálska a uplatňuje výlučnou kontrolu nad svými mořskými zdroji, aby zabránila společnosti SOMTURK – společnému podniku somálského ministerstva rybolovu a tureckého fondu OYAK – v provozování činnosti bez příslušného povolení. Společnost je držitelem federální licence na rybolov v celé somálské ekonomické zóně, která byla podepsána v Ankaře loni v prosinci s cílem regulovat rybolov a omezit nelegální činnosti; tato licence slouží jako vyjednávací prostředek v uvíznutých politických jednáních, jelikož bohaté loviště tuňáků zůstávají nedostatečně využívané.",
       "origin": "world"
     },
@@ -91,12 +97,6 @@
       "en": "The impeachment trial of Philippine vice president Sara Duterte begins in the Senate.",
       "it": "Al Senato ha inizio il processo di impeachment nei confronti della vicepresidente filippina Sara Duterte.",
       "cz": "V Senátu začíná proces o odvolání filipínské viceprezidentky Sary Duterteové.",
-      "origin": "world"
-    },
-    {
-      "en": "The Sudan Doctors Network reports 200,000 people in the North Kordofan town of Bara are facing a cholera outbreak alongside measles, including 100 cases of measles in children at health care facilities in Bara.",
-      "it": "Il Sudan Doctors Network riferisce che 200.000 persone nella città di Bara, nel Kordofan settentrionale, sono alle prese con un'epidemia di colera che si aggiunge a quella di morbillo, con 100 casi di morbillo tra i bambini ricoverati nelle strutture sanitarie di Bara.",
-      "cz": "Organizace Sudan Doctors Network uvádí, že 200 000 lidí ve městě Bara v Severním Kordofanu čelí epidemii cholery a spalniček, přičemž ve zdravotnických zařízeních v Barě bylo zaznamenáno 100 případů spalniček u dětí.",
       "origin": "world"
     },
     {
@@ -117,7 +117,7 @@
     "url": "https://en.wikipedia.org/wiki/Corruption_in_the_Philippines",
     "en": "Corruption in the Philippines is a widespread problem its citizens endure, which developed during the Spanish colonial period. According to GAN Integrity's Philippines Corruption Report updated May 2021, the Philippines suffers from many incidents of corruption and crime in many aspects of civic life and in various sectors. Such corruption risks are rampant throughout the state's judicial system, police service, public services, land administration, and natural resources. The 2024 Corruption Perceptions Index scored the Philippines at 33 out of 100 points. When ranked by score, the Philippines ranked 114th among the 180 countries in the 2023 Index, where the country ranked first is perceived to have the most honest public sector.",
     "it": "La corruzione nelle Filippine è un problema diffuso che affligge i cittadini del Paese e che ha avuto origine durante il periodo coloniale spagnolo. Secondo il Rapporto sulla corruzione nelle Filippine di GAN Integrity, aggiornato a maggio 2021, il Paese è afflitto da numerosi episodi di corruzione e criminalità in molti aspetti della vita civile e in vari settori. Tali rischi di corruzione sono dilaganti in tutto il sistema giudiziario dello Stato, nelle forze di polizia, nei servizi pubblici, nell’amministrazione fondiaria e nella gestione delle risorse naturali. L’Indice di percezione della corruzione del 2024 ha assegnato alle Filippine un punteggio di 33 su 100. In base al punteggio, le Filippine si sono classificate al 114° posto tra i 180 paesi dell’Indice del 2023, in cui il paese al primo posto è considerato quello con il settore pubblico più onesto.",
-    "cz": "Korupce na Filipínách je rozšířeným problémem, s nímž se občané této země potýkají a který se vyvinul již během španělského koloniálního období. Podle zprávy o korupci na Filipínách, kterou v květnu 2021 aktualizovala organizace GAN Integrity, se Filipíny potýkají s četnými případy korupce a kriminality v mnoha aspektech občanského života i v různých odvětvích. Taková korupční rizika jsou rozšířena v celém soudním systému, policejních složkách, veřejných službách, správě pozemků a v oblasti přírodních zdrojů. V Indexu vnímání korupce za rok 2024 získaly Filipíny 33 bodů ze 100. V žebříčku podle skóre se Filipíny v indexu za rok 2023 umístily na 114. místě ze 180 zemí, přičemž země na prvním místě je vnímána jako země s nejčestnějším veřejným sektorem."
+    "cz": "Korupce na Filipínách je rozšířeným problémem, s nímž se občané této země potýkají a který se vyvinul již během španělského koloniálního období. Podle zprávy o korupci na Filipínách, kterou v květnu 2021 aktualizovala organizace GAN Integrity, se Filipíny potýkají s četnými případy korupce a kriminality v mnoha aspektech občanského života a v různých odvětvích. Taková korupční rizika jsou rozšířena v celém soudním systému, policejních složkách, veřejných službách, správě pozemků a v oblasti přírodních zdrojů. V Indexu vnímání korupce za rok 2024 získaly Filipíny 33 bodů ze 100. V žebříčku podle skóre se Filipíny v indexu za rok 2023 umístily na 114. místě ze 180 zemí, přičemž země na prvním místě je vnímána jako země s nejčestnějším veřejným sektorem."
   },
   "shadows": [
     {
@@ -126,9 +126,9 @@
       "phon": "[MÍ-ka la knb ri-LÁ-ša li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
     },
     {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
+      "it": "I rappresentanti del FMI e della Banca Mondiale si incontrano a Praga dopo otto anni.",
       "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
+      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si in-kont-RÁ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
     },
     {
       "it": "Commercio al dettaglio - maggio 2026.",
