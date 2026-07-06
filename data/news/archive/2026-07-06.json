@@ -1,8 +1,5 @@
 {
   "date": "2026-07-06",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_6",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "A Karlovy Vary ha preso il via la 60ª edizione del Festival Internazionale del Cinema, alla quale ha partecipato, tra gli altri, l'attore Dustin Hoffman.",
@@ -118,42 +115,5 @@
     "en": "Corruption in the Philippines is a widespread problem its citizens endure, which developed during the Spanish colonial period. According to GAN Integrity's Philippines Corruption Report updated May 2021, the Philippines suffers from many incidents of corruption and crime in many aspects of civic life and in various sectors. Such corruption risks are rampant throughout the state's judicial system, police service, public services, land administration, and natural resources. The 2024 Corruption Perceptions Index scored the Philippines at 33 out of 100 points. When ranked by score, the Philippines ranked 114th among the 180 countries in the 2023 Index, where the country ranked first is perceived to have the most honest public sector.",
     "it": "La corruzione nelle Filippine è un problema diffuso che affligge i cittadini del Paese e che ha avuto origine durante il periodo coloniale spagnolo. Secondo il Rapporto sulla corruzione nelle Filippine di GAN Integrity, aggiornato a maggio 2021, il Paese è afflitto da numerosi episodi di corruzione e criminalità in molti aspetti della vita civile e in vari settori. Tali rischi di corruzione sono dilaganti in tutto il sistema giudiziario dello Stato, nelle forze di polizia, nei servizi pubblici, nell’amministrazione fondiaria e nella gestione delle risorse naturali. L’Indice di percezione della corruzione del 2024 ha assegnato alle Filippine un punteggio di 33 su 100. In base al punteggio, le Filippine si sono classificate al 114° posto tra i 180 paesi dell’Indice del 2023, in cui il paese al primo posto è considerato quello con il settore pubblico più onesto.",
     "cz": "Korupce na Filipínách je rozšířeným problémem, s nímž se občané této země potýkají a který se vyvinul již během španělského koloniálního období. Podle zprávy o korupci na Filipínách, kterou v květnu 2021 aktualizovala organizace GAN Integrity, se Filipíny potýkají s četnými případy korupce a kriminality v mnoha aspektech občanského života i v různých odvětvích. Taková korupční rizika jsou rozšířena v celém soudním systému, policejních složkách, veřejných službách, správě pozemků a v oblasti přírodních zdrojů. V Indexu vnímání korupce za rok 2024 získaly Filipíny 33 bodů ze 100. V žebříčku podle skóre se Filipíny v indexu za rok 2023 umístily na 114. místě ze 180 zemí, přičemž země na prvním místě je vnímána jako země s nejčestnějším veřejným sektorem."
-  },
-  "shadows": [
-    {
-      "it": "MiCA: la CNB rilascia licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb ri-LÁ-ša li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Commercio al dettaglio - maggio 2026.",
-      "cz": "Maloobchod – květen 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo MÁG-džo]"
-    },
-    {
-      "it": "Occupazione e disoccupazione (dati provvisori) - maggio 2026.",
-      "cz": "Zaměstnanost a nezaměstnanost (předběžné údaje) – květen 2026.",
-      "phon": "[ok-ku-pa-CÍO-ne e di-zok-ku-pa-CÍO-ne DÁ-ti prov-vi-ZÓ-ri MÁG-džo]"
-    },
-    {
-      "it": "Il satellite Hayabusa2 effettua un sorvolo dell'asteroide 98943 Torifune.",
-      "cz": "Satelit Hayabusa2 provádí průlet kolem asteroidu 98943 Torifune.",
-      "phon": "[il sa-tel-LÍ-te a-ya-BÚ-za ef-FÉT-tua un sor-VÓ-lo del-las-te-RÓI-de to-ri-FÚ-ne]"
-    },
-    {
-      "it": "Al Senato ha inizio il processo di impeachment nei confronti della vicepresidente filippina Sara Duterte.",
-      "cz": "V Senátu začíná proces o odvolání filipínské viceprezidentky Sary Duterteové.",
-      "phon": "[al se-NÁ-to a i-NÍ-cio il pro-ČÉS-so di im-PÉAK-ment nei konf-RÓN-ti DÉL-la vi-čep-re-zi-DÉN-te fi-lip-PÍ-na SÁ-ra du-TÉR-te]"
-    }
-  ],
-  "shadow": {
-    "it": "MiCA: la CNB rilascia licenze nel settore delle criptovalute a 11 soggetti.",
-    "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-    "phon": "[MÍ-ka la knb ri-LÁ-ša li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
   }
 }
