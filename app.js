@@ -30,16 +30,39 @@ function markActivity() {
    iOS: speak() musí běžet z tap handleru — všechna volání jsou onclick. */
 
 let itVoice = null;
+let itVoiceMissing = false; // true = systém/prohlížeč nemá žádný italský hlas, přehraje se špatným přízvukem
 function pickVoice() {
-  const voices = speechSynthesis.getVoices().filter(v => v.lang.toLowerCase().startsWith('it'));
-  itVoice = voices.find(v => v.localService) || voices[0] || null;
+  const all = speechSynthesis.getVoices();
+  const voices = all.filter(v => v.lang.toLowerCase().startsWith('it'));
+  // přesná shoda it-IT před obecným it-*, lokální hlas před síťovým
+  itVoice = voices.find(v => v.lang.toLowerCase() === 'it-it' && v.localService)
+    || voices.find(v => v.lang.toLowerCase() === 'it-it')
+    || voices.find(v => v.localService)
+    || voices[0] || null;
+  if (all.length) itVoiceMissing = !itVoice; // dokud se hlasy vůbec nenačtou, nic netvrdit
 }
 if ('speechSynthesis' in window) {
   pickVoice();
   speechSynthesis.onvoiceschanged = pickVoice;
 }
 
+function showToast(msg) {
+  let t = $('#toast');
+  if (!t) {
+    t = document.createElement('div');
+    t.id = 'toast';
+    t.className = 'toast';
+    document.body.appendChild(t);
+  }
+  t.textContent = msg;
+  t.classList.remove('hidden');
+  clearTimeout(showToast._h);
+  showToast._h = setTimeout(() => t.classList.add('hidden'), 9000);
+  t.onclick = () => t.classList.add('hidden');
+}
+
 let ttsCurrent = null; // text, který právě hraje: druhý klik = pauza, třetí = pokračování
+let voiceWarned = false;
 
 function speak(text, rate = 0.88) {
   if (!('speechSynthesis' in window)) return;
@@ -48,6 +71,12 @@ function speak(text, rate = 0.88) {
     if (ss.paused) ss.resume();
     else ss.pause();
     return;
+  }
+  // iOS PWA občas nespustí "voiceschanged" — znovu zkontrolovat těsně před přehráním
+  if (!itVoice) pickVoice();
+  if (itVoiceMissing && !voiceWarned) {
+    voiceWarned = true;
+    showToast('V tomto prohlížeči/počítači chybí italský hlas pro předčítání, zní to česky. Na Windows: Nastavení → Čas a jazyk → Jazyk a oblast → Přidat jazyk → italština → zapnout hlasový výstup. Tap = skrýt.');
   }
   ss.cancel();
   ttsCurrent = text;
