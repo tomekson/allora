@@ -40,16 +40,22 @@
       "origin": "econ"
     },
     {
-      "en": "Environmental tax revenue – 2008-2025. Istat releases on IstatData the 2008-2025 time series on environmental tax revenue in Italy, broken down by tax category and taxpayer",
-      "it": "Getito fiscale ambientale – 2008-2025. L’Istat pubblica su IstatData la serie temporale 2008-2025 relativa al getito fiscale ambientale in Italia, suddivisa per categoria fiscale e soggetto contribuente",
-      "cz": "Příjmy z ekologických daní – 2008–2025. Istat zveřejňuje na portálu IstatData časové řady příjmů z ekologických daní v Itálii za období 2008–2025, rozčleněné podle kategorií daní a daňových poplatníků",
+      "en": "2026 SDGs Report. Istat releases the 2026 SDGs Report updating the statistical measures for monitoring the 2030 Agenda for our country.",
+      "it": "Rapporto sugli SDG 2026. L’Istat pubblica il Rapporto sugli SDG 2026, che aggiorna gli indicatori statistici per il monitoraggio dell’Agenda 2030 nel nostro Paese.",
+      "cz": "Zpráva o cílech udržitelného rozvoje (SDG) pro rok 2026. Istat zveřejňuje zprávu o cílech udržitelného rozvoje (SDG) pro rok 2026, která aktualizuje statistické ukazatele pro sledování Agendy 2030 v naší zemi.",
       "origin": "econ"
     },
     {
-      "en": "Aspects of daily life. The 2024 public use microstat files are available",
-      "it": "Aspetti della vita quotidiana. Sono disponibili i file Microstat per uso pubblico del 2024",
-      "cz": "Aspekty každodenního života. Soubory mikrostatů pro veřejné použití z roku 2024 jsou k dispozici",
+      "en": "2026 SDGs Report. The eighth edition of the Sustainable Development Goals Report is avalaible in Italian only",
+      "it": "Rapporto sugli Obiettivi di Sviluppo Sostenibile 2026. L'ottava edizione del Rapporto sugli Obiettivi di Sviluppo Sostenibile è disponibile solo in italiano",
+      "cz": "Zpráva o cílech udržitelného rozvoje za rok 2026. Osmé vydání Zprávy o cílech udržitelného rozvoje je k dispozici pouze v italštině.",
       "origin": "econ"
+    },
+    {
+      "en": "Telstra blames ‘software defect’ for major outage that hit mobiles, trains and triple-zero calls. Telco said outage was not due to a cyber-attack but warned of scammers calling people claiming to be from Telstra",
+      "it": "Telstra attribuisce a un “difetto del software” la grave interruzione del servizio che ha colpito i cellulari, i treni e le chiamate al numero di emergenza “triple-zero”. L’operatore ha precisato che l’interruzione non è stata causata da un attacco informatico, ma ha messo in guardia dai truffatori che chiamano gli utenti spacciandosi per dipendenti di Telstra",
+      "cz": "Společnost Telstra přisuzuje rozsáhlý výpadek, který postihl mobilní sítě, vlaky a tísňová volání na číslo 000, „softwarové chybě“. Telekomunikační společnost uvedla, že výpadek nebyl způsoben kyberútokem, varovala však před podvodníky, kteří lidem volají a vydávají se za zástupce společnosti Telstra.",
+      "origin": "guardian"
     },
     {
       "en": "Oil prices rise after fresh US strikes on Iran and return of sanctions on Tehran – business live. Almost all major Asian stock markets fall, with Samsung Electronics shares sliding for a second day",
@@ -58,26 +64,20 @@
       "origin": "guardian"
     },
     {
-      "en": "The Telstra outage is a stark reminder of the widespread effects of single system failures . The network disruption – which brought trains, traffic lights and Eftpos payments to a halt – raises questions about the resilience of services",
-      "it": "L'interruzione del servizio di Telstra ci ricorda in modo lampante gli effetti di vasta portata che possono derivare dai guasti a un singolo sistema. L'interruzione della rete – che ha bloccato treni, semafori e pagamenti Eftpos – solleva interrogativi sulla resilienza dei servizi",
-      "cz": "Výpadek sítě Telstra je jasným připomenutím rozsáhlých dopadů selhání jediného systému. Narušení provozu sítě – které zastavilo vlaky, semafory i platby přes Eftpos – vyvolává otázky ohledně odolnosti těchto služeb",
-      "origin": "guardian"
-    },
-    {
-      "en": "Britons to buy 8m mini fans this year – but almost half will end up in landfill. Shoppers urged to seek quality products or alternatives as data shows demand surpassing least year’s total",
-      "it": "Quest'anno i britannici acquisteranno 8 milioni di mini ventilatori, ma quasi la metà finirà in discarica. Si esortano i consumatori a cercare prodotti di qualità o alternative, poiché i dati indicano che la domanda supererà il totale dello scorso anno",
-      "cz": "Britové letos koupí 8 milionů mini ventilátorů – téměř polovina z nich však skončí na skládce. Zákazníkům se doporučuje vybírat kvalitní výrobky nebo hledat alternativy, protože údaje ukazují, že poptávka převyšuje loňský celkový objem.",
+      "en": "Port of Dover faces ‘utter chaos’ under struggling EU entry system, MPs warn. UK government urged to apply pressure on France to fix system or suspend checks by next week",
+      "it": "Il porto di Dover rischia il “caos totale” a causa delle difficoltà del sistema di ingresso nell’UE, avvertono i parlamentari. Il governo britannico è esortato a esercitare pressioni sulla Francia affinché risolva il problema o sospenda i controlli entro la prossima settimana",
+      "cz": "Poslanci varují, že přístav v Doveru čelí „naprostému chaosu“ kvůli nefunkčnímu systému vstupu do EU. Britská vláda je vyzývána, aby vyvinula tlak na Francii, aby systém opravila nebo do příštího týdne pozastavila kontroly",
       "origin": "guardian"
     },
     {
       "en": "Iraqi state television says that former Iranian supreme leader Ali Khamenei's remains has arrived in Iraq's Shi'ite holy city of Najaf for viewing following funeral ceremonies in Tehran and Qom, Iran.",
-      "it": "La televisione di Stato irachena riferisce che la salma dell'ex leader supremo iraniano Ali Khamenei è giunta a Najaf, città santa sciita dell'Iraq, per essere esposta al pubblico dopo le cerimonie funebri tenutesi a Teheran e a Qom, in Iran.",
+      "it": "La televisione di Stato irachena riferisce che la salma dell’ex leader supremo iraniano Ali Khamenei è giunta a Najaf, città santa sciita dell’Iraq, per essere esposta al pubblico dopo le cerimonie funebri tenutesi a Teheran e a Qom, in Iran.",
       "cz": "Irácká státní televize uvádí, že ostatky bývalého íránského nejvyššího vůdce Alího Chameneího dorazily do iráckého šíitského svatého města Nadžaf, kde budou vystaveny k poslednímu rozloučení po pohřebních obřadech v Teheránu a íránském Qomu.",
       "origin": "world"
     },
     {
       "en": "Did you know that Kim Petras's new album features a track about a brutalist building that she passed on the way to gender-care appointments as a child?",
-      "it": "Lo sapevate che il nuovo album di Kim Petras contiene una canzone che parla di un edificio in stile brutalista che lei vedeva passando mentre andava agli appuntamenti per le cure di genere da bambina?",
+      "it": "Lo sapevate che il nuovo album di Kim Petras contiene una canzone che parla di un edificio in stile brutalista che lei vedeva passando mentre andava agli appuntamenti per le cure di transizione di genere da bambina?",
       "cz": "Věděli jste, že na novém albu Kim Petras je skladba o brutalistické budově, kolem které jako dítě chodila cestou na schůzky v rámci péče o genderovou identitu?",
       "origin": "dyk"
     },
@@ -92,7 +92,7 @@
     "topic": "State funeral of Ali Khamenei",
     "url": "https://en.wikipedia.org/wiki/State_funeral_of_Ali_Khamenei",
     "en": "The state funeral of Ali Khamenei, the second Supreme Leader of Iran, is taking place from 3 to 9 July following his assassination on 28 February. Several processions are expected to be held in Tehran, Qom, and the Iraqi cities of Najaf and Karbala before his burial in Mashhad. \nMajor processions began on 3 July, with large rallies and foreign participants arriving. Hundreds of thousands of followers attended the first day of the funeral, and the Iranian government facilitated the event by providing transportation, food, and lodging.  The funeral procession in Tehran was attended by millions coming from all over Iran. As many as 30 million people were expected to attend over the whole funeral.",
-    "it": "I funerali di Stato di Ali Khamenei, il secondo Leader Supremo dell’Iran, si terranno dal 3 al 9 luglio, in seguito al suo assassinio avvenuto il 28 febbraio. Sono previste diverse processioni a Teheran, Qom e nelle città irachene di Najaf e Karbala, prima della sua sepoltura a Mashhad. \nLe principali processioni sono iniziate il 3 luglio, con grandi raduni e l’arrivo di partecipanti stranieri. Centinaia di migliaia di fedeli hanno partecipato alla prima giornata dei funerali e il governo iraniano ha agevolato lo svolgimento dell’evento fornendo mezzi di trasporto, vitto e alloggio.  Al corteo funebre a Teheran hanno preso parte milioni di persone provenienti da tutto l’Iran. Si prevedeva che un totale di ben 30 milioni di persone partecipasse all’intero evento funebre.",
+    "it": "I funerali di Stato di Ali Khamenei, il secondo Leader Supremo dell’Iran, si terranno dal 3 al 9 luglio, in seguito al suo assassinio avvenuto il 28 febbraio. Sono previste diverse processioni a Teheran, Qom e nelle città irachene di Najaf e Karbala, prima della sua sepoltura a Mashhad. \nLe principali processioni sono iniziate il 3 luglio, con grandi raduni e l’arrivo di partecipanti stranieri. Centinaia di migliaia di fedeli hanno partecipato alla prima giornata dei funerali e il governo iraniano ha agevolato lo svolgimento dell’evento fornendo mezzi di trasporto, vitto e alloggio.  Al corteo funebre a Teheran hanno preso parte milioni di persone provenienti da tutto l’Iran. Si prevedeva che nel corso dell’intera cerimonia funebre partecipassero fino a 30 milioni di persone.",
     "cz": "Státní pohřeb Alího Chameneího, druhého nejvyššího vůdce Íránu, se koná ve dnech 3. až 9. července po jeho zavraždění 28. února. Před jeho pohřbem v Mašhadu se očekává konání několika smutečních průvodů v Teheránu, Komu a iráckých městech Nadžaf a Karbala. \nHlavní smuteční průvody začaly 3. července, kdy se konaly velké shromáždění a dorazili zahraniční účastníci. Prvního dne pohřbu se zúčastnily stovky tisíc stoupenců a íránská vláda akci usnadnila zajištěním dopravy, stravy a ubytování.  Pohřebního průvodu v Teheránu se zúčastnily miliony lidí z celého Íránu. Očekávalo se, že se celého pohřbu zúčastní až 30 milionů lidí."
   },
   "shadows": [
@@ -122,19 +122,9 @@
       "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
     },
     {
-      "it": "Getito fiscale ambientale – 2008-2025.",
-      "cz": "Příjmy z ekologických daní – 2008–2025.",
-      "phon": "[dže-TÍ-to fis-KÁ-le am-bien-TÁ-le]"
-    },
-    {
-      "it": "Aspetti della vita quotidiana.",
-      "cz": "Aspekty každodenního života.",
-      "phon": "[as-PÉT-ti DÉL-la VÍ-ta kvo-ti-DÍA-na]"
-    },
-    {
-      "it": "Quest'anno i britannici acquisteranno 8 milioni di mini ventilatori, ma quasi la metà finirà in discarica.",
-      "cz": "Britové letos koupí 8 milionů mini ventilátorů – téměř polovina z nich však skončí na skládce.",
-      "phon": "[kves-TÁN-no i bri-tan-NÍ-či akk-vis-te-RÁN-no mi-LÍO-ni di MÍ-ni ven-ti-la-TÓ-ri ma KVÁ-zi la me-TÁ fi-ni-RÁ in dis-ka-RÍ-ka]"
+      "it": "Rapporto sugli Obiettivi di Sviluppo Sostenibile 2026.",
+      "cz": "Zpráva o cílech udržitelného rozvoje za rok 2026.",
+      "phon": "[rap-PÓR-to sulj o-biet-TÍ-vi di svi-LÚP-po sos-te-ni-BÍ-le]"
     }
   ],
   "shadow": {
