@@ -1,8 +1,5 @@
 {
   "date": "2026-07-09",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_9",
-  "translator": "DeepL",
   "stories": [
     {
       "en": "Commission refers Romania to the Court of Justice of the EU for failure to pay pharmacies on time.",
@@ -113,42 +110,5 @@
     "en": "The 2026 Iran war, including the closure of the Strait of Hormuz, has led to what the International Energy Agency has characterized as the \"largest supply disruption in the history of the global oil market\". The conflict has echoed the 1970s energy crisis through acute supply shortages, currency volatility, inflation and heightened risks of stagflation and recession. Interest rate reductions were expected to be postponed or conversely increased in light of higher inflation caused by supply shortages and speculation. Stock markets experienced declines globally and there was a global bonds market sell-off.",
     "it": "La guerra in Iran del 2026, compresa la chiusura dello Stretto di Ormuz, ha provocato quella che l’Agenzia Internazionale per l’Energia ha definito «la più grave interruzione dell’approvvigionamento nella storia del mercato petrolifero mondiale». Il conflitto ha richiamato alla mente la crisi energetica degli anni ’70, con gravi carenze di approvvigionamento, volatilità valutaria, inflazione e un aumento dei rischi di stagflazione e recessione. Si prevedeva che i tagli dei tassi di interesse sarebbero stati rinviati o, al contrario, aumentati alla luce dell’inflazione più elevata causata dalle carenze di approvvigionamento e dalla speculazione. I mercati azionari hanno registrato cali a livello globale e si è verificata un’ondata di vendite sul mercato obbligazionario mondiale.",
     "cz": "Válka v Íránu v roce 2026, včetně uzavření Hormuzského průlivu, vedla k tomu, co Mezinárodní energetická agentura označila za „největší narušení dodávek v historii světového ropného trhu“. Tento konflikt připomínal energetickou krizi 70. let minulého století, a to v podobě akutního nedostatku dodávek, kolísání měnových kurzů, inflace a zvýšeného rizika stagflace a recese. Očekávalo se, že snižování úrokových sazeb bude odloženo nebo naopak dojde k jejich zvýšení vzhledem k vyšší inflaci způsobené nedostatkem dodávek a spekulacemi. Akciové trhy zaznamenaly celosvětový pokles a na globálním trhu s dluhopisy došlo k výprodeji."
-  },
-  "shadows": [
-    {
-      "it": "Pacchetto infrazioni di luglio: decisioni principali.",
-      "cz": "Červencové případy porušení právních předpisů: hlavní rozhodnutí.",
-      "phon": "[pak-KÉT-to inf-ra-CÍO-ni di LÚL-jo de-či-ZÍO-ni prin-či-PÁ-li]"
-    },
-    {
-      "it": "MiCA: la CNB rilascia licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb ri-LÁ-ša li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Infografiche del Rapporto sugli SDG 2026.",
-      "cz": "Zpráva o cílech udržitelného rozvoje (SDG) 2026 v infografikách.",
-      "phon": "[in-fog-ra-FÍ-ke del rap-PÓR-to sulj sdg]"
-    },
-    {
-      "it": "Addio al look sciatto: M&S festeggia i 100 anni alla London Fashion Week.",
-      "cz": "S koncem „nemoderního“ stylu je definitivně skoncováno: M&S oslaví 100 let na londýnském týdnu módy.",
-      "phon": "[ÁD-dio al look ŠÁT-to ms fes-TÉG-dža i ÁN-ni ÁL-la LÓN-don FÁ-sion week]"
-    },
-    {
-      "it": "Le finestre a bassa emissività mantengono fresche le case… ma potrebbero incendiare le proprietà dei vicini.",
-      "cz": "Okna s nízkou emisivitou udržují domy v chladu… ale mohou způsobit požár u sousedů.",
-      "phon": "[le fi-NÉST-re a BÁS-sa e-mis-si-vi-TÁ man-ten-GÓ-no FRÉS-ke le KÁ-ze ma pot-reb-BÉ-ro in-čen-DÍA-re le prop-rie-TÁ dei vi-ČÍ-ni]"
-    }
-  ],
-  "shadow": {
-    "it": "Pacchetto infrazioni di luglio: decisioni principali.",
-    "cz": "Červencové případy porušení právních předpisů: hlavní rozhodnutí.",
-    "phon": "[pak-KÉT-to inf-ra-CÍO-ni di LÚL-jo de-či-ZÍO-ni prin-či-PÁ-li]"
   }
 }
