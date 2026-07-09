@@ -78,10 +78,10 @@ Moduly (SPA taby):
 |-------|---------|---------|
 | 📰 Notizie | denní zprávy; IT zdroje přímo, CZ zprávy s AI přepisem ze session; tap na slovo → překlad z offline slovníku. **Multi-level texty** (inspirace lingvo.club): každá AI přepsaná zpráva se generuje ve variantách `levels: {a1, a2, b1}`, přepínač úrovně v UI; default úrovně = aktuální týden kurikula, ruční změna je dočasná odchylka per text (ne globální), aby slider nenahradil imerzní křivku. U surových zdrojů level = výběr zdroje (EasyItalianNews ≈ A2/B1, ANSA = C1) | ✅ (AI jen přepis CZ→IT) |
 | 🃏 Slovíčka | SRS flashcards (SM-2 algoritmus) nad `vocab.json` + `dictionary/core.json`, TTS výslovnost | ✅ |
-| 🎧 Ascolto | přehrání podcast scriptu přes Web Speech API (IT hlas), rychlost 0.7–1.0; náhrada NotebookLM pro pasivní poslech | ✅ |
+| 🎧 Ascolto | **implementováno v7.00**: plovoucí přehrávač (Ascolta tutto / Ascolta la lezione) — fronta vět přes Web Speech API, rychlost 0.7/0.85/1.0, pauza/další/zavřít; přednostně čte `podcast_script` ze session JSONu, jinak notizie + shadow | ✅ |
 | 🔊 Pronuncia | drily z sessions, minimal pairs pro česká interference (r/ř, gli, délky) + nahrání vlastního hlasu (MediaRecorder) pro porovnání | ✅ |
 | 📚 Grammatica | 12týdenní kurikulum, probrané body, cvičení ze sessions (doplňovačky — vyhodnocení stringovým porovnáním) | ✅ |
-| 🗣️ Roleplay | zobrazí opener k copy-paste do claude.ai voice (jako dnes) | AI vně app |
+| 🗣️ Roleplay | **app připravena od v7.00**: jakmile session JSON obsahuje `roleplay` (string nebo `{opener, cz}`), Lezione vykreslí kartu s tlačítkem Copia pro copy-paste do claude.ai voice; `/allora` skill zatím `roleplay` negeneruje | AI vně app |
 | 📊 Progresso | streak, počet slov, SRS statistiky, týden kurikula | ✅ |
 
 **TTS:** `speechSynthesis` s `lang: it-IT` — zdarma, offline, funguje i na iOS WebKit. Fallback: zvýraznění textu pro hlasité čtení.
@@ -151,6 +151,10 @@ Všechny feedy tahat přes **GitHub Actions** (CORS v browseru nespolehlivý).
 
 - Public repo = **neomezené minuty zdarma**; cron min. interval 5 min (doporučeno ≥15), spouští se s 5–15min zpožděním — nespoléhat na přesný čas
 - **60denní auto-disable** scheduled workflows při neaktivitě repa: běhy workflow se nepočítají, ale **commit fetchnutých dat z workflow ano** → náš fetch-news s commit-back se udržuje naživu sám
+
+## Vzhled (v7.00)
+
+Světlý a tmavý režim: tokeny v `style.css` (`:root` = latte den, `[data-theme=dark]` = espresso noc, trikolóra beze změny). Sleduje systém, ruční přepínač v hlavičce (`localStorage: allora-theme`), inline skript v `<head>` nastavuje `data-theme` před vykreslením. Hover stavy jen `@media (hover: hover)`, větší dotykové plochy `@media (pointer: coarse)`, klikatelné řádky ovladatelné klávesnicí (`keyable()`), italské texty mají `lang="it"`.
 
 ## Fáze vývoje (pro Opus/Sonnet)
 

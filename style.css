@@ -14,13 +14,39 @@
   --grigio: #74705F;
   --linea: #E5E1D4;
   --ombra: 0 1px 3px rgba(38, 37, 30, 0.08);
+  --verde-wash: rgba(0, 140, 69, 0.07);
+  --evidenza: #FBF4F0;
+  --hover-wash: rgba(38, 37, 30, 0.04);
+  --toast-bg: #26251E;
+  --toast-fg: #FFFFFF;
   --radius: 14px;
   --serif: ui-serif, "New York", Georgia, "Times New Roman", serif;
 }
 
+/* notte: teplý espresso inkoust, trikolóra zůstává */
+[data-theme=dark] {
+  --verde: #1FA55C;
+  --verde-scuro: #5BC98A;
+  --rosso: #E05B5B;
+  --azzurro: #6EA9D8;
+  --ambra: #D9A441;
+  --latte: #16150F;
+  --carta: #201F17;
+  --inchiostro: #EDEAE0;
+  --grigio: #A29D8C;
+  --linea: #363428;
+  --ombra: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --verde-wash: rgba(31, 165, 92, 0.13);
+  --evidenza: #2A2418;
+  --hover-wash: rgba(255, 255, 255, 0.05);
+  --toast-bg: #EDEAE0;
+  --toast-fg: #26251E;
+}
+
 * { margin: 0; padding: 0; box-sizing: border-box; }
 
-html { -webkit-text-size-adjust: 100%; }
+html { -webkit-text-size-adjust: 100%; color-scheme: light; }
+html[data-theme=dark] { color-scheme: dark; }
 
 body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
@@ -406,7 +432,7 @@ hr.sep {
 }
 .week-row.done .num { background: var(--verde); color: #fff; }
 .week-row.current .num { background: var(--rosso); color: #fff; }
-.week-row.current { background: #FBF4F0; }
+.week-row.current { background: var(--evidenza); }
 .week-row .info { flex: 1; }
 .week-row .info .citta {
   font-family: var(--serif);
@@ -558,8 +584,8 @@ hr.sep {
   transform: translateX(-50%);
   max-width: calc(100vw - 32px);
   width: 380px;
-  background: var(--inchiostro);
-  color: #fff;
+  background: var(--toast-bg);
+  color: var(--toast-fg);
   border-radius: 12px;
   padding: 12px 16px;
   font-size: 0.85rem;
@@ -575,4 +601,165 @@ hr.sep {
 
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; }
+}
+
+/* ---------- přepínač den/noc ---------- */
+.theme-toggle {
+  width: 44px;
+  height: 44px;
+  border: none;
+  background: none;
+  border-radius: 12px;
+  color: var(--grigio);
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: -8px;
+  transition: color 0.15s, background 0.15s, transform 0.1s;
+}
+
+.theme-toggle svg {
+  width: 21px;
+  height: 21px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.theme-toggle:active { transform: scale(0.9); }
+html[data-theme=dark] .theme-toggle .ic-moon { display: none; }
+html:not([data-theme=dark]) .theme-toggle .ic-sun { display: none; }
+
+/* ---------- ascolto: plovoucí přehrávač ---------- */
+.player {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: calc(84px + env(safe-area-inset-bottom));
+  width: min(600px, calc(100vw - 20px));
+  background: var(--carta);
+  border: 1px solid var(--linea);
+  border-radius: 999px;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.18);
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 10px 6px 6px;
+  z-index: 35;
+}
+
+.player::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 22px;
+  right: 22px;
+  height: 3px;
+  border-radius: 0 0 3px 3px;
+  background: linear-gradient(90deg, var(--verde) 0 33.4%, #fff 33.4% 66.7%, var(--rosso) 66.7% 100%);
+  opacity: 0.85;
+}
+
+.player button {
+  border: none;
+  background: none;
+  color: var(--verde-scuro);
+  cursor: pointer;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.15s, color 0.15s;
+}
+
+.player button svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+  stroke: none;
+}
+
+.player .pl-play {
+  background: var(--verde);
+  color: #fff;
+}
+
+.player .pl-play:active { background: var(--verde-scuro); }
+
+.player .pl-rate {
+  width: auto;
+  min-width: 52px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1.5px solid var(--linea);
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--grigio);
+  padding: 0 10px;
+}
+
+.player .pl-label {
+  flex: 1;
+  min-width: 0;
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--grigio);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-align: left;
+}
+
+.player .pl-label b { color: var(--inchiostro); font-weight: 700; }
+
+body.player-open .to-top { bottom: calc(148px + env(safe-area-inset-bottom)); }
+body.player-open .toast { bottom: calc(142px + env(safe-area-inset-bottom)); }
+
+@media (min-width: 700px) {
+  .player { bottom: 84px; }
+  body.player-open .to-top { bottom: 148px; }
+  body.player-open .toast { bottom: 142px; }
+}
+
+/* ---------- roleplay ---------- */
+.roleplay-box { border-top: 3px solid var(--azzurro); }
+.roleplay-box .testo { line-height: 1.55; margin: 8px 0; }
+
+/* ---------- hover jen na zařízeních s myší ---------- */
+@media (hover: hover) {
+  .btn:hover,
+  .tts-btn:hover,
+  .tts-mini:hover { background: var(--verde-wash); }
+  .btn.danger:hover { background: rgba(205, 33, 42, 0.07); }
+  .cz-toggle:hover { text-decoration: underline; text-underline-offset: 3px; }
+  .level-chips button:hover:not(.active) { border-color: var(--verde); color: var(--verde-scuro); }
+  .tabbar button:hover { color: var(--verde-scuro); }
+  .grade-row button:hover { filter: brightness(1.1); }
+  .week-row[data-week]:hover,
+  .digest-item:hover { background: var(--hover-wash); }
+  .flashcard:hover { box-shadow: 0 4px 14px rgba(38, 37, 30, 0.13); border-color: var(--grigio); }
+  .btn-avanti-big:hover { background: var(--verde-scuro); }
+  .to-top:hover { background: var(--verde-scuro); }
+  .update-banner button:hover { filter: brightness(0.94); }
+  .theme-toggle:hover { color: var(--inchiostro); background: var(--hover-wash); }
+  .player button:hover { background: var(--verde-wash); }
+  .player .pl-play:hover { background: var(--verde-scuro); color: #fff; }
+  .player .pl-rate:hover { border-color: var(--verde); color: var(--verde-scuro); }
+  #archivio-link:hover, .fonte a:hover { text-decoration: underline; }
+}
+
+/* ---------- větší dotykové plochy na mobilu ---------- */
+@media (pointer: coarse) {
+  .tts-mini { width: 40px; height: 40px; font-size: 1rem; }
+  .tts-btn { padding: 8px 15px; }
+  .cz-toggle { padding: 9px 8px; margin: -5px 0; }
+  .level-chips button { padding: 7px 16px; }
+  #archivio-link { display: inline-block; padding: 9px 10px; }
+  .btn-row .btn { padding: 11px 4px; }
 }

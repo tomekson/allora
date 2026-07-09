@@ -64,8 +64,16 @@ function showToast(msg) {
 let ttsCurrent = null; // text, který právě hraje: druhý klik = pauza, třetí = pokračování
 let voiceWarned = false;
 
+function warnMissingVoice() {
+  if (itVoiceMissing && !voiceWarned) {
+    voiceWarned = true;
+    showToast('V tomto prohlížeči/počítači chybí italský hlas pro předčítání, zní to česky. Na Windows: Nastavení → Čas a jazyk → Jazyk a oblast → Přidat jazyk → italština → zapnout hlasový výstup. Tap = skrýt.');
+  }
+}
+
 function speak(text, rate = 0.88) {
   if (!('speechSynthesis' in window)) return;
+  if (player.items.length) playerStop(); // jednotlivé přehrání má přednost před frontou
   const ss = speechSynthesis;
   if (ttsCurrent === text && (ss.speaking || ss.paused)) {
     if (ss.paused) ss.resume();
@@ -74,10 +82,7 @@ function speak(text, rate = 0.88) {
   }
   // iOS PWA občas nespustí "voiceschanged" — znovu zkontrolovat těsně před přehráním
   if (!itVoice) pickVoice();
-  if (itVoiceMissing && !voiceWarned) {
-    voiceWarned = true;
-    showToast('V tomto prohlížeči/počítači chybí italský hlas pro předčítání, zní to česky. Na Windows: Nastavení → Čas a jazyk → Jazyk a oblast → Přidat jazyk → italština → zapnout hlasový výstup. Tap = skrýt.');
-  }
+  warnMissingVoice();
   ss.cancel();
   ttsCurrent = text;
   const u = new SpeechSynthesisUtterance(text);
@@ -86,6 +91,114 @@ function speak(text, rate = 0.88) {
   u.rate = rate;
   u.onend = () => { if (ttsCurrent === text) ttsCurrent = null; };
   ss.speak(u);
+}
+
+/* ---------------- Ascolto: fronta vět + plovoucí přehrávač ----------------
+   Pasivní poslech dle roadmapy: celé notizie nebo lekce, rychlost 0.7 až 1.0.
+   iOS: start vždy z tapnutí; navazující věty jedou z onend už povoleného hlasu. */
+
+const player = { items: [], i: 0, rate: 0.85, playing: false, label: '' };
+const PLAYER_RATES = [0.7, 0.85, 1.0];
+let plUtter = null;
+
+function playerUI() {
+  const bar = $('#player');
+  if (!bar) return;
+  if (!player.items.length) {
+    bar.classList.add('hidden');
+    document.body.classList.remove('player-open');
+    return;
+  }
+  bar.classList.remove('hidden');
+  document.body.classList.add('player-open');
+  $('#pl-ic-play').classList.toggle('hidden', player.playing);
+  $('#pl-ic-pause').classList.toggle('hidden', !player.playing);
+  $('#pl-label').innerHTML = `<b>${esc(player.label)}</b> · ${player.i + 1}/${player.items.length}`;
+  $('#pl-rate').textContent = player.rate + '×';
+}
+
+function playerSpeakCurrent() {
+  const ss = speechSynthesis;
+  ss.cancel();
+  ttsCurrent = null;
+  if (!itVoice) pickVoice();
+  warnMissingVoice();
+  const u = new SpeechSynthesisUtterance(player.items[player.i]);
+  u.lang = 'it-IT';
+  if (itVoice) u.voice = itVoice;
+  u.rate = player.rate;
+  u.onend = () => {
+    if (plUtter !== u || !player.playing) return;
+    if (player.i < player.items.length - 1) {
+      player.i++;
+      playerUI();
+      playerSpeakCurrent();
+    } else {
+      playerStop();
+    }
+  };
+  plUtter = u;
+  ss.speak(u);
+}
+
+function playerStart(items, label) {
+  if (!('speechSynthesis' in window) || !items.length) return;
+  player.items = items;
+  player.i = 0;
+  player.label = label;
+  player.playing = true;
+  playerUI();
+  playerSpeakCurrent();
+  markActivity();
+}
+
+function playerStop() {
+  player.items = [];
+  player.playing = false;
+  plUtter = null;
+  if ('speechSynthesis' in window) speechSynthesis.cancel();
+  playerUI();
+}
+
+function splitSentences(text) {
+  return (String(text).match(/[^.!?]+[.!?]+["»”']?|[^.!?]+$/g) || [String(text)])
+    .map(s => s.trim()).filter(Boolean);
+}
+
+function initPlayerControls() {
+  if (!$('#player')) return;
+  $('#pl-play').onclick = () => {
+    if (!player.items.length) return;
+    const ss = speechSynthesis;
+    if (player.playing) {
+      ss.pause();
+      player.playing = false;
+    } else {
+      player.playing = true;
+      if (ss.paused) ss.resume();
+      else playerSpeakCurrent();
+    }
+    playerUI();
+  };
+  $('#pl-next').onclick = () => {
+    if (!player.items.length) return;
+    if (player.i < player.items.length - 1) {
+      player.i++;
+      playerUI();
+      if (player.playing) playerSpeakCurrent();
+      else speechSynthesis.cancel();
+    } else {
+      playerStop();
+    }
+  };
+  $('#pl-rate').onclick = () => {
+    if (!player.items.length) return;
+    player.rate = PLAYER_RATES[(PLAYER_RATES.indexOf(player.rate) + 1) % PLAYER_RATES.length];
+    playerUI();
+    if (player.playing) playerSpeakCurrent();
+    else speechSynthesis.cancel();
+  };
+  $('#pl-stop').onclick = playerStop;
 }
 
 /* ---------------- SRS (SM-2 lite) ---------------- */
@@ -127,6 +240,37 @@ function dueWords() {
 const $ = sel => document.querySelector(sel);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
+/* klikatelný řádek ovladatelný i z klávesnice */
+function keyable(el) {
+  el.tabIndex = 0;
+  el.setAttribute('role', 'button');
+  el.onkeydown = e => {
+    if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); el.click(); }
+  };
+}
+
+/* ---------------- den / noc ---------------- */
+
+const THEME_KEY = 'allora-theme';
+const sysDark = window.matchMedia ? matchMedia('(prefers-color-scheme: dark)') : null;
+const storedTheme = () => { try { return localStorage.getItem(THEME_KEY); } catch (e) { return null; } };
+
+function applyTheme(t) {
+  document.documentElement.dataset.theme = t;
+  const meta = document.querySelector('meta[name="theme-color"]');
+  if (meta) meta.content = t === 'dark' ? '#16150F' : '#008C45';
+  const btn = $('#theme-toggle');
+  if (btn) {
+    const lbl = t === 'dark' ? 'Přepnout na světlý režim' : 'Přepnout na tmavý režim';
+    btn.setAttribute('aria-label', lbl);
+    btn.title = lbl;
+  }
+}
+
+if (sysDark) sysDark.addEventListener('change', () => {
+  if (!storedTheme()) applyTheme(sysDark.matches ? 'dark' : 'light');
+});
+
 function weekLevel(week) {
   if (week <= 4) return 'a1';
   if (week <= 8) return 'a2';
@@ -167,7 +311,7 @@ async function renderNotizie(el) {
     html += `
     <div class="shadow-box clickable" id="dshadow-box" style="margin-top:10px">
       <div class="muted">Shadow věta: 3× pomalu, 3× normálně · další věta = přepni záložku a zpět</div>
-      <div class="it">${esc(dShadow.it)}</div>
+      <div class="it" lang="it">${esc(dShadow.it)}</div>
       <div class="phon">${esc(dShadow.phon)}</div>
       <div style="margin-top:8px">
         <button class="tts-btn" id="dshadow-tts">🔊 Ascolta</button>
@@ -182,7 +326,8 @@ async function renderNotizie(el) {
       <h2>Notizie del giorno</h2>
       <span class="muted">${daily.date}</span>
     </div>
-    <p class="muted">Každé ráno čerstvé. Tapnutím na zprávu rozbalíš češtinu.</p>`;
+    <p class="muted">Každé ráno čerstvé. Tapnutím na zprávu rozbalíš češtinu.</p>
+    ${'speechSynthesis' in window ? '<p style="margin:2px 0 10px"><button class="tts-btn" id="ascolta-tutto">🎧 Ascolta tutto</button></p>' : ''}`;
 
     const groups = [
       { title: 'Dalla Cechia', items: daily.stories.filter(n => n.origin === 'cz') },
@@ -198,9 +343,9 @@ async function renderNotizie(el) {
       g.items.forEach((n, i) => {
         html += `
         <div class="digest-item" data-g="${gi}" data-i="${i}">
-          <button class="tts-mini" title="Ascolta">🔊</button>
+          <button class="tts-mini" title="Ascolta" aria-label="Přečíst italsky">🔊</button>
           <div class="digest-text">
-            <p class="testo">${esc(n.it)}</p>
+            <p class="testo" lang="it">${esc(n.it)}</p>
             <p class="cz-line hidden">${esc(n.cz)}</p>
           </div>
           <span class="chev" aria-hidden="true">🇨🇿</span>
@@ -213,7 +358,7 @@ async function renderNotizie(el) {
       html += `
       <div class="card article">
         <h3>Approfondimento</h3>
-        <p class="testo">${esc(daily.article.it)}</p>
+        <p class="testo" lang="it">${esc(daily.article.it)}</p>
         <button class="tts-btn" id="art-tts">🔊 Ascolta</button>
         <button class="cz-toggle" id="art-cz">🇨🇿 česky</button>
         <div class="cz-text hidden">${esc(daily.article.cz)}</div>
@@ -244,7 +389,14 @@ async function renderNotizie(el) {
       row.querySelector('.cz-line').classList.toggle('hidden');
       row.classList.toggle('open');
     };
+    keyable(row);
   });
+  const tutto = $('#ascolta-tutto');
+  if (tutto) tutto.onclick = () => {
+    const items = groups.flatMap(g => g.items.map(n => n.it));
+    if (daily.article) items.push(...splitSentences(daily.article.it));
+    playerStart(items, 'Notizie');
+  };
   if (daily.article) {
     const artToggle = () => el.querySelector('.article .cz-text').classList.toggle('hidden');
     el.querySelector('.article').onclick = artToggle;
@@ -305,6 +457,7 @@ async function renderArchivio(el) {
   $('#archivio-next').onclick = () => { archivioPage++; renderArchivio(el); };
 
   el.querySelectorAll('.archivio-day').forEach(row => {
+    keyable(row);
     row.onclick = async () => {
       const date = row.dataset.date;
       const content = el.querySelector(`[data-date-content="${date}"]`);
@@ -320,9 +473,9 @@ async function renderArchivio(el) {
           day.stories.forEach((n, i) => {
             dh += `
             <div class="digest-item archivio-item" data-idx="${i}">
-              <button class="tts-mini" title="Ascolta">🔊</button>
+              <button class="tts-mini" title="Ascolta" aria-label="Přečíst italsky">🔊</button>
               <div class="digest-text">
-                <p class="testo">${esc(n.it)}</p>
+                <p class="testo" lang="it">${esc(n.it)}</p>
                 <p class="cz-line hidden">${esc(n.cz)}</p>
               </div>
               <span class="chev" aria-hidden="true">🇨🇿</span>
@@ -344,6 +497,7 @@ async function renderArchivio(el) {
             const n = day.stories[+row2.dataset.idx];
             row2.querySelector('.tts-mini').onclick = e => { e.stopPropagation(); speak(n.it); };
             row2.onclick = () => row2.querySelector('.cz-line').classList.toggle('hidden');
+            keyable(row2);
           });
           const artBox = content.querySelector('.article');
           if (artBox) {
@@ -380,6 +534,7 @@ async function renderLezione(el) {
     </div>
     ${isCurrent ? '' : `<p class="muted">Prohlížíš si dřívější tappu. Zpátky na aktuální se dostaneš přes Viaggio.</p>`}
     <p class="muted">Texty ve třech úrovních. Obtížnost přepneš tlačítky A1/A2/B1, čeština se přepne s ní.</p>
+    ${'speechSynthesis' in window ? '<p style="margin:2px 0 10px"><button class="tts-btn" id="ascolta-lezione">🎧 Ascolta la lezione</button></p>' : ''}
     <div class="card grammar">
       <h3>Grammatica: ${esc(s.grammar.point)}</h3>
       <p class="testo">${esc(s.grammar.summary)}</p>
@@ -388,22 +543,33 @@ async function renderLezione(el) {
   s.notizie.forEach((n, i) => {
     html += `
     <div class="card notizia" data-idx="${i}">
-      <h3>${esc(n.title)}</h3>
-      <div class="level-chips" role="group">
+      <h3 lang="it">${esc(n.title)}</h3>
+      <div class="level-chips" role="group" aria-label="Obtížnost textu">
         ${['a1', 'a2', 'b1'].map(l =>
           `<button data-level="${l}" class="${l === defaultLevel ? 'active' : ''}">${l}</button>`).join('')}
       </div>
-      <p class="testo">${esc(n.levels[defaultLevel].it)}</p>
+      <p class="testo" lang="it">${esc(n.levels[defaultLevel].it)}</p>
       <button class="tts-btn" data-tts="${i}">🔊 Ascolta</button>
       <button class="cz-toggle" data-cz="${i}">🇨🇿 česky</button>
       <div class="cz-text hidden">${esc(n.levels[defaultLevel].cz)}</div>
     </div>`;
   });
 
+  const rp = s.roleplay ? (typeof s.roleplay === 'string' ? { opener: s.roleplay } : s.roleplay) : null;
+  if (rp && rp.opener) {
+    html += `
+    <h2>Roleplay</h2>
+    <div class="card roleplay-box">
+      <p class="testo" lang="it">${esc(rp.opener)}</p>
+      <p class="muted">Zkopíruj text a vlož ho do hlasové konverzace na claude.ai. Mluv italsky, nápověda přijde česky.</p>
+      <button class="btn" id="rp-copy">📋 Copia</button>
+    </div>`;
+  }
+
   html += `
     <div class="shadow-box clickable" id="lshadow-box">
       <div class="muted">Shadow věta: 3× pomalu, 3× normálně</div>
-      <div class="it">${esc(s.shadow.it)}</div>
+      <div class="it" lang="it">${esc(s.shadow.it)}</div>
       <div class="phon">${esc(s.shadow.phon)}</div>
       <div style="margin-top:8px">
         <button class="tts-btn" id="shadow-tts">🔊 Ascolta</button>
@@ -419,13 +585,27 @@ async function renderLezione(el) {
     html += `
     <div class="card drill">
       <strong>${esc(d.name)}</strong>
-      <div class="shadow">${esc(d.shadow)}</div>
+      <div class="shadow" lang="it">${esc(d.shadow)}</div>
       <div class="trap">⚠️ ${esc(d.trap)}</div>
       <div class="fix">✓ ${esc(d.fix)}</div>
     </div>`;
   });
 
   el.innerHTML = html;
+
+  const ascolta = $('#ascolta-lezione');
+  if (ascolta) ascolta.onclick = () => {
+    const items = s.podcast_script
+      ? splitSentences(s.podcast_script)
+      : [...s.notizie.map(n => n.levels[defaultLevel].it), s.shadow.it];
+    playerStart(items, 'Lezione ' + s.week);
+  };
+  const rpCopy = $('#rp-copy');
+  if (rpCopy) rpCopy.onclick = () => {
+    navigator.clipboard.writeText(rp.opener)
+      .then(() => showToast('Zkopírováno. Otevři claude.ai a vlož do hlasové konverzace.'))
+      .catch(() => showToast('Kopírování se nepovedlo, označ text prstem nebo myší.'));
+  };
 
   el.querySelectorAll('.notizia').forEach(card => {
     const idx = +card.dataset.idx;
@@ -494,7 +674,7 @@ function drawCard(el) {
     <h2>Parole</h2>
     <p class="queue-info muted">zbývá ${queue.length} · celkem ${total} slov</p>
     <div class="flashcard" id="fc">
-      <div class="front-word">${esc(w.it)}</div>
+      <div class="front-word" lang="it">${esc(w.it)}</div>
       <div class="pos">${esc(w.pos)}</div>
       <div id="fc-back" class="hidden">
         <div class="cz">${esc(w.cz)}</div>
@@ -559,6 +739,7 @@ function renderViaggio(el) {
       lessonView = +row.dataset.week;
       show('lezione');
     };
+    keyable(row);
   });
 }
 
@@ -650,8 +831,12 @@ function tabFromHash() {
 async function show(tab) {
   currentTab = tab;
   if (tabFromHash() !== tab) location.hash = tab;
-  document.querySelectorAll('.tabbar button').forEach(b =>
-    b.classList.toggle('active', b.dataset.tab === tab));
+  document.querySelectorAll('.tabbar button').forEach(b => {
+    const on = b.dataset.tab === tab;
+    b.classList.toggle('active', on);
+    if (on) b.setAttribute('aria-current', 'page');
+    else b.removeAttribute('aria-current');
+  });
   const el = $('#main');
   el.innerHTML = '<p class="muted" style="padding:20px">Caricamento…</p>';
   try {
@@ -765,6 +950,13 @@ toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 (async function init() {
   document.querySelectorAll('.tabbar button').forEach(b => b.onclick = () => show(b.dataset.tab));
   $('#footer-version').textContent = 'v' + APP_VERSION;
+  applyTheme(document.documentElement.dataset.theme || (sysDark && sysDark.matches ? 'dark' : 'light'));
+  $('#theme-toggle').onclick = () => {
+    const next = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
+    try { localStorage.setItem(THEME_KEY, next); } catch (e) { }
+    applyTheme(next);
+  };
+  initPlayerControls();
   const [vocab, curriculum, sessions] = await Promise.all([
     fetchJson('data/vocab.json'),
     fetchJson('data/curriculum.json'),
