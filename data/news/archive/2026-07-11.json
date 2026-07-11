@@ -1,8 +1,5 @@
 {
   "date": "2026-07-11",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_11",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "La Commissione europea ha ritenuto, in via preliminare, che il design che crea dipendenza di Instagram e Facebook, di proprietà di Meta, violi il regolamento sui servizi digitali.",
@@ -112,42 +109,5 @@
     "en": "Housing in the United States comes in a variety of forms and tenures. The rate of homeownership in the United States, as measured by the fraction of units that are owner-occupied, was 64% as of 2017.\nHousing in the United States is heavily commodified, and when viewed as an economic sector, contributes to 15% of the gross domestic product. The amount of public housing is capped via the Faircloth Limit, and when available can only be offered to households meeting certain eligibility requirements.\nMore than half a million people are homeless. The geographic patterns of homelessness in the United States are explained by the high cost and low availability of housing.",
     "it": "Il mercato immobiliare negli Stati Uniti presenta una grande varietà di forme e modalità di possesso. Il tasso di proprietà immobiliare negli Stati Uniti, misurato in base alla percentuale di unità abitative occupate dai proprietari, era pari al 64% nel 2017.\nIl mercato immobiliare negli Stati Uniti è fortemente mercificato e, se considerato come settore economico, contribuisce per il 15% al prodotto interno lordo. L’offerta di alloggi pubblici è limitata dal Faircloth Limit e, quando disponibili, tali alloggi possono essere assegnati solo a nuclei familiari che soddisfano determinati requisiti di ammissibilità.\nPiù di mezzo milione di persone sono senza fissa dimora. I modelli geografici del fenomeno dei senzatetto negli Stati Uniti sono determinati dall’alto costo e dalla scarsa disponibilità di alloggi.",
     "cz": "Bydlení ve Spojených státech má nejrůznější formy a způsoby držby. Míra vlastnictví nemovitostí ve Spojených státech, měřená podílem bytových jednotek obývaných jejich vlastníky, činila v roce 2017 64 %.\nBydlení ve Spojených státech je silně komodifikováno a jako ekonomický sektor se podílí 15 % na hrubém domácím produktu. Počet jednotek veřejného bydlení je omezen tzv. Fairclothovým limitem a pokud jsou k dispozici, mohou být nabídnuty pouze domácnostem splňujícím určité podmínky způsobilosti.\nVíce než půl milionu lidí je bez domova. Geografické rozložení bezdomovectví ve Spojených státech lze vysvětlit vysokými náklady na bydlení a jeho nízkou dostupností."
-  },
-  "shadows": [
-    {
-      "it": "L'Ungheria entra a far parte della Procura europea, rafforzando ulteriormente la protezione dei fondi dell'UE.",
-      "cz": "Maďarsko se připojuje k Úřadu evropského veřejného žalobce a dále posiluje ochranu finančních prostředků EU.",
-      "phon": "[lun-GÉ-ria ÉNT-ra a far PÁR-te DÉL-la pro-KÚ-ra eu-RÓ-pea raf-for-CÁN-do ul-te-rior-MÉN-te la pro-te-CÍO-ne dei FÓN-di DÉL-lue]"
-    },
-    {
-      "it": "La Commissione approva l'acquisizione di Chart Industries da parte di Baker Hughes, a determinate condizioni.",
-      "cz": "Komise schválila akvizici společnosti Chart Industries společností Baker Hughes, a to za určitých podmínek.",
-      "phon": "[la kom-mis-SÍO-ne app-RÓ-va lakk-vi-zi-CÍO-ne di kart in-DÚST-ries da PÁR-te di BÁ-ker Ú-ges a de-ter-mi-NÁ-te kon-di-CÍO-ni]"
-    },
-    {
-      "it": "MiCA: la CNB rilascia licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb ri-LÁ-ša li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Indagine sulla forza lavoro – dati trasversali trimestrali: file a fini di ricerca.",
-      "cz": "Průzkum pracovní síly – průřezová čtvrtletní data: soubor pro výzkumné účely.",
-      "phon": "[in-da-DŽÍ-ne SÚL-la FÓR-ca la-VÓ-ro DÁ-ti tras-ver-SÁ-li tri-mest-RÁ-li FÍ-le a FÍ-ni di ri-ČÉR-ka]"
-    },
-    {
-      "it": "Produzione industriale - aprile 2026.",
-      "cz": "Průmyslová výroba – duben 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le ap-RÍ-le]"
-    }
-  ],
-  "shadow": {
-    "it": "L'Ungheria entra a far parte della Procura europea, rafforzando ulteriormente la protezione dei fondi dell'UE.",
-    "cz": "Maďarsko se připojuje k Úřadu evropského veřejného žalobce a dále posiluje ochranu finančních prostředků EU.",
-    "phon": "[lun-GÉ-ria ÉNT-ra a far PÁR-te DÉL-la pro-KÚ-ra eu-RÓ-pea raf-for-CÁN-do ul-te-rior-MÉN-te la pro-te-CÍO-ne dei FÓN-di DÉL-lue]"
   }
 }
