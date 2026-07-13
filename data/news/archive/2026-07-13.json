@@ -1,8 +1,5 @@
 {
   "date": "2026-07-13",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_13",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "La Commissione europea ha ritenuto, in via preliminare, che il design che crea dipendenza di Instagram e Facebook, di proprietà di Meta, violi il regolamento sui servizi digitali.",
@@ -88,47 +85,5 @@
       "origin": "dyk"
     }
   ],
-  "article": null,
-  "shadows": [
-    {
-      "it": "L'Ungheria entra a far parte della Procura europea, rafforzando ulteriormente la protezione dei fondi dell'UE.",
-      "cz": "Maďarsko se připojuje k Úřadu evropského veřejného žalobce a dále posiluje ochranu finančních prostředků EU.",
-      "phon": "[lun-GÉ-ria ÉNT-ra a far PÁR-te DÉL-la pro-KÚ-ra eu-RÓ-pea raf-for-CÁN-do ul-te-rior-MÉN-te la pro-te-CÍO-ne dei FÓN-di DÉL-lue]"
-    },
-    {
-      "it": "La Commissione approva l'acquisizione di Chart Industries da parte di Baker Hughes, a determinate condizioni.",
-      "cz": "Komise schválila akvizici společnosti Chart Industries společností Baker Hughes, a to za určitých podmínek.",
-      "phon": "[la kom-mis-SÍO-ne app-RÓ-va lakk-vi-zi-CÍO-ne di kart in-DÚST-ries da PÁR-te di BÁ-ker Ú-ges a de-ter-mi-NÁ-te kon-di-CÍO-ni]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Indagine sulla forza lavoro – dati trasversali trimestrali: file a fini di ricerca.",
-      "cz": "Průzkum pracovní síly – průřezová čtvrtletní data: soubor pro výzkumné účely.",
-      "phon": "[in-da-DŽÍ-ne SÚL-la FÓR-ca la-VÓ-ro DÁ-ti tras-ver-SÁ-li tri-mest-RÁ-li FÍ-le a FÍ-ni di ri-ČÉR-ka]"
-    },
-    {
-      "it": "Produzione industriale - aprile 2026.",
-      "cz": "Průmyslová výroba – duben 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le ap-RÍ-le]"
-    },
-    {
-      "it": "Yorkshire Water ci ha versato per errore 6.800 sterline, dicendoci di “godercele”.",
-      "cz": "Společnost Yorkshire Water nám omylem vyplatila 6 800 liber – a popřála nám, ať si ty peníze „užijeme“.",
-      "phon": "[york-SÍ-re WÁ-ter či a ver-SÁ-to per er-RÓ-re ster-LÍ-ne di-čen-DÓ-či di go-der-ČÉ-le]"
-    }
-  ],
-  "shadow": {
-    "it": "L'Ungheria entra a far parte della Procura europea, rafforzando ulteriormente la protezione dei fondi dell'UE.",
-    "cz": "Maďarsko se připojuje k Úřadu evropského veřejného žalobce a dále posiluje ochranu finančních prostředků EU.",
-    "phon": "[lun-GÉ-ria ÉNT-ra a far PÁR-te DÉL-la pro-KÚ-ra eu-RÓ-pea raf-for-CÁN-do ul-te-rior-MÉN-te la pro-te-CÍO-ne dei FÓN-di DÉL-lue]"
-  }
+  "article": null
 }
