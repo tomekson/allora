@@ -1,8 +1,5 @@
 {
   "date": "2026-07-14",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_14",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Dopo 80 anni, Zetor ha annunciato la cessazione della produzione di trattori a Brno e il suo trasferimento in India.",
@@ -106,32 +103,5 @@
     "en": "The Red Sea crisis is an ongoing armed conflict and maritime crisis instigated by the Houthis, an armed group in Yemen. The Houthis began launching missiles and armed drones at Israel in response to the Gaza war, and have seized or attacked dozens of merchant and naval vessels travelling through the Red Sea which they claimed are linked to Israel. These actions provoked a military response from Israel, as well as the United States and the United Kingdom. The crisis is linked to the Middle Eastern crisis, the Iran–Israel proxy conflict, and the Yemeni crisis.\nSince 2014, the Houthis, who oppose Yemen's internationally recognized government and receive support from Iran, have controlled a considerable swath of the country's territory along the Red Sea.",
     "it": "La crisi del Mar Rosso è un conflitto armato e una crisi marittima ancora in corso, scatenati dagli Houthi, un gruppo armato yemenita. Gli Houthi hanno iniziato a lanciare missili e droni armati contro Israele in risposta alla guerra di Gaza e hanno sequestrato o attaccato decine di navi mercantili e militari che transitavano nel Mar Rosso, sostenendo che fossero collegate a Israele. Queste azioni hanno provocato una risposta militare da parte di Israele, degli Stati Uniti e del Regno Unito. La crisi è collegata alla crisi mediorientale, al conflitto per procura tra Iran e Israele e alla crisi yemenita.\nDal 2014 gli Houthi, che si oppongono al governo yemenita riconosciuto a livello internazionale e ricevono sostegno dall’Iran, controllano una porzione considerevole del territorio del Paese lungo il Mar Rosso.",
     "cz": "Krize v Rudém moři je probíhající ozbrojený konflikt a námořní krize vyvolaná hnutím Húti, ozbrojenou skupinou v Jemenu. Húti začali v reakci na válku v Gaze odpalovat na Izrael rakety a ozbrojené drony a zmocnili se desítek obchodních a vojenských plavidel proplouvajících Rudým mořem, která podle nich mají vazby na Izrael, nebo na ně zaútočili. Tyto akce vyvolaly vojenskou reakci ze strany Izraele, Spojených států i Spojeného království. Krize souvisí s krizí na Blízkém východě, zástupným konfliktem mezi Íránem a Izraelem a jemenskou krizí.\nOd roku 2014 ovládají Húti, kteří se staví proti mezinárodně uznávané jemenské vládě a jsou podporováni Íránem, značnou část území země podél Rudého moře."
-  },
-  "shadows": [
-    {
-      "it": "La Commissione nomina il rappresentante speciale per Cipro.",
-      "cz": "Komise jmenovala zvláštního zástupce pro Kypr.",
-      "phon": "[la kom-mis-SÍO-ne no-MÍ-na il rapp-re-zen-TÁN-te spe-ČÁ-le per ČÍP-ro]"
-    },
-    {
-      "it": "MiCA: la CNB rilascia licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb ri-LÁ-ša li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Recensione del Microsoft Surface Laptop 8: un PC di qualità con un touchpad che risponde al tocco.",
-      "cz": "Recenze Microsoft Surface Laptop 8: kvalitní počítač, jehož touchpad vám dává zpětnou vazbu.",
-      "phon": "[re-čen-SÍO-ne del mik-RÓ-zoft sur-FÁ-če LÁP-top un pk di kva-li-TÁ kon un TÓUK-pad ke ris-PÓN-de al TÓK-ko]"
-    }
-  ],
-  "shadow": {
-    "it": "La Commissione nomina il rappresentante speciale per Cipro.",
-    "cz": "Komise jmenovala zvláštního zástupce pro Kypr.",
-    "phon": "[la kom-mis-SÍO-ne no-MÍ-na il rapp-re-zen-TÁN-te spe-ČÁ-le per ČÍP-ro]"
   }
 }
