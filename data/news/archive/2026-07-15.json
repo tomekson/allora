@@ -1,8 +1,5 @@
 {
   "date": "2026-07-15",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_15",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Dopo 80 anni, Zetor ha annunciato la cessazione della produzione di trattori a Brno e il suo trasferimento in India.",
@@ -118,37 +115,5 @@
     "en": "The effect of Brexit on Gibraltar concerns the status of Gibraltar after the United Kingdom's withdrawal from the European Union (\"Brexit\"). The UK left the EU on 31 January 2020, having formally notified the EU in March 2017 of its intention to do so. Gibraltar is not part of the UK, but unlike all other British Overseas Territories, it was a part of the European Union along with the UK. It participated in the Brexit referendum and it ceased, by default, to be a part of the EU upon the UK's withdrawal.\nGibraltar's position during the process of UK withdrawal from the European Union presented specific issues during Brexit negotiations.",
     "it": "L'impatto della Brexit su Gibilterra riguarda lo status di Gibilterra dopo l'uscita del Regno Unito dall'Unione Europea (“Brexit”). Il Regno Unito ha lasciato l'UE il 31 gennaio 2020, dopo averne formalmente notificato l'intenzione all'UE nel marzo 2017. Gibilterra non fa parte del Regno Unito, ma, a differenza di tutti gli altri territori britannici d’oltremare, faceva parte dell’Unione europea insieme al Regno Unito. Ha partecipato al referendum sulla Brexit e, di diritto, ha cessato di far parte dell’UE al momento del recesso del Regno Unito.\nLa posizione di Gibilterra durante il processo di recesso del Regno Unito dall’Unione europea ha sollevato questioni specifiche nel corso dei negoziati sulla Brexit.",
     "cz": "Dopad brexitu na Gibraltar se týká postavení Gibraltaru po vystoupení Spojeného království z Evropské unie („brexit“). Spojené království opustilo EU dne 31. ledna 2020, přičemž svůj záměr formálně oznámilo EU již v březnu 2017. Gibraltar není součástí Spojeného království, ale na rozdíl od všech ostatních britských zámořských území byl spolu se Spojeným královstvím součástí Evropské unie. Zúčastnil se referenda o brexitu a po vystoupení Spojeného království z EU automaticky přestal být součástí EU.\nPostavení Gibraltaru během procesu vystoupení Spojeného království z Evropské unie představovalo při jednáních o brexitu specifické problémy."
-  },
-  "shadows": [
-    {
-      "it": "La Commissione e il Regno Unito firmano l'accordo UE-Regno Unito nei confronti di Gibilterra.",
-      "cz": "Komise a Spojené království podepsaly dohodu mezi EU a Spojeným královstvím s ohledem na Gibraltar.",
-      "phon": "[la kom-mis-SÍO-ne e il RÉ-ňo u-NÍ-to fir-MÁ-no lak-KÓR-do ue-RÉ-ňo u-NÍ-to nei konf-RÓN-ti di dži-bil-TÉR-ra]"
-    },
-    {
-      "it": "MiCA: la CNB rilascia licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb ri-LÁ-ša li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Indagine sulla forza lavoro – dati trasversali trimestrali: file a fini di ricerca.",
-      "cz": "Průzkum pracovní síly – průřezová čtvrtletní data: soubor pro výzkumné účely.",
-      "phon": "[in-da-DŽÍ-ne SÚL-la FÓR-ca la-VÓ-ro DÁ-ti tras-ver-SÁ-li tri-mest-RÁ-li FÍ-le a FÍ-ni di ri-ČÉR-ka]"
-    },
-    {
-      "it": "Produzione industriale - aprile 2026.",
-      "cz": "Průmyslová výroba – duben 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le ap-RÍ-le]"
-    }
-  ],
-  "shadow": {
-    "it": "La Commissione e il Regno Unito firmano l'accordo UE-Regno Unito nei confronti di Gibilterra.",
-    "cz": "Komise a Spojené království podepsaly dohodu mezi EU a Spojeným královstvím s ohledem na Gibraltar.",
-    "phon": "[la kom-mis-SÍO-ne e il RÉ-ňo u-NÍ-to fir-MÁ-no lak-KÓR-do ue-RÉ-ňo u-NÍ-to nei konf-RÓN-ti di dži-bil-TÉR-ra]"
   }
 }
