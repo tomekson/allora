@@ -5,7 +5,7 @@
   "translator": "DeepL",
   "stories": [
     {
-      "it": "Nella zona tra i bacini di Lomami e del Congo è stata descritta una nuova specie di scimmia, il gueréza del Congo (Colobus congoensis), noto anche con il nome popolare di “Likweli”.",
+      "it": "Nella zona tra i bacini di Lomami e del Congo è stata descritta una nuova specie di scimmia, il gueréza del Congo (Colobus congoensis), conosciuto comunemente come “Likweli”.",
       "cz": "Z&nbsp;meziříčí Lomami a Konga byl popsán nový druh opice, gueréza konžská (Colobus congoensis) neboli lidově „Likweli“.",
       "origin": "cz"
     },
@@ -40,39 +40,39 @@
       "origin": "econ"
     },
     {
+      "en": "Production in the construction sector - May 2026. Sintesi (max 110 caratteri) In May 2026 production in the construction sector unchanged over April and +2.9% y-o-y",
+      "it": "Produzione nel settore delle costruzioni - maggio 2026. Sintesi (max 110 caratteri) A maggio 2026 la produzione nel settore delle costruzioni è rimasta invariata rispetto ad aprile e ha registrato un +2,9% su base annua",
+      "cz": "Produkce ve stavebnictví – květen 2026. Shrnutí (max. 110 znaků) V květnu 2026 zůstala produkce ve stavebnictví na stejné úrovni jako v dubnu a meziročně vzrostla o 2,9 %.",
+      "origin": "econ"
+    },
+    {
       "en": "Foreign trade and import prices - May 2026. In May 2026 import +1.5%, export +0.2%; import prices +0.4% over April",
       "it": "Commercio estero e prezzi all’importazione – maggio 2026. A maggio 2026 le importazioni sono aumentate dell’1,5%, le esportazioni dello 0,2%; i prezzi all’importazione sono aumentati dello 0,4% rispetto ad aprile",
       "cz": "Zahraniční obchod a dovozní ceny – květen 2026. V květnu 2026 vzrostl dovoz o 1,5 %, vývoz o 0,2 %; dovozní ceny vzrostly oproti dubnu o 0,4 %",
       "origin": "econ"
     },
     {
-      "en": "Consumer prices - June 2026. In June 2026 the CPI was null over May and +3.0% y-o-y",
-      "it": "Prezzi al consumo - giugno 2026. A giugno 2026 l'indice dei prezzi al consumo (IPC) è rimasto invariato rispetto a maggio e ha registrato un aumento del 3,0% su base annua",
-      "cz": "Spotřebitelské ceny – červen 2026. V červnu 2026 činil meziroční nárůst indexu spotřebitelských cen oproti květnu 0 % a meziročně +3,0 %.",
-      "origin": "econ"
+      "en": "Global tech stocks fall as chip sell-off deepens; mortgage rates rise amid renewed Middle East tensions - business live. Rolling coverage of the latest economic and financial news",
+      "it": "I titoli tecnologici globali in calo mentre si aggrava la svendita dei chip; i tassi ipotecari in rialzo sulla scia delle rinnovate tensioni in Medio Oriente - business live. Copertura in tempo reale delle ultime notizie economiche e finanziarie",
+      "cz": "Ceny akcií globálních technologických společností klesají v důsledku prohlubujícího se výprodeje akcií výrobců čipů; úrokové sazby hypoték rostou v souvislosti s obnoveným napětím na Blízkém východě – business live. Průběžné zpravodajství o nejnovějších ekonomických a finančních událostech",
+      "origin": "guardian"
+    },
+    {
+      "en": "‘I don’t think I’ll ever retire’: the workers struggling to save for old age. Almost half of working-age adults in the UK do not save into a pension. Four readers explain why they fear for the future",
+      "it": "«Non credo che andrò mai in pensione»: i lavoratori che faticano a mettere da parte qualcosa per la vecchiaia. Quasi la metà degli adulti in età lavorativa nel Regno Unito non versa contributi pensionistici. Quattro lettori spiegano perché temono per il futuro",
+      "cz": "„Myslím, že nikdy nepůjdu do důchodu“: pracovníci, kteří se snaží spořit na stáří. Téměř polovina dospělých v produktivním věku ve Velké Británii si na důchod nespoří. Čtyři čtenáři vysvětlují, proč se obávají o budoucnost",
+      "origin": "guardian"
     },
     {
       "en": "‘How’s this joker got my details?’: BrewDog founder faces complaints over emails to ‘equity punks’. Exclusive: Watchdog asked to look into how James Watt got data of ex-crowdfunders he invited to join buy-back bid",
-      "it": "«Come ha fatto questo buffone a procurarsi i miei dati?»: Il fondatore di BrewDog è oggetto di reclami per le e-mail inviate agli “equity punks”. Esclusiva: l’autorità di vigilanza è stata invitata a indagare su come James Watt sia entrato in possesso dei dati degli ex sostenitori della campagna di crowdfunding che ha invitato a partecipare all’offerta di riacquisto",
+      "it": "«Come ha fatto questo buffone a procurarsi i miei dati?»: Il fondatore di BrewDog è oggetto di reclami per le e-mail inviate agli “equity punks”. Esclusiva: l’autorità di vigilanza è stata invitata a indagare su come James Watt sia entrato in possesso dei dati degli ex partecipanti alla campagna di crowdfunding che ha invitato a partecipare all’offerta di riacquisto",
       "cz": "„Jak ten vtipálek získal moje údaje?“: Zakladatel BrewDog čelí stížnostem kvůli e-mailům zaslaným „equity punks“. Exkluzivně: Dozorový orgán byl požádán, aby prošetřil, jak James Watt získal údaje o bývalých účastnících crowdfundingu, které pozval k účasti na nabídce na zpětný odkup akcií",
       "origin": "guardian"
     },
     {
-      "en": "No deposit, no problem: the new 100% mortgages for first-time buyers. Banks and building societies have started relaxing affordability rules and becoming more creative with products",
-      "it": "Nessun acconto, nessun problema: i nuovi mutui al 100% per chi acquista la prima casa. Le banche e le società di credito immobiliare hanno iniziato ad allentare i criteri di sostenibilità economica e a proporre prodotti sempre più creativi",
-      "cz": "Žádná záloha, žádný problém: nové hypotéky s 100 % financováním pro první kupce. Banky a stavební spořitelny začaly uvolňovat pravidla týkající se finanční dostupnosti a přicházejí s kreativnějšími produkty",
-      "origin": "guardian"
-    },
-    {
-      "en": "Gina Rinehart’s estimated A$700m profit from SpaceX IPO wiped out as stock price dips. Analyst says mining billionaire unlikely to be worried by lost paper profits after Elon Musk’s company dipped below its debut share price",
-      "it": "L'utile stimato di Gina Rinehart, pari a 700 milioni di dollari australiani, derivante dall'IPO di SpaceX è andato in fumo a causa del calo del prezzo delle azioni. Secondo un analista, è improbabile che la miliardaria del settore minerario sia preoccupata per la perdita di utili contabili, dato che la società di Elon Musk è scesa al di sotto del prezzo di debutto.",
-      "cz": "Odhadovaný zisk Giny Rinehartové ve výši 700 milionů australských dolarů z primární emise akcií společnosti SpaceX se rozplynul v důsledku poklesu ceny akcií. Analytik tvrdí, že miliardářka z těžebního průmyslu se pravděpodobně nebude trápit ztrátou papírových zisků poté, co cena akcií společnosti Elona Muska klesla pod úroveň jejich počáteční emisní ceny.",
-      "origin": "guardian"
-    },
-    {
-      "en": "Ernesto Ruffo Appel, former governor of Baja California, Mexico (1989–1995), is arrested on charges related to organized crime and fuel smuggling.",
-      "it": "Ernesto Ruffo Appel, ex governatore della Bassa California, in Messico (1989–1995), è stato arrestato con l'accusa di reati legati alla criminalità organizzata e al contrabbando di carburante.",
-      "cz": "Ernesto Ruffo Appel, bývalý guvernér mexického státu Baja California (1989–1995), byl zatčen na základě obvinění souvisejících s organizovaným zločinem a pašováním pohonných hmot.",
+      "en": "Ernesto Ruffo Appel, former governor of Baja California, Mexico, is arrested on charges related to organized crime and fuel smuggling.",
+      "it": "Ernesto Ruffo Appel, ex governatore della Bassa California, in Messico, è stato arrestato con l'accusa di reati legati alla criminalità organizzata e al contrabbando di carburante.",
+      "cz": "Ernesto Ruffo Appel, bývalý guvernér mexického státu Baja California, byl zatčen na základě obvinění souvisejících s organizovaným zločinem a pašováním pohonných hmot.",
       "origin": "world"
     },
     {
@@ -84,7 +84,7 @@
     {
       "en": "The Washington Post links the iceberg lettuce produced by Taylor Farms and supplied to American fast food chain Taco Bell as a source of the current cyclosporiasis outbreak in the United States, which is caused by Cyclospora cayetanensis.",
       "it": "Il Washington Post individua nella lattuga iceberg prodotta da Taylor Farms e fornita alla catena americana di fast food Taco Bell la fonte dell'attuale epidemia di ciclosporiasi negli Stati Uniti, causata dal parassita Cyclospora cayetanensis.",
-      "cz": "Deník „The Washington Post“ označuje ledový salát vyráběný společností Taylor Farms a dodávaný americkému řetězci rychlého občerstvení Taco Bell za zdroj současného ohniska cyklosporiózy ve Spojených státech, které je způsobeno parazitem Cyclospora cayetanensis.",
+      "cz": "Deník „The Washington Post“ označuje ledový salát vyráběný společností Taylor Farms a dodávaný americkému řetězci rychlého občerstvení Taco Bell za zdroj současné epidemie cyklosporiózy ve Spojených státech, kterou způsobuje parazit Cyclospora cayetanensis.",
       "origin": "world"
     },
     {
@@ -95,7 +95,7 @@
     },
     {
       "en": "The Michigan Department of Health and Human Services reports that the amount of hospitalizations in the state linked to the cyclosporiasis outbreak has surpassed more than 100 people.",
-      "it": "Il Dipartimento della Salute e dei Servizi Sociali del Michigan riferisce che il numero di ricoveri ospedalieri nello Stato legati all'epidemia di ciclosporiasi ha superato quota 100.",
+      "it": "Il Dipartimento della Salute e dei Servizi Sociali del Michigan riferisce che il numero di ricoveri ospedalieri nello Stato legati al focolaio di ciclosporiasi ha superato quota 100.",
       "cz": "Ministerstvo zdravotnictví a sociálních služeb státu Michigan uvádí, že počet hospitalizací v tomto státě souvisejících s ohniskem cyklosporiózy přesáhl 100 osob.",
       "origin": "world"
     },
@@ -113,11 +113,11 @@
     }
   ],
   "article": {
-    "topic": "War crimes during the Sudanese civil war (2023–present)",
-    "url": "https://en.wikipedia.org/wiki/War_crimes_during_the_Sudanese_civil_war_(2023–present)",
-    "en": "The civil war in Sudan, which started on 15 April 2023, has seen widespread war crimes committed by both the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), with the RSF being singled out by Human Rights Watch, and the United Kingdom and United States governments for committing genocide, ethnic cleansing and crimes against humanity.\nThe conflict has been marked by heavy indiscriminate shelling, gunfire, and airstrikes on markets and populated residential neighbourhoods, causing a high number of fatalities. Hospitals were targeted during aerial bombings and artillery fire, and medical supplies were looted.",
-    "it": "La guerra civile in Sudan, scoppiata il 15 aprile 2023, ha visto il compimento di crimini di guerra su vasta scala sia da parte delle Forze Armate Sudanesi (SAF) che delle Forze di Supporto Rapido (RSF); le RSF sono state in particolare segnalate da Human Rights Watch e dai governi del Regno Unito e degli Stati Uniti per aver commesso genocidio, pulizia etnica e crimini contro l’umanità.\nIl conflitto è stato caratterizzato da pesanti bombardamenti indiscriminati, sparatorie e attacchi aerei su mercati e quartieri residenziali densamente popolati, causando un elevato numero di vittime. Gli ospedali sono stati presi di mira durante i bombardamenti aerei e i tiri di artiglieria, e le forniture mediche sono state saccheggiate.",
-    "cz": "V občanské válce v Súdánu, která vypukla 15. dubna 2023, dochází k rozsáhlým válečným zločinům páchaným jak Súdánskými ozbrojenými silami (SAF), tak Rychlými podpůrnými silami (RSF), přičemž právě RSF byly organizací Human Rights Watch a vládami Spojeného království a Spojených států označeny za pachatele genocidy, etnické čistky a zločiny proti lidskosti.\nKonflikt se vyznačuje intenzivním a nevybíravým ostřelováním, střelbou a leteckými údery na tržiště a obydlené čtvrti, což má za následek vysoký počet obětí. Během leteckých bombardování a dělostřelecké palby se terčem útoků staly i nemocnice a došlo k rabování zdravotnického materiálu."
+    "topic": "Huachicol fiscal",
+    "url": "https://en.wikipedia.org/wiki/Huachicol_fiscal",
+    "en": "Huachicol fiscal is a term in Mexico for a form of fuel fraud in which gasoline and diesel are imported into the country under incorrect tariff classifications to evade taxes and excise duties. The misclassification is done by declaring the fuel in customs declarations as different products with lower or no tax liability. The scheme benefits from the fact that domestic fuel prices in Mexico, which include tax, are at times higher than international fuel prices, providing smugglers with a financial incentive to import and sell it in the country. This criminal activity gained prominence in 2018 and has been tied to corruption cases in ports and government agencies. The term derives from huachicol, a Mexican Spanish slang word originally referring to an adulterated drink and stolen fuel.",
+    "it": "Il termine “huachicol fiscal” indica, in Messico, una forma di frode sui carburanti in cui benzina e gasolio vengono importati nel Paese con classificazioni tariffarie errate al fine di eludere le imposte e le accise. La classificazione errata avviene dichiarando il carburante nelle dichiarazioni doganali come prodotti diversi, soggetti a un’imposizione fiscale inferiore o nulla. Questo schema sfrutta il fatto che i prezzi interni del carburante in Messico, che includono le imposte, sono talvolta superiori a quelli internazionali, fornendo ai contrabbandieri un incentivo finanziario per importarlo e venderlo nel Paese. Questa attività criminale ha assunto rilevanza nel 2018 ed è stata collegata a casi di corruzione nei porti e nelle agenzie governative. Il termine deriva da «huachicol», un termine gergale dello spagnolo messicano che originariamente si riferiva a una bevanda adulterata e al carburante rubato.",
+    "cz": "„Huachicol fiscal“ je mexický termín označující formu podvodu s palivem, při kterém se benzín a nafta dovážejí do země pod nesprávnou celní klasifikací s cílem vyhnout se daním a spotřebním daním. K nesprávné klasifikaci dochází tím, že se palivo v celních prohlášeních vykazuje jako jiné produkty s nižší daňovou povinností nebo bez ní. Tento podvod těží ze skutečnosti, že domácí ceny pohonných hmot v Mexiku, které zahrnují daně, jsou někdy vyšší než mezinárodní ceny pohonných hmot, což pašerákům poskytuje finanční motivaci k jejich dovozu a prodeji v zemi. Tato trestná činnost se dostala do popředí v roce 2018 a byla spojována s případy korupce v přístavech a vládních agenturách. Termín je odvozen od slova „huachicol“, což je slangový výraz v mexické španělštině, který původně označoval zfalšovaný nápoj a kradené palivo."
   },
   "shadows": [
     {
@@ -131,19 +131,19 @@
       "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
     },
     {
+      "it": "Produzione nel settore delle costruzioni - maggio 2026.",
+      "cz": "Produkce ve stavebnictví – květen 2026.",
+      "phon": "[pro-du-CÍO-ne nel set-TÓ-re DÉL-le kost-ru-CÍO-ni MÁG-džo]"
+    },
+    {
       "it": "Commercio estero e prezzi all’importazione – maggio 2026.",
       "cz": "Zahraniční obchod a dovozní ceny – květen 2026.",
       "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne MÁG-džo]"
     },
     {
-      "it": "Prezzi al consumo - giugno 2026.",
-      "cz": "Spotřebitelské ceny – červen 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo DŽÚ-ňo]"
-    },
-    {
-      "it": "Nessun acconto, nessun problema: i nuovi mutui al 100% per chi acquista la prima casa.",
-      "cz": "Žádná záloha, žádný problém: nové hypotéky s 100 % financováním pro první kupce.",
-      "phon": "[NÉS-sun ak-KÓN-to NÉS-sun prob-LÉ-ma i NÚO-vi MÚ-tui al per ki akk-VÍS-ta la PRÍ-ma KÁ-za]"
+      "it": "«Non credo che andrò mai in pensione»: i lavoratori che faticano a mettere da parte qualcosa per la vecchiaia.",
+      "cz": "„Myslím, že nikdy nepůjdu do důchodu“: pracovníci, kteří se snaží spořit na stáří.",
+      "phon": "[non KRÉ-do ke and-RÓ mai in pen-SÍO-ne i la-vo-ra-TÓ-ri ke fa-ti-KÁ-no a met-TÉ-re da PÁR-te kval-KÓ-za per la VÉK-kiaia]"
     }
   ],
   "shadow": {
