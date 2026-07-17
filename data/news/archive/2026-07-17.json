@@ -1,8 +1,5 @@
 {
   "date": "2026-07-17",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_17",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Nella zona tra i bacini di Lomami e del Congo è stata descritta una nuova specie di scimmia, il gueréza del Congo (Colobus congoensis), noto anche con il nome popolare di “Likweli”.",
@@ -118,37 +115,5 @@
     "en": "The civil war in Sudan, which started on 15 April 2023, has seen widespread war crimes committed by both the Sudanese Armed Forces (SAF) and the Rapid Support Forces (RSF), with the RSF being singled out by Human Rights Watch, and the United Kingdom and United States governments for committing genocide, ethnic cleansing and crimes against humanity.\nThe conflict has been marked by heavy indiscriminate shelling, gunfire, and airstrikes on markets and populated residential neighbourhoods, causing a high number of fatalities. Hospitals were targeted during aerial bombings and artillery fire, and medical supplies were looted.",
     "it": "La guerra civile in Sudan, scoppiata il 15 aprile 2023, ha visto il compimento di crimini di guerra su vasta scala sia da parte delle Forze Armate Sudanesi (SAF) che delle Forze di Supporto Rapido (RSF); le RSF sono state in particolare segnalate da Human Rights Watch e dai governi del Regno Unito e degli Stati Uniti per aver commesso genocidio, pulizia etnica e crimini contro l’umanità.\nIl conflitto è stato caratterizzato da pesanti bombardamenti indiscriminati, sparatorie e attacchi aerei su mercati e quartieri residenziali densamente popolati, causando un elevato numero di vittime. Gli ospedali sono stati presi di mira durante i bombardamenti aerei e i tiri di artiglieria, e le forniture mediche sono state saccheggiate.",
     "cz": "V občanské válce v Súdánu, která vypukla 15. dubna 2023, dochází k rozsáhlým válečným zločinům páchaným jak Súdánskými ozbrojenými silami (SAF), tak Rychlými podpůrnými silami (RSF), přičemž právě RSF byly organizací Human Rights Watch a vládami Spojeného království a Spojených států označeny za pachatele genocidy, etnické čistky a zločiny proti lidskosti.\nKonflikt se vyznačuje intenzivním a nevybíravým ostřelováním, střelbou a leteckými údery na tržiště a obydlené čtvrti, což má za následek vysoký počet obětí. Během leteckých bombardování a dělostřelecké palby se terčem útoků staly i nemocnice a došlo k rabování zdravotnického materiálu."
-  },
-  "shadows": [
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Commercio estero e prezzi all’importazione – maggio 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny – květen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne MÁG-džo]"
-    },
-    {
-      "it": "Prezzi al consumo - giugno 2026.",
-      "cz": "Spotřebitelské ceny – červen 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo DŽÚ-ňo]"
-    },
-    {
-      "it": "Nessun acconto, nessun problema: i nuovi mutui al 100% per chi acquista la prima casa.",
-      "cz": "Žádná záloha, žádný problém: nové hypotéky s 100 % financováním pro první kupce.",
-      "phon": "[NÉS-sun ak-KÓN-to NÉS-sun prob-LÉ-ma i NÚO-vi MÚ-tui al per ki akk-VÍS-ta la PRÍ-ma KÁ-za]"
-    }
-  ],
-  "shadow": {
-    "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-    "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-    "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
   }
 }
