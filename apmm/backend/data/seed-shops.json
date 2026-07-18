@@ -54,7 +54,7 @@
       "hasReturnPolicy": true,
       "returnPeriodDays": 30,
       "sourceUrl": "https://www.plysovnik.cz/",
-      "note": "Plyšové hračky, funguje od 2008. Zatím nalezeny jen běžné metody, žádná alternativní. URL stránky o platbě doplnit při ruční verifikaci.",
+      "note": "Plyšové hračky, funguje od 2008. E-shop vytvořený a provozovaný firmou emocio (emocio.cz). Zatím nalezeny jen běžné metody, žádná alternativní. URL stránky o platbě doplnit při ruční verifikaci.",
       "payments": ["Bankovní převod", "Dobírka"]
     },
     {
@@ -122,6 +122,34 @@
         "Bankovní převod",
         "Dobírka",
         { "name": "Twisto", "note": "Platba až po vyzkoušení zboží, splatnost 14 dní" }
+      ]
+    },
+    {
+      "name": "Yoga Market",
+      "url": "https://www.yogamarket.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "sourceUrl": "https://www.yogamarket.cz/",
+      "note": "Potřeby na jógu, relaxaci a meditaci, kamenný obchod Praha 1. Reference firmy emocio (kompletní e-shop se skladem a automatickými platbami). Platební metody se nepodařilo zjistit z veřejných zdrojů, doplnit ruční verifikací.",
+      "payments": []
+    },
+    {
+      "name": "INYOGA SHOP",
+      "url": "https://www.inyogashop.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "sourceUrl": "https://www.inyogashop.cz/dodaci-a-platebni-podminky/",
+      "note": "Potřeby na jógu a pilates, Praha. Vazba na emocio pravděpodobná, ale nepotvrzená. Platby přes bránu GoPay, ověřit dostupnost Apple Pay / Google Pay v bráně.",
+      "payments": [
+        { "name": "Platební karta", "note": "Přes platební bránu GoPay" },
+        "Bankovní převod",
+        "Dobírka"
       ]
     },
     {
