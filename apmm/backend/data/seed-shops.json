@@ -121,7 +121,67 @@
         "Platební karta",
         "Bankovní převod",
         "Dobírka",
-        { "name": "Twisto", "note": "Platba až po vyzkoušení zboží, splatnost 14 dní" }
+        { "name": "Twisto", "note": "Platba až po vyzkoušení zboží, splatnost 14 dní" },
+        { "name": "PayPal", "note": "Ověřeno z veřejných zdrojů 6/2026" }
+      ]
+    },
+    {
+      "name": "Tchibo",
+      "url": "https://www.tchibo.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "MIXED",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.tchibo.cz/zpusoby-platby-s400076205.html",
+      "note": "Domácnost a oblečení (týdenní tematické kolekce). Při vrácení přes PayPal proplácí zpáteční dopravu do 820 Kč. Kompletní seznam metod doplnit ruční verifikací.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "DM drogerie",
+      "url": "https://www.dm.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.dm.cz/services/onlineshop/platebni-moznosti",
+      "note": "Drogerie a kosmetika. PayPal s omezením na region EMEA, bez PayPal Express. Kompletní seznam metod doplnit ruční verifikací.",
+      "payments": [
+        { "name": "PayPal", "note": "Jen EMEA region, bez PayPal Express" }
+      ]
+    },
+    {
+      "name": "Zoohit",
+      "url": "https://www.zoohit.cz",
+      "language": "cs",
+      "country": "DE",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://support.zoohit.cz/cs/support/solutions/articles/76000048745",
+      "note": "Chovatelské potřeby (zooplus group). Hraniční kategorie sortimentu, zařazeno na pokyn. Kompletní seznam metod doplnit ruční verifikací.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "Automobilovédíly24",
+      "url": "https://www.automobilovedily24.cz",
+      "language": "cs",
+      "country": "OTHER_EU",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.automobilovedily24.cz",
+      "note": "Autodíly. Hraniční kategorie sortimentu, zařazeno na pokyn. Sídlo provozovatele a URL stránky plateb ověřit ručně.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "Datart",
+      "url": "https://www.datart.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "ELECTRONICS",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.datart.cz/napoveda/platebni-metody",
+      "note": "Elektronika, po fúzi s Electro World (2024). PayPal uveden na stránce plateb, ale může jít o zastaralý obsah z roku 2013, ověřit v košíku.",
+      "payments": [
+        { "name": "PayPal", "note": "Nejisté, možná zastaralý údaj na webu, ověřit v košíku" }
       ]
     },
     {
