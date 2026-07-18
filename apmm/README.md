@@ -81,7 +81,28 @@ Schema je navržené pro filtrování („obchody v ČR s PayPal + BTC"), budouc
 - [x] **Fáze 3 (část)** – REST API s filtry (`/api/shops?method=PayPal&country=CZ&alt=true`, `/api/shops/:id`, `/api/scrapes`) + scraping: `npm run scrape -- --page <url>` (Playwright, respektuje robots.txt, extrakce metod přes klíčová slova, `--shop <url> --save` uloží ScrapeRun)
 - [x] **Fáze 3 (zbytek)** – `npm run scrape:apply -- --run <id> [--write]` promítne výsledky scrapu do katalogu (jen přidává/potvrzuje, ručně ověřené záznamy nepřepisuje); příklad plánování v `infra/cron.example`
 - [x] **Fáze 4** – deploy: Dockerfily, `infra/docker-compose.prod.yml` (MySQL + API + Caddy s automatickým HTTPS), návod níže
-- [ ] Post-MVP: scoring, historie změn, exporty, alerty, kurátorské vrstvy
+### Fáze 5 – uvedení do provozu (nejbližší priorita)
+- [ ] migrace do samostatného GitLab repa + CI pipeline (typecheck, Vitest, build)
+- [ ] runtime ověření DB vrstvy (migrace + seed proti živé MySQL, build Docker images)
+- [ ] první deploy (doména, server, ostrý seed) dle návodu výše
+- [ ] verifikační sprint: PENDING záznamy projet scraperem/ručně a překlopit na VERIFIED
+
+### Fáze 6 – udržitelnost dat
+- [ ] `scrape-all` runner: všechny obchody se Source, rozestupy mezi požadavky, cron
+- [ ] staleness report: záznamy neověřené déle než X měsíců (metody se ruší, viz Alza a PayPal 3/2025)
+- [ ] alerty na změny: diff po sobě jdoucích ScrapeRunů, notifikace při přidání/zmizení metody
+- [ ] kontaktní cesta pro obchody: stránka pro nahlášení chyby či opravy údajů
+
+### Fáze 7 – viditelnost webu
+- [ ] sitemap.xml, strukturovaná data (schema.org), SEO průchod
+- [ ] jednoduchá analytika návštěvnosti
+
+### Post-MVP moduly
+- [ ] **Compliance modul**: evidence, zda obchod plní povinnosti (cookie lišta, tlačítková novela, GDPR prohlášení, pravidla vracení zboží...). Nové entity Regulation + ShopComplianceCheck (append-only historie kontrol), část kontrol automatizovaně scraperem, část ručně; opatrné neutrální formulace na webu
+- [ ] scoring obchodů podle modernosti platebních metod
+- [ ] historie změn a timeline (od kdy obchod akceptuje BTC apod.)
+- [ ] JSON/CSV exporty, veřejné API s rate limitem
+- [ ] kurátorské vrstvy: recenze, zkušenosti s vracením, komunitní přispívání
 
 ## Nasazení do produkce (Fáze 4)
 
