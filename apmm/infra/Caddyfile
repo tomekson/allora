@@ -1,0 +1,19 @@
+# Reverse proxy + statický web. HTTPS (Let's Encrypt) řeší Caddy
+# automaticky podle domény v {$APMM_DOMAIN}.
+{$APMM_DOMAIN:localhost} {
+	encode gzip
+
+	handle /api/* {
+		reverse_proxy api:3000
+	}
+
+	handle /health {
+		reverse_proxy api:3000
+	}
+
+	handle {
+		root * /srv/www
+		try_files {path} {path}/index.html
+		file_server
+	}
+}

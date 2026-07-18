@@ -79,9 +79,32 @@ Schema je navržené pro filtrování („obchody v ČR s PayPal + BTC"), budouc
 - [ ] **Fáze 1 (zbytek)** – rozšíření seedu na desítky ověřených obchodů
 - [x] **Fáze 2** – veřejný katalog (Astro): listing, detail obchodu, filtr podle metod (data se při buildu berou ze seed JSON, po Fázi 3 z DB/API)
 - [x] **Fáze 3 (část)** – REST API s filtry (`/api/shops?method=PayPal&country=CZ&alt=true`, `/api/shops/:id`, `/api/scrapes`) + scraping: `npm run scrape -- --page <url>` (Playwright, respektuje robots.txt, extrakce metod přes klíčová slova, `--shop <url> --save` uloží ScrapeRun)
-- [ ] **Fáze 3 (zbytek)** – automatický zápis ověřených výsledků do ShopPaymentOption, plánované spouštění (cron)
-- [ ] **Fáze 4** – deploy (Docker, reverse proxy, HTTPS) na existující infrastrukturu
+- [x] **Fáze 3 (zbytek)** – `npm run scrape:apply -- --run <id> [--write]` promítne výsledky scrapu do katalogu (jen přidává/potvrzuje, ručně ověřené záznamy nepřepisuje); příklad plánování v `infra/cron.example`
+- [x] **Fáze 4** – deploy: Dockerfily, `infra/docker-compose.prod.yml` (MySQL + API + Caddy s automatickým HTTPS), návod níže
 - [ ] Post-MVP: scoring, historie změn, exporty, alerty, kurátorské vrstvy
+
+## Nasazení do produkce (Fáze 4)
+
+Na serveru s Dockerem (např. Rozhled.cz):
+
+```bash
+git clone <repo> /opt/apmm-repo && cd /opt/apmm-repo/apmm/infra
+cp prod.env.example .env        # doplň doménu a silná hesla
+docker compose -f docker-compose.prod.yml up -d --build
+
+# první inicializace DB (tabulky + seed)
+docker compose -f docker-compose.prod.yml exec api npx prisma db push
+docker compose -f docker-compose.prod.yml exec api node dist/scripts/seed.js
+```
+
+- DNS: A záznam domény z `APMM_DOMAIN` nasměruj na server; HTTPS certifikát
+  (Let's Encrypt) si Caddy vyřídí sám při prvním požadavku.
+- Web běží na doméně, API na `/api/*` (reverse proxy na kontejner `api`).
+- Statický katalog se peče do image při buildu; po změně dat spusť znovu
+  `docker compose -f docker-compose.prod.yml up -d --build web`.
+- Scraping spouštěj mimo API kontejner (lokálně nebo na serveru s
+  nainstalovaným Playwright), viz `infra/cron.example`.
+- Logy: `docker compose -f docker-compose.prod.yml logs -f api web`.
 
 ## Zásady scrapingu (Fáze 3)
 

@@ -1,0 +1,6 @@
+# Příklad plánovaného scrapingu (crontab -e na serveru).
+# Každé pondělí ve 3:00 projede obchody s Source PAYMENT_PAGE.
+# Skript scrape-all zatím není, spouští se po jednom obchodu;
+# rozestupy mezi obchody drž aspoň v minutách (žádný agresivní scraping).
+#
+# 0 3 * * 1  cd /opt/apmm/backend && npm run scrape -- --shop https://www.zoot.cz --save >> /var/log/apmm-scrape.log 2>&1
