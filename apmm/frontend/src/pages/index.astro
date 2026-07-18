@@ -1,46 +1,40 @@
 ---
-// Fáze 2 nahradí tento placeholder skutečným listingem obchodů z DB/API.
-const title = "APMM: kde zaplatíte jinak než kartou";
+import Base from "../layouts/Base.astro";
+import { shops, altMethods, COUNTRY_LABELS, ASSORTMENT_LABELS } from "../lib/catalog";
 ---
 
-<html lang="cs">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta
-      name="description"
-      content="Katalog českých a evropských e-shopů, které přijímají PayPal, kryptoměny, Apple Pay a další alternativní platební metody."
-    />
-    <title>{title}</title>
-    <style>
-      body {
-        font-family: system-ui, sans-serif;
-        max-width: 42rem;
-        margin: 0 auto;
-        padding: 2rem 1rem;
-        line-height: 1.6;
-        color: #1a1a1a;
-      }
-      h1 { font-size: 1.6rem; }
-      .disclaimer { font-size: 0.85rem; color: #666; margin-top: 3rem; }
-    </style>
-  </head>
-  <body>
-    <h1>{title}</h1>
-    <p>
-      Připravujeme veřejný katalog e-shopů dodávajících zboží do ČR, u kterých
-      zjišťujeme, jaké alternativní platební metody přijímají: PayPal,
-      kryptoměny (Bitcoin, Lightning), Apple Pay, Google Pay, odložené platby
-      a další.
-    </p>
-    <p>
-      Do katalogu zařazujeme obchody prodávající zboží, které lze standardně
-      vrátit, a u každého uvádíme i základní informace o podmínkách vracení.
-    </p>
-    <p class="disclaimer">
-      Katalog je informativní přehled možností, nejde o finanční poradenství.
-      Dostupnost platebních metod se může měnit, před nákupem si ji ověřte
-      přímo u obchodu.
-    </p>
-  </body>
-</html>
+<Base
+  title="APMM: kde zaplatíte jinak než kartou"
+  description="Katalog českých a evropských e-shopů, které přijímají PayPal, kryptoměny, Apple Pay a další alternativní platební metody."
+>
+  <h1>Kde zaplatíte jinak než kartou</h1>
+  <p>
+    Sledujeme e-shopy dodávající zboží do ČR a evidujeme, jaké alternativní
+    platební metody přijímají: PayPal, kryptoměny, mobilní peněženky nebo
+    odložené platby. Do katalogu zařazujeme obchody se zbožím, které lze
+    standardně vrátit.
+  </p>
+
+  <h2>Filtr podle platební metody</h2>
+  <p>
+    {altMethods.map(({ slug, method, shopCount }) => (
+      <a class="badge" href={`/metoda/${slug}/`}>{method.name} ({shopCount})</a>
+    ))}
+  </p>
+
+  <h2>Obchody ({shops.length})</h2>
+  {shops.map((shop) => (
+    <div class="card">
+      <h3><a href={`/obchod/${shop.slug}/`}>{shop.name}</a></h3>
+      <p class="meta">
+        {COUNTRY_LABELS[shop.country]} · {ASSORTMENT_LABELS[shop.assortment]}
+        {shop.returnPeriodDays ? ` · vrácení do ${shop.returnPeriodDays} dní` : ""}
+      </p>
+      <p>
+        {shop.altPayments.length > 0
+          ? shop.altPayments.map((p) => <span class="badge">{p.method.name}</span>)
+          : <span class="badge plain">zatím bez alternativních metod</span>}
+      </p>
+    </div>
+  ))}
+</Base>

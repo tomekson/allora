@@ -77,7 +77,7 @@ Schema je navržené pro filtrování („obchody v ČR s PayPal + BTC"), budouc
 - [x] **Fáze 1 (část)** – Prisma schema, docker-compose DB, seed skript + testovací data
 - [x] **Fáze 1 (CLI)** – `npm run shop:add` a `npm run shop:list` pro ruční správu obchodů
 - [ ] **Fáze 1 (zbytek)** – rozšíření seedu na desítky ověřených obchodů
-- [ ] **Fáze 2** – veřejný katalog (Astro): listing, detail, filtry
+- [x] **Fáze 2** – veřejný katalog (Astro): listing, detail obchodu, filtr podle metod (data se při buildu berou ze seed JSON, po Fázi 3 z DB/API)
 - [ ] **Fáze 3** – REST API rozšíření + Playwright scraping „Platba a doprava" stránek
 - [ ] **Fáze 4** – deploy (Docker, reverse proxy, HTTPS) na existující infrastrukturu
 - [ ] Post-MVP: scoring, historie změn, exporty, alerty, kurátorské vrstvy

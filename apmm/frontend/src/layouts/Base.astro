@@ -1,0 +1,92 @@
+---
+interface Props {
+  title: string;
+  description: string;
+}
+const { title, description } = Astro.props;
+---
+
+<html lang="cs">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    <style is:global>
+      * { box-sizing: border-box; }
+      body {
+        font-family: system-ui, sans-serif;
+        max-width: 52rem;
+        margin: 0 auto;
+        padding: 1.5rem 1rem 3rem;
+        line-height: 1.6;
+        color: #1c1c1c;
+        background: #fdfdfc;
+      }
+      a { color: #0a5c36; }
+      header.site {
+        display: flex;
+        align-items: baseline;
+        gap: 1rem;
+        border-bottom: 2px solid #0a5c36;
+        padding-bottom: 0.75rem;
+        margin-bottom: 1.5rem;
+      }
+      header.site .brand {
+        font-size: 1.3rem;
+        font-weight: 700;
+        color: #0a5c36;
+        text-decoration: none;
+      }
+      header.site .tagline { font-size: 0.85rem; color: #555; }
+      h1 { font-size: 1.45rem; margin: 0 0 0.5rem; }
+      h2 { font-size: 1.1rem; margin: 1.5rem 0 0.5rem; }
+      .badge {
+        display: inline-block;
+        font-size: 0.75rem;
+        padding: 0.1rem 0.5rem;
+        border-radius: 999px;
+        background: #e3f1e9;
+        color: #0a5c36;
+        margin: 0 0.25rem 0.25rem 0;
+        text-decoration: none;
+      }
+      .badge.plain { background: #eee; color: #444; }
+      .card {
+        border: 1px solid #e2e2dd;
+        border-radius: 8px;
+        padding: 0.9rem 1rem;
+        margin-bottom: 0.75rem;
+        background: #fff;
+      }
+      .card h3 { margin: 0 0 0.25rem; font-size: 1.05rem; }
+      .meta { font-size: 0.85rem; color: #555; }
+      table { border-collapse: collapse; width: 100%; }
+      th, td { text-align: left; padding: 0.4rem 0.6rem; border-bottom: 1px solid #e2e2dd; font-size: 0.92rem; vertical-align: top; }
+      th { background: #f4f4f0; }
+      footer.site {
+        margin-top: 3rem;
+        border-top: 1px solid #e2e2dd;
+        padding-top: 1rem;
+        font-size: 0.8rem;
+        color: #666;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="site">
+      <a class="brand" href="/">APMM</a>
+      <span class="tagline">katalog obchodů s alternativními platebními metodami</span>
+    </header>
+    <main>
+      <slot />
+    </main>
+    <footer class="site">
+      <p>
+        Katalog je informativní přehled možností, nejde o finanční poradenství.
+        Dostupnost platebních metod se může měnit, před nákupem si ji ověřte
+        přímo u obchodu. Údaje označené jako neověřené čekají na ruční kontrolu.
+      </p>
+    </footer>
+  </body>
+</html>
