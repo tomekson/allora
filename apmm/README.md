@@ -98,7 +98,7 @@ Schema je navržené pro filtrování („obchody v ČR s PayPal + BTC"), budouc
 - [ ] jednoduchá analytika návštěvnosti
 
 ### Post-MVP moduly
-- [ ] **Compliance modul**: evidence, zda obchod plní povinnosti (cookie lišta, tlačítková novela, GDPR prohlášení, pravidla vracení zboží...). Nové entity Regulation + ShopComplianceCheck (append-only historie kontrol), část kontrol automatizovaně scraperem, část ručně; opatrné neutrální formulace na webu
+- [ ] **Compliance modul**: evidence, zda obchod plní povinnosti. Číselník Regulation minimálně s: cookie lišta s rovnocenným odmítnutím; označení objednávkového tlačítka „objednávka zavazující k platbě" (novela 2023); GDPR prohlášení; **přímé tlačítko pro odstoupení od smlouvy na webu (tzv. tlačítková novela 2026** – zákazník vrací zboží bez tištěných formulářů, lhůta 14 dní i rozsah práva beze změny, odstoupení dál možné i e-mailem, obchodník vrací cenu zboží + nejlevnější nabízené poštovné, zpáteční dopravu hradí kupující; zdroje: Conviu, Shoptet blog, dTest). Nové entity Regulation + ShopComplianceCheck (append-only historie kontrol), část kontrol automatizovaně scraperem (cookie lišta, GDPR stránka, tlačítko odstoupení), část ručně (texty v košíku); opatrné neutrální formulace na webu
 - [ ] scoring obchodů podle modernosti platebních metod
 - [ ] historie změn a timeline (od kdy obchod akceptuje BTC apod.)
 - [ ] JSON/CSV exporty, veřejné API s rate limitem
