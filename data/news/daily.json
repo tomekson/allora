@@ -10,7 +10,7 @@
       "origin": "cz"
     },
     {
-      "it": "Nella zona tra i bacini di Lomami e del Congo è stata descritta una nuova specie di scimmia, il gueréza del Congo (Colobus congoensis), noto anche con il nome popolare di “Likweli”.",
+      "it": "Nella zona tra i bacini di Lomami e del Congo è stata descritta una nuova specie di scimmia, il gueréza del Congo (Colobus congoensis), noto comunemente come “Likweli”.",
       "cz": "Z&nbsp;meziříčí Lomami a Konga byl popsán nový druh opice, gueréza konžská (Colobus congoensis) neboli lidově „Likweli“.",
       "origin": "cz"
     },
@@ -46,7 +46,7 @@
     },
     {
       "en": "Production in the construction sector - May 2026. Sintesi (max 110 caratteri) In May 2026 production in the construction sector unchanged over April and +2.9% y-o-y",
-      "it": "Produzione nel settore delle costruzioni - maggio 2026. Sintesi (max 110 caratteri) A maggio 2026 la produzione nel settore delle costruzioni è rimasta invariata rispetto ad aprile e ha registrato un aumento del 2,9% su base annua",
+      "it": "Produzione nel settore delle costruzioni - maggio 2026. Sintesi (max 110 caratteri) A maggio 2026 la produzione nel settore delle costruzioni è rimasta invariata rispetto ad aprile e ha registrato un +2,9% su base annua",
       "cz": "Produkce ve stavebnictví – květen 2026. Shrnutí (max. 110 znaků) V květnu 2026 zůstala produkce ve stavebnictví na stejné úrovni jako v dubnu a meziročně vzrostla o 2,9 %.",
       "origin": "econ"
     },
@@ -57,6 +57,12 @@
       "origin": "econ"
     },
     {
+      "en": "Wessex Water chief pockets above-inflation pay rise despite bonus ban over sewage spills. CEO’s pay packet surges to £791,000 as union says public ‘sick of obscene pay’ and bosses ‘feathering own nests’",
+      "it": "Il capo della Wessex Water si aggiudica un aumento salariale superiore all’inflazione nonostante il divieto di bonus a causa delle fuoriuscite di acque reflue. Lo stipendio del CEO sale a 791.000 sterline, mentre il sindacato afferma che l’opinione pubblica è «stufa di retribuzioni oscene» e che i dirigenti «si arricchiscono a spese dei lavoratori».",
+      "cz": "Šéf společnosti Wessex Water si připsal mzdové zvýšení převyšující inflaci, a to navzdory zákazu vyplácení bonusů kvůli únikům odpadních vod. Odměna generálního ředitele vzrostla na 791 000 liber, zatímco odbory tvrdí, že veřejnost má „plné zuby obscénních platů“ a že šéfové si „naplňují vlastní kapsy“.",
+      "origin": "guardian"
+    },
+    {
       "en": "Revealed: the top 10 UK cities for first-time buyers. Vibrant areas for young workers who plan to rent while saving for a deposit and then get on the property ladder",
       "it": "Svelata la classifica delle 10 migliori città del Regno Unito per chi acquista la prima casa. Quartieri vivaci per giovani lavoratori che intendono affittare mentre risparmiano per l’anticipo, per poi entrare nel mercato immobiliare",
       "cz": "Odhaleno: 10 nejlepších britských měst pro ty, kdo kupují nemovitost poprvé. Živé čtvrti pro mladé pracovníky, kteří plánují nejprve bydlet v pronájmu, zatímco si spoří na zálohu, a poté vstoupit na trh s nemovitostmi",
@@ -65,13 +71,7 @@
     {
       "en": "Berry tough: Ribena seeks to make hardier blackcurrants to beat extreme weather. £200,000 investment comes after harvests in Britain hit by wet winter, spring frost and hail, then heatwaves",
       "it": "Una sfida da frutti di bosco: Ribena punta a creare ribes nero più resistente per far fronte alle condizioni meteorologiche estreme. L’investimento di 200.000 sterline arriva dopo che i raccolti in Gran Bretagna sono stati colpiti da un inverno piovoso, gelate primaverili e grandine, seguite da ondate di caldo",
-      "cz": "Opravdu náročné: Společnost Ribena se snaží vyšlechtit odolnější odrůdy černého rybízu, aby odolaly extrémním povětrnostním podmínkám. Investice ve výši 200 000 liber přichází poté, co britské sklizně zasáhla deštivá zima, jarní mrazy a kroupy a následně vlny veder.",
-      "origin": "guardian"
-    },
-    {
-      "en": "South East Water warns over survival as funds dry up . Supplier to over 2.4m customers says it doesn’t have enough money to last beyond July 2027",
-      "it": "South East Water lancia un allarme sulla propria sopravvivenza a causa dell’esaurimento dei fondi. L’azienda, che rifornisce oltre 2,4 milioni di clienti, afferma di non disporre di fondi sufficienti per andare avanti oltre luglio 2027",
-      "cz": "Společnost South East Water varuje, že její přežití je ohroženo kvůli vyčerpání finančních prostředků. Dodavatel, který zásobuje více než 2,4 milionu zákazníků, uvádí, že nemá dostatek finančních prostředků na provoz po červenci 2027.",
+      "cz": "Opravdu náročné: Společnost Ribena se snaží vyšlechtit odolnější odrůdy černého rybízu, aby odolaly extrémním povětrnostním podmínkám. Investice ve výši 200 000 liber přichází poté, co sklizně v Británii zasáhla deštivá zima, jarní mrazy a kroupy a následně vlny veder.",
       "origin": "guardian"
     },
     {
@@ -99,9 +99,9 @@
       "origin": "world"
     },
     {
-      "en": "The Islamic Revolutionary Guard Corps, in a statement published by IRNA, report that two oil tankers have exploded after hitting mines south in the Strait of Hormuz. However, the U.S. Central Command disputes the claims on X as \"false\".",
-      "it": "Il Corpo delle Guardie Rivoluzionarie Islamiche, in un comunicato pubblicato dall'IRNA, riferisce che due petroliere sono esplose dopo aver urtato delle mine a sud dello Stretto di Hormuz. Tuttavia, il Comando Centrale degli Stati Uniti contesta tali affermazioni su X definendole \"false\".",
-      "cz": "Íránské revoluční gardy ve svém prohlášení zveřejněném agenturou IRNA uvádějí, že na jihu Hormuzského průlivu explodovaly dva ropné tankery poté, co najely na miny. Centrální velitelství USA však na platformě X tato tvrzení popírá jako „nepravdivá“.",
+      "en": "Taylor Farms recalls their iceburg lettuce, traced through a farm in Mexico, amidst the ongoing cyclosporiasis outbreak in the United States, which is caused by Cyclospora cayetanensis.",
+      "it": "Taylor Farms ritira dal mercato la propria lattuga iceberg, la cui provenienza è stata ricondotta a un'azienda agricola in Messico, nel contesto dell'attuale epidemia di ciclosporiasi negli Stati Uniti, causata dal Cyclospora cayetanensis.",
+      "cz": "Společnost Taylor Farms stahuje z trhu svůj ledový salát, jehož původ lze vysledovat až k farmě v Mexiku, a to v souvislosti s aktuálním ohniskem cyklosporiózy ve Spojených státech, kterou způsobuje parazit Cyclospora cayetanensis.",
       "origin": "world"
     },
     {
@@ -121,7 +121,7 @@
     "topic": "2026 Strait of Hormuz crisis",
     "url": "https://en.wikipedia.org/wiki/2026_Strait_of_Hormuz_crisis",
     "en": "Shipping traffic through the Strait of Hormuz, a major maritime choke point for world energy trade, has been largely blocked by Iran since 28 February 2026, when the United States and Israel launched an air war against Iran. In retaliation, the Iranian Revolutionary Guard Corps (IRGC) issued warnings forbidding passage through the strait, boarded and attacked merchant ships, and laid sea mines in the strait. From 13 April to 29 May 2026, the US simultaneously blockaded Iranian ports. Until the war's start, about 25% of the world's seaborne oil trade and 20% of the world's liquefied natural gas (LNG) passed through the strait. \nSoon after the start of the conflict, tanker traffic dropped to almost nothing.",
-    "it": "Il traffico marittimo attraverso lo Stretto di Ormuz, uno dei principali punti nevralgici per il commercio energetico mondiale, è stato in gran parte bloccato dall’Iran dal 28 febbraio 2026, quando gli Stati Uniti e Israele hanno lanciato una guerra aerea contro l’Iran. Per rappresaglia, il Corpo delle Guardie Rivoluzionarie Iraniane (IRGC) ha emesso avvertimenti che vietavano il passaggio attraverso lo stretto, ha abbordato e attaccato navi mercantili e ha posato mine marine nello stretto. Dal 13 aprile al 29 maggio 2026, gli Stati Uniti hanno contemporaneamente bloccato i porti iraniani. Fino all’inizio della guerra, circa il 25% del commercio mondiale di petrolio via mare e il 20% del gas naturale liquefatto (GNL) mondiale transitavano attraverso lo stretto. \nSubito dopo l’inizio del conflitto, il traffico delle petroliere si è ridotto quasi a zero.",
+    "it": "Il traffico marittimo attraverso lo Stretto di Ormuz, uno dei principali punti nevralgici per il commercio energetico mondiale, è stato in gran parte bloccato dall’Iran dal 28 febbraio 2026, quando gli Stati Uniti e Israele hanno lanciato una guerra aerea contro l’Iran. Per rappresaglia, il Corpo delle Guardie Rivoluzionarie Iraniane (IRGC) ha emesso avvertimenti che vietavano il passaggio attraverso lo stretto, ha abbordato e attaccato navi mercantili e ha posato mine marine nello stretto. Dal 13 aprile al 29 maggio 2026, gli Stati Uniti hanno contemporaneamente bloccato i porti iraniani. Fino all’inizio della guerra, circa il 25% del commercio mondiale di petrolio via mare e il 20% del gas naturale liquefatto (GNL) mondiale transitavano attraverso lo stretto. \nPoco dopo l’inizio del conflitto, il traffico delle petroliere si è ridotto quasi a zero.",
     "cz": "Lodní provoz v Hormuzském průlivu, který představuje klíčový námořní úzký průchod pro světový obchod s energií, je od 28. února 2026, kdy Spojené státy a Izrael zahájily proti Íránu leteckou válku, z velké části blokován Íránem. Jako odvetu vydaly Íránské revoluční gardy (IRGC) varování zakazující průjezd úžinou, zadržovaly a napadaly obchodní lodě a v úžině rozmístily námořní miny. Od 13. dubna do 29. května 2026 zároveň USA blokovaly íránské přístavy. Až do začátku války procházelo úžinou přibližně 25 % světového obchodu s ropou přepravovanou po moři a 20 % světového obchodu se zkapalněným zemním plynem (LNG). \nBrzy po začátku konfliktu klesl provoz tankerů téměř na nulu."
   },
   "shadows": [
@@ -159,11 +159,6 @@
       "it": "Svelata la classifica delle 10 migliori città del Regno Unito per chi acquista la prima casa.",
       "cz": "Odhaleno: 10 nejlepších britských měst pro ty, kdo kupují nemovitost poprvé.",
       "phon": "[sve-LÁ-ta la klas-si-FÍ-ka DÉL-le mil-JÓ-ri čit-TÁ del RÉ-ňo u-NÍ-to per ki akk-VÍS-ta la PRÍ-ma KÁ-za]"
-    },
-    {
-      "it": "South East Water lancia un allarme sulla propria sopravvivenza a causa dell’esaurimento dei fondi.",
-      "cz": "Společnost South East Water varuje, že její přežití je ohroženo kvůli vyčerpání finančních prostředků.",
-      "phon": "[sout east WÁ-ter LÁN-ča un al-LÁR-me SÚL-la PRÓP-ria sop-rav-vi-VÉN-ca a KÁU-za del-le-zau-ri-MÉN-to dei FÓN-di]"
     }
   ],
   "shadow": {
