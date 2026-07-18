@@ -1,5 +1,5 @@
 {
-  "$comment": "Ukázková seed data pro Fázi 1. Údaje o platebních metodách je nutné před publikací katalogu ručně ověřit na webech obchodů (verificationStatus je proto PENDING).",
+  "$comment": "Testovací seed data (2026-07). Údaje pocházejí z veřejných zdrojů a výsledků vyhledávání, verificationStatus je PENDING, dokud je ručně neověříme přímo na webech obchodů. sourceUrl = stránka, kde obchod platby popisuje.",
   "paymentMethods": [
     { "name": "Platební karta", "type": "CARD", "isAlternative": false },
     { "name": "Bankovní převod", "type": "BANK_TRANSFER", "isAlternative": false },
@@ -9,8 +9,14 @@
     { "name": "Google Pay", "type": "WALLET", "isAlternative": true, "detail": { "provider": "Google" } },
     { "name": "Bitcoin (on-chain)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "BTC", "network": "onchain" } },
     { "name": "Bitcoin (Lightning)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "BTC", "network": "lightning" } },
+    { "name": "Tether (USDT)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "USDT" } },
+    { "name": "USD Coin (USDC)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "USDC" } },
+    { "name": "Ethereum", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "ETH" } },
+    { "name": "Solana", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "SOL" } },
+    { "name": "Tron", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "TRX" } },
     { "name": "Twisto", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Twisto" } },
-    { "name": "Skip Pay", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Skip Pay" } }
+    { "name": "Skip Pay", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Skip Pay" } },
+    { "name": "Klarna", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Klarna" } }
   ],
   "shops": [
     {
@@ -22,27 +28,119 @@
       "hasReturnPolicy": true,
       "returnPeriodDays": 14,
       "returnPolicyUrl": "https://www.alza.cz/vraceni-zbozi",
-      "payments": ["Platební karta", "Bankovní převod", "Dobírka", "Apple Pay", "Google Pay", "Bitcoin (on-chain)", "Bitcoin (Lightning)", "Twisto", "Skip Pay"]
+      "sourceUrl": "https://www.alza.cz/strucny-prehled-moznosti-zaplaceni-art112.htm",
+      "note": "Krypto platby přes vlastní bránu, výběr měny při objednávce. Odložené platby (Twisto/Skip Pay) zatím nepotvrzeny, ověřit v košíku.",
+      "payments": [
+        "Platební karta",
+        "Bankovní převod",
+        "Dobírka",
+        "Apple Pay",
+        "Google Pay",
+        "Bitcoin (on-chain)",
+        "Bitcoin (Lightning)",
+        "Tether (USDT)",
+        "USD Coin (USDC)",
+        "Ethereum",
+        "Solana",
+        "Tron"
+      ]
     },
     {
-      "name": "CZC.cz",
-      "url": "https://www.czc.cz",
+      "name": "Plyšovník.cz",
+      "url": "https://www.plysovnik.cz",
       "language": "cs",
       "country": "CZ",
-      "assortment": "ELECTRONICS",
+      "assortment": "OTHER",
       "hasReturnPolicy": true,
-      "returnPeriodDays": 14,
-      "payments": ["Platební karta", "Bankovní převod", "Dobírka", "Apple Pay", "Google Pay", "Skip Pay"]
+      "returnPeriodDays": 30,
+      "sourceUrl": "https://www.plysovnik.cz/",
+      "note": "Plyšové hračky, funguje od 2008. Zatím nalezeny jen běžné metody, žádná alternativní. URL stránky o platbě doplnit při ruční verifikaci.",
+      "payments": ["Bankovní převod", "Dobírka"]
     },
     {
-      "name": "About You",
-      "url": "https://www.aboutyou.cz",
+      "name": "STORM Watches",
+      "url": "https://www.stormwatches.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.stormwatches.cz/doprava-zdarma/",
+      "note": "Hodinky, oficiální distributor pro ČR/SK. Výsledky vyhledávání nejednoznačné, seznam metod nutno ověřit přímo v objednávce.",
+      "payments": [
+        { "name": "Platební karta", "note": "Nepotvrzeno, ověřit" },
+        { "name": "Bankovní převod", "note": "Nepotvrzeno, ověřit" },
+        { "name": "Dobírka", "note": "Nepotvrzeno, ověřit" }
+      ]
+    },
+    {
+      "name": "Lidl e-shop",
+      "url": "https://www.lidl.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "MIXED",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://informace-pro-zakazniky.lidl.cz/SelfServiceCZ/s/article/Jake-jsou-moznosti-platby-1575630310215",
+      "note": "Dříve lidl-shop.cz, doména přesměrovává na lidl.cz. Lhůtu vracení doplnit při verifikaci.",
+      "payments": [
+        "Platební karta",
+        "Bankovní převod",
+        "Dobírka",
+        "Apple Pay",
+        "Google Pay"
+      ]
+    },
+    {
+      "name": "Decathlon",
+      "url": "https://www.decathlon.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "returnPolicyUrl": "https://www.decathlon.cz/vymena-a-vraceni_lp-8KR5MJ",
+      "sourceUrl": "https://www.decathlon.cz/lp/i/platba",
+      "note": "Členové věrnostního programu mají na vrácení 365 dní (mimo Marketplace a B2B).",
+      "payments": [
+        "Platební karta",
+        { "name": "Dobírka", "note": "Poplatek 40 Kč při doručení na adresu" },
+        "Apple Pay",
+        "Klarna"
+      ]
+    },
+    {
+      "name": "ZOOT",
+      "url": "https://www.zoot.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "CLOTHING",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 60,
+      "returnPolicyUrl": "https://www.zoot.cz/doprava-a-platba/",
+      "sourceUrl": "https://www.zoot.cz/doprava-a-platba/",
+      "payments": [
+        "Platební karta",
+        "Bankovní převod",
+        "Dobírka",
+        { "name": "Twisto", "note": "Platba až po vyzkoušení zboží, splatnost 14 dní" }
+      ]
+    },
+    {
+      "name": "Zalando",
+      "url": "https://www.zalando.cz",
       "language": "cs",
       "country": "DE",
       "assortment": "CLOTHING",
       "hasReturnPolicy": true,
-      "returnPeriodDays": 100,
-      "payments": ["Platební karta", "PayPal", "Apple Pay", "Google Pay", "Dobírka"]
+      "returnPeriodDays": 30,
+      "returnPolicyUrl": "https://www.zalando.cz/faq/what-is-your-return-policy.html",
+      "sourceUrl": "https://www.zalando.cz/faq/Payments/what-are-my-payment-options.html",
+      "note": "Vrácení zdarma do 30 dní. Dostupnost jednotlivých metod pro CZ ověřit v košíku (info částečně z globálního FAQ).",
+      "payments": [
+        "Platební karta",
+        { "name": "PayPal", "note": "Refundace jde zpět na PayPal účet" },
+        "Apple Pay",
+        "Google Pay"
+      ]
     }
   ]
 }

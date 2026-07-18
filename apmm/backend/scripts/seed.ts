@@ -1,6 +1,8 @@
 /**
  * Seed lokální DB z data/seed-shops.json.
  * Idempotentní: metody i obchody se upsertují podle unikátního name/url.
+ * Pokud má shop sourceUrl, vytvoří se Source (PAYMENT_PAGE) a naváže se
+ * na jeho ShopPaymentOption záznamy.
  *
  * Spuštění: npm run db:seed
  */
@@ -16,6 +18,11 @@ const paymentMethodSchema = z.object({
   detail: z.record(z.union([z.string(), z.number(), z.boolean()])).optional(),
 });
 
+const shopPaymentSchema = z.union([
+  z.string(),
+  z.object({ name: z.string(), note: z.string().optional() }),
+]);
+
 const shopSchema = z.object({
   name: z.string(),
   url: z.string().url(),
@@ -25,7 +32,9 @@ const shopSchema = z.object({
   hasReturnPolicy: z.boolean().default(false),
   returnPeriodDays: z.number().int().positive().optional(),
   returnPolicyUrl: z.string().url().optional(),
-  payments: z.array(z.string()),
+  note: z.string().optional(),
+  sourceUrl: z.string().url().optional(),
+  payments: z.array(shopPaymentSchema),
 });
 
 const seedFileSchema = z.object({
@@ -48,23 +57,39 @@ async function main() {
   console.log(`Platebních metod: ${data.paymentMethods.length}`);
 
   for (const shop of data.shops) {
-    const { payments, ...shopData } = shop;
+    const { payments, sourceUrl, ...shopData } = shop;
     const created = await prisma.shop.upsert({
       where: { url: shop.url },
       update: shopData,
       create: shopData,
     });
 
-    for (const methodName of payments) {
-      const method = await prisma.paymentMethod.findUniqueOrThrow({ where: { name: methodName } });
+    let sourceId: number | undefined;
+    if (sourceUrl) {
+      const existing = await prisma.source.findFirst({
+        where: { shopId: created.id, url: sourceUrl },
+      });
+      const source =
+        existing ??
+        (await prisma.source.create({
+          data: { shopId: created.id, url: sourceUrl, kind: "PAYMENT_PAGE" },
+        }));
+      sourceId = source.id;
+    }
+
+    for (const payment of payments) {
+      const { name, note } = typeof payment === "string" ? { name: payment, note: undefined } : payment;
+      const method = await prisma.paymentMethod.findUniqueOrThrow({ where: { name } });
       await prisma.shopPaymentOption.upsert({
         where: { shopId_paymentMethodId: { shopId: created.id, paymentMethodId: method.id } },
-        update: {},
+        update: { note, sourceId },
         create: {
           shopId: created.id,
           paymentMethodId: method.id,
           timing: method.type === "COD" ? "ON_DELIVERY" : "ONLINE_CHECKOUT",
           verificationStatus: "PENDING",
+          note,
+          sourceId,
         },
       });
     }
