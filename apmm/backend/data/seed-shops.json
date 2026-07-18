@@ -1,0 +1,48 @@
+{
+  "$comment": "Ukázková seed data pro Fázi 1. Údaje o platebních metodách je nutné před publikací katalogu ručně ověřit na webech obchodů (verificationStatus je proto PENDING).",
+  "paymentMethods": [
+    { "name": "Platební karta", "type": "CARD", "isAlternative": false },
+    { "name": "Bankovní převod", "type": "BANK_TRANSFER", "isAlternative": false },
+    { "name": "Dobírka", "type": "COD", "isAlternative": false },
+    { "name": "PayPal", "type": "PAYPAL", "isAlternative": true },
+    { "name": "Apple Pay", "type": "WALLET", "isAlternative": true, "detail": { "provider": "Apple" } },
+    { "name": "Google Pay", "type": "WALLET", "isAlternative": true, "detail": { "provider": "Google" } },
+    { "name": "Bitcoin (on-chain)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "BTC", "network": "onchain" } },
+    { "name": "Bitcoin (Lightning)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "BTC", "network": "lightning" } },
+    { "name": "Twisto", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Twisto" } },
+    { "name": "Skip Pay", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Skip Pay" } }
+  ],
+  "shops": [
+    {
+      "name": "Alza.cz",
+      "url": "https://www.alza.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "ELECTRONICS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "returnPolicyUrl": "https://www.alza.cz/vraceni-zbozi",
+      "payments": ["Platební karta", "Bankovní převod", "Dobírka", "Apple Pay", "Google Pay", "Bitcoin (on-chain)", "Bitcoin (Lightning)", "Twisto", "Skip Pay"]
+    },
+    {
+      "name": "CZC.cz",
+      "url": "https://www.czc.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "ELECTRONICS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "payments": ["Platební karta", "Bankovní převod", "Dobírka", "Apple Pay", "Google Pay", "Skip Pay"]
+    },
+    {
+      "name": "About You",
+      "url": "https://www.aboutyou.cz",
+      "language": "cs",
+      "country": "DE",
+      "assortment": "CLOTHING",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 100,
+      "payments": ["Platební karta", "PayPal", "Apple Pay", "Google Pay", "Dobírka"]
+    }
+  ]
+}

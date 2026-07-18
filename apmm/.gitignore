@@ -1,0 +1,9 @@
+node_modules/
+dist/
+.astro/
+.env
+*.local
+mysql-data/
+coverage/
+playwright-report/
+test-results/
