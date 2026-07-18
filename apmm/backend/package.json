@@ -15,7 +15,9 @@
     "test": "vitest run",
     "db:migrate": "prisma migrate dev",
     "db:seed": "tsx scripts/seed.ts",
-    "db:studio": "prisma studio"
+    "db:studio": "prisma studio",
+    "shop:add": "tsx scripts/add-shop.ts",
+    "shop:list": "tsx scripts/list-shops.ts"
   },
   "prisma": {
     "seed": "tsx scripts/seed.ts"

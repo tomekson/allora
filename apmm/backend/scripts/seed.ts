@@ -10,6 +10,7 @@ import { readFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { z } from "zod";
 import { prisma } from "../src/lib/prisma.js";
+import { shopInputSchema, upsertShopWithPayments } from "../src/lib/shops.js";
 
 const paymentMethodSchema = z.object({
   name: z.string(),
@@ -18,28 +19,9 @@ const paymentMethodSchema = z.object({
   detail: z.record(z.union([z.string(), z.number(), z.boolean()])).optional(),
 });
 
-const shopPaymentSchema = z.union([
-  z.string(),
-  z.object({ name: z.string(), note: z.string().optional() }),
-]);
-
-const shopSchema = z.object({
-  name: z.string(),
-  url: z.string().url(),
-  language: z.string().default("cs"),
-  country: z.enum(["CZ", "SK", "DE", "AT", "PL", "OTHER_EU", "NON_EU"]),
-  assortment: z.enum(["CLOTHING", "ELECTRONICS", "HOME", "HOBBY", "SPORTS", "MIXED", "OTHER"]),
-  hasReturnPolicy: z.boolean().default(false),
-  returnPeriodDays: z.number().int().positive().optional(),
-  returnPolicyUrl: z.string().url().optional(),
-  note: z.string().optional(),
-  sourceUrl: z.string().url().optional(),
-  payments: z.array(shopPaymentSchema),
-});
-
 const seedFileSchema = z.object({
   paymentMethods: z.array(paymentMethodSchema),
-  shops: z.array(shopSchema),
+  shops: z.array(shopInputSchema),
 });
 
 async function main() {
@@ -57,43 +39,8 @@ async function main() {
   console.log(`Platebních metod: ${data.paymentMethods.length}`);
 
   for (const shop of data.shops) {
-    const { payments, sourceUrl, ...shopData } = shop;
-    const created = await prisma.shop.upsert({
-      where: { url: shop.url },
-      update: shopData,
-      create: shopData,
-    });
-
-    let sourceId: number | undefined;
-    if (sourceUrl) {
-      const existing = await prisma.source.findFirst({
-        where: { shopId: created.id, url: sourceUrl },
-      });
-      const source =
-        existing ??
-        (await prisma.source.create({
-          data: { shopId: created.id, url: sourceUrl, kind: "PAYMENT_PAGE" },
-        }));
-      sourceId = source.id;
-    }
-
-    for (const payment of payments) {
-      const { name, note } = typeof payment === "string" ? { name: payment, note: undefined } : payment;
-      const method = await prisma.paymentMethod.findUniqueOrThrow({ where: { name } });
-      await prisma.shopPaymentOption.upsert({
-        where: { shopId_paymentMethodId: { shopId: created.id, paymentMethodId: method.id } },
-        update: { note, sourceId },
-        create: {
-          shopId: created.id,
-          paymentMethodId: method.id,
-          timing: method.type === "COD" ? "ON_DELIVERY" : "ONLINE_CHECKOUT",
-          verificationStatus: "PENDING",
-          note,
-          sourceId,
-        },
-      });
-    }
-    console.log(`Shop ${shop.name}: ${payments.length} platebních metod`);
+    await upsertShopWithPayments(shop);
+    console.log(`Shop ${shop.name}: ${shop.payments.length} platebních metod`);
   }
 }
 
