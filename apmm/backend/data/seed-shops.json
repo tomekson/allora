@@ -65,7 +65,7 @@
       "assortment": "OTHER",
       "hasReturnPolicy": true,
       "sourceUrl": "https://www.stormwatches.cz/doprava-zdarma/",
-      "note": "Hodinky, oficiální distributor pro ČR/SK. Výsledky vyhledávání nejednoznačné, seznam metod nutno ověřit přímo v objednávce.",
+      "note": "Hodinky, oficiální distributor pro ČR/SK. E-shop vytvořila firma emocio (emocio.cz). Výsledky vyhledávání nejednoznačné, seznam metod nutno ověřit přímo v objednávce.",
       "payments": [
         { "name": "Platební karta", "note": "Nepotvrzeno, ověřit" },
         { "name": "Bankovní převod", "note": "Nepotvrzeno, ověřit" },
@@ -145,11 +145,24 @@
       "hasReturnPolicy": true,
       "returnPeriodDays": 14,
       "sourceUrl": "https://www.inyogashop.cz/dodaci-a-platebni-podminky/",
-      "note": "Potřeby na jógu a pilates, Praha. Vazba na emocio pravděpodobná, ale nepotvrzená. Platby přes bránu GoPay, ověřit dostupnost Apple Pay / Google Pay v bráně.",
+      "note": "Potřeby na jógu a pilates, Praha. Platby přes bránu GoPay, ověřit dostupnost Apple Pay / Google Pay v bráně.",
       "payments": [
         { "name": "Platební karta", "note": "Přes platební bránu GoPay" },
         "Bankovní převod",
         "Dobírka"
+      ]
+    },
+    {
+      "name": "CVIQ (IQ pohyb)",
+      "url": "https://www.cviq.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.cviq.cz/e-shop/",
+      "note": "E-shop IQ pohyb Akademie, vytvořila firma emocio (emocio.cz). Fyzické zboží (míčky, Sball, trika, podložky) i digitální obsah (online lekce, skripta). Platební metody a podmínky vracení nezjištěny, doplnit ruční verifikací.",
+      "payments": [
+        { "name": "Bankovní převod", "note": "Odvozeno z podmínek (licence platí od připsání platby), ověřit" }
       ]
     },
     {
