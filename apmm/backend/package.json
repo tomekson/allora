@@ -17,7 +17,8 @@
     "db:seed": "tsx scripts/seed.ts",
     "db:studio": "prisma studio",
     "shop:add": "tsx scripts/add-shop.ts",
-    "shop:list": "tsx scripts/list-shops.ts"
+    "shop:list": "tsx scripts/list-shops.ts",
+    "scrape": "tsx scripts/scrape-shop.ts"
   },
   "prisma": {
     "seed": "tsx scripts/seed.ts"
@@ -25,6 +26,7 @@
   "dependencies": {
     "@prisma/client": "^6.10.0",
     "fastify": "^5.4.0",
+    "playwright": "^1.61.1",
     "zod": "^3.25.0"
   },
   "devDependencies": {
