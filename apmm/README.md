@@ -88,7 +88,8 @@ Schema je navržené pro filtrování („obchody v ČR s PayPal + BTC"), budouc
 - [ ] verifikační sprint: PENDING záznamy projet scraperem/ručně a překlopit na VERIFIED
 
 ### Fáze 6 – udržitelnost dat
-- [ ] `scrape-all` runner: všechny obchody se Source, rozestupy mezi požadavky, cron
+- [ ] `scrape-all` runner: všechny obchody se Source, rozestupy mezi požadavky, cron (při škálování na stovky obchodů zvážit Crawlee, TS ekvivalent spider infrastruktury)
+- [ ] jednorázové rešerše kandidátních obchodů přes Scrapling MCP server (Python, mimo produkční pipeline, viz Zásady scrapingu)
 - [ ] staleness report: záznamy neověřené déle než X měsíců (metody se ruší, viz Alza a PayPal 3/2025)
 - [ ] alerty na změny: diff po sobě jdoucích ScrapeRunů, notifikace při přidání/zmizení metody
 - [ ] kontaktní cesta pro obchody: stránka pro nahlášení chyby či opravy údajů
@@ -132,3 +133,12 @@ docker compose -f docker-compose.prod.yml exec api node dist/scripts/seed.js
 - Respektovat `robots.txt` a rozumné rate limity (žádný agresivní scraping).
 - Scrapovat jen veřejné informační stránky (platba, doprava, obchodní podmínky, FAQ).
 - Každý údaj má Source + timestamp verifikace, podezřelá data se označují, ne mažou.
+- Žádné anti-bot maskování: bot se identifikuje vlastním user-agentem, odmítnutí webem se eviduje jako BLOCKED a respektuje.
+
+### Nástroje
+
+| Účel | Nástroj |
+|---|---|
+| Produkční pipeline (scrape → ScrapeRun → apply) | Playwright + vlastní extraktor (TS, součást repa) |
+| Škálování na stovky obchodů (Fáze 6) | zvážit [Crawlee](https://crawlee.dev) (TS, throttling per doména, fronty) |
+| Jednorázové rešerše kandidátů mimo pipeline | [Scrapling](https://github.com/D4Vinci/Scrapling) MCP server (Python) — interaktivní průzkum stránek obchodů s AI extrakcí; výstupy se do katalogu zapisují ručně přes `shop:add`, nikdy přímo. Stealth režim Scraplingu nepoužíváme, je v rozporu se zásadami výše |
