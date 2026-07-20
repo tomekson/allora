@@ -1,8 +1,5 @@
 {
   "date": "2026-07-20",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_20",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Presso il ponte di Barrandov è crollata la scultura “Equilibrio” dello scultore Josef Klimeš.",
@@ -112,47 +109,5 @@
     "en": "The 2026 Iran war, including the closure of the Strait of Hormuz, has led to what the International Energy Agency has characterized as the \"largest supply disruption in the history of the global oil market\". The conflict has echoed the 1970s energy crisis through acute supply shortages, currency volatility, inflation and heightened risks of stagflation and recession. Interest rate reductions were expected to be postponed or conversely increased in light of higher inflation caused by supply shortages and speculation. Stock markets experienced declines globally and there was a global bonds market sell-off.",
     "it": "La guerra in Iran del 2026, compresa la chiusura dello Stretto di Ormuz, ha provocato quella che l’Agenzia Internazionale per l’Energia ha definito «la più grave interruzione dell’approvvigionamento nella storia del mercato petrolifero mondiale». Il conflitto ha richiamato alla mente la crisi energetica degli anni ’70, con gravi carenze di approvvigionamento, volatilità valutaria, inflazione e un aumento dei rischi di stagflazione e recessione. Si prevedeva che i tagli dei tassi di interesse sarebbero stati rinviati o, al contrario, aumentati alla luce dell’inflazione più elevata causata dalle carenze di approvvigionamento e dalla speculazione. I mercati azionari hanno registrato cali a livello globale e si è verificata un’ondata di vendite sul mercato obbligazionario mondiale.",
     "cz": "Válka v Íránu v roce 2026, včetně uzavření Hormuzského průlivu, vedla k tomu, co Mezinárodní energetická agentura označila za „největší narušení dodávek v historii světového ropného trhu“. Tento konflikt připomínal energetickou krizi ze 70. let minulého století, a to kvůli akutnímu nedostatku dodávek, kolísání měnových kurzů, inflaci a zvýšenému riziku stagflace a recese. Očekávalo se, že snižování úrokových sazeb bude odloženo nebo naopak dojde k jejich zvýšení vzhledem k vyšší inflaci způsobené nedostatkem dodávek a spekulacemi. Akciové trhy zaznamenaly celosvětový pokles a na globálním trhu s dluhopisy došlo k výprodeji."
-  },
-  "shadows": [
-    {
-      "it": "Presso il ponte di Barrandov è crollata la scultura “Equilibrio” dello scultore Josef Klimeš.",
-      "cz": "U Barrandovského mostu se zřítila socha Rovnováha od sochaře Josefa Klimeše.",
-      "phon": "[PRÉS-so il PÓN-te di bar-RÁN-dov è krol-LÁ-ta la skul-TÚ-ra ek-vi-LÍB-rio DÉL-lo skul-TÓ-re JÓ-zef KLÍ-me]"
-    },
-    {
-      "it": "Domande e risposte sulla relazione sullo Stato di diritto 2026.",
-      "cz": "Otázky a odpovědi ke zprávě o právním státu 2026.",
-      "phon": "[do-MÁN-de e ris-PÓS-te SÚL-la re-la-CÍO-ne SÚL-lo STÁ-to di di-RÍT-to]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Produzione nel settore delle costruzioni - maggio 2026.",
-      "cz": "Produkce ve stavebnictví – květen 2026.",
-      "phon": "[pro-du-CÍO-ne nel set-TÓ-re DÉL-le kost-ru-CÍO-ni MÁG-džo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all’importazione – maggio 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny – květen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne MÁG-džo]"
-    },
-    {
-      "it": "I cittadini di São Tomé votano per eleggere il presidente del Paese.",
-      "cz": "Obyvatelé Svatého Tomáše volí prezidenta země.",
-      "phon": "[i čit-ta-DÍ-ni di so to-MÉ vo-TÁ-no per e-leg-DŽÉ-re il pre-zi-DÉN-te del PÁE-ze]"
-    }
-  ],
-  "shadow": {
-    "it": "Presso il ponte di Barrandov è crollata la scultura “Equilibrio” dello scultore Josef Klimeš.",
-    "cz": "U Barrandovského mostu se zřítila socha Rovnováha od sochaře Josefa Klimeše.",
-    "phon": "[PRÉS-so il PÓN-te di bar-RÁN-dov è krol-LÁ-ta la skul-TÚ-ra ek-vi-LÍB-rio DÉL-lo skul-TÓ-re JÓ-zef KLÍ-me]"
   }
 }
