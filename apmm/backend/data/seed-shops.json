@@ -226,6 +226,50 @@
       ]
     },
     {
+      "name": "Fitshop.cz",
+      "url": "https://www.fitshop.cz",
+      "language": "cs",
+      "country": "OTHER_EU",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.fitshop.cz/vseobecne-obchodni-podminky",
+      "note": "Fitness vybavení včetně kettlebellů (vlastní řada Taurus Kettlebells), evropská síť s dopravou do ČR. PayPal potvrzen v obchodních podmínkách (platba přes PayPal (Europe) S.à r.l.). Přesné sídlo firmy, lhůta vracení a konkrétní dopravce/cena do Prahy nejsou ověřené, doplnit ruční kontrolou v košíku.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "Sport-store.cz",
+      "url": "https://www.sport-store.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.sport-store.cz/doprava-a-platba",
+      "note": "Sportovní potřeby, doprava přes GLS nebo osobní odběr. Platební brána (karta), dobírka. PayPal na stránce plateb explicitně nenalezen, obchod aktuálně žádnou alternativní metodu zjevně nenabízí.",
+      "payments": ["Platební karta", "Dobírka"]
+    },
+    {
+      "name": "Sportovna.cz",
+      "url": "https://www.sportovna.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.sportovna.cz/o-nakupu/doprava-a-platba/",
+      "note": "Fitness a sportovní potřeby, osobní odběr i v Praze (OC Letňany). Platba kartou online, převodem, hotově/kartou na místě. Alternativní metody se ve veřejných zdrojích nepodařilo dohledat ani vyvrátit, potřeba ruční ověření.",
+      "payments": ["Platební karta", "Bankovní převod"]
+    },
+    {
+      "name": "Tunturi.cz",
+      "url": "https://www.tunturi.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.tunturi.cz",
+      "note": "Oficiální distributor fitness vybavení Tunturi pro ČR. Platební metody (běžné i alternativní) se ve veřejných zdrojích nepodařilo dohledat, potřeba ruční ověření přímo na webu.",
+      "payments": []
+    },
+    {
       "name": "Zalando",
       "url": "https://www.zalando.cz",
       "language": "cs",
