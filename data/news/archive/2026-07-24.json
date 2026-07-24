@@ -1,8 +1,5 @@
 {
   "date": "2026-07-24",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_24",
-  "translator": "DeepL",
   "stories": [
     {
       "en": "Commission welcomes the Council's adoption of a renewed Interim Regulation to detect child sexual abuse online.",
@@ -113,47 +110,5 @@
     "en": "During his second term as President of the United States, Donald Trump enacted a series of steep tariffs affecting nearly all goods imported into the country. From January to April 2025, the overall average effective US tariff rate rose from 2.5% to an estimated 27%—the highest level in over a century. After changes, negotiations, and the invalidation of certain tariffs by the Supreme Court of the United States, the overall average effective tariff rate was 12% in July 2026. The items most affected by the tariffs are metals, items mostly made of metal, and vehicles.",
     "it": "Durante il suo secondo mandato come presidente degli Stati Uniti, Donald Trump ha introdotto una serie di dazi elevati che hanno interessato quasi tutte le merci importate nel Paese. Da gennaio ad aprile 2025, l’aliquota tariffaria media effettiva complessiva degli Stati Uniti è salita dal 2,5% a un valore stimato del 27%, il livello più alto in oltre un secolo. A seguito di modifiche, negoziati e dell’invalidazione di alcuni dazi da parte della Corte Suprema degli Stati Uniti, nel luglio 2026 l’aliquota tariffaria media effettiva complessiva era pari al 12%. I prodotti maggiormente colpiti dai dazi sono i metalli, gli articoli realizzati prevalentemente in metallo e i veicoli.",
     "cz": "Během svého druhého funkčního období v úřadu prezidenta Spojených států zavedl Donald Trump řadu vysokých cel, která se dotkla téměř všech zboží dováženého do země. Od ledna do dubna 2025 vzrostla celková průměrná efektivní celní sazba USA z 2,5 % na odhadovaných 27 % – což představuje nejvyšší úroveň za více než sto let. Po změnách, jednáních a zrušení některých cel Nejvyšším soudem Spojených států činila celková průměrná efektivní celní sazba v červenci 2026 12 %. Cly se nejvíce dotkly kovy, výrobky převážně z kovu a vozidla."
-  },
-  "shadows": [
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Rivista delle statistiche ufficiali 1-2-3/2025.",
-      "cz": "Přehled oficiálních statistik 1-2-3/2025.",
-      "phon": "[ri-VÍS-ta DÉL-le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
-    },
-    {
-      "it": "Produzione nel settore delle costruzioni - maggio 2026.",
-      "cz": "Produkce ve stavebnictví – květen 2026.",
-      "phon": "[pro-du-CÍO-ne nel set-TÓ-re DÉL-le kost-ru-CÍO-ni MÁG-džo]"
-    },
-    {
-      "it": "I mercati azionari asiatici in calo mentre Trump impone nuovi dazi a oltre 80 paesi – business live.",
-      "cz": "Asijské akcie klesají, protože Trump uvalil nová cla na více než 80 zemí – business live.",
-      "phon": "[i mer-KÁ-ti a-cio-NÁ-ri a-zia-TÍ-či in KÁ-lo MÉNT-re trump im-PÓ-ne NÚO-vi DÁ-ci a ÓLT-re PÁE-zi bu-ZÍ-ness LÍ-ve]"
-    },
-    {
-      "it": "Qantas testa il nuovo Airbus a raggio ultra lungo in un volo diretto di 17.000 km dalla Francia a Melbourne.",
-      "cz": "Společnost Qantas testuje nový Airbus s mimořádně dlouhým doletem na přímém letu z Francie do Melbourne o délce 17 000 km.",
-      "phon": "[QÁN-tas TÉS-ta il NÚO-vo ÁIR-bus a RÁG-džo ÚLT-ra LÚN-go in un VÓ-lo di-RÉT-to di km DÁL-la FRÁN-ča a mel-BÓUR-ne]"
-    },
-    {
-      "it": "Il giudice federale degli Stati Uniti John R.",
-      "cz": "Federální soudce Spojených států John R.",
-      "phon": "[il džu-DÍ-če fe-de-RÁ-le delj STÁ-ti u-NÍ-ti jon r]"
-    }
-  ],
-  "shadow": {
-    "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-    "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-    "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
   }
 }
