@@ -32,33 +32,33 @@
       "origin": "econ"
     },
     {
+      "en": "Road accidents - 2025. In 2025, 177,207 road traffic accidents involving personal injuries were recorded: 2,868 fatalities (-5.3% compared with the previous year) and 237,822 injuries (+2.2%)",
+      "it": "Incidenti stradali - 2025. Nel 2025 sono stati registrati 177.207 incidenti stradali con lesioni personali: 2.868 decessi (-5,3% rispetto all'anno precedente) e 237.822 feriti (+2,2%)",
+      "cz": "Dopravní nehody – rok 2025. V roce 2025 bylo zaznamenáno 177 207 dopravních nehod s tělesnými zraněními: 2 868 úmrtí (-5,3 % oproti předchozímu roku) a 237 822 zraněných (+2,2 %)",
+      "origin": "econ"
+    },
+    {
       "en": "Review of official statistics 1-2-3/2025. Online the Review of official statistics number 1-2-3/2025",
       "it": "Rivista delle statistiche ufficiali 1-2-3/2025. È disponibile online il numero 1-2-3/2025 della Rivista delle statistiche ufficiali",
       "cz": "Přehled oficiálních statistik 1-2-3/2025. Přehled oficiálních statistik č. 1-2-3/2025 je k dispozici online",
       "origin": "econ"
     },
     {
-      "en": "Production in the construction sector - May 2026. Sintesi (max 110 caratteri) In May 2026 production in the construction sector unchanged over April and +2.9% y-o-y",
-      "it": "Produzione nel settore delle costruzioni - maggio 2026. Sintesi (max 110 caratteri) A maggio 2026 la produzione nel settore delle costruzioni è rimasta invariata rispetto ad aprile e ha registrato un aumento del 2,9% su base annua",
-      "cz": "Produkce ve stavebnictví – květen 2026. Shrnutí (max. 110 znaků) V květnu 2026 zůstala produkce ve stavebnictví na stejné úrovni jako v dubnu a meziročně vzrostla o 2,9 %.",
-      "origin": "econ"
-    },
-    {
       "en": "Asian stocks slide as Trump hits more than 80 countries with new tariffs – business live. Rolling coverage of the latest economic and financial news",
       "it": "I mercati azionari asiatici in calo mentre Trump impone nuovi dazi a oltre 80 paesi – business live. Aggiornamenti in tempo reale sulle ultime notizie economiche e finanziarie",
-      "cz": "Asijské akcie klesají, protože Trump uvalil nová cla na více než 80 zemí – business live. Průběžné zpravodajství o nejnovějších ekonomických a finančních událostech",
+      "cz": "Asijské akcie klesají, protože Trump uvalil nová cla na více než 80 zemí – business live. Průběžné zpravodajství o nejnovějších ekonomických a finančních zprávách",
+      "origin": "guardian"
+    },
+    {
+      "en": "Heatwave and online shopping drive up retail sales in Great Britain. Hot weather and World Cup fever help defy analyst expectations of decline, with sales volumes up 1% in June",
+      "it": "L'ondata di caldo e lo shopping online fanno impennare le vendite al dettaglio in Gran Bretagna. Il caldo e la febbre dei Mondiali contribuiscono a smentire le previsioni degli analisti, che prevedevano un calo, con un aumento dell'1% dei volumi di vendita nel mese di giugno",
+      "cz": "Vlna veder a online nakupování táhnou nahoru tržby v maloobchodu ve Velké Británii. Horké počasí a fotbalová horečka pomáhají vyvrátit očekávání analytiků ohledně poklesu, přičemž objem tržeb v červnu vzrostl o 1 %.",
       "origin": "guardian"
     },
     {
       "en": "‘A small snippet’: what pubs make of Burnham’s £100m rates giveaway. Landlords say high costs of running hospitality business outweigh potential savings of business rates discount",
-      "it": "«Un piccolo frammento»: cosa ne pensano i pub della riduzione di 100 milioni di sterline sulle imposte comunali concessa da Burnham. I gestori sostengono che gli elevati costi di gestione delle attività ricettive superino i potenziali risparmi derivanti dallo sgravio fiscale sulle imposte comunali",
+      "it": "«Un piccolo frammento»: cosa ne pensano i pub della riduzione di 100 milioni di sterline sulle imposte comunali concessa da Burnham. I gestori sostengono che gli elevati costi di gestione delle attività ricettive superino i potenziali risparmi derivanti dallo sconto sulle imposte comunali",
       "cz": "„Jen malý úryvek“: Jak hospody vnímají Burnhamovo snížení daně z nemovitostí o 100 milionů liber. Majitelé hospod tvrdí, že vysoké náklady na provozování pohostinského podniku převyšují potenciální úspory plynoucí ze slevy na dani z nemovitostí",
-      "origin": "guardian"
-    },
-    {
-      "en": "Qantas tests new ultra long-range Airbus in 17,000km direct flight from France to Melbourne . Airbus A350–1000ULR becomes most watched plane on flight tracking websites as Qantas tests new aircraft for its Project Sunrise",
-      "it": "Qantas testa il nuovo Airbus a raggio ultra lungo in un volo diretto di 17.000 km dalla Francia a Melbourne. L’Airbus A350–1000ULR diventa l’aereo più seguito sui siti web di monitoraggio dei voli mentre Qantas testa il nuovo velivolo per il suo “Project Sunrise”",
-      "cz": "Společnost Qantas testuje nový Airbus s mimořádně dlouhým doletem na přímém letu z Francie do Melbourne o délce 17 000 km. Airbus A350–1000ULR se stal nejsledovanějším letadlem na webech pro sledování letů, zatímco společnost Qantas testuje nové letadlo v rámci svého projektu „Project Sunrise“.",
       "origin": "guardian"
     },
     {
@@ -69,7 +69,7 @@
     },
     {
       "en": "Oil prices, including Brent Crude and West Texas Intermediate, increase to over US$101 per barrel and to nearly $93 per barrel, respectively, after the escalation in the Red Sea. The United States gasoline national average increases to $4.09 per gallon.",
-      "it": "I prezzi del petrolio, compresi il Brent e il West Texas Intermediate, salgono rispettivamente a oltre 101 dollari al barile e a quasi 93 dollari al barile, a seguito dell’escalation nel Mar Rosso. La media nazionale del prezzo della benzina negli Stati Uniti sale a 4,09 dollari al gallone.",
+      "it": "I prezzi del petrolio, compresi il Brent e il West Texas Intermediate, salgono rispettivamente a oltre 101 dollari al barile e a quasi 93 dollari al barile, a seguito dell’escalation nel Mar Rosso. Il prezzo medio nazionale della benzina negli Stati Uniti sale a 4,09 dollari al gallone.",
       "cz": "Ceny ropy, včetně ropy Brent a West Texas Intermediate, vzrostly po eskalaci napětí v Rudém moři na více než 101 USD za barel, respektive na téměř 93 USD za barel. Průměrná cena benzínu ve Spojených státech vzrostla na 4,09 USD za galon.",
       "origin": "world"
     },
@@ -82,18 +82,18 @@
     {
       "en": "The International Criminal Court at The Hague, Netherlands, officially drops charges against former militia leader Abdallah Banda, who was previously charged for his role in a 2007 attack on African Union peacekeepers during Sudan's Darfur conflict.",
       "it": "La Corte penale internazionale dell’Aia, nei Paesi Bassi, ha ufficialmente archiviato le accuse a carico dell’ex leader della milizia Abdallah Banda, che era stato precedentemente incriminato per il suo ruolo in un attacco del 2007 contro le forze di pace dell’Unione Africana durante il conflitto nel Darfur, in Sudan.",
-      "cz": "Mezinárodní trestní soud v Haagu v Nizozemsku oficiálně stáhl obvinění proti bývalému veliteli milice Abdallahovi Bandovi, který byl dříve obviněn za svou roli při útoku na mírové síly Africké unie v roce 2007 během konfliktu v súdánském Dárfúru.",
+      "cz": "Mezinárodní trestní soud v Haagu v Nizozemsku oficiálně stáhl obvinění proti bývalému veliteli milice Abdallahovi Bandovi, který byl dříve obviněn za svou úlohu při útoku na mírové síly Africké unie v roce 2007 během konfliktu v súdánském Dárfúru.",
       "origin": "world"
     },
     {
       "en": "The International Mathematical Union awards the 2026 Fields Medals to Yu Deng, John Pardon, Jacob Tsimerman, and Hong Wang at the International Congress of Mathematicians in Philadelphia, Pennsylvania, United States. Wang becomes the third woman to receive the prize after Maryam Mirzakhani in 2014 and Maryna Viazovska in 2022.",
       "it": "L'Unione Matematica Internazionale assegna le Medaglie Fields 2026 a Yu Deng, John Pardon, Jacob Tsimerman e Hong Wang in occasione del Congresso Internazionale dei Matematici che si tiene a Filadelfia, in Pennsylvania, negli Stati Uniti. Wang diventa la terza donna a ricevere il premio dopo Maryam Mirzakhani nel 2014 e Maryna Viazovska nel 2022.",
-      "cz": "Mezinárodní matematická unie udělila Fieldsovy medaile za rok 2026 Yu Dengovi, Johnu Pardonovi, Jacobovi Tsimermanovi a Hong Wangové na Mezinárodním matematickém kongresu ve Filadelfii v Pensylvánii ve Spojených státech. Wang se stává třetí ženou, která tuto cenu obdržela, po Maryam Mirzakhani v roce 2014 a Maryně Viazovské v roce 2022.",
+      "cz": "Mezinárodní matematická unie udělila Fieldsovy medaile za rok 2026 Yu Dengovi, Johnu Pardonovi, Jacobovi Tsimermanovi a Hong Wangové na Mezinárodním matematickém kongresu ve Filadelfii v Pensylvánii ve Spojených státech. Wang se stává třetí ženou, která tuto cenu obdrží, po Maryam Mirzakhani v roce 2014 a Maryně Viazovské v roce 2022.",
       "origin": "world"
     },
     {
       "en": "Did you know that the Sixth Doctor had his outfit designed to be \"totally tasteless\"?",
-      "it": "Lo sapevate che l'abbigliamento del Sesto Dottore era stato ideato per essere “assolutamente di cattivo gusto”?",
+      "it": "Lo sapevate che l'abbigliamento del Sesto Dottore era stato progettato per essere “assolutamente di cattivo gusto”?",
       "cz": "Věděli jste, že kostým Šestého Doktora byl navržen tak, aby působil „naprosto nevkusně“?",
       "origin": "dyk"
     },
@@ -108,7 +108,7 @@
     "topic": "Tariffs in the second Trump administration",
     "url": "https://en.wikipedia.org/wiki/Tariffs_in_the_second_Trump_administration",
     "en": "During his second term as President of the United States, Donald Trump enacted a series of steep tariffs affecting nearly all goods imported into the country. From January to April 2025, the overall average effective US tariff rate rose from 2.5% to an estimated 27%—the highest level in over a century. After changes, negotiations, and the invalidation of certain tariffs by the Supreme Court of the United States, the overall average effective tariff rate was 12% in July 2026. The items most affected by the tariffs are metals, items mostly made of metal, and vehicles.",
-    "it": "Durante il suo secondo mandato come presidente degli Stati Uniti, Donald Trump ha introdotto una serie di dazi elevati che hanno interessato quasi tutte le merci importate nel Paese. Da gennaio ad aprile 2025, l’aliquota tariffaria media effettiva complessiva degli Stati Uniti è salita dal 2,5% a un valore stimato del 27%, il livello più alto in oltre un secolo. A seguito di modifiche, negoziati e dell’invalidazione di alcuni dazi da parte della Corte Suprema degli Stati Uniti, nel luglio 2026 l’aliquota tariffaria media effettiva complessiva era pari al 12%. I prodotti maggiormente colpiti dai dazi sono i metalli, gli articoli realizzati prevalentemente in metallo e i veicoli.",
+    "it": "Durante il suo secondo mandato come presidente degli Stati Uniti, Donald Trump ha introdotto una serie di dazi elevati che hanno interessato quasi tutte le merci importate nel Paese. Da gennaio ad aprile 2025, l’aliquota tariffaria media effettiva complessiva degli Stati Uniti è passata dal 2,5% a un valore stimato del 27%, il livello più alto in oltre un secolo. A seguito di modifiche, negoziati e dell’invalidazione di alcuni dazi da parte della Corte Suprema degli Stati Uniti, nel luglio 2026 l’aliquota tariffaria media effettiva complessiva era pari al 12%. I prodotti maggiormente colpiti dai dazi sono i metalli, gli articoli realizzati prevalentemente in metallo e i veicoli.",
     "cz": "Během svého druhého funkčního období v úřadu prezidenta Spojených států zavedl Donald Trump řadu vysokých cel, která se dotkla téměř všech zboží dováženého do země. Od ledna do dubna 2025 vzrostla celková průměrná efektivní celní sazba USA z 2,5 % na odhadovaných 27 % – což představuje nejvyšší úroveň za více než sto let. Po změnách, jednáních a zrušení některých cel Nejvyšším soudem Spojených států činila celková průměrná efektivní celní sazba v červenci 2026 12 %. Cly se nejvíce dotkly kovy, výrobky převážně z kovu a vozidla."
   }
 }
