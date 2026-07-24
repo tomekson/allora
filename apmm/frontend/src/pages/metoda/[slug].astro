@@ -1,0 +1,33 @@
+---
+import Base from "../../layouts/Base.astro";
+import { altMethods, shopsWithMethod, COUNTRY_LABELS, ASSORTMENT_LABELS } from "../../lib/catalog";
+
+export function getStaticPaths() {
+  return altMethods.map(({ slug, method }) => ({ params: { slug }, props: { method } }));
+}
+
+const { method } = Astro.props;
+const matching = shopsWithMethod(method.name);
+---
+
+<Base
+  title={`Obchody přijímající ${method.name} | APMM`}
+  description={`Které e-shopy dodávající do ČR přijímají platbu ${method.name}: aktuální přehled s podmínkami vracení zboží.`}
+>
+  <h1>Obchody přijímající {method.name}</h1>
+  <p>Nalezeno obchodů: {matching.length}</p>
+
+  {matching.map((shop) => (
+    <div class="card">
+      <h3><a href={`/obchod/${shop.slug}/`}>{shop.name}</a></h3>
+      <p class="meta">
+        {COUNTRY_LABELS[shop.country]} · {ASSORTMENT_LABELS[shop.assortment]}
+        {shop.returnPeriodDays ? ` · vrácení do ${shop.returnPeriodDays} dní` : ""}
+      </p>
+      <p>
+        {shop.altPayments.map((p) => <span class="badge">{p.method.name}</span>)}
+      </p>
+    </div>
+  ))}
+  <p><a href="/">Zpět na katalog</a></p>
+</Base>

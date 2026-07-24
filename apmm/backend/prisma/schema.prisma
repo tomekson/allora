@@ -1,0 +1,189 @@
+// APMM doménový model
+// Návrh cílí na: filtrování (shop × metoda), scoring modernosti,
+// historii změn (ScrapeRun + verifikační timestampy).
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+/// Země sídla obchodu. Sledujeme primárně CZ, sekundárně EU.
+enum Country {
+  CZ
+  SK
+  DE
+  AT
+  PL
+  OTHER_EU
+  NON_EU
+}
+
+/// Hlavní typ sortimentu. Obchod musí prodávat standardně vratné zboží.
+enum AssortmentType {
+  CLOTHING
+  ELECTRONICS
+  HOME
+  HOBBY
+  SPORTS
+  MIXED
+  OTHER
+}
+
+/// Typ platební metody. "Alternativní" metody (primární fokus projektu)
+/// mají na PaymentMethod nastaveno isAlternative = true.
+enum PaymentMethodType {
+  CARD
+  BANK_TRANSFER
+  COD // dobírka
+  PAYPAL
+  CRYPTO
+  WALLET // Apple Pay, Google Pay, Revolut...
+  BNPL // buy now, pay later (Twisto, Skip Pay...)
+  OTHER
+}
+
+/// Kdy platba probíhá.
+enum PaymentTiming {
+  ONLINE_CHECKOUT // úhrada při objednávce
+  ON_DELIVERY // platba při převzetí
+}
+
+/// Stav ověření údaje o platební metodě u obchodu.
+enum VerificationStatus {
+  VERIFIED_MANUAL
+  VERIFIED_AUTO
+  SUSPICIOUS
+  INVALID
+  PENDING
+}
+
+/// Typ zdrojové stránky, ze které informace pochází.
+enum SourceKind {
+  PAYMENT_PAGE // stránka "Platba a doprava"
+  TERMS // obchodní podmínky
+  FAQ
+  HOMEPAGE
+  OTHER
+}
+
+/// Stav jednoho běhu scraperu.
+enum ScrapeRunStatus {
+  PENDING
+  RUNNING
+  SUCCESS
+  FAILED
+  BLOCKED // web scraping odmítá (robots.txt, anti-bot)
+}
+
+model Shop {
+  id         Int            @id @default(autoincrement())
+  name       String
+  url        String         @unique
+  language   String         @default("cs") // jazyk webu, ISO 639-1
+  country    Country
+  assortment AssortmentType
+
+  // Politika vracení zboží
+  hasReturnPolicy  Boolean @default(false)
+  returnPeriodDays Int? // lhůta pro vrácení ve dnech
+  returnPolicyUrl  String?
+  returnPolicyNote String? @db.Text // výjimky, specifika
+
+  active    Boolean  @default(true) // false = obchod zanikl / vyřazen z katalogu
+  note      String?  @db.Text
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  paymentOptions ShopPaymentOption[]
+  sources        Source[]
+
+  @@index([country])
+  @@index([assortment])
+}
+
+model PaymentMethod {
+  id   Int               @id @default(autoincrement())
+  type PaymentMethodType
+  name String            @unique // např. "PayPal", "Bitcoin (on-chain)", "Apple Pay"
+
+  /// Strukturované detaily: konkrétní kryptoměna, wallet provider, síť...
+  detail Json?
+
+  /// true = alternativní metoda, kterou primárně sledujeme
+  isAlternative Boolean @default(true)
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  shopOptions ShopPaymentOption[]
+
+  @@index([type])
+  @@index([isAlternative])
+}
+
+model ShopPaymentOption {
+  id              Int @id @default(autoincrement())
+  shopId          Int
+  paymentMethodId Int
+
+  availableForCz Boolean       @default(true)
+  timing         PaymentTiming @default(ONLINE_CHECKOUT)
+  note           String?       @db.Text // nutnost registrace, minimální částka, omezení
+
+  verificationStatus VerificationStatus @default(PENDING)
+  lastVerifiedAt     DateTime?
+  /// Zdroj, ze kterého údaj naposledy pochází
+  sourceId           Int?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  shop          Shop          @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  paymentMethod PaymentMethod @relation(fields: [paymentMethodId], references: [id])
+  source        Source?       @relation(fields: [sourceId], references: [id], onDelete: SetNull)
+
+  @@unique([shopId, paymentMethodId])
+  @@index([verificationStatus])
+}
+
+model Source {
+  id     Int        @id @default(autoincrement())
+  shopId Int
+  url    String     @db.VarChar(2048)
+  kind   SourceKind
+  note   String?    @db.Text
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  shop           Shop                @relation(fields: [shopId], references: [id], onDelete: Cascade)
+  scrapeRuns     ScrapeRun[]
+  paymentOptions ShopPaymentOption[]
+
+  @@index([shopId])
+}
+
+model ScrapeRun {
+  id       Int             @id @default(autoincrement())
+  sourceId Int
+  status   ScrapeRunStatus @default(PENDING)
+
+  startedAt  DateTime  @default(now())
+  finishedAt DateTime?
+
+  /// Surový výřez textu, ze kterého se extrahovalo (pro audit)
+  rawExcerpt String? @db.Text
+  /// Strukturovaný výsledek extrakce (nalezené metody) před zápisem do ShopPaymentOption
+  resultJson Json?
+  /// Chybová zpráva při FAILED / BLOCKED
+  error      String? @db.Text
+
+  source Source @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@index([sourceId, startedAt])
+  @@index([status])
+}

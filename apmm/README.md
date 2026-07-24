@@ -1,0 +1,144 @@
+# APMM – Alternative Payment Methods Monitor
+
+Katalog e‑shopů dodávajících zboží do ČR s přehledem **alternativních platebních metod**, které přijímají: kryptoměny (Bitcoin, Lightning, stablecoiny), PayPal, digitální peněženky (Apple Pay, Google Pay, Revolut, Twisto) a další moderní payment kanály.
+
+Běžné metody (dobírka, bankovní převod, karta) evidujeme jen doplňkově. Zajímají nás obchody prodávající **vratné zboží** (oblečení, elektronika, domácnost, hobby). Typicky nevratné položky (knihy, spodní prádlo, digitální obsah) zahrnujeme jen tehdy, když má obchod jasně definované podmínky vracení i pro ně.
+
+> Projekt není finanční poradenství. Jde o veřejný katalog možností, data ověřujeme, ale garantovat je nemůžeme.
+
+## Umístění v repu
+
+APMM dočasně žije jako podadresář `apmm/` v repu `tomekson/allora` (jediné repo dostupné v této session). Až bude mít projekt vlastní repo, vyčlení se historie takto:
+
+```bash
+git subtree split --prefix=apmm -b apmm-standalone
+# a poté push apmm-standalone do nového repa
+```
+
+## Stack
+
+| Vrstva    | Technologie                                  |
+|-----------|----------------------------------------------|
+| Backend   | Node.js 22+, TypeScript, Fastify (REST API)  |
+| DB        | MySQL 8 (Docker), Prisma ORM + migrace       |
+| Scraping  | Playwright + Cheerio/Zod (Fáze 3)            |
+| Frontend  | Astro (SSG, SEO friendly, česky)             |
+| Infra     | docker-compose, později deploy na Rozhled.cz |
+| Testy     | Vitest, Playwright E2E                       |
+
+## Struktura
+
+```
+apmm/
+├── backend/          # API, Prisma schema, migrace, seed a CLI skripty
+│   ├── prisma/       # schema.prisma (doménový model)
+│   ├── src/          # Fastify server
+│   ├── scripts/      # seed + budoucí CLI pro správu shopů
+│   └── data/         # ruční seed data (JSON)
+├── frontend/         # Astro katalog (Fáze 2)
+└── infra/            # docker-compose (MySQL + Adminer), env šablony
+```
+
+## Jak to rozběhnout lokálně
+
+```bash
+# 1. DB (MySQL 8 + Adminer na http://localhost:8080)
+cd apmm/infra
+cp .env.example .env
+docker compose up -d
+
+# 2. Backend
+cd ../backend
+cp .env.example .env
+npm install
+npx prisma migrate dev --name init   # vytvoří tabulky
+npm run db:seed                      # nahraje ukázková data z data/seed-shops.json
+npm run dev                          # API na http://localhost:3000 (GET /health, GET /api/shops)
+
+# 3. Frontend (zatím placeholder)
+cd ../frontend
+npm install
+npm run dev                          # http://localhost:4321
+```
+
+## Doménový model
+
+- **Shop** – obchod: název, URL, jazyk, země sídla, typ sortimentu, politika vracení (lhůta, výjimky, URL podmínek).
+- **PaymentMethod** – platební metoda: typ (card / bank_transfer / cod / paypal / crypto / wallet / bnpl / other), detail (konkrétní měna či provider), příznak `isAlternative` (to, co primárně sledujeme).
+- **ShopPaymentOption** – vazba Shop × PaymentMethod: dostupnost pro CZ zákazníky, zda jde o online úhradu nebo platbu při převzetí, poznámky (registrace, minimální částka), stav ověření a čas poslední verifikace.
+- **Source** – odkud informace pochází (stránka „Platba", obchodní podmínky, FAQ).
+- **ScrapeRun** – jednotlivé běhy scraperu nad Source: čas, status, surový výstup.
+
+Schema je navržené pro filtrování („obchody v ČR s PayPal + BTC"), budoucí scoring modernosti a historii změn (ScrapeRun + timestampy na ShopPaymentOption).
+
+## Roadmapa
+
+- [x] **Fáze 0** – projektový skeleton (backend / frontend / infra, README)
+- [x] **Fáze 1 (část)** – Prisma schema, docker-compose DB, seed skript + testovací data
+- [x] **Fáze 1 (CLI)** – `npm run shop:add` a `npm run shop:list` pro ruční správu obchodů
+- [ ] **Fáze 1 (zbytek)** – rozšíření seedu na desítky ověřených obchodů
+- [x] **Fáze 2** – veřejný katalog (Astro): listing, detail obchodu, filtr podle metod (data se při buildu berou ze seed JSON, po Fázi 3 z DB/API)
+- [x] **Fáze 3 (část)** – REST API s filtry (`/api/shops?method=PayPal&country=CZ&alt=true`, `/api/shops/:id`, `/api/scrapes`) + scraping: `npm run scrape -- --page <url>` (Playwright, respektuje robots.txt, extrakce metod přes klíčová slova, `--shop <url> --save` uloží ScrapeRun)
+- [x] **Fáze 3 (zbytek)** – `npm run scrape:apply -- --run <id> [--write]` promítne výsledky scrapu do katalogu (jen přidává/potvrzuje, ručně ověřené záznamy nepřepisuje); příklad plánování v `infra/cron.example`
+- [x] **Fáze 4** – deploy: Dockerfily, `infra/docker-compose.prod.yml` (MySQL + API + Caddy s automatickým HTTPS), návod níže
+### Fáze 5 – uvedení do provozu (nejbližší priorita)
+- [ ] migrace do samostatného GitLab repa + CI pipeline (typecheck, Vitest, build)
+- [ ] runtime ověření DB vrstvy (migrace + seed proti živé MySQL, build Docker images)
+- [ ] první deploy (doména, server, ostrý seed) dle návodu výše
+- [ ] verifikační sprint: PENDING záznamy projet scraperem/ručně a překlopit na VERIFIED
+
+### Fáze 6 – udržitelnost dat
+- [ ] `scrape-all` runner: všechny obchody se Source, rozestupy mezi požadavky, cron (při škálování na stovky obchodů zvážit Crawlee, TS ekvivalent spider infrastruktury)
+- [ ] jednorázové rešerše kandidátních obchodů přes Scrapling MCP server (Python, mimo produkční pipeline, viz Zásady scrapingu)
+- [ ] staleness report: záznamy neověřené déle než X měsíců (metody se ruší, viz Alza a PayPal 3/2025)
+- [ ] alerty na změny: diff po sobě jdoucích ScrapeRunů, notifikace při přidání/zmizení metody
+- [ ] kontaktní cesta pro obchody: stránka pro nahlášení chyby či opravy údajů
+
+### Fáze 7 – viditelnost webu
+- [ ] sitemap.xml, strukturovaná data (schema.org), SEO průchod
+- [ ] jednoduchá analytika návštěvnosti
+
+### Post-MVP moduly
+- [ ] **Compliance modul**: evidence, zda obchod plní povinnosti. Číselník Regulation minimálně s: cookie lišta s rovnocenným odmítnutím; označení objednávkového tlačítka „objednávka zavazující k platbě" (novela 2023); GDPR prohlášení; **přímé tlačítko pro odstoupení od smlouvy na webu (tzv. tlačítková novela 2026** – zákazník vrací zboží bez tištěných formulářů, lhůta 14 dní i rozsah práva beze změny, odstoupení dál možné i e-mailem, obchodník vrací cenu zboží + nejlevnější nabízené poštovné, zpáteční dopravu hradí kupující; zdroje: Conviu, Shoptet blog, dTest). Nové entity Regulation + ShopComplianceCheck (append-only historie kontrol), část kontrol automatizovaně scraperem (cookie lišta, GDPR stránka, tlačítko odstoupení), část ručně (texty v košíku); opatrné neutrální formulace na webu. **Nestavět od nuly:** v emocio monorepu `sierra` existuje rozpracovaný compliance modul, před implementací posoudit jeho využití či dokončení pro APMM (rozhraní, stack, forma integrace: sdílená služba vs. port); detaily po přesunu APMM do GitLabu
+- [ ] scoring obchodů podle modernosti platebních metod
+- [ ] historie změn a timeline (od kdy obchod akceptuje BTC apod.)
+- [ ] JSON/CSV exporty, veřejné API s rate limitem
+- [ ] kurátorské vrstvy: recenze, zkušenosti s vracením, komunitní přispívání
+
+## Nasazení do produkce (Fáze 4)
+
+Na serveru s Dockerem (např. Rozhled.cz):
+
+```bash
+git clone <repo> /opt/apmm-repo && cd /opt/apmm-repo/apmm/infra
+cp prod.env.example .env        # doplň doménu a silná hesla
+docker compose -f docker-compose.prod.yml up -d --build
+
+# první inicializace DB (tabulky + seed)
+docker compose -f docker-compose.prod.yml exec api npx prisma db push
+docker compose -f docker-compose.prod.yml exec api node dist/scripts/seed.js
+```
+
+- DNS: A záznam domény z `APMM_DOMAIN` nasměruj na server; HTTPS certifikát
+  (Let's Encrypt) si Caddy vyřídí sám při prvním požadavku.
+- Web běží na doméně, API na `/api/*` (reverse proxy na kontejner `api`).
+- Statický katalog se peče do image při buildu; po změně dat spusť znovu
+  `docker compose -f docker-compose.prod.yml up -d --build web`.
+- Scraping spouštěj mimo API kontejner (lokálně nebo na serveru s
+  nainstalovaným Playwright), viz `infra/cron.example`.
+- Logy: `docker compose -f docker-compose.prod.yml logs -f api web`.
+
+## Zásady scrapingu (Fáze 3)
+
+- Respektovat `robots.txt` a rozumné rate limity (žádný agresivní scraping).
+- Scrapovat jen veřejné informační stránky (platba, doprava, obchodní podmínky, FAQ).
+- Každý údaj má Source + timestamp verifikace, podezřelá data se označují, ne mažou.
+- Žádné anti-bot maskování: bot se identifikuje vlastním user-agentem, odmítnutí webem se eviduje jako BLOCKED a respektuje.
+
+### Nástroje
+
+| Účel | Nástroj |
+|---|---|
+| Produkční pipeline (scrape → ScrapeRun → apply) | Playwright + vlastní extraktor (TS, součást repa) |
+| Škálování na stovky obchodů (Fáze 6) | zvážit [Crawlee](https://crawlee.dev) (TS, throttling per doména, fronty) |
+| Jednorázové rešerše kandidátů mimo pipeline | [Scrapling](https://github.com/D4Vinci/Scrapling) MCP server (Python) — interaktivní průzkum stránek obchodů s AI extrakcí; výstupy se do katalogu zapisují ručně přes `shop:add`, nikdy přímo. Stealth režim Scraplingu nepoužíváme, je v rozporu se zásadami výše |

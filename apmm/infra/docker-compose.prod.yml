@@ -1,0 +1,52 @@
+# Produkční nasazení: docker compose -f docker-compose.prod.yml up -d --build
+# Spouštět z adresáře apmm/infra, konfigurace v .env (viz prod.env.example).
+name: apmm-prod
+
+services:
+  db:
+    image: mysql:8.4
+    restart: unless-stopped
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE:-apmm}
+      MYSQL_USER: ${MYSQL_USER:-apmm}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD:?nastav v .env}
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD:?nastav v .env}
+    volumes:
+      - mysql-data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-u", "root", "-p${MYSQL_ROOT_PASSWORD}"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+
+  api:
+    build:
+      context: ../backend
+    restart: unless-stopped
+    environment:
+      DATABASE_URL: mysql://${MYSQL_USER:-apmm}:${MYSQL_PASSWORD}@db:3306/${MYSQL_DATABASE:-apmm}
+      PORT: "3000"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  web:
+    build:
+      context: ..
+      dockerfile: frontend/Dockerfile
+    restart: unless-stopped
+    environment:
+      APMM_DOMAIN: ${APMM_DOMAIN:?nastav v .env, např. apmm.example.cz}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - api
+
+volumes:
+  mysql-data:
+  caddy-data:
+  caddy-config:

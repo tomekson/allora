@@ -1,0 +1,40 @@
+---
+import Base from "../layouts/Base.astro";
+import { shops, altMethods, COUNTRY_LABELS, ASSORTMENT_LABELS } from "../lib/catalog";
+---
+
+<Base
+  title="APMM: kde zaplatíte jinak než kartou"
+  description="Katalog českých a evropských e-shopů, které přijímají PayPal, kryptoměny, Apple Pay a další alternativní platební metody."
+>
+  <h1>Kde zaplatíte jinak než kartou</h1>
+  <p>
+    Sledujeme e-shopy dodávající zboží do ČR a evidujeme, jaké alternativní
+    platební metody přijímají: PayPal, kryptoměny, mobilní peněženky nebo
+    odložené platby. Do katalogu zařazujeme obchody se zbožím, které lze
+    standardně vrátit.
+  </p>
+
+  <h2>Filtr podle platební metody</h2>
+  <p>
+    {altMethods.map(({ slug, method, shopCount }) => (
+      <a class="badge" href={`/metoda/${slug}/`}>{method.name} ({shopCount})</a>
+    ))}
+  </p>
+
+  <h2>Obchody ({shops.length})</h2>
+  {shops.map((shop) => (
+    <div class="card">
+      <h3><a href={`/obchod/${shop.slug}/`}>{shop.name}</a></h3>
+      <p class="meta">
+        {COUNTRY_LABELS[shop.country]} · {ASSORTMENT_LABELS[shop.assortment]}
+        {shop.returnPeriodDays ? ` · vrácení do ${shop.returnPeriodDays} dní` : ""}
+      </p>
+      <p>
+        {shop.altPayments.length > 0
+          ? shop.altPayments.map((p) => <span class="badge">{p.method.name}</span>)
+          : <span class="badge plain">zatím bez alternativních metod</span>}
+      </p>
+    </div>
+  ))}
+</Base>

@@ -1,0 +1,291 @@
+{
+  "$comment": "Testovací seed data (2026-07). Údaje pocházejí z veřejných zdrojů a výsledků vyhledávání, verificationStatus je PENDING, dokud je ručně neověříme přímo na webech obchodů. sourceUrl = stránka, kde obchod platby popisuje.",
+  "paymentMethods": [
+    { "name": "Platební karta", "type": "CARD", "isAlternative": false },
+    { "name": "Bankovní převod", "type": "BANK_TRANSFER", "isAlternative": false },
+    { "name": "Dobírka", "type": "COD", "isAlternative": false },
+    { "name": "PayPal", "type": "PAYPAL", "isAlternative": true },
+    { "name": "Apple Pay", "type": "WALLET", "isAlternative": true, "detail": { "provider": "Apple" } },
+    { "name": "Google Pay", "type": "WALLET", "isAlternative": true, "detail": { "provider": "Google" } },
+    { "name": "Bitcoin (on-chain)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "BTC", "network": "onchain" } },
+    { "name": "Bitcoin (Lightning)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "BTC", "network": "lightning" } },
+    { "name": "Tether (USDT)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "USDT" } },
+    { "name": "USD Coin (USDC)", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "USDC" } },
+    { "name": "Ethereum", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "ETH" } },
+    { "name": "Solana", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "SOL" } },
+    { "name": "Tron", "type": "CRYPTO", "isAlternative": true, "detail": { "currency": "TRX" } },
+    { "name": "Twisto", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Twisto" } },
+    { "name": "Skip Pay", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Skip Pay" } },
+    { "name": "Klarna", "type": "BNPL", "isAlternative": true, "detail": { "provider": "Klarna" } }
+  ],
+  "shops": [
+    {
+      "name": "Alza.cz",
+      "url": "https://www.alza.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "ELECTRONICS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "returnPolicyUrl": "https://www.alza.cz/vraceni-zbozi",
+      "sourceUrl": "https://www.alza.cz/strucny-prehled-moznosti-zaplaceni-art112.htm",
+      "note": "Krypto platby přes vlastní bránu, výběr měny při objednávce. Odložené platby (Twisto/Skip Pay) zatím nepotvrzeny, ověřit v košíku.",
+      "payments": [
+        "Platební karta",
+        "Bankovní převod",
+        "Dobírka",
+        "Apple Pay",
+        "Google Pay",
+        "Bitcoin (on-chain)",
+        "Bitcoin (Lightning)",
+        "Tether (USDT)",
+        "USD Coin (USDC)",
+        "Ethereum",
+        "Solana",
+        "Tron"
+      ]
+    },
+    {
+      "name": "Plyšovník.cz",
+      "url": "https://www.plysovnik.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 30,
+      "sourceUrl": "https://www.plysovnik.cz/",
+      "note": "Plyšové hračky, funguje od 2008. E-shop vytvořený a provozovaný firmou emocio (emocio.cz). Zatím nalezeny jen běžné metody, žádná alternativní. URL stránky o platbě doplnit při ruční verifikaci.",
+      "payments": ["Bankovní převod", "Dobírka"]
+    },
+    {
+      "name": "STORM Watches",
+      "url": "https://www.stormwatches.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.stormwatches.cz/doprava-zdarma/",
+      "note": "Hodinky, oficiální distributor pro ČR/SK. E-shop vytvořila firma emocio (emocio.cz). Výsledky vyhledávání nejednoznačné, seznam metod nutno ověřit přímo v objednávce.",
+      "payments": [
+        { "name": "Platební karta", "note": "Nepotvrzeno, ověřit" },
+        { "name": "Bankovní převod", "note": "Nepotvrzeno, ověřit" },
+        { "name": "Dobírka", "note": "Nepotvrzeno, ověřit" }
+      ]
+    },
+    {
+      "name": "Lidl e-shop",
+      "url": "https://www.lidl.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "MIXED",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://informace-pro-zakazniky.lidl.cz/SelfServiceCZ/s/article/Jake-jsou-moznosti-platby-1575630310215",
+      "note": "Dříve lidl-shop.cz, doména přesměrovává na lidl.cz. Lhůtu vracení doplnit při verifikaci.",
+      "payments": [
+        "Platební karta",
+        "Bankovní převod",
+        "Dobírka",
+        "Apple Pay",
+        "Google Pay"
+      ]
+    },
+    {
+      "name": "Decathlon",
+      "url": "https://www.decathlon.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "returnPolicyUrl": "https://www.decathlon.cz/vymena-a-vraceni_lp-8KR5MJ",
+      "sourceUrl": "https://www.decathlon.cz/lp/i/platba",
+      "note": "Členové věrnostního programu mají na vrácení 365 dní (mimo Marketplace a B2B).",
+      "payments": [
+        "Platební karta",
+        { "name": "Dobírka", "note": "Poplatek 40 Kč při doručení na adresu" },
+        "Apple Pay",
+        "Klarna"
+      ]
+    },
+    {
+      "name": "ZOOT",
+      "url": "https://www.zoot.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "CLOTHING",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 60,
+      "returnPolicyUrl": "https://www.zoot.cz/doprava-a-platba/",
+      "sourceUrl": "https://www.zoot.cz/doprava-a-platba/",
+      "payments": [
+        "Platební karta",
+        "Bankovní převod",
+        "Dobírka",
+        { "name": "Twisto", "note": "Platba až po vyzkoušení zboží, splatnost 14 dní" },
+        { "name": "PayPal", "note": "Ověřeno z veřejných zdrojů 6/2026" }
+      ]
+    },
+    {
+      "name": "Tchibo",
+      "url": "https://www.tchibo.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "MIXED",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.tchibo.cz/zpusoby-platby-s400076205.html",
+      "note": "Domácnost a oblečení (týdenní tematické kolekce). Při vrácení přes PayPal proplácí zpáteční dopravu do 820 Kč. Kompletní seznam metod doplnit ruční verifikací.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "DM drogerie",
+      "url": "https://www.dm.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.dm.cz/services/onlineshop/platebni-moznosti",
+      "note": "Drogerie a kosmetika. PayPal s omezením na region EMEA, bez PayPal Express. Kompletní seznam metod doplnit ruční verifikací.",
+      "payments": [
+        { "name": "PayPal", "note": "Jen EMEA region, bez PayPal Express" }
+      ]
+    },
+    {
+      "name": "Zoohit",
+      "url": "https://www.zoohit.cz",
+      "language": "cs",
+      "country": "DE",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://support.zoohit.cz/cs/support/solutions/articles/76000048745",
+      "note": "Chovatelské potřeby (zooplus group). Hraniční kategorie sortimentu, zařazeno na pokyn. Kompletní seznam metod doplnit ruční verifikací.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "Automobilovédíly24",
+      "url": "https://www.automobilovedily24.cz",
+      "language": "cs",
+      "country": "OTHER_EU",
+      "assortment": "OTHER",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.automobilovedily24.cz",
+      "note": "Autodíly. Hraniční kategorie sortimentu, zařazeno na pokyn. Sídlo provozovatele a URL stránky plateb ověřit ručně.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "Datart",
+      "url": "https://www.datart.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "ELECTRONICS",
+      "hasReturnPolicy": true,
+      "sourceUrl": "https://www.datart.cz/napoveda/platebni-metody",
+      "note": "Elektronika, po fúzi s Electro World (2024). PayPal uveden na stránce plateb, ale může jít o zastaralý obsah z roku 2013, ověřit v košíku.",
+      "payments": [
+        { "name": "PayPal", "note": "Nejisté, možná zastaralý údaj na webu, ověřit v košíku" }
+      ]
+    },
+    {
+      "name": "Yoga Market",
+      "url": "https://www.yogamarket.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "sourceUrl": "https://www.yogamarket.cz/",
+      "note": "Potřeby na jógu, relaxaci a meditaci, kamenný obchod Praha 1. Reference firmy emocio (kompletní e-shop se skladem a automatickými platbami). Platební metody se nepodařilo zjistit z veřejných zdrojů, doplnit ruční verifikací.",
+      "payments": []
+    },
+    {
+      "name": "INYOGA SHOP",
+      "url": "https://www.inyogashop.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 14,
+      "sourceUrl": "https://www.inyogashop.cz/dodaci-a-platebni-podminky/",
+      "note": "Potřeby na jógu a pilates, Praha. Platby přes bránu GoPay, ověřit dostupnost Apple Pay / Google Pay v bráně.",
+      "payments": [
+        { "name": "Platební karta", "note": "Přes platební bránu GoPay" },
+        "Bankovní převod",
+        "Dobírka"
+      ]
+    },
+    {
+      "name": "CVIQ (IQ pohyb)",
+      "url": "https://www.cviq.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.cviq.cz/e-shop/",
+      "note": "E-shop IQ pohyb Akademie, vytvořila firma emocio (emocio.cz). Fyzické zboží (míčky, Sball, trika, podložky) i digitální obsah (online lekce, skripta). Platební metody a podmínky vracení nezjištěny, doplnit ruční verifikací.",
+      "payments": [
+        { "name": "Bankovní převod", "note": "Odvozeno z podmínek (licence platí od připsání platby), ověřit" }
+      ]
+    },
+    {
+      "name": "Fitshop.cz",
+      "url": "https://www.fitshop.cz",
+      "language": "cs",
+      "country": "OTHER_EU",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.fitshop.cz/vseobecne-obchodni-podminky",
+      "note": "Fitness vybavení včetně kettlebellů (vlastní řada Taurus Kettlebells), evropská síť s dopravou do ČR. PayPal potvrzen v obchodních podmínkách (platba přes PayPal (Europe) S.à r.l.). Přesné sídlo firmy, lhůta vracení a konkrétní dopravce/cena do Prahy nejsou ověřené, doplnit ruční kontrolou v košíku.",
+      "payments": ["PayPal"]
+    },
+    {
+      "name": "Sport-store.cz",
+      "url": "https://www.sport-store.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.sport-store.cz/doprava-a-platba",
+      "note": "Sportovní potřeby, doprava přes GLS nebo osobní odběr. Platební brána (karta), dobírka. PayPal na stránce plateb explicitně nenalezen, obchod aktuálně žádnou alternativní metodu zjevně nenabízí.",
+      "payments": ["Platební karta", "Dobírka"]
+    },
+    {
+      "name": "Sportovna.cz",
+      "url": "https://www.sportovna.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.sportovna.cz/o-nakupu/doprava-a-platba/",
+      "note": "Fitness a sportovní potřeby, osobní odběr i v Praze (OC Letňany). Platba kartou online, převodem, hotově/kartou na místě. Alternativní metody se ve veřejných zdrojích nepodařilo dohledat ani vyvrátit, potřeba ruční ověření.",
+      "payments": ["Platební karta", "Bankovní převod"]
+    },
+    {
+      "name": "Tunturi.cz",
+      "url": "https://www.tunturi.cz",
+      "language": "cs",
+      "country": "CZ",
+      "assortment": "SPORTS",
+      "hasReturnPolicy": false,
+      "sourceUrl": "https://www.tunturi.cz",
+      "note": "Oficiální distributor fitness vybavení Tunturi pro ČR. Platební metody (běžné i alternativní) se ve veřejných zdrojích nepodařilo dohledat, potřeba ruční ověření přímo na webu.",
+      "payments": []
+    },
+    {
+      "name": "Zalando",
+      "url": "https://www.zalando.cz",
+      "language": "cs",
+      "country": "DE",
+      "assortment": "CLOTHING",
+      "hasReturnPolicy": true,
+      "returnPeriodDays": 30,
+      "returnPolicyUrl": "https://www.zalando.cz/faq/what-is-your-return-policy.html",
+      "sourceUrl": "https://www.zalando.cz/faq/Payments/what-are-my-payment-options.html",
+      "note": "Vrácení zdarma do 30 dní. Dostupnost jednotlivých metod pro CZ ověřit v košíku (info částečně z globálního FAQ).",
+      "payments": [
+        "Platební karta",
+        { "name": "PayPal", "note": "Refundace jde zpět na PayPal účet" },
+        "Apple Pay",
+        "Google Pay"
+      ]
+    }
+  ]
+}
