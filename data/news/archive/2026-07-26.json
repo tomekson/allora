@@ -1,8 +1,5 @@
 {
   "date": "2026-07-26",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_26",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Karim Khan è stato destituito dalla carica di procuratore capo della Corte penale internazionale a causa delle accuse di aver intrattenuto una relazione sessuale inappropriata con una sua subordinata.",
@@ -112,32 +109,5 @@
     "en": "On the evening of 25 July 2026, a white van was driven at high speed into a crowd of pedestrians during the Berlin Pride celebrations in Tiergarten park close to the Brandenburg Gate. One woman was killed and sixteen people were injured, several critically. The driver fled on foot after the vehicle collided with a tree, and a large-scale manhunt was launched. The Pride event, which had drawn hundreds of thousands of attendees, was called off shortly after the attack. Police have identified a suspect tied to Berlin's \"Islamist scene.\"",
     "it": "La sera del 25 luglio 2026, un furgone bianco si è lanciato ad alta velocità contro una folla di pedoni durante i festeggiamenti del Pride di Berlino nel parco Tiergarten, vicino alla Porta di Brandeburgo. Una donna è rimasta uccisa e sedici persone sono rimaste ferite, alcune in modo grave. Il conducente è fuggito a piedi dopo che il veicolo si è schiantato contro un albero, dando il via a una vasta operazione di ricerca. L’evento del Pride, che aveva attirato centinaia di migliaia di partecipanti, è stato sospeso poco dopo l’attacco. La polizia ha identificato un sospettato legato alla «scena islamista» di Berlino.",
     "cz": "Večer 25. července 2026 vjela bílá dodávka vysokou rychlostí do davu chodců během oslav berlínského Pride v parku Tiergarten nedaleko Braniborské brány. Jedna žena zahynula a šestnáct lidí bylo zraněno, z toho několik vážně. Řidič uprchl pěšky poté, co vozidlo narazilo do stromu, a byla zahájena rozsáhlá pátrací akce. Akce Pride, na kterou se sjely stovky tisíc účastníků, byla krátce po útoku zrušena. Policie identifikovala podezřelého, který má vazby na berlínskou „islamistickou scénu“."
-  },
-  "shadows": [
-    {
-      "it": "TikTok viola la legge sui servizi digitali per non aver garantito la sicurezza degli account dei minori.",
-      "cz": "Komise předběžně zjistila, že společnost TikTok porušila akt o digitálních službách, protože nezajistila bezpečné účty pro nezletilé.",
-      "phon": "[TÍK-tok VÍO-la la LÉG-dže sui ser-VÍ-ci di-dži-TÁ-li per non Á-ver ga-ran-TÍ-to la si-ku-RÉC-ca delj ÁK-kount dei mi-NÓ-ri]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si incontrano a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si in-kont-RÁ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Rivista delle statistiche ufficiali 1-2-3/2025.",
-      "cz": "Přehled oficiálních statistik 1-2-3/2025.",
-      "phon": "[ri-VÍS-ta DÉL-le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
-    }
-  ],
-  "shadow": {
-    "it": "TikTok viola la legge sui servizi digitali per non aver garantito la sicurezza degli account dei minori.",
-    "cz": "Komise předběžně zjistila, že společnost TikTok porušila akt o digitálních službách, protože nezajistila bezpečné účty pro nezletilé.",
-    "phon": "[TÍK-tok VÍO-la la LÉG-dže sui ser-VÍ-ci di-dži-TÁ-li per non Á-ver ga-ran-TÍ-to la si-ku-RÉC-ca delj ÁK-kount dei mi-NÓ-ri]"
   }
 }
