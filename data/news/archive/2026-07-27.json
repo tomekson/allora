@@ -1,8 +1,5 @@
 {
   "date": "2026-07-27",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_27",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Il Comitato del Patrimonio Mondiale ha inserito nella Lista del Patrimonio Mondiale dell'UNESCO, tra l'altro, le spiagge della Normandia in Francia, il monte Olimpo in Grecia e i siti archeologici di Asuka e Fujiwara in Giappone.",
@@ -121,37 +118,5 @@
     "en": "An expedition to the International Space Station (ISS) is a permanent crew rotation occupying the space station and using it for space research and testing. An expedition can last up to six months and may include between two and seven crew members.\nExpeditions are numbered starting from one and sequentially increased with each expedition. Resupply mission crews and space tourists are excluded (see List of human spaceflights to the ISS for details). ISS commanders are listed in italics. \"Duration\" is the period of time between the crew's launch from Earth and their decoupling from the ISS.",
     "it": "Una spedizione alla Stazione Spaziale Internazionale (ISS) consiste nella rotazione permanente dell'equipaggio che occupa la stazione spaziale e la utilizza per la ricerca e i test spaziali. Una spedizione può durare fino a sei mesi e può comprendere da due a sette membri dell'equipaggio.\nLe spedizioni sono numerate a partire da uno e il numero aumenta in ordine progressivo con ogni spedizione. Sono esclusi gli equipaggi delle missioni di rifornimento e i turisti spaziali (per ulteriori dettagli, consultare l’Elenco dei voli spaziali con equipaggio umano verso l’ISS). I comandanti dell’ISS sono indicati in corsivo. La «durata» è il periodo di tempo che intercorre tra il lancio dell’equipaggio dalla Terra e il suo disaggancio dall’ISS.",
     "cz": "Expedice na Mezinárodní vesmírnou stanici (ISS) představuje střídání stálé posádky, která obývá vesmírnou stanici a využívá ji k vesmírnému výzkumu a testování. Expedice může trvat až šest měsíců a může se skládat ze dvou až sedmi členů posádky.\nExpedice jsou číslovány od jedničky a čísla se postupně zvyšují s každou další expedicí. Posádky zásobovacích misí a vesmírní turisté nejsou zahrnuti (podrobnosti viz Seznam pilotovaných letů na ISS). Velitelé ISS jsou uvedeni kurzívou. „Doba trvání“ je časové období mezi startem posádky ze Země a jejím odpojením od ISS."
-  },
-  "shadows": [
-    {
-      "it": "Nel Stretto di Hormuz è esplosa una petroliera.",
-      "cz": "V Hormuzském průlivu explodoval ropný tanker.",
-      "phon": "[nel STRÉT-to di ÓR-muc è esp-LÓ-za u-na pet-ro-LÍE-ra]"
-    },
-    {
-      "it": "TikTok viola la legge sui servizi digitali per non aver garantito la sicurezza degli account dei minori.",
-      "cz": "Komise předběžně zjistila, že společnost TikTok porušila akt o digitálních službách, protože nezajistila bezpečné účty pro nezletilé.",
-      "phon": "[TÍK-tok VÍO-la la LÉG-dže sui ser-VÍ-ci di-dži-TÁ-li per non Á-ver ga-ran-TÍ-to la si-ku-RÉC-ca delj ÁK-kount dei mi-NÓ-ri]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Rivista delle statistiche ufficiali 1-2-3/2025.",
-      "cz": "Přehled oficiálních statistik 1-2-3/2025.",
-      "phon": "[ri-VÍS-ta DÉL-le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
-    }
-  ],
-  "shadow": {
-    "it": "Nel Stretto di Hormuz è esplosa una petroliera.",
-    "cz": "V Hormuzském průlivu explodoval ropný tanker.",
-    "phon": "[nel STRÉT-to di ÓR-muc è esp-LÓ-za u-na pet-ro-LÍE-ra]"
   }
 }
