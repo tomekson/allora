@@ -55,44 +55,50 @@
       "origin": "econ"
     },
     {
-      "en": "Road accidents - 2025. In 2025, 177,207 road traffic accidents involving personal injuries were recorded: 2,868 fatalities (-5.3% compared with the previous year) and 237,822 injuries (+2.2%)",
-      "it": "Incidenti stradali - 2025. Nel 2025 sono stati registrati 177.207 incidenti stradali con lesioni personali: 2.868 decessi (-5,3% rispetto all’anno precedente) e 237.822 feriti (+2,2%)",
-      "cz": "Dopravní nehody – rok 2025. V roce 2025 bylo zaznamenáno 177 207 dopravních nehod s tělesnými zraněními: 2 868 úmrtí (-5,3 % ve srovnání s předchozím rokem) a 237 822 zraněných (+2,2 %)",
+      "en": "Environmental subsidies and other environmental transfers. On the 28th of July 2026 Istat releases for the first time data on environmental subsidies and similar transfers (2016-2023) on the data warehouse IstatData",
+      "it": "Sovvenzioni ambientali e altri trasferimenti ambientali. Il 28 luglio 2026 l’Istat pubblica per la prima volta i dati relativi alle sovvenzioni ambientali e ai trasferimenti simili (2016-2023) sul data warehouse IstatData",
+      "cz": "Dotace na ochranu životního prostředí a jiné transfery v oblasti životního prostředí. Dne 28. července 2026 zveřejní Istat poprvé údaje o dotacích na ochranu životního prostředí a podobných transferech (2016–2023) v datovém skladu IstatData.",
       "origin": "econ"
     },
     {
-      "en": "Review of official statistics 1-2-3/2025. Online the Review of official statistics number 1-2-3/2025",
-      "it": "Rivista delle statistiche ufficiali 1-2-3/2025. È disponibile online il numero 1-2-3/2025 della Rivista delle statistiche ufficiali",
-      "cz": "Přehled oficiálních statistik 1-2-3/2025. Přehled oficiálních statistik č. 1-2-3/2025 je k dispozici online",
+      "en": "Foreign trade with non-EU countries - June 2026. In June 2026 import +1.3%, export -4.0% over May; the trade balance was +2,550 million euro",
+      "it": "Commercio estero con i paesi extra-UE - giugno 2026. A giugno 2026 le importazioni sono aumentate dell’1,3% e le esportazioni sono diminuite del 4,0% rispetto a maggio; la bilancia commerciale è stata di +2.550 milioni di euro",
+      "cz": "Zahraniční obchod se zeměmi mimo EU – červen 2026. V červnu 2026 vzrostl dovoz o 1,3 % a vývoz poklesl o 4,0 % oproti květnu; obchodní bilance činila +2 550 milionů eur",
       "origin": "econ"
-    },
-    {
-      "en": "Barclays increases bonus pool by nearly 30% as calls grow for UK bank tax. TUC leader says lender’s ‘bonanza’ quarterly profits of £3.3bn mean it ‘can easily afford to pay more tax’",
-      "it": "Barclays aumenta il fondo bonus di quasi il 30% mentre si moltiplicano le richieste di un'imposta sulle banche nel Regno Unito. Il leader del TUC afferma che gli utili trimestrali “da capogiro” dell’istituto di credito, pari a 3,3 miliardi di sterline, dimostrano che “può facilmente permettersi di pagare più tasse”.",
-      "cz": "Barclays zvyšuje fond na bonusy o téměř 30 %, zatímco sílí volání po zavedení bankovní daně ve Velké Británii. Předseda odborového svazu TUC tvrdí, že díky „obrovským“ čtvrtletním ziskům ve výši 3,3 mld. liber si banka „může snadno dovolit platit vyšší daně“.",
-      "origin": "guardian"
     },
     {
       "en": "AI sell-off deepens as chip stocks slump in market retreat - business live. Rolling coverage of the latest economic and financial news",
       "it": "Si aggrava la correzione nel settore dell'intelligenza artificiale, con i titoli dei produttori di chip in calo nel contesto di una flessione del mercato - Business Live. Aggiornamenti in tempo reale sulle ultime notizie economiche e finanziarie",
-      "cz": "Výprodej v sektoru umělé inteligence se prohlubuje, zatímco akcie výrobců čipů klesají v rámci celkového poklesu trhu – Business Live. Průběžné zpravodajství o nejnovějších ekonomických a finančních zprávách",
+      "cz": "Výprodej v sektoru umělé inteligence se prohlubuje, zatímco akcie výrobců čipů klesají v rámci celkového poklesu trhu – Business Live. Průběžné zpravodajství o nejnovějších ekonomických a finančních událostech",
       "origin": "guardian"
     },
     {
-      "en": "We booked a Travelodge but were forced to move hotel after 1am. We told it of our 11pm arrival time but when we got there our room was no longer available as it had ‘overbooked’",
-      "it": "Avevamo prenotato un Travelodge, ma siamo stati costretti a cambiare hotel dopo l’una di notte. Avevamo comunicato che saremmo arrivati alle 23:00, ma quando siamo arrivati la nostra camera non era più disponibile perché c’era stato un “overbooking”.",
-      "cz": "Rezervovali jsme si pokoj v hotelu Travelodge, ale po 1. hodině ráno jsme byli nuceni se přestěhovat do jiného hotelu. Uvedli jsme, že dorazíme ve 23:00, ale když jsme dorazili na místo, náš pokoj už nebyl k dispozici, protože došlo k „přeplnění rezervací“.",
+      "en": "AI sell-off intensifies as investors ditch chip stocks. Samsung and SK Hynix fall by more than 10% amid renewed fears over AI spending and Chinese competition",
+      "it": "Si intensifica la svendita nel settore dell’IA, con gli investitori che abbandonano i titoli dei produttori di chip. Samsung e SK Hynix registrano un calo superiore al 10% sulla scia dei rinnovati timori relativi alla spesa per l’IA e alla concorrenza cinese",
+      "cz": "Výprodej akcií v odvětví umělé inteligence se prohlubuje, protože investoři se zbavují akcií výrobců čipů. Akcie společností Samsung a SK Hynix klesly o více než 10 % v důsledku obnovených obav ohledně výdajů na umělou inteligenci a čínské konkurence",
       "origin": "guardian"
+    },
+    {
+      "en": "Security firm linked to ICE crackdown in US reports UK revenue slump after asylum centre contract ends. MTC provided security at heavily criticised Manston centre in Kent and could now make £500m managing the site",
+      "it": "Una società di sicurezza coinvolta nell’operazione dell’ICE negli Stati Uniti segnala un crollo dei ricavi nel Regno Unito dopo la scadenza del contratto relativo al centro di accoglienza per richiedenti asilo. MTC forniva servizi di sicurezza presso il centro di Manston, nel Kent, oggetto di aspre critiche, e ora potrebbe incassare 500 milioni di sterline gestendo la struttura.",
+      "cz": "Bezpečnostní firma spojená s represivními opatřeními ICE v USA hlásí propad tržeb ve Velké Británii po skončení smlouvy na provoz azylového centra. Společnost MTC zajišťovala bezpečnost v silně kritizovaném centru Manston v hrabství Kent a nyní by mohla na správě tohoto areálu vydělat 500 milionů liber.",
+      "origin": "guardian"
+    },
+    {
+      "en": "The Seoul Central District Court gives former South Korean president Yoon Suk Yeol an 18-month suspended sentence for false statements made during his 2022 election campaign. If upheld, the ruling may void his victory and require Yoon's People Power Party to repay campaign funds.",
+      "it": "Il Tribunale distrettuale centrale di Seul ha condannato l’ex presidente sudcoreano Yoon Suk Yeol a 18 mesi di reclusione con sospensione della pena per false dichiarazioni rese durante la sua campagna elettorale del 2022. Se confermata, la sentenza potrebbe invalidare la sua vittoria e obbligare il Partito del Potere Popolare di Yoon a restituire i fondi della campagna elettorale.",
+      "cz": "Centrální okresní soud v Soulu uložil bývalému jihokorejskému prezidentovi Yoon Suk Yeolovi 18měsíční podmíněný trest za nepravdivá prohlášení učiněná během jeho volební kampaně v roce 2022. Pokud bude tento rozsudek potvrzen, může to znamenat zrušení jeho vítězství a povinnost Yoonovy Strany lidové síly vrátit prostředky vynaložené na volební kampaň.",
+      "origin": "world"
     },
     {
       "en": "Three women are wounded in a mass stabbing near the Porte de Clichy station in Paris, France. The perpetrator is detained.",
-      "it": "Tre donne sono rimaste ferite in un attacco con coltello di massa avvenuto nei pressi della stazione di Porte de Clichy a Parigi, in Francia. L'autore del fatto è stato arrestato.",
+      "it": "Tre donne sono rimaste ferite in un attacco con arma da taglio avvenuto nei pressi della stazione di Porte de Clichy a Parigi, in Francia. L'autore del fatto è stato arrestato.",
       "cz": "Při hromadném útoku nožem poblíž stanice Porte de Clichy v Paříži ve Francii byly zraněny tři ženy. Pachatel byl zadržen.",
       "origin": "world"
     },
     {
       "en": "Victorian Premier Jacinta Allan resigns, triggering a leadership spill. Ben Carroll is elected unanimously as the new Premier and Victorian Labor Party leader.",
-      "it": "Il premier dello Stato di Victoria, Jacinta Allan, si dimette, dando il via a una votazione per la successione alla guida del partito. Ben Carroll viene eletto all’unanimità nuovo premier e leader del Partito Laburista dello Stato di Victoria.",
+      "it": "Il premier dello Stato di Victoria, Jacinta Allan, si dimette, dando il via a una procedura di rielezione della leadership. Ben Carroll viene eletto all’unanimità nuovo premier e leader del Partito Laburista dello Stato di Victoria.",
       "cz": "Premiérka státu Victoria Jacinta Allanová podala demisi, čímž vyvolala volbu nového předsedy. Ben Carroll byl jednomyslně zvolen novým premiérem a předsedou Labouristické strany ve státě Victoria.",
       "origin": "world"
     },
@@ -104,14 +110,8 @@
     },
     {
       "en": "The U.S. Food and Drug Administration approves a new blood test for colorectal cancer screenings in older adults, including those above age 45.",
-      "it": "La Food and Drug Administration (FDA) statunitense approva un nuovo esame del sangue per lo screening del cancro del colon-retto negli anziani, compresi quelli di età superiore ai 45 anni.",
+      "it": "La Food and Drug Administration statunitense approva un nuovo esame del sangue per lo screening del cancro del colon-retto negli anziani, compresi quelli di età superiore ai 45 anni.",
       "cz": "Americký Úřad pro kontrolu potravin a léčiv (FDA) schválil nový krevní test pro screening kolorektálního karcinomu u starších dospělých, včetně osob starších 45 let.",
-      "origin": "world"
-    },
-    {
-      "en": "The Lithuanian government registers a resolution to open an embassy in Brasilia, Brazil, in October. The country currently has a consulate-general in São Paulo.",
-      "it": "Il governo lituano approva una risoluzione per l'apertura di un'ambasciata a Brasilia, in Brasile, nel mese di ottobre. Il Paese dispone attualmente di un consolato generale a San Paolo.",
-      "cz": "Litevská vláda v říjnu přijala usnesení o zřízení velvyslanectví v brazilském městě Brasília. V současné době má země generální konzulát v São Paulu.",
       "origin": "world"
     },
     {
@@ -131,7 +131,7 @@
     "topic": "2026 Victorian Labor Party leadership election",
     "url": "https://en.wikipedia.org/wiki/2026_Victorian_Labor_Party_leadership_election",
     "en": "On 28 July 2026, a leadership election for the Victorian Labor Party was initiated following the resignation of premier Jacinta Allan. Deputy leader Ben Carroll announced on 27 July that he would contest the leadership; he was elected party leader after running unopposed, while Gabrielle Williams was elected deputy leader.",
-    "it": "Il 28 luglio 2026 è stata indetta un'elezione per la leadership del Partito Laburista dello Stato di Victoria a seguito delle dimissioni della premier Jacinta Allan. Il 27 luglio il vice leader Ben Carroll ha annunciato che si sarebbe candidato alla leadership; è stato eletto leader del partito senza oppositori, mentre Gabrielle Williams è stata eletta vice leader.",
+    "it": "Il 28 luglio 2026 è stata indetta un'elezione per la leadership del Partito Laburista del Victoria a seguito delle dimissioni della premier Jacinta Allan. Il 27 luglio il vice leader Ben Carroll ha annunciato che si sarebbe candidato alla leadership; è stato eletto leader del partito senza oppositori, mentre Gabrielle Williams è stata eletta vice leader.",
     "cz": "Dne 28. července 2026 byly po rezignaci premiérky Jacinty Allanové vyhlášeny volby předsedy Viktoriánské labouristické strany. Místopředseda Ben Carroll oznámil 27. července, že se o tuto funkci uchází; jelikož neměl žádného protikandidáta, byl zvolen předsedou strany, zatímco Gabrielle Williamsová byla zvolena místopředsedkyní."
   },
   "shadows": [
@@ -151,14 +151,14 @@
       "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
     },
     {
-      "it": "Rivista delle statistiche ufficiali 1-2-3/2025.",
-      "cz": "Přehled oficiálních statistik 1-2-3/2025.",
-      "phon": "[ri-VÍS-ta DÉL-le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
+      "it": "Sovvenzioni ambientali e altri trasferimenti ambientali.",
+      "cz": "Dotace na ochranu životního prostředí a jiné transfery v oblasti životního prostředí.",
+      "phon": "[sov-ven-CÍO-ni am-bien-TÁ-li e ÁLT-ri tras-fe-ri-MÉN-ti am-bien-TÁ-li]"
     },
     {
-      "it": "Avevamo prenotato un Travelodge, ma siamo stati costretti a cambiare hotel dopo l’una di notte.",
-      "cz": "Rezervovali jsme si pokoj v hotelu Travelodge, ale po 1.",
-      "phon": "[a-ve-VÁ-mo pre-no-TÁ-to un tra-ve-LÓD-dže ma SÍA-mo STÁ-ti kost-RÉT-ti a kam-BÍA-re Ó-tel DÓ-po LÚ-na di NÓT-te]"
+      "it": "Commercio estero con i paesi extra-UE - giugno 2026.",
+      "cz": "Zahraniční obchod se zeměmi mimo EU – červen 2026.",
+      "phon": "[kom-MÉR-čo es-TÉ-ro kon i PÁE-zi ÉXT-raue DŽÚ-ňo]"
     },
     {
       "it": "Sapevate che il DJ svedese Avicii è stato raffigurato su un francobollo nel gennaio&nbsp;2015?",
