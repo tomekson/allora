@@ -1,8 +1,5 @@
 {
   "date": "2026-07-28",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_28",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Tra il Canada e gli Stati Uniti è stato inaugurato il ponte internazionale Gordie Howe, lungo 2,5 km, che collega Windsor e Detroit.",
@@ -133,42 +130,5 @@
     "en": "On 28 July 2026, a leadership election for the Victorian Labor Party was initiated following the resignation of premier Jacinta Allan. Deputy leader Ben Carroll announced on 27 July that he would contest the leadership; he was elected party leader after running unopposed, while Gabrielle Williams was elected deputy leader.",
     "it": "Il 28 luglio 2026 è stata indetta un'elezione per la leadership del Partito Laburista dello Stato di Victoria a seguito delle dimissioni della premier Jacinta Allan. Il 27 luglio il vice leader Ben Carroll ha annunciato che si sarebbe candidato alla leadership; è stato eletto leader del partito senza oppositori, mentre Gabrielle Williams è stata eletta vice leader.",
     "cz": "Dne 28. července 2026 byly po rezignaci premiérky Jacinty Allanové vyhlášeny volby předsedy Viktoriánské labouristické strany. Místopředseda Ben Carroll oznámil 27. července, že se o tuto funkci uchází; jelikož neměl žádného protikandidáta, byl zvolen předsedou strany, zatímco Gabrielle Williamsová byla zvolena místopředsedkyní."
-  },
-  "shadows": [
-    {
-      "it": "Nel Stretto di Hormuz è esplosa una petroliera.",
-      "cz": "V Hormuzském průlivu explodoval ropný tanker.",
-      "phon": "[nel STRÉT-to di ÓR-muc è esp-LÓ-za u-na pet-ro-LÍE-ra]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Rivista delle statistiche ufficiali 1-2-3/2025.",
-      "cz": "Přehled oficiálních statistik 1-2-3/2025.",
-      "phon": "[ri-VÍS-ta DÉL-le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
-    },
-    {
-      "it": "Avevamo prenotato un Travelodge, ma siamo stati costretti a cambiare hotel dopo l’una di notte.",
-      "cz": "Rezervovali jsme si pokoj v hotelu Travelodge, ale po 1.",
-      "phon": "[a-ve-VÁ-mo pre-no-TÁ-to un tra-ve-LÓD-dže ma SÍA-mo STÁ-ti kost-RÉT-ti a kam-BÍA-re Ó-tel DÓ-po LÚ-na di NÓT-te]"
-    },
-    {
-      "it": "Sapevate che il DJ svedese Avicii è stato raffigurato su un francobollo nel gennaio&nbsp;2015?",
-      "cz": "Věděli jste, že švédský DJ Avicii se v lednu 2015 objevil na poštovní známce?",
-      "phon": "[sa-pe-VÁ-te ke il dj sve-DÉ-ze a-VÍ-či è STÁ-to raf-fi-gu-RÁ-to su un fran-ko-BÓL-lo nel DŽÉN-naionbsp]"
-    }
-  ],
-  "shadow": {
-    "it": "Nel Stretto di Hormuz è esplosa una petroliera.",
-    "cz": "V Hormuzském průlivu explodoval ropný tanker.",
-    "phon": "[nel STRÉT-to di ÓR-muc è esp-LÓ-za u-na pet-ro-LÍE-ra]"
   }
 }
