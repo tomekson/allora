@@ -1,8 +1,5 @@
 {
   "date": "2026-07-30",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_July_30",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "L'ex primo ministro polacco Mateusz Morawiecki, a seguito della scissione all'interno del partito Diritto e Giustizia, ha annunciato la costituzione di un nuovo gruppo parlamentare, Sviluppo Plus, formato da 39 deputati e un senatore.",
@@ -93,37 +90,5 @@
     "en": "The 2026 Bolivian protests were a series of mass protests that occurred in Bolivia in May and June involving widespread demonstrations, blockades, and strikes in multiple regions across Bolivia targeting major cities. They were led and participated predominantly by indigenous groups. Led largely by miners, they were joined by teachers, farmers, and other workers. The protests were sparked by Law 1720, a law allowing land to be used as collateral for loans, against the backdrop of a wider economic downturn in Bolivia. Although President Rodrigo Paz annulled the law on 13 May, protests continued to spread. The scope of the protests also expanded, with workers demanding higher wages, labour reform, and Paz's resignation.",
     "it": "Le proteste boliviane del 2026 furono una serie di manifestazioni di massa verificatesi in Bolivia nei mesi di maggio e giugno, caratterizzate da manifestazioni diffuse, blocchi stradali e scioperi in diverse regioni del Paese, con le principali città come obiettivo. Furono guidate e vedevano la partecipazione prevalente di gruppi indigeni. Guidate in gran parte dai minatori, videro l’adesione di insegnanti, agricoltori e altri lavoratori. Le proteste sono state innescate dalla Legge 1720, una normativa che consentiva l’utilizzo dei terreni come garanzia per i prestiti, sullo sfondo di una più ampia crisi economica in Bolivia. Sebbene il presidente Rodrigo Paz abbia annullato la legge il 13 maggio, le proteste hanno continuato a diffondersi. Anche la portata delle proteste si è ampliata, con i lavoratori che chiedevano salari più alti, una riforma del lavoro e le dimissioni di Paz.",
     "cz": "Bolivijské protesty v roce 2026 představovaly sérii masových protestů, k nimž došlo v Bolívii v květnu a červnu a které zahrnovaly rozsáhlé demonstrace, blokády a stávky v mnoha regionech po celé Bolívii zaměřené na hlavní města. V čele těchto protestů stály a účastnily se jich převážně domorodé skupiny. K protestům, které vedli především horníci, se připojili učitelé, zemědělci a další pracovníci. Protesty vyvolal zákon č. 1720, který umožňoval používat půdu jako záruku za úvěry, a to na pozadí širšího hospodářského útlumu v Bolívii. Ačkoli prezident Rodrigo Paz tento zákon 13. května zrušil, protesty se dále šířily. Rozsah protestů se rovněž rozšířil a pracovníci požadovali vyšší mzdy, reformu pracovního práva a Pazovu rezignaci."
-  },
-  "shadows": [
-    {
-      "it": "La Commissione chiede riscontri sulle modifiche proposte agli orientamenti sugli aiuti a finalità regionale.",
-      "cz": "Komise žádá o zpětnou vazbu k navrhovaným změnám pokynů k regionální státní podpoře.",
-      "phon": "[la kom-mis-SÍO-ne KÍE-de ris-KÓNT-ri SÚL-le mo-di-FÍ-ke pro-PÓS-te alj o-rien-ta-MÉN-ti sulj ÁIU-ti a fi-na-li-TÁ re-džo-NÁ-le]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni.",
-      "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze.",
-      "phon": "[i rapp-re-zen-TÁN-ti del fmi e DÉL-la BÁN-ka mon-DÍA-le si riu-nis-KÓ-no a PRÁ-ga DÓ-po ÓT-to ÁN-ni]"
-    },
-    {
-      "it": "Gli utili di Shell sono più che raddoppiati dopo l’impennata dei prezzi del petrolio e del gas.",
-      "cz": "Zisky společnosti Shell se po skokovém nárůstu cen ropy a zemního plynu více než zdvojnásobily.",
-      "phon": "[lj u-TÍ-li di sell SÓ-no più ke rad-dop-PÍA-ti DÓ-po lim-pen-NÁ-ta dei PRÉC-ci del pet-RÓ-lio e del gas]"
-    },
-    {
-      "it": "Il governo di Nauru annuncia il cambio ufficiale del nome del Paese da Nauru a Naoero.",
-      "cz": "Vláda Nauru oznamuje oficiální změnu názvu země z Nauru na Naoero.",
-      "phon": "[il go-VÉR-no di NÁU-ru an-NÚN-ča il KÁM-bio uf-fi-ČÁ-le del NÓ-me del PÁE-ze da NÁU-ru a NÁOE-ro]"
-    }
-  ],
-  "shadow": {
-    "it": "La Commissione chiede riscontri sulle modifiche proposte agli orientamenti sugli aiuti a finalità regionale.",
-    "cz": "Komise žádá o zpětnou vazbu k navrhovaným změnám pokynů k regionální státní podpoře.",
-    "phon": "[la kom-mis-SÍO-ne KÍE-de ris-KÓNT-ri SÚL-le mo-di-FÍ-ke pro-PÓS-te alj o-rien-ta-MÉN-ti sulj ÁIU-ti a fi-na-li-TÁ re-džo-NÁ-le]"
   }
 }
