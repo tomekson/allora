@@ -2,6 +2,11 @@
   "date": "2026-07-30",
   "stories": [
     {
+      "it": "Il Comitato del Patrimonio Mondiale, durante la sua 48ª sessione tenutasi a Busan, ha aggiunto venticinque siti alla Lista del Patrimonio Mondiale dell’UNESCO.",
+      "cz": "Výbor pro světové dědictví na 48.&nbsp;zasedání v&nbsp;Pusanu přidal dvacet pět&nbsp;památek na seznam Světového dědictví UNESCO.",
+      "origin": "cz"
+    },
+    {
       "it": "L'ex primo ministro polacco Mateusz Morawiecki, a seguito della scissione all'interno del partito Diritto e Giustizia, ha annunciato la costituzione di un nuovo gruppo parlamentare, Sviluppo Plus, formato da 39 deputati e un senatore.",
       "cz": "Bývalý polský premiér Mateusz Morawiecki po rozkolu ve straně Právo a spravedlnost oznámil vznik nové parlamentní frakce Rozvoj Plus, kterou vytvořilo 39 poslanců a jeden senátor.",
       "origin": "cz"
@@ -37,20 +42,32 @@
     },
     {
       "en": "IMF and World Bank representatives meet in Prague after eight years. , the Ministry of Finance and the Czech National Bank (CNB) hosted meetings of the International Monetary Fund (IMF) and World Bank constituencies, of which the Czech Republic is a ...",
-      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni. Il Ministero delle Finanze e la Banca Nazionale Ceca (CNB) hanno ospitato le riunioni dei gruppi di membri del Fondo Monetario Internazionale (FMI) e della Banca Mondiale, di cui la Repubblica Ceca è...",
+      "it": "I rappresentanti del FMI e della Banca Mondiale si riuniscono a Praga dopo otto anni. Il Ministero delle Finanze e la Banca Nazionale Ceca (CNB) hanno ospitato le riunioni dei gruppi di membri del Fondo Monetario Internazionale (FMI) e della Banca Mondiale, di cui la Repubblica Ceca fa parte...",
       "cz": "Zástupci MMF a Světové banky se po osmi letech setkávají v Praze. Ministerstvo financí a Česká národní banka (ČNB) uspořádaly setkání členů Mezinárodního měnového fondu (MMF) a Světové banky, jejichž členem je Česká republika...",
       "origin": "econ"
+    },
+    {
+      "en": "Employment and unemployment (provisional data) - June 2026. In June 2026, employment substantially stable. Unemployment rate up to 5.7% (+0.4 p.p.)",
+      "it": "Occupazione e disoccupazione (dati provvisori) - giugno 2026. A giugno 2026, l'occupazione è rimasta sostanzialmente stabile. Il tasso di disoccupazione è salito al 5,7% (+0,4 p.p.)",
+      "cz": "Zaměstnanost a nezaměstnanost (předběžné údaje) – červen 2026. V červnu 2026 zůstala zaměstnanost v podstatě stabilní. Míra nezaměstnanosti vzrostla na 5,7 % (+0,4 procentního bodu).",
+      "origin": "econ"
+    },
+    {
+      "en": "Preliminary estimate of GDP - Q2 2026. In Q2 2026 GDP increased by 0.2% on the previous quarter and by 1.0% y/o/y",
+      "it": "Stima preliminare del PIL - secondo trimestre 2026. Nel secondo trimestre 2026 il PIL è aumentato dello 0,2% rispetto al trimestre precedente e dell'1,0% su base annua.",
+      "cz": "Předběžný odhad HDP – 2. čtvrtletí 2026. Ve 2. čtvrtletí 2026 vzrostl HDP o 0,2 % oproti předchozímu čtvrtletí a o 1,0 % meziročně.",
+      "origin": "econ"
+    },
+    {
+      "en": "US borrowing costs hit 19-year high as Fed holds interest rates. Bank’s chair pledges to keep up fight against inflation but decision brings fears of a failure to keep pace",
+      "it": "I costi di finanziamento negli Stati Uniti hanno toccato il massimo degli ultimi 19 anni, mentre la Fed mantiene invariati i tassi di interesse. Il presidente della banca centrale si impegna a proseguire la lotta contro l’inflazione, ma la decisione fa temere che non si riesca a stare al passo con l’inflazione",
+      "cz": "Náklady na půjčky v USA dosáhly 19letého maxima, zatímco Fed ponechal úrokové sazby beze změny. Předseda centrální banky slíbil, že bude pokračovat v boji proti inflaci, avšak toto rozhodnutí vyvolává obavy, že se nepodaří udržet tempo.",
+      "origin": "guardian"
     },
     {
       "en": "Shell’s profits more than double after jump in oil and gas prices. Environmental groups renew calls for windfall tax to support households following Q2 earnings rise to $9.84bn",
       "it": "Gli utili di Shell sono più che raddoppiati dopo l’impennata dei prezzi del petrolio e del gas. Le associazioni ambientaliste rinnovano la richiesta di un’imposta sui profitti straordinari a sostegno delle famiglie, dopo che gli utili del secondo trimestre sono saliti a 9,84 miliardi di dollari.",
       "cz": "Zisky společnosti Shell se po skokovém nárůstu cen ropy a zemního plynu více než zdvojnásobily. Ekologické organizace znovu vyzývají k zavedení mimořádné daně na podporu domácností poté, co zisky za druhé čtvrtletí vzrostly na 9,84 mld. USD.",
-      "origin": "guardian"
-    },
-    {
-      "en": "FTSE 100 dips from record high after Fed holds interest rates and Iran attacks; Rolls-Royce expects higher profits – business live. Live, rolling coverage of business, economics and financial markets as global stock markets drop after US central bank keeps interest rates steady",
-      "it": "Il FTSE 100 scende dal massimo storico dopo la decisione della Fed di mantenere invariati i tassi di interesse e gli attacchi dell’Iran; Rolls-Royce prevede un aumento degli utili – notizie economiche in tempo reale. Copertura in diretta e aggiornata su economia, finanza e mercati finanziari, mentre le borse mondiali registrano un calo dopo che la banca centrale statunitense ha mantenuto invariati i tassi di interesse",
-      "cz": "Index FTSE 100 klesá z rekordního maxima poté, co Fed ponechal úrokové sazby beze změny a došlo k útokům v Íránu; společnost Rolls-Royce očekává vyšší zisky – živé zpravodajství z oblasti byznysu. Živé a průběžné zpravodajství o byznysu, ekonomice a finančních trzích v době, kdy globální akciové trhy klesají poté, co americká centrální banka ponechala úrokové sazby beze změny",
       "origin": "guardian"
     },
     {
@@ -62,7 +79,7 @@
     {
       "en": "Bolivian prosecutors issue an arrest warrant for former president Evo Morales for allegedly organizing protests and roadblocks across the country in May and June. The investigation follows complaints alleging armed uprising and terrorism.",
       "it": "La procura boliviana ha emesso un mandato di arresto nei confronti dell’ex presidente Evo Morales, accusato di aver organizzato proteste e blocchi stradali in tutto il Paese nei mesi di maggio e giugno. L’indagine fa seguito a denunce relative a presunte rivolte armate e atti di terrorismo.",
-      "cz": "Bolivijská prokuratura vydala zatykač na bývalého prezidenta Eva Moralese za to, že údajně v květnu a červnu organizoval protesty a silniční blokády po celé zemi. Vyšetřování navazuje na stížnosti týkající se údajného ozbrojeného povstání a terorismu.",
+      "cz": "Bolivijská prokuratura vydala zatykač na bývalého prezidenta Eva Moralese za to, že údajně organizoval protesty a silniční blokády po celé zemi v květnu a červnu. Vyšetřování navazuje na stížnosti týkající se údajného ozbrojeného povstání a terorismu.",
       "origin": "world"
     },
     {
@@ -74,7 +91,7 @@
     {
       "en": "Did you know that the Indian government declared Vishwasrao Chowgule to be the wealthiest person in India in 1976 based on wealth-tax statistics?",
       "it": "Sapevate che nel 1976 il governo indiano dichiarò Vishwasrao Chowgule la persona più ricca dell'India sulla base delle statistiche relative all'imposta sul patrimonio?",
-      "cz": "Věděli jste, že indická vláda v roce 1976 na základě statistik daně z majetku prohlásila Višvasrao Čowgula za nejbohatšího člověka v Indii?",
+      "cz": "Věděli jste, že indická vláda v roce 1976 na základě statistik daně z majetku prohlásila Vishwasrao Chowguleho za nejbohatšího člověka v Indii?",
       "origin": "dyk"
     },
     {
@@ -88,7 +105,7 @@
     "topic": "2026 Bolivian protests",
     "url": "https://en.wikipedia.org/wiki/2026_Bolivian_protests",
     "en": "The 2026 Bolivian protests were a series of mass protests that occurred in Bolivia in May and June involving widespread demonstrations, blockades, and strikes in multiple regions across Bolivia targeting major cities. They were led and participated predominantly by indigenous groups. Led largely by miners, they were joined by teachers, farmers, and other workers. The protests were sparked by Law 1720, a law allowing land to be used as collateral for loans, against the backdrop of a wider economic downturn in Bolivia. Although President Rodrigo Paz annulled the law on 13 May, protests continued to spread. The scope of the protests also expanded, with workers demanding higher wages, labour reform, and Paz's resignation.",
-    "it": "Le proteste boliviane del 2026 furono una serie di manifestazioni di massa verificatesi in Bolivia nei mesi di maggio e giugno, caratterizzate da manifestazioni diffuse, blocchi stradali e scioperi in diverse regioni del Paese, con le principali città come obiettivo. Furono guidate e vedevano la partecipazione prevalente di gruppi indigeni. Guidate in gran parte dai minatori, videro l’adesione di insegnanti, agricoltori e altri lavoratori. Le proteste sono state innescate dalla Legge 1720, una normativa che consentiva l’utilizzo dei terreni come garanzia per i prestiti, sullo sfondo di una più ampia crisi economica in Bolivia. Sebbene il presidente Rodrigo Paz abbia annullato la legge il 13 maggio, le proteste hanno continuato a diffondersi. Anche la portata delle proteste si è ampliata, con i lavoratori che chiedevano salari più alti, una riforma del lavoro e le dimissioni di Paz.",
+    "it": "Le proteste boliviane del 2026 furono una serie di manifestazioni di massa verificatesi in Bolivia nei mesi di maggio e giugno, caratterizzate da manifestazioni diffuse, blocchi stradali e scioperi in diverse regioni del Paese, con particolare riferimento alle principali città. Furono guidate e vedevano la partecipazione prevalente di gruppi indigeni. Guidate in gran parte dai minatori, videro l’adesione di insegnanti, agricoltori e altri lavoratori. Le proteste sono state innescate dalla Legge 1720, una normativa che consentiva l’utilizzo dei terreni come garanzia per i prestiti, sullo sfondo di una più ampia crisi economica in Bolivia. Sebbene il presidente Rodrigo Paz abbia annullato la legge il 13 maggio, le proteste hanno continuato a diffondersi. Anche la portata delle proteste si è ampliata, con i lavoratori che chiedevano salari più alti, una riforma del lavoro e le dimissioni di Paz.",
     "cz": "Bolivijské protesty v roce 2026 představovaly sérii masových protestů, k nimž došlo v Bolívii v květnu a červnu a které zahrnovaly rozsáhlé demonstrace, blokády a stávky v mnoha regionech po celé Bolívii zaměřené na hlavní města. V čele těchto protestů stály a účastnily se jich převážně domorodé skupiny. K protestům, které vedli především horníci, se připojili učitelé, zemědělci a další pracovníci. Protesty vyvolal zákon č. 1720, který umožňoval používat půdu jako záruku za úvěry, a to na pozadí širšího hospodářského útlumu v Bolívii. Ačkoli prezident Rodrigo Paz tento zákon 13. května zrušil, protesty se dále šířily. Rozsah protestů se rovněž rozšířil a pracovníci požadovali vyšší mzdy, reformu pracovního práva a Pazovu rezignaci."
   }
 }
