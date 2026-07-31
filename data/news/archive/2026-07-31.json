@@ -2,6 +2,11 @@
   "date": "2026-07-31",
   "stories": [
     {
+      "it": "A seguito di una valanga sul Broad Peak, nella catena montuosa del Karakorum in Pakistan, dieci alpinisti sono stati dati per dispersi. La spedizione internazionale era guidata dall'alpinista nepalese Nirmal Purja.",
+      "cz": "Po pádu laviny na hoře Broad Peak v pákistánském pohoří Karákóramu se pohřešovalo deset horolezců. Mezinárodní výpravu vedl nepálský horolezec Nirmal Purdža.",
+      "origin": "cz"
+    },
+    {
       "it": "Il Comitato del Patrimonio Mondiale, durante la sua 48ª sessione tenutasi a Busan, ha aggiunto venticinque siti alla Lista del Patrimonio Mondiale dell’UNESCO.",
       "cz": "Výbor pro světové dědictví na 48.&nbsp;zasedání v&nbsp;Pusanu přidal dvacet pět&nbsp;památek na seznam Světového dědictví UNESCO.",
       "origin": "cz"
@@ -31,7 +36,7 @@
     },
     {
       "en": "New AI Division to be established in the Information Systems Department. A new AI Division will be established in the Information Systems Department of the Czech National Bank (CNB). ...",
-      "it": "Verrà istituita una nuova divisione dedicata all'intelligenza artificiale (IA) presso il Dipartimento dei sistemi informativi. Una nuova divisione dedicata all'intelligenza artificiale (IA) sarà istituita presso il Dipartimento dei sistemi informativi della Banca nazionale ceca (CNB). ...",
+      "it": "Verrà istituita una nuova divisione dedicata all'intelligenza artificiale (IA) presso il Dipartimento dei sistemi informativi. Una nuova divisione dedicata all'intelligenza artificiale (IA) verrà istituita presso il Dipartimento dei sistemi informativi della Banca nazionale ceca (CNB). ...",
       "cz": "V odboru informačních systémů bude zřízena nová divize pro umělou inteligenci. V odboru informačních systémů České národní banky (ČNB) bude zřízena nová divize pro umělou inteligenci. ...",
       "origin": "econ"
     },
@@ -42,33 +47,33 @@
       "origin": "econ"
     },
     {
-      "en": "Industrial and Construction producer prices - June 2026. In June 2026, compared to the previous month, industrial producer prices remained unchanged (unchanged in the domestic market, +0.1% in the foreign market). Over the [&#8230;]",
-      "it": "Prezzi alla produzione nell'industria e nell'edilizia - giugno 2026. A giugno 2026, rispetto al mese precedente, i prezzi alla produzione nell'industria sono rimasti invariati (invariati sul mercato interno, +0,1% sul mercato estero). Nel corso del [&#8230;]",
-      "cz": "Ceny výrobců v průmyslu a stavebnictví – červen 2026. V červnu 2026 zůstaly ceny výrobců v průmyslu ve srovnání s předchozím měsícem beze změny (beze změny na domácím trhu, +0,1 % na zahraničním trhu). Za období [&#8230;]",
+      "en": "Consumer prices (provisional data) - July 2026. In July 2026 the CPI +0.2% over the previous month and +2.8% year-over-year",
+      "it": "Prezzi al consumo (dati provvisori) - luglio 2026. A luglio 2026 l'IPC è aumentato dello 0,2% rispetto al mese precedente e del 2,8% su base annua",
+      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026. V červenci 2026 vzrostl index spotřebitelských cen (CPI) o 0,2 % oproti předchozímu měsíci a meziročně o 2,8 %.",
       "origin": "econ"
     },
     {
-      "en": "Employment and unemployment (provisional data) - June 2026. In June 2026, employment substantially stable. Unemployment rate up to 5.7% (+0.4 p.p.)",
-      "it": "Occupazione e disoccupazione (dati provvisori) - giugno 2026. A giugno 2026, l'occupazione è rimasta sostanzialmente stabile. Il tasso di disoccupazione è salito al 5,7% (+0,4 p.p.)",
-      "cz": "Zaměstnanost a nezaměstnanost (předběžné údaje) – červen 2026. V červnu 2026 zůstala zaměstnanost v podstatě stabilní. Míra nezaměstnanosti vzrostla na 5,7 % (+0,4 p.p.)",
+      "en": "Consumer and business confidence - July 2026. In July the Consumer confidence climate index from 92.4 to 94.2; the business confidence climate index from 95.3 to 95.6",
+      "it": "Fiducia dei consumatori e delle imprese - luglio 2026. A luglio l'indice di fiducia dei consumatori è salito da 92,4 a 94,2; l'indice di fiducia delle imprese è salito da 95,3 a 95,6.",
+      "cz": "Důvěra spotřebitelů a podnikatelů – červenec 2026. V červenci se index důvěry spotřebitelů zvýšil z 92,4 na 94,2; index důvěry podnikatelů se zvýšil z 95,3 na 95,6.",
       "origin": "econ"
     },
     {
-      "en": "BP puts North Sea oil and gas business up for sale. Move, which would end decades of production in area, comes as new CEO tries to simplify firm and cut debt",
-      "it": "BP mette in vendita le attività petrolifere e del gas nel Mare del Nord. La mossa, che porrebbe fine a decenni di produzione nella zona, arriva mentre il nuovo amministratore delegato cerca di snellire l’azienda e ridurre il debito",
-      "cz": "Společnost BP nabízí k prodeji své aktivity v oblasti těžby ropy a zemního plynu v Severním moři. Tento krok, který by znamenal konec desetiletí trvající těžby v této oblasti, přichází v době, kdy se nový generální ředitel snaží zjednodušit strukturu firmy a snížit její zadlužení.",
+      "en": "UK petrol prices expected to rise to highest this year as US attacks Iran – business live. Live, rolling coverage as the AA says average petrol prices could rise above 159.7p per litre mark set in May",
+      "it": "I prezzi della benzina nel Regno Unito dovrebbero raggiungere il livello più alto dell'anno a seguito degli attacchi statunitensi contro l'Iran – business live. Copertura in diretta e aggiornata: secondo l'AA, i prezzi medi della benzina potrebbero superare la soglia di 159,7 pence al litro registrata a maggio",
+      "cz": "Ceny benzínu ve Velké Británii by měly vzrůst na nejvyšší úroveň v tomto roce v souvislosti s útoky USA na Írán – Business Live. Živé průběžné zpravodajství: podle organizace AA by průměrné ceny benzínu mohly překročit hranici 159,7 pence za litr, která byla zaznamenána v květnu",
       "origin": "guardian"
     },
     {
-      "en": "BP to sell North Sea business; AI companies lead record surge on Korea’s stock market – business live. Live, rolling coverage as British oil company looks for buyer amid political dispute over future drilling licences",
-      "it": "BP venderà le sue attività nel Mare del Nord; le società di intelligenza artificiale trainano un’impennata record sul mercato azionario coreano – business live. Copertura in diretta e aggiornata mentre la compagnia petrolifera britannica cerca un acquirente nel mezzo di una controversia politica sulle future licenze di trivellazione",
-      "cz": "BP prodá své aktivity v Severním moři; společnosti zabývající se umělou inteligencí táhnou rekordní růst na korejském akciovém trhu – business live. Živé, průběžné zpravodajství o tom, jak britská ropná společnost hledá kupce uprostřed politického sporu ohledně budoucích licencí na těžbu",
+      "en": "UK house prices up 0.1% in July as buyers remain cautious on interest rates. Price of average home now £277,542, up from £277,484 the previous month but lower than in May, says Nationwide",
+      "it": "A luglio i prezzi delle case nel Regno Unito sono aumentati dello 0,1%, mentre gli acquirenti mantengono un atteggiamento cauto riguardo ai tassi di interesse. Il prezzo medio di una casa è ora pari a 277.542 sterline, in aumento rispetto alle 277.484 sterline del mese precedente, ma inferiore a quello registrato a maggio, secondo Nationwide",
+      "cz": "Ceny nemovitostí ve Velké Británii v červenci vzrostly o 0,1 %, přičemž kupující nadále zachovávají opatrnost ohledně úrokových sazeb. Průměrná cena nemovitosti nyní činí 277 542 liber, což představuje nárůst oproti 277 484 liber v předchozím měsíci, ale je nižší než v květnu, uvádí Nationwide.",
       "origin": "guardian"
     },
     {
-      "en": "HSBC to close all branches and pull out of Australian retail banking market. London-based company to sell local loan portfolio to Blackstone but will continue private and institutional banking services",
-      "it": "HSBC chiuderà tutte le filiali e si ritirerà dal mercato bancario al dettaglio australiano. La società con sede a Londra cederà il proprio portafoglio prestiti locale a Blackstone, ma continuerà a fornire servizi bancari ai clienti privati e istituzionali",
-      "cz": "HSBC uzavře všechny pobočky a stáhne se z australského trhu retailového bankovnictví. Společnost se sídlem v Londýně prodá místní úvěrové portfolio společnosti Blackstone, bude však i nadále poskytovat služby v oblasti privátního a institucionálního bankovnictví.",
+      "en": "BP puts North Sea oil and gas business up for sale. Move will end six decades of production in area, as new CEO tries to simplify firm and cut debt",
+      "it": "BP mette in vendita le attività petrolifere e del gas nel Mare del Nord. Questa mossa porrà fine a sei decenni di produzione nella zona, mentre il nuovo amministratore delegato cerca di snellire l’azienda e ridurre il debito",
+      "cz": "Společnost BP nabízí k prodeji své aktivity v oblasti těžby ropy a zemního plynu v Severním moři. Tento krok ukončí šest desetiletí trvající těžbu v této oblasti, přičemž nový generální ředitel se snaží zjednodušit strukturu firmy a snížit zadlužení.",
       "origin": "guardian"
     },
     {
@@ -78,21 +83,21 @@
       "origin": "world"
     },
     {
-      "en": "Senior Italian politicians including Prime Minister Giorgia Meloni, Deputy Prime Minister Matteo Salvini, and Foreign Minister Antonio Tajani call for Spain to be kicked out of the Schengen Zone or the suspension of the Schengen Agreement entirely.",
-      "it": "Alti esponenti politici italiani, tra cui la presidente del Consiglio Giorgia Meloni, il vice primo ministro Matteo Salvini e il ministro degli Esteri Antonio Tajani, chiedono l’espulsione della Spagna dall’area Schengen o la sospensione totale dell’accordo di Schengen.",
-      "cz": "Přední italští politici, mezi nimiž jsou premiérka Giorgia Meloniová, místopředseda vlády Matteo Salvini a ministr zahraničních věcí Antonio Tajani, požadují vyloučení Španělska ze schengenského prostoru nebo úplné pozastavení platnosti Schengenské dohody.",
+      "en": "Senior Italian politicians, including prime minister Giorgia Meloni, deputy prime minister Matteo Salvini, and foreign minister Antonio Tajani, call for Spain to be kicked out of the Schengen Zone or the suspension of the Schengen Agreement entirely, citing the threat of undocumented immigrants spreading throughout the zone.",
+      "it": "Alcuni esponenti di spicco della politica italiana, tra cui la presidente del Consiglio Giorgia Meloni, il vice primo ministro Matteo Salvini e il ministro degli Esteri Antonio Tajani, chiedono l’espulsione della Spagna dall’area Schengen o la sospensione totale dell’accordo di Schengen, adducendo come motivazione il rischio che gli immigrati irregolari si diffondano in tutta l’area.",
+      "cz": "Přední italští politici, mezi nimiž jsou premiérka Giorgia Meloniová, místopředseda vlády Matteo Salvini a ministr zahraničních věcí Antonio Tajani, vyzývají k vyloučení Španělska ze schengenského prostoru nebo k úplnému pozastavení platnosti Schengenské dohody, přičemž poukazují na hrozbu šíření nelegálních přistěhovalců po celém schengenském prostoru.",
       "origin": "world"
     },
     {
       "en": "The Minnesota IT Services reports a cyberattack across 30 municipal community water systems across the U.S. state of Minnesota, with American authorities accusing Iran of being behind the cyberattack.",
-      "it": "Il Minnesota IT Services ha segnalato un attacco informatico che ha colpito 30 reti idriche comunali nello Stato del Minnesota (Stati Uniti), e le autorità americane accusano l’Iran di esserne il responsabile.",
-      "cz": "Organizace Minnesota IT Services informuje o kyberútoku, který zasáhl 30 obecních vodovodních systémů v americkém státě Minnesota, přičemž americké úřady z tohoto útoku obviňují Írán.",
+      "it": "Il Minnesota IT Services ha segnalato un attacco informatico ai danni di 30 reti idriche comunali nello Stato del Minnesota (Stati Uniti), e le autorità americane accusano l’Iran di esserne il responsabile.",
+      "cz": "Organizace Minnesota IT Services informuje o kyberútoku, který zasáhl 30 obecních vodovodních systémů v americkém státě Minnesota, přičemž americké úřady obviňují Írán, že za tímto kyberútokem stojí.",
       "origin": "world"
     },
     {
       "en": "Singapore-based Hilleman Laboratories announces plans to advance an rVSV-based vaccine against the Bundibugyo strain of Ebola into human trials after World Health Organization experts identified it as the most promising candidate for the epidemic.",
-      "it": "La società Hilleman Laboratories, con sede a Singapore, annuncia l’intenzione di portare avanti la sperimentazione clinica su esseri umani di un vaccino a base di rVSV contro il ceppo Bundibugyo dell’Ebola, dopo che gli esperti dell’Organizzazione Mondiale della Sanità lo hanno identificato come il candidato più promettente per l’epidemia.",
-      "cz": "Společnost Hilleman Laboratories se sídlem v Singapuru oznámila plány na zahájení klinických zkoušek vakcíny proti kmeni eboly Bundibugyo na bázi rVSV poté, co ji odborníci Světové zdravotnické organizace označili za nejslibnější kandidát na léčbu této epidemie.",
+      "it": "La società Hilleman Laboratories, con sede a Singapore, annuncia l’intenzione di portare avanti la sperimentazione clinica su esseri umani di un vaccino a base di rVSV contro il ceppo Bundibugyo dell’Ebola, dopo che gli esperti dell’Organizzazione Mondiale della Sanità lo hanno identificato come il candidato più promettente per far fronte all’epidemia.",
+      "cz": "Společnost Hilleman Laboratories se sídlem v Singapuru oznámila plány na zahájení klinických zkoušek vakcíny proti kmeni eboly Bundibugyo na bázi rVSV poté, co ji odborníci Světové zdravotnické organizace označili za nejslibnější kandidát na řešení této epidemie.",
       "origin": "world"
     },
     {
@@ -117,8 +122,8 @@
   "article": {
     "topic": "2026 Morocco–Spain border incident",
     "url": "https://en.wikipedia.org/wiki/2026_Morocco–Spain_border_incident",
-    "en": "The 2026 Morocco–Spain border incident is an ongoing international incident involving migration that began in late July 2026, when thousands of migrants crossed illegally from Morocco into the Spanish autonomous city of Ceuta. Most entered by swimming around the Tarajal breakwater or by crossing on foot along the shoreline, overwhelming local reception facilities and prompting the Government of Ceuta to request that Spain declare a national emergency.\nThe incident occurred several weeks after the Supreme Court of Spain ruled that the legal procedure known as summary return could not be applied to migrants intercepted while attempting to reach Ceuta or Melilla by sea, requiring instead the use of the ordinary immigration procedure.",
-    "it": "L'incidente al confine tra Marocco e Spagna del 2026 è un evento internazionale ancora in corso legato alla migrazione, iniziato alla fine di luglio 2026, quando migliaia di migranti hanno attraversato illegalmente il confine dal Marocco verso la città autonoma spagnola di Ceuta. La maggior parte di loro è entrata nuotando intorno al frangiflutti di Tarajal o attraversando a piedi lungo la costa, sovraccaricando le strutture di accoglienza locali e spingendo il governo di Ceuta a chiedere alla Spagna di dichiarare lo stato di emergenza nazionale.\nL’incidente si è verificato diverse settimane dopo che la Corte Suprema spagnola aveva stabilito che la procedura legale nota come «rimpatrio sommario» non potesse essere applicata ai migranti intercettati mentre tentavano di raggiungere Ceuta o Melilla via mare, richiedendo invece il ricorso alla procedura ordinaria in materia di immigrazione.",
-    "cz": "Incident na marocko-španělské hranici z roku 2026 je dosud trvající mezinárodní incident související s migrací, který začal koncem července 2026, kdy tisíce migrantů nelegálně překročily hranici z Maroka do španělského autonomního města Ceuta. Většina z nich se dostala dovnitř plaváním kolem vlnolamu v Tarajalu nebo pěším přechodem podél pobřeží, čímž přetížila místní přijímací zařízení a přiměla vládu Ceuty požádat Španělsko o vyhlášení stavu národní nouze.\nK incidentu došlo několik týdnů poté, co španělský Nejvyšší soud rozhodl, že právní postup známý jako „okamžité vrácení“ nelze uplatnit na migranty zadržené při pokusu o dosažení Ceuty nebo Melilly po moři, a nařídil místo toho použití běžného imigračního řízení."
+    "en": "An ongoing international incident involving migration began in late July 2026, when thousands of migrants crossed illegally from Morocco into the Spanish autonomous city of Ceuta. Most entered by swimming around the Tarajal breakwater or by crossing on foot along the shoreline, overwhelming local reception facilities and prompting the Government of Ceuta to request that Spain declare a national emergency.\nThe incident occurred several weeks after the Supreme Court of Spain ruled that the legal procedure known as summary return could not be applied to migrants intercepted while attempting to reach Ceuta or Melilla by sea, requiring instead the use of the ordinary immigration procedure.",
+    "it": "Un incidente internazionale in corso, legato al fenomeno migratorio, ha avuto inizio alla fine di luglio del 2026, quando migliaia di migranti hanno attraversato illegalmente il confine dal Marocco verso la città autonoma spagnola di Ceuta. La maggior parte di loro è entrata a nuoto aggirando il frangiflutti di Tarajal oppure attraversando a piedi lungo la costa, sovraccaricando le strutture di accoglienza locali e spingendo il governo di Ceuta a chiedere alla Spagna di dichiarare lo stato di emergenza nazionale.\nL’incidente si è verificato diverse settimane dopo che la Corte Suprema spagnola aveva stabilito che la procedura legale nota come «rimpatrio sommario» non potesse essere applicata ai migranti intercettati mentre tentavano di raggiungere Ceuta o Melilla via mare, richiedendo invece il ricorso alla procedura ordinaria in materia di immigrazione.",
+    "cz": "Probíhající mezinárodní incident související s migrací začal koncem července 2026, kdy tisíce migrantů nelegálně překročily hranici z Maroka do španělského autonomního města Ceuta. Většina z nich se dostala dovnitř plaváním kolem vlnolamu v Tarajalu nebo pěším přechodem podél pobřeží, čímž přetížila místní přijímací zařízení a přiměla vládu Ceuty požádat Španělsko o vyhlášení stavu národní nouze.\nK incidentu došlo několik týdnů poté, co španělský Nejvyšší soud rozhodl, že právní postup známý jako „okamžité vrácení“ nelze uplatnit na migranty zadržené při pokusu o dosažení Ceuty nebo Melilly po moři, a nařídil místo toho použití běžného imigračního řízení."
   }
 }
