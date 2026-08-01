@@ -1,8 +1,5 @@
 {
   "date": "2026-08-01",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_1",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Papa Leone XIV ha emanato una nuova legge fondamentale che, tra l’altro, consente a una donna di assumere la guida della commissione papale per lo Stato della Città del Vaticano e disciplina il sistema giudiziario.",
@@ -133,32 +130,5 @@
     "en": "In late July 2026, an estimated sixty thousand people, predominantly young men, crossed the border from Morocco into the Spanish North African autonomous city of Ceuta, with smaller numbers attempting to cross into Melilla, overwhelming local reception facilities and prompting the government of Ceuta to request that the Spanish government declare a national emergency. Most entered by swimming around the Tarajal and Benzú breakwaters or by crossing on foot along the shoreline. By 31 July, Spanish officials said roughly half of those who had entered had returned voluntarily to Morocco, while the death toll from drownings and other incidents during the crossings rose to at least 57.",
     "it": "Alla fine di luglio del 2026, circa sessantamila persone, per lo più giovani uomini, hanno attraversato il confine dal Marocco verso la città autonoma spagnola di Ceuta, nel Nord Africa, mentre un numero minore ha tentato di entrare a Melilla, sovraccaricando le strutture di accoglienza locali e spingendo il governo di Ceuta a chiedere al governo spagnolo di dichiarare lo stato di emergenza nazionale. La maggior parte è entrata nuotando intorno ai frangiflutti di Tarajal e Benzú oppure attraversando a piedi lungo la costa. Al 31 luglio, secondo le autorità spagnole, circa la metà di coloro che erano entrati era tornata volontariamente in Marocco, mentre il bilancio delle vittime per annegamento e altri incidenti durante le traversate era salito ad almeno 57.",
     "cz": "Koncem července 2026 překročilo hranici z Maroka do španělského severoafrického autonomního města Ceuta odhadem šedesát tisíc lidí, převážně mladých mužů; menší počet se pokusil proniknout do Melilly, čímž došlo k přetížení místních přijímacích zařízení a vláda Ceuty byla nucena požádat španělskou vládu o vyhlášení stavu národní nouze. Většina z nich se dostala dovnitř plaváním kolem vlnolamů Tarajal a Benzú nebo pěším přechodem podél pobřeží. Do 31. července španělské úřady uvedly, že zhruba polovina těch, kteří vstoupili na území, se dobrovolně vrátila do Maroka, zatímco počet obětí utonutí a dalších nehod během přechodů vzrostl na nejméně 57."
-  },
-  "shadows": [
-    {
-      "it": "Belgio, Bulgaria, Danimarca e Slovenia ricevono oltre 1,86 miliardi di EUR nell'ambito di NextGenerationEU.",
-      "cz": "Belgie, Bulharsko, Dánsko a Slovinsko obdrží v rámci nástroje NextGenerationEU více než 1,86 miliardy eur.",
-      "phon": "[BÉL-džo bul-GÁ-ria da-ni-MÁR-ka e slo-VÉ-nia ri-če-VÓ-no ÓLT-re mi-LÍAR-di di eur nel-lam-BÍ-to di next-dže-ne-ra-TÍO-neu]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "Prezzi al consumo (dati provvisori) - luglio 2026.",
-      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo DÁ-ti prov-vi-ZÓ-ri LÚL-jo]"
-    },
-    {
-      "it": "Fiducia dei consumatori e delle imprese - luglio 2026.",
-      "cz": "Důvěra spotřebitelů a podnikatelů – červenec 2026.",
-      "phon": "[fi-DÚ-ča dei kon-su-ma-TÓ-ri e DÉL-le imp-RÉ-ze LÚL-jo]"
-    }
-  ],
-  "shadow": {
-    "it": "Belgio, Bulgaria, Danimarca e Slovenia ricevono oltre 1,86 miliardi di EUR nell'ambito di NextGenerationEU.",
-    "cz": "Belgie, Bulharsko, Dánsko a Slovinsko obdrží v rámci nástroje NextGenerationEU více než 1,86 miliardy eur.",
-    "phon": "[BÉL-džo bul-GÁ-ria da-ni-MÁR-ka e slo-VÉ-nia ri-če-VÓ-no ÓLT-re mi-LÍAR-di di eur nel-lam-BÍ-to di next-dže-ne-ra-TÍO-neu]"
   }
 }
