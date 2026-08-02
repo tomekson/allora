@@ -44,7 +44,7 @@
     {
       "en": "Consumer prices (provisional data) - July 2026. In July 2026 the CPI +0.2% over the previous month and +2.8% year-over-year",
       "it": "Prezzi al consumo (dati provvisori) - luglio 2026. A luglio 2026 l'IPC è aumentato dello 0,2% rispetto al mese precedente e del 2,8% su base annua",
-      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026. V červenci 2026 vzrostl index spotřebitelských cen (CPI) o 0,2 % oproti předchozímu měsíci a meziročně o 2,8 %.",
+      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026. V červenci 2026 vzrostl index spotřebitelských cen (CPI) o 0,2 % oproti předchozímu měsíci a o 2,8 % meziročně.",
       "origin": "econ"
     },
     {
@@ -52,6 +52,12 @@
       "it": "Fiducia dei consumatori e delle imprese - luglio 2026. A luglio l'indice di fiducia dei consumatori è salito da 92,4 a 94,2; l'indice di fiducia delle imprese è salito da 95,3 a 95,6.",
       "cz": "Důvěra spotřebitelů a podnikatelů – červenec 2026. V červenci se index důvěry spotřebitelů zvýšil z 92,4 na 94,2; index důvěry podnikatelů vzrostl z 95,3 na 95,6.",
       "origin": "econ"
+    },
+    {
+      "en": "Stock market turmoil sheds stark light on the opaque AI economy. Investors scramble to make sense of a shock Chinese challenge to the dominance of western chipmakers",
+      "it": "Le turbolenze del mercato azionario mettono in luce l'opacità dell'economia dell'intelligenza artificiale. Gli investitori si affannano a dare un senso alla sfida a sorpresa lanciata dalla Cina al predominio dei produttori occidentali di chip",
+      "cz": "Otřesy na akciových trzích jasně odhalují netransparentní ekonomiku umělé inteligence. Investoři se snaží pochopit, co znamená šokující výzva ze strany Číny vůči dominanci západních výrobců čipů.",
+      "origin": "guardian"
     },
     {
       "en": "‘You owe parking fees’: experts warn of fake RingGo text scam. Criminals hope by using threats of enforcement action, people will panic and click link to bogus parking app site",
@@ -66,12 +72,6 @@
       "origin": "guardian"
     },
     {
-      "en": "‘More than just objects’: Australian booksellers raise alarm over ‘horrific’ destruction of rare titles to feed AI. Secondhand booksellers believe they may have been caught up in the AI supply chain that sees old books scanned then destroyed",
-      "it": "«Più che semplici oggetti»: i librai australiani lanciano l’allarme sulla «terribile» distruzione di titoli rari per alimentare l’intelligenza artificiale. I rivenditori di libri di seconda mano ritengono di essere stati coinvolti nella catena di approvvigionamento dell’intelligenza artificiale, che prevede la scansione e la successiva distruzione dei libri antichi",
-      "cz": "„Víc než jen předměty“: Australští knihkupci bijí na poplach kvůli „hrůznému“ ničení vzácných titulů za účelem krmení umělé inteligence. Prodejci použitých knih se domnívají, že se možná stali součástí dodavatelského řetězce umělé inteligence, v jehož rámci se staré knihy naskenují a poté zničí.",
-      "origin": "guardian"
-    },
-    {
       "en": "Moroccan security forces clash with hundreds of migrants as they attempt to storm the Spanish enclave of Melilla. Several Moroccan security personnel are reportedly injured while more than 50 migrants are detained.",
       "it": "Le forze di sicurezza marocchine si sono scontrate con centinaia di migranti mentre questi tentavano di assaltare l'enclave spagnola di Melilla. Secondo quanto riferito, diversi membri delle forze di sicurezza marocchine sono rimasti feriti, mentre più di 50 migranti sono stati arrestati.",
       "cz": "Marocké bezpečnostní síly se střetly se stovkami migrantů, kteří se pokoušeli vtrhnout do španělské enklávy Melilla. Podle zpráv bylo zraněno několik marockých příslušníků bezpečnostních složek a více než 50 migrantů bylo zadrženo.",
@@ -80,7 +80,13 @@
     {
       "en": "The U.S. FBI opens an investigation after the U.S. state of Michigan reports a cyberattack on its water systems, including whether Iran was behind the cyberattack, a day after Minnesota reported a similar breach.",
       "it": "L'FBI statunitense avvia un'indagine dopo che lo Stato del Michigan ha segnalato un attacco informatico ai propri sistemi idrici, per verificare anche se dietro l'attacco ci fosse l'Iran, all'indomani della segnalazione di una violazione simile da parte del Minnesota.",
-      "cz": "Americký FBI zahájil vyšetřování poté, co americký stát Michigan nahlásil kyberútok na své vodovodní sítě; součástí vyšetřování je i prověření, zda za tímto kyberútokem stál Írán. Stalo se tak den poté, co podobný útok nahlásil stát Minnesota.",
+      "cz": "Americký FBI zahájil vyšetřování poté, co americký stát Michigan nahlásil kyberútok na své vodárenské systémy; součástí vyšetřování je i prověření, zda za tímto kyberútokem stál Írán. Stalo se tak den poté, co podobný útok nahlásil stát Minnesota.",
+      "origin": "world"
+    },
+    {
+      "en": "Four men are fatally shot in Nyanga, Western Cape, South Africa, after they were attacked while repairing a flat tyre.",
+      "it": "Quattro uomini sono stati uccisi a colpi di arma da fuoco a Nyanga, nella provincia del Capo Occidentale, in Sudafrica, dopo essere stati aggrediti mentre riparavano una gomma a terra.",
+      "cz": "V Nyanze v provincii Západní Kapsko v Jižní Africe byli smrtelně postřeleni čtyři muži poté, co byli napadeni při opravě prázdné pneumatiky.",
       "origin": "world"
     },
     {
