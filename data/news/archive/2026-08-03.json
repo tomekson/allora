@@ -31,7 +31,7 @@
     },
     {
       "en": "New AI Division to be established in the Information Systems Department. A new AI Division will be established in the Information Systems Department of the Czech National Bank (CNB). ...",
-      "it": "Verrà istituita una nuova divisione dedicata all'intelligenza artificiale (IA) presso il Dipartimento dei sistemi informativi. Una nuova divisione dedicata all'intelligenza artificiale (IA) sarà istituita presso il Dipartimento dei sistemi informativi della Banca nazionale ceca (CNB). ...",
+      "it": "Verrà istituita una nuova divisione dedicata all'intelligenza artificiale presso il Dipartimento dei sistemi informativi. Una nuova divisione dedicata all'intelligenza artificiale verrà istituita presso il Dipartimento dei sistemi informativi della Banca nazionale ceca (CNB). ...",
       "cz": "V odboru informačních systémů bude zřízena nová divize pro umělou inteligenci. V odboru informačních systémů České národní banky (ČNB) bude zřízena nová divize pro umělou inteligenci. ...",
       "origin": "econ"
     },
@@ -42,33 +42,33 @@
       "origin": "econ"
     },
     {
+      "en": "Monthly Demographic Balance of the Population - May 2026. , according to the first provisional data, the resident population of Italy stood at 58,940,756, a decrease of 2 thousand units with respect to the beginning of the year",
+      "it": "Bilancio demografico mensile della popolazione - maggio 2026. Secondo i primi dati provvisori, la popolazione residente in Italia ammontava a 58.940.756 unità, con un calo di 2.000 unità rispetto all'inizio dell'anno",
+      "cz": "Měsíční demografická bilance obyvatelstva – květen 2026. Podle prvních předběžných údajů činil počet obyvatel Itálie 58 940 756, což představuje pokles o 2 tisíce osob oproti začátku roku.",
+      "origin": "econ"
+    },
+    {
       "en": "Consumer prices (provisional data) - July 2026. In July 2026 the CPI +0.2% over the previous month and +2.8% year-over-year",
       "it": "Prezzi al consumo (dati provvisori) - luglio 2026. A luglio 2026 l'IPC è aumentato dello 0,2% rispetto al mese precedente e del 2,8% su base annua",
-      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026. V červenci 2026 vzrostl index spotřebitelských cen (CPI) o 0,2 % oproti předchozímu měsíci a o 2,8 % meziročně.",
+      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026. V červenci 2026 vzrostl index spotřebitelských cen (CPI) o 0,2 % oproti předchozímu měsíci a meziročně o 2,8 %.",
       "origin": "econ"
     },
     {
-      "en": "Consumer and business confidence - July 2026. In July the Consumer confidence climate index from 92.4 to 94.2; the business confidence climate index from 95.3 to 95.6",
-      "it": "Fiducia dei consumatori e delle imprese - luglio 2026. A luglio l'indice di fiducia dei consumatori è salito da 92,4 a 94,2; l'indice di fiducia delle imprese è salito da 95,3 a 95,6.",
-      "cz": "Důvěra spotřebitelů a podnikatelů – červenec 2026. V červenci se index důvěry spotřebitelů zvýšil z 92,4 na 94,2; index důvěry podnikatelů vzrostl z 95,3 na 95,6.",
-      "origin": "econ"
-    },
-    {
-      "en": "AstraZeneca holds talks with Bristol Myers Squibb on $400bn merger. Tie-up would be one of the biggest-ever pharmaceutical deals and create the world’s fourth-largest drugmaker",
-      "it": "AstraZeneca sta conducendo trattative con Bristol Myers Squibb per una fusione da 400 miliardi di dollari. L'operazione rappresenterebbe una delle più grandi fusioni mai realizzate nel settore farmaceutico e darebbe vita alla quarta azienda farmaceutica al mondo per dimensioni.",
-      "cz": "Společnost AstraZeneca vede jednání se společností Bristol Myers Squibb o fúzi v hodnotě 400 miliard dolarů. Tato fúze by patřila k největším farmaceutickým transakcím v historii a vznikl by tak čtvrtý největší výrobce léků na světě.",
+      "en": "AstraZeneca holds talks with US cancer drug developer in $400bn merger. Bristol Myers Squibb tie-up would be one of biggest-ever pharma deals and create world’s fourth-largest drugmaker",
+      "it": "AstraZeneca sta conducendo trattative con un’azienda statunitense specializzata nello sviluppo di farmaci antitumorali per una fusione da 400 miliardi di dollari. L’alleanza con Bristol Myers Squibb rappresenterebbe una delle più grandi operazioni mai realizzate nel settore farmaceutico e darebbe vita alla quarta azienda farmaceutica al mondo per dimensioni.",
+      "cz": "Společnost AstraZeneca vede jednání s americkým vývojářem léků proti rakovině o fúzi v hodnotě 400 miliard dolarů. Spojení s firmou Bristol Myers Squibb by se stalo jednou z největších farmaceutických transakcí v historii a vznikl by tak čtvrtý největší výrobce léků na světě.",
       "origin": "guardian"
     },
     {
       "en": "UK economy faces recession if strait of Hormuz remains closed, EY warns - business live. Rolling coverage of the latest economic and financial news",
       "it": "L'economia britannica rischia la recessione se lo Stretto di Hormuz dovesse rimanere chiuso, avverte EY - Business Live. Aggiornamenti in tempo reale sulle ultime notizie economiche e finanziarie",
-      "cz": "Britská ekonomika čelí recesi, pokud zůstane Hormuzský průliv uzavřen, varuje EY – Business Live. Průběžné zpravodajství o nejnovějších ekonomických a finančních událostech",
+      "cz": "Britská ekonomika čelí recesi, pokud zůstane Hormuzský průliv uzavřený, varuje EY – Business Live. Průběžné zpravodajství o nejnovějších ekonomických a finančních zprávách",
       "origin": "guardian"
     },
     {
-      "en": "I was fined £500 after putting a coffee cup in a rubbish bag next to a full bin. Reader expresses consternation after enforcement officer issues penalty notice outside station in London",
-      "it": "Mi è stata inflitta una multa di 500 sterline per aver gettato una tazza da caffè in un sacchetto della spazzatura accanto a un bidone già pieno. Un lettore esprime sdegno dopo che un agente di polizia municipale gli ha comminato una sanzione fuori da una stazione di Londra",
-      "cz": "Dostal jsem pokutu 500 liber za to, že jsem odložil kelímek od kávy do pytle na odpadky vedle plné popelnice. Čtenář vyjadřuje zděšení poté, co mu strážník před londýnským nádražím vystavil pokutový blok.",
+      "en": "Oil prices plunge and Europe’s stock markets rally after Trump calls off Iran strikes. Brent crude drops by 5% after US president said talks on Middle East peace deal would resume",
+      "it": "I prezzi del petrolio crollano e le borse europee registrano un rialzo dopo che Trump ha annullato gli attacchi contro l’Iran. Il greggio Brent scende del 5% dopo che il presidente degli Stati Uniti ha dichiarato che riprenderanno i colloqui sull’accordo di pace in Medio Oriente",
+      "cz": "Ceny ropy prudce klesají a evropské akciové trhy posilují poté, co Trump odvolal údery proti Íránu. Cena ropy Brent klesla o 5 % poté, co americký prezident oznámil, že budou obnoveny rozhovory o mírové dohodě na Blízkém východě",
       "origin": "guardian"
     },
     {
@@ -98,7 +98,7 @@
     {
       "en": "Did you know that a lawsuit over one block in New York City cost a museum millions of dollars in legal fees?",
       "it": "Lo sapevate che una causa legale riguardante un isolato a New York City è costata a un museo milioni di dollari in spese legali?",
-      "cz": "Věděli jste, že soudní spor ohledně jednoho bloku v New Yorku stál muzeum miliony dolarů na soudních výdajích?",
+      "cz": "Věděli jste, že soudní spor ohledně jednoho bloku v New Yorku stál muzeum miliony dolarů na soudních poplatcích?",
       "origin": "dyk"
     }
   ],
@@ -106,7 +106,7 @@
     "topic": "Foreign relations of the Dominican Republic",
     "url": "https://en.wikipedia.org/wiki/Foreign_relations_of_the_Dominican_Republic",
     "en": "The foreign relations of the Dominican Republic are the Dominican Republic's relations with other governments.\nThe Dominican Republic has a close relationship with the United States and with the other states of the Inter-American system. It has accredited diplomatic missions in most Western Hemisphere countries and in European capitals.",
-    "it": "Le relazioni estere della Repubblica Dominicana sono i rapporti che il Paese intrattiene con altri governi.\nLa Repubblica Dominicana intrattiene stretti rapporti con gli Stati Uniti e con gli altri Stati del sistema interamericano. Ha missioni diplomatiche accreditate nella maggior parte dei paesi dell’emisfero occidentale e nelle capitali europee.",
+    "it": "Le relazioni estere della Repubblica Dominicana sono i rapporti che il Paese intrattiene con altri governi.\nLa Repubblica Dominicana intrattiene stretti rapporti con gli Stati Uniti e con gli altri Stati del sistema interamericano. Ha missioni diplomatiche accreditate nella maggior parte dei Paesi dell’emisfero occidentale e nelle capitali europee.",
     "cz": "Zahraniční vztahy Dominikánské republiky představují vztahy této země s jinými vládami.\nDominikánská republika udržuje úzké vztahy se Spojenými státy a s ostatními státy Meziamerického systému. Má akreditované diplomatické mise ve většině zemí západní polokoule a v evropských hlavních městech."
   }
 }
