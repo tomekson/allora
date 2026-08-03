@@ -1,8 +1,5 @@
 {
   "date": "2026-08-03",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_3",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Papa Leone XIV ha emanato una nuova legge fondamentale che, tra le altre cose, consente a una donna di assumere la guida della commissione papale per lo Stato della Città del Vaticano e disciplina il sistema giudiziario.",
@@ -111,37 +108,5 @@
     "en": "The foreign relations of the Dominican Republic are the Dominican Republic's relations with other governments.\nThe Dominican Republic has a close relationship with the United States and with the other states of the Inter-American system. It has accredited diplomatic missions in most Western Hemisphere countries and in European capitals.",
     "it": "Le relazioni estere della Repubblica Dominicana sono i rapporti che il Paese intrattiene con altri governi.\nLa Repubblica Dominicana intrattiene stretti rapporti con gli Stati Uniti e con gli altri Stati del sistema interamericano. Ha missioni diplomatiche accreditate nella maggior parte dei paesi dell’emisfero occidentale e nelle capitali europee.",
     "cz": "Zahraniční vztahy Dominikánské republiky představují vztahy této země s jinými vládami.\nDominikánská republika udržuje úzké vztahy se Spojenými státy a s ostatními státy Meziamerického systému. Má akreditované diplomatické mise ve většině zemí západní polokoule a v evropských hlavních městech."
-  },
-  "shadows": [
-    {
-      "it": "Belgio, Bulgaria, Danimarca e Slovenia ricevono oltre 1,86 miliardi di EUR nell'ambito di NextGenerationEU.",
-      "cz": "Belgie, Bulharsko, Dánsko a Slovinsko obdrží v rámci nástroje NextGenerationEU více než 1,86 miliardy eur.",
-      "phon": "[BÉL-džo bul-GÁ-ria da-ni-MÁR-ka e slo-VÉ-nia ri-če-VÓ-no ÓLT-re mi-LÍAR-di di eur nel-lam-BÍ-to di next-dže-ne-ra-TÍO-neu]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "Prezzi al consumo (dati provvisori) - luglio 2026.",
-      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo DÁ-ti prov-vi-ZÓ-ri LÚL-jo]"
-    },
-    {
-      "it": "Fiducia dei consumatori e delle imprese - luglio 2026.",
-      "cz": "Důvěra spotřebitelů a podnikatelů – červenec 2026.",
-      "phon": "[fi-DÚ-ča dei kon-su-ma-TÓ-ri e DÉL-le imp-RÉ-ze LÚL-jo]"
-    },
-    {
-      "it": "AstraZeneca sta conducendo trattative con Bristol Myers Squibb per una fusione da 400 miliardi di dollari.",
-      "cz": "Společnost AstraZeneca vede jednání se společností Bristol Myers Squibb o fúzi v hodnotě 400 miliard dolarů.",
-      "phon": "[ast-ra-ce-NÉ-ka sta kon-du-ČÉN-do trat-ta-TÍ-ve kon BRÍS-tol myers skvibb per u-na fu-ZÍO-ne da mi-LÍAR-di di dol-LÁ-ri]"
-    }
-  ],
-  "shadow": {
-    "it": "Belgio, Bulgaria, Danimarca e Slovenia ricevono oltre 1,86 miliardi di EUR nell'ambito di NextGenerationEU.",
-    "cz": "Belgie, Bulharsko, Dánsko a Slovinsko obdrží v rámci nástroje NextGenerationEU více než 1,86 miliardy eur.",
-    "phon": "[BÉL-džo bul-GÁ-ria da-ni-MÁR-ka e slo-VÉ-nia ri-če-VÓ-no ÓLT-re mi-LÍAR-di di eur nel-lam-BÍ-to di next-dže-ne-ra-TÍO-neu]"
   }
 }
