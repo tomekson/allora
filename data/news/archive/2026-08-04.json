@@ -1,8 +1,5 @@
 {
   "date": "2026-08-04",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_4",
-  "translator": "DeepL",
   "stories": [
     {
       "en": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August. From 2 August 2026, the European Commission's AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act. On the same date, new transparency rules will start to apply.",
@@ -95,37 +92,5 @@
     "en": "The COVID-19 pandemic in Poland was part of the COVID-19 pandemic. COVID-19 is caused by  SARS-CoV-2. As of 8 June 2025, Poland had a cumulative total of 6,780,272 confirmed cases (17,862 per 100,000 population), and 120,980 deaths (319 per 100,000 population) due to COVID-19.\nThe first COVID-19 vaccine product was introduced on 23 December 2020. Since then, a total of 58.63 million vaccine doses have been administered, with 60% of the population having received a complete primary series and 34% having received at least one booster dose as of 31 December 2023.\nIn February and March 2020, health authorities in Poland carried out laboratory testing of suspected cases of infection by SARS-CoV-2, as well as home quarantine and monitoring.",
     "it": "La pandemia di COVID-19 in Polonia faceva parte della pandemia globale di COVID-19. Il COVID-19 è causato dal SARS-CoV-2. All’8 giugno 2025, la Polonia registrava un totale cumulativo di 6.780.272 casi confermati (17.862 ogni 100.000 abitanti) e 120.980 decessi (319 ogni 100.000 abitanti) dovuti al COVID-19.\nIl primo vaccino contro il COVID-19 è stato introdotto il 23 dicembre 2020. Da allora sono state somministrate in totale 58,63 milioni di dosi di vaccino; al 31 dicembre 2023, il 60% della popolazione aveva ricevuto un ciclo completo di vaccinazione primaria e il 34% aveva ricevuto almeno una dose di richiamo.\nNei mesi di febbraio e marzo 2020, le autorità sanitarie polacche hanno effettuato test di laboratorio sui casi sospetti di infezione da SARS-CoV-2, oltre a disporre la quarantena domiciliare e il monitoraggio.",
     "cz": "Pandemie COVID-19 v Polsku byla součástí celosvětové pandemie COVID-19. Onemocnění COVID-19 je způsobeno virem SARS-CoV-2. K 8. červnu 2025 v Polsku bylo zaznamenáno celkem 6 780 272 potvrzených případů (17 862 na 100 000 obyvatel) a 120 980 úmrtí (319 na 100 000 obyvatel) v důsledku COVID-19.\nPrvní vakcína proti COVID-19 byla zavedena 23. prosince 2020. Od té doby bylo podáno celkem 58,63 milionu dávek vakcíny, přičemž k 31. prosinci 2023 absolvovalo kompletní základní očkovací sérii 60 % obyvatelstva a alespoň jednu posilovací dávku obdrželo 34 % obyvatelstva.\nV únoru a březnu 2020 prováděly polské zdravotnické orgány laboratorní testování podezřelých případů infekce virem SARS-CoV-2, jakož i domácí karanténu a monitorování."
-  },
-  "shadows": [
-    {
-      "it": "Belgio, Bulgaria, Danimarca e Slovenia ricevono oltre 1,86 miliardi di EUR nell'ambito di NextGenerationEU.",
-      "cz": "Belgie, Bulharsko, Dánsko a Slovinsko obdrží v rámci nástroje NextGenerationEU více než 1,86 miliardy eur.",
-      "phon": "[BÉL-džo bul-GÁ-ria da-ni-MÁR-ka e slo-VÉ-nia ri-če-VÓ-no ÓLT-re mi-LÍAR-di di eur nel-lam-BÍ-to di next-dže-ne-ra-TÍO-neu]"
-    },
-    {
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti.",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům.",
-      "phon": "[MÍ-ka la knb kon-ČÉ-de li-ČÉN-ce nel set-TÓ-re DÉL-le krip-to-va-LÚ-te a sog-DŽÉT-ti]"
-    },
-    {
-      "it": "Bilancio demografico mensile della popolazione - maggio 2026.",
-      "cz": "Měsíční demografická bilance obyvatelstva – květen 2026.",
-      "phon": "[bi-LÁN-čo de-mog-ra-FÍ-ko men-SÍ-le DÉL-la po-po-la-CÍO-ne MÁG-džo]"
-    },
-    {
-      "it": "Prezzi al consumo (dati provvisori) - luglio 2026.",
-      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo DÁ-ti prov-vi-ZÓ-ri LÚL-jo]"
-    },
-    {
-      "it": "Lo sapevate che un luogo simbolo della letteratura di Boston è stato trasformato in un fast food?",
-      "cz": "Věděli jste, že se jedna z bostonských literárních památek proměnila v restauraci s rychlým občerstvením?",
-      "phon": "[lo sa-pe-VÁ-te ke un LÚO-go sim-BÓ-lo DÉL-la let-te-ra-TÚ-ra di BÓS-ton è STÁ-to tras-for-MÁ-to in un fast food]"
-    }
-  ],
-  "shadow": {
-    "it": "Belgio, Bulgaria, Danimarca e Slovenia ricevono oltre 1,86 miliardi di EUR nell'ambito di NextGenerationEU.",
-    "cz": "Belgie, Bulharsko, Dánsko a Slovinsko obdrží v rámci nástroje NextGenerationEU více než 1,86 miliardy eur.",
-    "phon": "[BÉL-džo bul-GÁ-ria da-ni-MÁR-ka e slo-VÉ-nia ri-če-VÓ-no ÓLT-re mi-LÍAR-di di eur nel-lam-BÍ-to di next-dže-ne-ra-TÍO-neu]"
   }
 }
