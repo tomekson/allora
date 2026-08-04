@@ -2,6 +2,12 @@
   "date": "2026-08-04",
   "stories": [
     {
+      "en": "Scaleup Europe Fund to start making investments. Today, the European Commission completed the final legal steps to establish the Scaleup Europe Fund, which will start boosting Europe's scaleup companies to grow faster and compete globally with an initial target of €5 billion.",
+      "it": "Scaleup Europe Fund per iniziare a fare investimenti. Oggi la Commissione europea ha completato le fasi legali finali per istituire il fondo Scaleup Europe, che inizierà a stimolare le imprese europee a crescere più velocemente e competere a livello globale con un obiettivo iniziale di 5 miliardi di euro.",
+      "cz": "Rozšiřte fond Evropa a začněte investovat. Evropská komise dnes dokončila poslední právní kroky ke zřízení fondu Scaleup Europe, který začne podporovat evropské rozvíjející se společnosti, aby rostly rychleji a konkurovaly v celosvětovém měřítku s počátečním cílem ve výši 5 miliard EUR.",
+      "origin": "eu"
+    },
+    {
       "en": "Commission starts enforcing AI Act rules and new transparency requirements on 2 August. From 2 August 2026, the European Commission's AI Office, together with national authorities, will begin enforcing the Artificial Intelligence (AI) Act. On the same date, new transparency rules will start to apply.",
       "it": "Il 2 agosto la Commissione inizierà ad applicare le norme della legge sull'IA e i nuovi requisiti di trasparenza. Dal 2 agosto 2026, l'Ufficio per l'IA della Commissione europea, insieme alle autorità nazionali, inizierà ad applicare la legge sull'intelligenza artificiale (IA).",
       "cz": "Komise začne dne 2. srpna prosazovat pravidla aktu o umělé inteligenci a nové požadavky na transparentnost. Od 2. srpna 2026 začne Úřad Evropské komise pro umělou inteligenci společně s vnitrostátními orgány prosazovat akt o umělé inteligenci. Ve stejný den začnou platit nová pravidla transparentnosti.",
@@ -14,51 +20,45 @@
       "origin": "eu"
     },
     {
-      "en": "Statement by President von der Leyen, Executive Vice-President Mînzatu, and Commissioner Lahbib ahead of European Roma Holocaust Memorial Day.",
-      "it": "Dichiarazione della presidente von der Leyen, del vicepresidente esecutivo Mînzatu e del commissario Lahbib in vista della Giornata europea della memoria dell'Olocausto dei Rom.",
-      "cz": "Prohlášení předsedkyně von der Leyenové, výkonného místopředsedy Mînzatua a komisaře Lahbiba před Evropským dnem památky obětí romského holocaustu. Před Evropským dnem památky romského holocaustu 2.",
-      "origin": "eu"
+      "en": "CNB stress tests confirm high resilience of banks. Domestic banks are in very good shape and would be able to withstand a significant deterioration in economic conditions. ...",
+      "it": "Gli stress test della CNB confermano l’elevata resilienza delle banche. Le banche nazionali sono in ottima forma e sarebbero in grado di resistere a un significativo deterioramento delle condizioni economiche. ...",
+      "cz": "Zátěžové testy CNB potvrzují vysokou odolnost bank. Domácí banky jsou ve velmi dobré kondici a byly by schopny odolat i výraznému zhoršení ekonomické situace. ...",
+      "origin": "econ"
     },
     {
       "en": "New AI Division to be established in the Information Systems Department. A new AI Division will be established in the Information Systems Department of the Czech National Bank (CNB). ...",
-      "it": "Verrà istituita una nuova divisione dedicata all'intelligenza artificiale (IA) presso il Dipartimento dei sistemi informativi. Una nuova divisione dedicata all'intelligenza artificiale (IA) verrà istituita presso il Dipartimento dei sistemi informativi della Banca nazionale ceca (CNB). ...",
+      "it": "Verrà istituita una nuova divisione dedicata all'intelligenza artificiale presso il Dipartimento dei sistemi informativi. Una nuova divisione dedicata all'intelligenza artificiale verrà istituita presso il Dipartimento dei sistemi informativi della Banca nazionale ceca (CNB). ...",
       "cz": "V odboru informačních systémů bude zřízena nová divize pro umělou inteligenci. V odboru informačních systémů České národní banky (ČNB) bude zřízena nová divize pro umělou inteligenci. ...",
       "origin": "econ"
     },
     {
-      "en": "MiCA: CNB grants crypto licences to 11 entities. The transitional period under the EU Markets in Crypto-Assets Regulation (MiCA) ends on 1 July. ...",
-      "it": "MiCA: la CNB concede licenze nel settore delle criptovalute a 11 soggetti. Il periodo transitorio previsto dal regolamento dell’UE sui mercati delle cripto-attività (MiCA) termina il 1° luglio. ...",
-      "cz": "MiCA: ČNB udělila licence v oblasti kryptoměn 11 subjektům. Přechodné období podle nařízení EU o trzích s kryptoaktivy (MiCA) končí 1. července. ...",
+      "en": "Retail trade - June 2026. In June 2026 the index -0.1% over May and +3.1% y-o-y",
+      "it": "Commercio al dettaglio - giugno 2026. A giugno 2026 l'indice ha registrato un -0,1% rispetto a maggio e un +3,1% su base annua",
+      "cz": "Maloobchod – červen 2026. V červnu 2026 činil index -0,1 % oproti květnu a +3,1 % meziročně",
       "origin": "econ"
     },
     {
       "en": "Monthly Demographic Balance of the Population - May 2026. , according to the first provisional data, the resident population of Italy stood at 58,940,756, a decrease of 2 thousand units with respect to the beginning of the year",
-      "it": "Bilancio demografico mensile della popolazione - maggio 2026. Secondo i primi dati provvisori, la popolazione residente in Italia ammontava a 58.940.756 unità, con un calo di 2.000 unità rispetto all'inizio dell'anno",
+      "it": "Bilancio demografico mensile della popolazione - maggio 2026. Secondo i primi dati provvisori, la popolazione residente in Italia ammontava a 58.940.756 unità, con un calo di 2 mila unità rispetto all'inizio dell'anno",
       "cz": "Měsíční demografická bilance obyvatelstva – květen 2026. Podle prvních předběžných údajů činil počet obyvatel Itálie 58 940 756, což představuje pokles o 2 tisíce osob oproti začátku roku.",
       "origin": "econ"
     },
     {
-      "en": "Consumer prices (provisional data) - July 2026. In July 2026 the CPI +0.2% over the previous month and +2.8% year-over-year",
-      "it": "Prezzi al consumo (dati provvisori) - luglio 2026. A luglio 2026 l'IPC è aumentato dello 0,2% rispetto al mese precedente e del 2,8% su base annua",
-      "cz": "Spotřebitelské ceny (předběžné údaje) – červenec 2026. V červenci 2026 vzrostl index spotřebitelských cen (CPI) o 0,2 % oproti předchozímu měsíci a meziročně o 2,8 %.",
-      "origin": "econ"
+      "en": "Calls for UK bank tax to fund cost of living help as HSBC profits hit £7.5bn. Levy could raise £19bn to help pay for Andy Burnham’s support for those struggling with bills, say campaigners",
+      "it": "Si chiede l’introduzione di una tassa sulle banche britanniche per finanziare gli aiuti contro l’aumento del costo della vita, mentre gli utili di HSBC raggiungono i 7,5 miliardi di sterline. Secondo gli attivisti, il prelievo potrebbe raccogliere 19 miliardi di sterline per contribuire a finanziare il programma di Andy Burnham a sostegno di chi ha difficoltà a pagare le bollette.",
+      "cz": "Zaznívají výzvy k zavedení bankovní daně ve Velké Británii, která by financovala pomoc s náklady na živobytí, zatímco zisky HSBC dosáhly 7,5 mld. liber. Podle aktivistů by tato daň mohla přinést 19 mld. liber, které by pomohly financovat program Andyho Burnhama na podporu těch, kteří mají potíže s placením účtů.",
+      "origin": "guardian"
     },
     {
       "en": "Metro Bank customer fights for £14,000 refund after AI-linked fraud. Lender was told money was being taken without authorisation, with cash used to buy credits for Claude chatbot",
       "it": "Un cliente della Metro Bank chiede il rimborso di 14.000 sterline a seguito di una frode legata all’intelligenza artificiale. L’istituto di credito è stato informato che il denaro veniva prelevato senza autorizzazione e che il contante veniva utilizzato per acquistare crediti per il chatbot Claude.",
-      "cz": "Zákazník Metro Bank bojuje o vrácení 14 000 liber po podvodu spojeném s umělou inteligencí. Úvěrová instituce byla informována, že docházelo k neoprávněnému čerpání peněz, přičemž tyto prostředky byly použity na nákup kreditů pro chatbota Claude.",
+      "cz": "Zákazník Metro Bank bojuje o vrácení 14 000 liber po podvodu spojeném s umělou inteligencí. Úvěrová instituce byla informována, že dochází k neoprávněnému čerpání peněz, přičemž tyto prostředky byly použity na nákup kreditů pro chatbota Claude.",
       "origin": "guardian"
     },
     {
       "en": "Secondhand EV leasing hits the fast lane as more UK drivers explore ways to cut motoring costs. Numbers using finance rises 170% in a year as leasing firms boom alongside leapin secondhand vehicle supply and surging fuel prices",
       "it": "Il leasing di veicoli elettrici di seconda mano entra nella corsia di sorpasso, mentre sempre più automobilisti britannici cercano modi per ridurre i costi di gestione dell’auto. Il numero di chi ricorre a forme di finanziamento è aumentato del 170% in un anno, grazie al boom delle società di leasing, all’aumento dell’offerta di veicoli di seconda mano e all’impennata dei prezzi del carburante.",
       "cz": "Leasing ojetých elektromobilů se dostává do rychlého pruhu, protože stále více britských řidičů hledá způsoby, jak snížit náklady na provoz vozidla. Počet lidí využívajících financování vzrostl za rok o 170 %, přičemž leasingové společnosti zažívají boom díky prudkému nárůstu nabídky ojetých vozidel a rostoucím cenám pohonných hmot.",
-      "origin": "guardian"
-    },
-    {
-      "en": "UK plastic manufacturer could face legal action over toxic emissions. Exclusive: Environment Agency is considering whether to prosecute Huntsman Polyurethanes over emissions of carcinogenic benzene",
-      "it": "Un produttore britannico di materie plastiche potrebbe essere oggetto di un’azione legale a causa delle emissioni tossiche. Esclusiva: l’Agenzia per l’ambiente sta valutando se intentare un’azione legale contro la Huntsman Polyurethanes per le emissioni di benzene cancerogeno",
-      "cz": "Britskému výrobci plastů hrozí právní kroky kvůli toxickým emisím. Exkluzivně: Agentura pro životní prostředí zvažuje, zda podá žalobu na společnost Huntsman Polyurethanes kvůli emisím karcinogenního benzenu",
       "origin": "guardian"
     },
     {
@@ -75,7 +75,7 @@
     },
     {
       "en": "Did you know that a Boston literary landmark became a fast-food restaurant?",
-      "it": "Lo sapevate che un luogo simbolo della letteratura di Boston è stato trasformato in un fast food?",
+      "it": "Lo sapevate che un luogo simbolo della letteratura di Boston è diventato un fast food?",
       "cz": "Věděli jste, že se jedna z bostonských literárních památek proměnila v restauraci s rychlým občerstvením?",
       "origin": "dyk"
     },
@@ -90,7 +90,7 @@
     "topic": "COVID-19 pandemic in Poland",
     "url": "https://en.wikipedia.org/wiki/COVID-19_pandemic_in_Poland",
     "en": "The COVID-19 pandemic in Poland was part of the COVID-19 pandemic. COVID-19 is caused by  SARS-CoV-2. As of 8 June 2025, Poland had a cumulative total of 6,780,272 confirmed cases (17,862 per 100,000 population), and 120,980 deaths (319 per 100,000 population) due to COVID-19.\nThe first COVID-19 vaccine product was introduced on 23 December 2020. Since then, a total of 58.63 million vaccine doses have been administered, with 60% of the population having received a complete primary series and 34% having received at least one booster dose as of 31 December 2023.\nIn February and March 2020, health authorities in Poland carried out laboratory testing of suspected cases of infection by SARS-CoV-2, as well as home quarantine and monitoring.",
-    "it": "La pandemia di COVID-19 in Polonia faceva parte della pandemia globale di COVID-19. Il COVID-19 è causato dal SARS-CoV-2. All’8 giugno 2025, la Polonia registrava un totale cumulativo di 6.780.272 casi confermati (17.862 ogni 100.000 abitanti) e 120.980 decessi (319 ogni 100.000 abitanti) dovuti al COVID-19.\nIl primo vaccino contro il COVID-19 è stato introdotto il 23 dicembre 2020. Da allora sono state somministrate in totale 58,63 milioni di dosi di vaccino; al 31 dicembre 2023, il 60% della popolazione aveva ricevuto un ciclo completo di vaccinazione primaria e il 34% aveva ricevuto almeno una dose di richiamo.\nNei mesi di febbraio e marzo 2020, le autorità sanitarie polacche hanno effettuato test di laboratorio sui casi sospetti di infezione da SARS-CoV-2, oltre a disporre la quarantena domiciliare e il monitoraggio.",
-    "cz": "Pandemie COVID-19 v Polsku byla součástí celosvětové pandemie COVID-19. Onemocnění COVID-19 je způsobeno virem SARS-CoV-2. K 8. červnu 2025 v Polsku bylo zaznamenáno celkem 6 780 272 potvrzených případů (17 862 na 100 000 obyvatel) a 120 980 úmrtí (319 na 100 000 obyvatel) v důsledku COVID-19.\nPrvní vakcína proti COVID-19 byla zavedena 23. prosince 2020. Od té doby bylo podáno celkem 58,63 milionu dávek vakcíny, přičemž k 31. prosinci 2023 absolvovalo kompletní základní očkovací sérii 60 % obyvatelstva a alespoň jednu posilovací dávku obdrželo 34 % obyvatelstva.\nV únoru a březnu 2020 prováděly polské zdravotnické orgány laboratorní testování podezřelých případů infekce virem SARS-CoV-2, jakož i domácí karanténu a monitorování."
+    "it": "La pandemia di COVID-19 in Polonia faceva parte della pandemia globale di COVID-19. Il COVID-19 è causato dal SARS-CoV-2. All’8 giugno 2025, la Polonia registrava un totale cumulativo di 6.780.272 casi confermati (17.862 ogni 100.000 abitanti) e 120.980 decessi (319 ogni 100.000 abitanti) dovuti al COVID-19.\nIl primo vaccino contro il COVID-19 è stato introdotto il 23 dicembre 2020. Da allora sono state somministrate in totale 58,63 milioni di dosi di vaccino; al 31 dicembre 2023, il 60% della popolazione aveva completato il ciclo di vaccinazione primaria e il 34% aveva ricevuto almeno una dose di richiamo.\nNei mesi di febbraio e marzo 2020, le autorità sanitarie polacche hanno effettuato test di laboratorio sui casi sospetti di infezione da SARS-CoV-2, oltre a disporre la quarantena domiciliare e il monitoraggio.",
+    "cz": "Pandemie COVID-19 v Polsku byla součástí celosvětové pandemie COVID-19. Onemocnění COVID-19 je způsobeno virem SARS-CoV-2. K 8. červnu 2025 v Polsku bylo zaznamenáno celkem 6 780 272 potvrzených případů (17 862 na 100 000 obyvatel) a 120 980 úmrtí (319 na 100 000 obyvatel) v důsledku COVID-19.\nPrvní vakcína proti COVID-19 byla zavedena 23. prosince 2020. Od té doby bylo podáno celkem 58,63 milionu dávek vakcíny; k 31. prosinci 2023 absolvovalo kompletní základní očkovací sérii 60 % obyvatelstva a alespoň jednu posilovací dávku obdrželo 34 % obyvatelstva.\nV únoru a březnu 2020 prováděly polské zdravotnické orgány laboratorní testování podezřelých případů infekce virem SARS-CoV-2, jakož i domácí karanténu a monitorování."
   }
 }
