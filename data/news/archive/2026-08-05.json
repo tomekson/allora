@@ -1,8 +1,5 @@
 {
   "date": "2026-08-05",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_5",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Durante l'ennesima ondata di caldo, nella notte tra lunedì e martedì è stata registrata la notte più calda di sempre sul territorio ceco: a Bystřice pod Hostýnem la temperatura non è scesa sotto i 27,9 °C.",
@@ -112,42 +109,5 @@
     "en": "The Colombian conflict (Spanish: Conflicto armado interno de Colombia, lit. 'Colombian internal armed conflict') began on May 27, 1964, and is a low-intensity asymmetric war between the government of Colombia, far-right paramilitary groups, crime syndicates and far-left guerrilla groups fighting each other to increase their influence in Colombian territory. Some of the most important international contributors to the Colombian conflict include multinational corporations, the United States, Cuba, and the drug trafficking industry.",
     "it": "Il conflitto colombiano (in spagnolo: Conflicto armado interno de Colombia, letteralmente «conflitto armato interno colombiano») è iniziato il 27 maggio 1964 ed è una guerra asimmetrica a bassa intensità tra il governo colombiano, gruppi paramilitari di estrema destra, organizzazioni criminali e gruppi guerriglieri di estrema sinistra che si combattono tra loro per accrescere la propria influenza sul territorio colombiano. Tra i principali attori internazionali coinvolti nel conflitto colombiano figurano le multinazionali, gli Stati Uniti, Cuba e l’industria del traffico di droga.",
     "cz": "Kolumbijský konflikt (španělsky: Conflicto armado interno de Colombia, doslova „kolumbijský vnitřní ozbrojený konflikt“) začal 27. května 1964 a jedná se o asymetrickou válku nízké intenzity mezi kolumbijskou vládou, krajně pravicovými paramilitárními skupinami, zločineckými syndikáty a krajně levicovými guerillovými skupinami, které mezi sebou bojují o zvýšení svého vlivu na kolumbijském území. Mezi nejvýznamnější mezinárodní aktéry podílející se na kolumbijském konfliktu patří nadnárodní korporace, Spojené státy, Kuba a drogový kartel."
-  },
-  "shadows": [
-    {
-      "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-      "cz": "Rozšiřte fond Evropa a začněte investovat.",
-      "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
-    },
-    {
-      "it": "Gli stress test della CNB confermano l'elevata resilienza delle banche.",
-      "cz": "Zátěžové testy CNB potvrzují vysokou odolnost bank.",
-      "phon": "[lj stress test DÉL-la knb kon-fer-MÁ-no le-le-VÁ-ta re-zi-LÍEN-ca DÉL-le BÁN-ke]"
-    },
-    {
-      "it": "Commercio al dettaglio - giugno 2026.",
-      "cz": "Maloobchod – červen 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo DŽÚ-ňo]"
-    },
-    {
-      "it": "Bilancio demografico mensile della popolazione - maggio 2026.",
-      "cz": "Měsíční demografická bilance obyvatelstva – květen 2026.",
-      "phon": "[bi-LÁN-čo de-mog-ra-FÍ-ko men-SÍ-le DÉL-la po-po-la-CÍO-ne MÁG-džo]"
-    },
-    {
-      "it": "Insieme è meglio: unire i fondi pensione potrebbe aumentare il tuo reddito da pensione?",
-      "cz": "Společně je to lepší: mohlo by sloučení penzijních fondů zvýšit váš příjem v důchodu?",
-      "phon": "[in-SÍE-me è MÉL-jo u-NÍ-re i FÓN-di pen-SÍO-ne pot-RÉB-be au-men-TÁ-re il tuo red-DÍ-to da pen-SÍO-ne]"
-    },
-    {
-      "it": "Lo sapevate che il ginecologo americano Noble Sproat Heaney era anche un allevatore di bovini da latte?",
-      "cz": "Věděli jste, že americký gynekolog Noble Sproat Heaney byl zároveň i chovatelem dojnic?",
-      "phon": "[lo sa-pe-VÁ-te ke il dži-ne-ko-LÓ-go a-me-ri-KÁ-no NÓB-le sproat ÉA-ney e-ra ÁN-ke un al-le-va-TÓ-re di bo-VÍ-ni da LÁT-te]"
-    }
-  ],
-  "shadow": {
-    "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-    "cz": "Rozšiřte fond Evropa a začněte investovat.",
-    "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
   }
 }
