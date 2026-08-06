@@ -31,7 +31,7 @@
     },
     {
       "en": "CNB stress tests confirm high resilience of banks. Domestic banks are in very good shape and would be able to withstand a significant deterioration in economic conditions. ...",
-      "it": "Gli stress test della CNB confermano l'elevata resilienza delle banche. Le banche nazionali sono in ottima forma e sarebbero in grado di resistere a un significativo peggioramento delle condizioni economiche. ...",
+      "it": "Gli stress test della CNB confermano l'elevata resilienza delle banche. Le banche nazionali sono in ottima forma e sarebbero in grado di resistere a un significativo deterioramento delle condizioni economiche. ...",
       "cz": "Zátěžové testy CNB potvrzují vysokou odolnost bank. Domácí banky jsou ve velmi dobré kondici a byly by schopny odolat i výraznému zhoršení ekonomické situace. ...",
       "origin": "econ"
     },
@@ -42,51 +42,57 @@
       "origin": "econ"
     },
     {
+      "en": "Industrial production - June 2026. In June 2026 the index decreased by 1.0% over May and by 0.6% year-over-year",
+      "it": "Produzione industriale - giugno 2026. A giugno 2026 l'indice è sceso dell'1,0% rispetto a maggio e dello 0,6% su base annua",
+      "cz": "Průmyslová výroba – červen 2026. V červnu 2026 se index oproti květnu snížil o 1,0 % a meziročně o 0,6 %.",
+      "origin": "econ"
+    },
+    {
       "en": "Retail trade - June 2026. In June 2026 the index -0.1% over May and +3.1% y-o-y",
       "it": "Commercio al dettaglio - giugno 2026. A giugno 2026 l'indice ha registrato un -0,1% rispetto a maggio e un +3,1% su base annua",
       "cz": "Maloobchod – červen 2026. V červnu 2026 činil index -0,1 % oproti květnu a +3,1 % meziročně",
       "origin": "econ"
     },
     {
-      "en": "Monthly Demographic Balance of the Population - May 2026. , according to the first provisional data, the resident population of Italy stood at 58,940,756, a decrease of 2 thousand units with respect to the beginning of the year",
-      "it": "Bilancio demografico mensile della popolazione - maggio 2026. Secondo i primi dati provvisori, la popolazione residente in Italia ammontava a 58.940.756 unità, con un calo di 2.000 unità rispetto all'inizio dell'anno",
-      "cz": "Měsíční demografická bilance obyvatelstva – květen 2026. Podle prvních předběžných údajů činil počet obyvatel Itálie 58 940 756, což představuje pokles o 2 tisíce osob oproti začátku roku.",
-      "origin": "econ"
+      "en": "UK construction sector ‘stabilises’ as builders see economic rebound ahead – business live. Eurozone construction downturn also eases while in financial markets, European shares rise and Brent crude holds below $80 a barrel",
+      "it": "Il settore edile britannico si “stabilizza” mentre gli operatori del settore intravedono una ripresa economica all’orizzonte – business live. Anche la flessione nel settore edile dell’Eurozona accenna a rallentare, mentre sui mercati finanziari le azioni europee registrano un rialzo e il greggio Brent si mantiene sotto gli 80 dollari al barile",
+      "cz": "Britský stavební sektor se „stabilizuje“, protože stavební firmy očekávají oživení ekonomiky – Business Live. Pokles ve stavebnictví eurozóny se rovněž zmírňuje, zatímco na finančních trzích rostou evropské akcie a cena ropy Brent se drží pod hranicí 80 dolarů za barel.",
+      "origin": "guardian"
     },
     {
-      "en": "German factory orders rise faster than expected; Asian shares fall on tech pullback – business live. Germany’s biggest arms maker Rheinmetall slashes outlook after cancelled government contract; crude oil prices hold below $80 a barrel",
-      "it": "Gli ordini alle fabbriche tedesche crescono più del previsto; i mercati azionari asiatici in calo a causa del ribasso del settore tecnologico – business live. Rheinmetall, il principale produttore tedesco di armi, rivede al ribasso le previsioni a seguito della revoca di un contratto governativo; i prezzi del greggio si mantengono sotto gli 80 dollari al barile",
-      "cz": "Německé průmyslové objednávky rostou rychleji, než se očekávalo; asijské akcie klesají kvůli propadu technologického sektoru – ekonomické zprávy v přímém přenosu. Největší německý výrobce zbraní Rheinmetall výrazně snižuje výhled po zrušení vládní zakázky; ceny ropy se drží pod hranicí 80 dolarů za barel",
+      "en": "Restaurants, pubs and theatres ban Meta’s ‘spy glasses’ over privacy fears. Meta says safeguards are in place to prevent surreptitious filming, but some UK venues now prohibit them from being worn at all",
+      "it": "Ristoranti, pub e teatri vietano gli “occhiali spia” di Meta per timori legati alla privacy. Meta sostiene che siano state adottate misure di sicurezza per impedire riprese di nascosto, ma alcuni locali del Regno Unito ne vietano ormai completamente l’uso",
+      "cz": "Restaurace, hospody a divadla zakazují „špionážní brýle“ společnosti Meta kvůli obavám o ochranu soukromí. Společnost Meta tvrdí, že jsou zavedena bezpečnostní opatření, která zabraňují skrytému natáčení, ale některá britská zařízení nyní jejich nošení zcela zakazují",
       "origin": "guardian"
     },
     {
       "en": "Healey urged to be bold on borrowing in first test of Burnham’s growth pledge. Some want the chancellor to exploit newly flexible fiscal rules – others want a more creative approach, such as borrowing from markets",
       "it": "Healey ha esortato a dare prova di audacia in materia di indebitamento in questa prima prova dell’impegno di Burnham a favore della crescita. Alcuni vorrebbero che il ministro delle Finanze sfruttasse le nuove regole di bilancio più flessibili, mentre altri auspicano un approccio più creativo, come ad esempio il ricorso al mercato per il finanziamento pubblico.",
-      "cz": "Healey byl vyzván, aby v první zkoušce Burnhamova slibu o hospodářském růstu zaujal odvážný postoj k zadlužování. Někteří chtějí, aby ministr financí využil nově uvolněná fiskální pravidla – jiní požadují kreativnější přístup, jako je například půjčování si na trzích.",
-      "origin": "guardian"
-    },
-    {
-      "en": "Council wants pubs in London’s Soho and West End to ban standing . Sadiq Khan criticises Westminster council’s ‘anti-growth policies’ after it recommends stopping ‘vertical drinking’",
-      "it": "Il Consiglio comunale vuole che i pub del Soho e del West End di Londra vietino il consumo in piedi. Sadiq Khan critica le “politiche anti-crescita” del Consiglio comunale di Westminster dopo che quest’ultimo ha raccomandato di porre fine al “consumo in piedi”.",
-      "cz": "Městská rada chce, aby londýnské hospody v čtvrtích Soho a West End zakázaly pití ve stoje. Sadiq Khan kritizuje „politiku bránící růstu“ městské rady Westminsteru poté, co ta doporučila zakázat „vertikální pití“.",
+      "cz": "Healey byl vyzván, aby v první zkoušce Burnhamova slibu o hospodářském růstu zaujal odvážný postoj k zadlužování. Někteří chtějí, aby ministr financí využil nově flexibilních fiskálních pravidel – jiní požadují kreativnější přístup, jako je například půjčování si na trzích.",
       "origin": "guardian"
     },
     {
       "en": "The Spanish Civil Guard and the Ecuadorian National Police announce they have arrested 44 people and confiscated 21 tons of cocaine as part of a multiyear investigation on a drug trafficking ring financed by investors in Dubai, United Arab Emirates.",
       "it": "La Guardia Civile spagnola e la Polizia Nazionale ecuadoriana annunciano di aver arrestato 44 persone e sequestrato 21 tonnellate di cocaina nell'ambito di un'indagine pluriennale su un'organizzazione dedita al traffico di droga finanziata da investitori di Dubai, negli Emirati Arabi Uniti.",
-      "cz": "Španělská civilní garda a ekvádorská národní policie oznámily, že v rámci několik let trvajícího vyšetřování sítě obchodníků s drogami, financované investory z Dubaje ve Spojených arabských emirátech, zadržely 44 osob a zabavily 21 tun kokainu.",
+      "cz": "Španělská civilní garda a ekvádorská národní policie oznámily, že v rámci víceletého vyšetřování drogového kartelu financovaného investory z Dubaje ve Spojených arabských emirátech zadržely 44 osob a zabavily 21 tun kokainu.",
       "origin": "world"
     },
     {
       "en": "A drone loaded with explosives is found and defused at Leipzig/Halle Airport in Germany, while a cargo Boeing 757 had a collision with another supposed UAV at the same airport.",
       "it": "All'aeroporto di Lipsia/Halle, in Germania, è stato rinvenuto e disinnescato un drone carico di esplosivo, mentre un Boeing 757 da carico ha avuto una collisione con un altro presunto UAV nello stesso aeroporto.",
-      "cz": "Na letišti Lipsko/Halle v Německu byl nalezen a zneškodněn dron naložený výbušninami, zatímco nákladní letadlo Boeing 757 se na stejném letišti srazilo s dalším údajným bezpilotním letounem.",
+      "cz": "Na letišti Lipsko/Halle v Německu byl nalezen a zneškodněn dron naložený výbušninami, zatímco na stejném letišti došlo ke srážce nákladního letadla Boeing 757 s dalším údajným bezpilotním letounem.",
+      "origin": "world"
+    },
+    {
+      "en": "Sindh Police say they have questioned multiple individuals and are reviewing newly obtained CCTV footage in their ongoing investigation into the murder of Karachi entrepreneur and Wafflix founder Mir Raza Ali Khan.",
+      "it": "La polizia del Sindh afferma di aver interrogato diverse persone e di stare esaminando le riprese delle telecamere a circuito chiuso appena ottenute nell'ambito delle indagini in corso sull'omicidio di Mir Raza Ali Khan, imprenditore di Karachi e fondatore di Wafflix.",
+      "cz": "Policie v Sindhu uvedla, že v rámci probíhajícího vyšetřování vraždy podnikatele z Karáčí a zakladatele společnosti Wafflix, Mira Razy Aliho Khana, vyslechla několik osob a prověřuje nově získané záznamy z bezpečnostních kamer.",
       "origin": "world"
     },
     {
       "en": "The United States Treasury Department lifts sanctions against Fly Baghdad, which were previously imposed in 2024 over its links to Iran's Islamic Revolutionary Guard Corps Quds Force.",
       "it": "Il Dipartimento del Tesoro degli Stati Uniti revoca le sanzioni contro Fly Baghdad, che erano state imposte nel 2024 a causa dei suoi legami con la Forza Quds del Corpo delle Guardie Rivoluzionarie Islamiche iraniane.",
-      "cz": "Ministerstvo financí Spojených států zrušilo sankce proti společnosti Fly Baghdad, které byly původně uvaleny v roce 2024 kvůli jejím vazbám na jednotku Quds íránských Islámských revolučních gard.",
+      "cz": "Ministerstvo financí Spojených států ruší sankce proti společnosti Fly Baghdad, které byly původně uvaleny v roce 2024 kvůli jejím vazbám na jednotku Quds íránských Islámských revolučních gard.",
       "origin": "world"
     },
     {
@@ -112,7 +118,7 @@
     "topic": "War on drugs",
     "url": "https://en.wikipedia.org/wiki/War_on_drugs",
     "en": "The war on drugs, sometimes referred to in the 21st century as the war on cartels in contexts of military intervention and counterterrorism, is a global anti-narcotics campaign led by the United States federal government, ramped up after 9/11, including drug prohibition and foreign assistance, with the aim of reducing the illegal drug trade in the US. The initiative's efforts includes policies intended to discourage the production, distribution, and consumption of psychoactive drugs that the participating governments, through United Nations treaties, have made illegal.\nThe term \"war on drugs\" was popularized by the media after a press conference, given on June 17, 1971, during which President Richard Nixon declared drug abuse \"public enemy number one\".",
-    "it": "La guerra alla droga, talvolta definita nel XXI secolo come “guerra ai cartelli” in contesti di intervento militare e antiterrorismo, è una campagna globale contro il narcotraffico guidata dal governo federale degli Stati Uniti, intensificata dopo l’11 settembre, che comprende il proibizionismo e gli aiuti all’estero, con l’obiettivo di ridurre il traffico illegale di droga negli Stati Uniti. L’iniziativa comprende misure volte a scoraggiare la produzione, la distribuzione e il consumo di sostanze psicoattive che i governi partecipanti, attraverso i trattati delle Nazioni Unite, hanno dichiarato illegali.\nIl termine «guerra alla droga» è stato reso popolare dai media in seguito a una conferenza stampa tenutasi il 17 giugno 1971, durante la quale il presidente Richard Nixon definì l’abuso di droga «il nemico pubblico numero uno».",
+    "it": "La guerra alla droga, talvolta definita nel XXI secolo come “guerra ai cartelli” in contesti di intervento militare e antiterrorismo, è una campagna globale contro il narcotraffico guidata dal governo federale degli Stati Uniti, intensificata dopo l’11 settembre, che comprende il proibizionismo in materia di droga e gli aiuti all’estero, con l’obiettivo di ridurre il traffico illegale di droga negli Stati Uniti. L’iniziativa comprende misure volte a scoraggiare la produzione, la distribuzione e il consumo di sostanze psicoattive che i governi partecipanti, attraverso i trattati delle Nazioni Unite, hanno dichiarato illegali.\nIl termine «guerra alla droga» è stato reso popolare dai media in seguito a una conferenza stampa tenutasi il 17 giugno 1971, durante la quale il presidente Richard Nixon definì l’abuso di droga «nemico pubblico numero uno».",
     "cz": "Boj proti drogám, který je v 21. století v souvislosti s vojenskými zásahy a bojem proti terorismu někdy označován jako válka proti kartelům, je globální protidrogová kampaň vedená federální vládou Spojených států, která byla po událostech z 11. září 2001 zintenzivněna a zahrnuje zákaz drog i zahraniční pomoc, s cílem omezit nelegální obchod s drogami v USA. Součástí této iniciativy jsou opatření zaměřená na potlačení výroby, distribuce a konzumace psychoaktivních látek, které zúčastněné vlády na základě smluv Organizace spojených národů prohlásily za nelegální.\nTermín „válka proti drogám“ se v médiích rozšířil po tiskové konferenci konané 17. června 1971, během níž prezident Richard Nixon prohlásil zneužívání drog za „veřejného nepřítele číslo jedna“."
   }
 }
