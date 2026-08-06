@@ -1,8 +1,5 @@
 {
   "date": "2026-08-06",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_6",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "A Strážnice è stato superato, per il terzo giorno consecutivo, il record assoluto di temperatura per la Moravia, con un valore di 41 °C.",
@@ -117,37 +114,5 @@
     "en": "The war on drugs, sometimes referred to in the 21st century as the war on cartels in contexts of military intervention and counterterrorism, is a global anti-narcotics campaign led by the United States federal government, ramped up after 9/11, including drug prohibition and foreign assistance, with the aim of reducing the illegal drug trade in the US. The initiative's efforts includes policies intended to discourage the production, distribution, and consumption of psychoactive drugs that the participating governments, through United Nations treaties, have made illegal.\nThe term \"war on drugs\" was popularized by the media after a press conference, given on June 17, 1971, during which President Richard Nixon declared drug abuse \"public enemy number one\".",
     "it": "La guerra alla droga, talvolta definita nel XXI secolo come “guerra ai cartelli” in contesti di intervento militare e antiterrorismo, è una campagna globale contro il narcotraffico guidata dal governo federale degli Stati Uniti, intensificata dopo l’11 settembre, che comprende il proibizionismo e gli aiuti all’estero, con l’obiettivo di ridurre il traffico illegale di droga negli Stati Uniti. L’iniziativa comprende misure volte a scoraggiare la produzione, la distribuzione e il consumo di sostanze psicoattive che i governi partecipanti, attraverso i trattati delle Nazioni Unite, hanno dichiarato illegali.\nIl termine «guerra alla droga» è stato reso popolare dai media in seguito a una conferenza stampa tenutasi il 17 giugno 1971, durante la quale il presidente Richard Nixon definì l’abuso di droga «il nemico pubblico numero uno».",
     "cz": "Boj proti drogám, který je v 21. století v souvislosti s vojenskými zásahy a bojem proti terorismu někdy označován jako válka proti kartelům, je globální protidrogová kampaň vedená federální vládou Spojených států, která byla po událostech z 11. září 2001 zintenzivněna a zahrnuje zákaz drog i zahraniční pomoc, s cílem omezit nelegální obchod s drogami v USA. Součástí této iniciativy jsou opatření zaměřená na potlačení výroby, distribuce a konzumace psychoaktivních látek, které zúčastněné vlády na základě smluv Organizace spojených národů prohlásily za nelegální.\nTermín „válka proti drogám“ se v médiích rozšířil po tiskové konferenci konané 17. června 1971, během níž prezident Richard Nixon prohlásil zneužívání drog za „veřejného nepřítele číslo jedna“."
-  },
-  "shadows": [
-    {
-      "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-      "cz": "Rozšiřte fond Evropa a začněte investovat.",
-      "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
-    },
-    {
-      "it": "Gli stress test della CNB confermano l'elevata resilienza delle banche.",
-      "cz": "Zátěžové testy CNB potvrzují vysokou odolnost bank.",
-      "phon": "[lj stress test DÉL-la knb kon-fer-MÁ-no le-le-VÁ-ta re-zi-LÍEN-ca DÉL-le BÁN-ke]"
-    },
-    {
-      "it": "Commercio al dettaglio - giugno 2026.",
-      "cz": "Maloobchod – červen 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo DŽÚ-ňo]"
-    },
-    {
-      "it": "Bilancio demografico mensile della popolazione - maggio 2026.",
-      "cz": "Měsíční demografická bilance obyvatelstva – květen 2026.",
-      "phon": "[bi-LÁN-čo de-mog-ra-FÍ-ko men-SÍ-le DÉL-la po-po-la-CÍO-ne MÁG-džo]"
-    },
-    {
-      "it": "Il Consiglio comunale vuole che i pub del Soho e del West End di Londra vietino il consumo in piedi.",
-      "cz": "Městská rada chce, aby londýnské hospody v čtvrtích Soho a West End zakázaly pití ve stoje.",
-      "phon": "[il kon-SÍL-jo ko-mu-NÁ-le VÚO-le ke i pub del soo e del west end di LÓND-ra vie-TÍ-no il kon-SÚ-mo in PÍE-di]"
-    }
-  ],
-  "shadow": {
-    "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-    "cz": "Rozšiřte fond Evropa a začněte investovat.",
-    "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
   }
 }
