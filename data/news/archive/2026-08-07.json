@@ -1,8 +1,5 @@
 {
   "date": "2026-08-07",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_7",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "A Strážnice è stato superato, per il terzo giorno consecutivo, il record assoluto di temperatura per la Moravia, con un valore di 41 °C.",
@@ -99,47 +96,5 @@
     "en": "On September 26, 2014, forty-three male students from the Ayotzinapa Rural Teachers' College disappeared after being forcibly abducted in Iguala, Guerrero, Mexico, in what has been called one of Mexico's most infamous human rights cases. They were allegedly taken into custody by local policemen from Iguala and Cocula in collusion with organized crime, with later evidence implicating the Mexican Army.  Officials have concluded there is no indication the students are alive, but as of 2025, only three students' remains have been identified and their deaths confirmed.\nWhile tens of thousands have gone missing during the Mexican drug war, the 43 missing have become a famous case due to the persistent activism and demands for an explanation by their parents and relatives.",
     "it": "Il 26 settembre 2014, quarantatré studenti maschi dell’Istituto di formazione per insegnanti rurali di Ayotzinapa sono scomparsi dopo essere stati rapiti con la forza a Iguala, nello Stato di Guerrero, in Messico, in quello che è stato definito uno dei casi più tristemente famosi in materia di diritti umani in Messico. Sarebbero stati arrestati da agenti di polizia locali di Iguala e Cocula, in collusione con la criminalità organizzata, mentre prove successive hanno coinvolto anche l’esercito messicano. Le autorità hanno concluso che non vi sono indicazioni che gli studenti siano ancora in vita, ma, al 2025, sono stati identificati solo i resti di tre studenti e ne è stata confermata la morte.\nSebbene decine di migliaia di persone siano scomparse durante la guerra alla droga in Messico, i 43 dispersi sono diventati un caso famoso grazie al persistente attivismo e alle richieste di spiegazioni da parte dei loro genitori e parenti.",
     "cz": "26. září 2014 zmizelo čtyřicet tři studentů z Vysoké školy pro venkovské učitele v Ayotzinapě poté, co byli násilně uneseni v Iguale ve státě Guerrero v Mexiku; tento případ je označován za jeden z nejznámějších případů porušování lidských práv v Mexiku. Údajně je zadrželi místní policisté z Igualy a Coculy ve spolupráci s organizovaným zločinem, přičemž pozdější důkazy naznačují zapojení mexické armády. Úřady dospěly k závěru, že nic nenasvědčuje tomu, že by studenti byli naživu, avšak k roku 2025 byly identifikovány pouze ostatky tří studentů a potvrzena jejich smrt.\nAčkoli během mexické drogové války zmizely desítky tisíc lidí, těchto 43 pohřešovaných se stalo známým případem díky vytrvalému aktivismu a požadavkům na vysvětlení ze strany jejich rodičů a příbuzných."
-  },
-  "shadows": [
-    {
-      "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-      "cz": "Rozšiřte fond Evropa a začněte investovat.",
-      "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Gli stress test della CNB confermano l'elevata resilienza delle banche.",
-      "cz": "Zátěžové testy CNB potvrzují vysokou odolnost bank.",
-      "phon": "[lj stress test DÉL-la knb kon-fer-MÁ-no le-le-VÁ-ta re-zi-LÍEN-ca DÉL-le BÁN-ke]"
-    },
-    {
-      "it": "Produzione industriale - giugno 2026.",
-      "cz": "Průmyslová výroba – červen 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le DŽÚ-ňo]"
-    },
-    {
-      "it": "Commercio al dettaglio - giugno 2026.",
-      "cz": "Maloobchod – červen 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo DŽÚ-ňo]"
-    },
-    {
-      "it": "Le ondate di caldo di luglio hanno tenuto lontani i consumatori britannici dai negozi delle vie principali.",
-      "cz": "Červencové vlny veder odradily britské zákazníky od nakupování v kamenných obchodech.",
-      "phon": "[le on-DÁ-te di KÁL-do di LÚL-jo ÁN-no te-NÚ-to lon-TÁ-ni i kon-su-ma-TÓ-ri bri-tan-NÍ-či dai ne-GÓ-ci DÉL-le vie prin-či-PÁ-li]"
-    },
-    {
-      "it": "Sapevi che Connie Fleming è considerata una pioniera delle modelle transgender?",
-      "cz": "Věděli jste, že Connie Flemingová je považována za průkopnici mezi transsexuálními modelkami?",
-      "phon": "[sa-PÉ-vi ke KÓN-nie FLÉ-ming è kon-si-de-RÁ-ta u-na pio-NÍE-ra DÉL-le mo-DÉL-le trans-DŽÉN-der]"
-    }
-  ],
-  "shadow": {
-    "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-    "cz": "Rozšiřte fond Evropa a začněte investovat.",
-    "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
   }
 }
