@@ -15,15 +15,15 @@
       "origin": "cz"
     },
     {
-      "en": "Scaleup Europe Fund to start making investments. Today, the European Commission completed the final legal steps to establish the Scaleup Europe Fund, which will start boosting Europe's scaleup companies to grow faster and compete globally with an initial target of €5 billion.",
-      "it": "Scaleup Europe Fund per iniziare a fare investimenti. Oggi la Commissione europea ha completato le fasi legali finali per istituire il fondo Scaleup Europe, che inizierà a stimolare le imprese europee a crescere più velocemente e competere a livello globale con un obiettivo iniziale di 5 miliardi di euro.",
-      "cz": "Rozšiřte fond Evropa a začněte investovat. Evropská komise dnes dokončila poslední právní kroky ke zřízení fondu Scaleup Europe, který začne podporovat evropské rozvíjející se společnosti, aby rostly rychleji a konkurovaly v celosvětovém měřítku s počátečním cílem ve výši 5 miliard EUR.",
+      "en": "Commission accelerates IRIS² deployment with enhanced security and expanded satellites network. Today, the European Commission and the SpaceRISE consortium concluded negotiations and signed an implementation agreement to roll out IRIS², the European Union's new flagship satellite constellation.",
+      "it": "La Commissione accelera il dispiegamento di IRIS ² con una maggiore sicurezza e una rete di satelliti ampliata.",
+      "cz": "Komise urychluje zavádění systému IRIS² díky zvýšené bezpečnosti a rozšířené družicové síti. Dne 6. srpna Evropská komise a konsorcium SpaceRISE uzavřely jednání a podepsaly prováděcí dohodu o zavedení nové vlajkové družicové konstelace Evropské unie IRIS².",
       "origin": "eu"
     },
     {
-      "en": "Statement by President von der Leyen, Executive Vice-President Mînzatu, and Commissioner Lahbib ahead of European Roma Holocaust Memorial Day.",
-      "it": "Dichiarazione della presidente von der Leyen, del vicepresidente esecutivo Mînzatu e del commissario Lahbib in vista della Giornata europea della memoria dell'Olocausto dei Rom.",
-      "cz": "Prohlášení předsedkyně von der Leyenové, výkonného místopředsedy Mînzatua a komisaře Lahbiba před Evropským dnem památky obětí romského holocaustu. Před Evropským dnem památky romského holocaustu 2.",
+      "en": "Scaleup Europe Fund to start making investments. Today, the European Commission completed the final legal steps to establish the Scaleup Europe Fund, which will start boosting Europe's scaleup companies to grow faster and compete globally with an initial target of €5 billion.",
+      "it": "Scaleup Europe Fund per iniziare a fare investimenti. Oggi la Commissione europea ha completato le fasi legali finali per istituire il fondo Scaleup Europe, che inizierà a stimolare le imprese europee a crescere più velocemente e competere a livello globale con un obiettivo iniziale di 5 miliardi di euro.",
+      "cz": "Rozšiřte fond Evropa a začněte investovat. Evropská komise dnes dokončila poslední právní kroky ke zřízení fondu Scaleup Europe, který začne podporovat evropské rozvíjející se společnosti, aby rostly rychleji a konkurovaly v celosvětovém měřítku s počátečním cílem ve výši 5 miliard EUR.",
       "origin": "eu"
     },
     {
@@ -47,7 +47,7 @@
     {
       "en": "Industrial production - June 2026. In June 2026 the index decreased by 1.0% over May and by 0.6% year-over-year",
       "it": "Produzione industriale - giugno 2026. A giugno 2026 l'indice è sceso dell'1,0% rispetto a maggio e dello 0,6% su base annua",
-      "cz": "Průmyslová výroba – červen 2026. V červnu 2026 se index oproti květnu snížil o 1,0 % a meziročně o 0,6 %.",
+      "cz": "Průmyslová výroba – červen 2026. V červnu 2026 index poklesl o 1,0 % oproti květnu a o 0,6 % meziročně.",
       "origin": "econ"
     },
     {
@@ -55,6 +55,12 @@
       "it": "Commercio al dettaglio - giugno 2026. A giugno 2026 l'indice ha registrato un -0,1% rispetto a maggio e un +3,1% su base annua",
       "cz": "Maloobchod – červen 2026. V červnu 2026 činil index -0,1 % oproti květnu a +3,1 % meziročně",
       "origin": "econ"
+    },
+    {
+      "en": "Rail passengers facing more disruption after power outage; UK house prices stagnate – business live. Rolling coverage of the latest economic and financial news",
+      "it": "I passeggeri ferroviari devono affrontare ulteriori disagi a seguito di un’interruzione di corrente; i prezzi delle case nel Regno Unito ristagnano – business live. Copertura in tempo reale delle ultime notizie economiche e finanziarie",
+      "cz": "Cestující ve vlacích čelí dalším výpadkům po přerušení dodávky elektřiny; ceny nemovitostí ve Velké Británii stagnují – ekonomické zpravodajství v přímém přenosu. Průběžné zpravodajství o nejnovějších ekonomických a finančních událostech",
+      "origin": "guardian"
     },
     {
       "en": "July’s heatwaves kept UK shoppers away from high street. Visits down 3.8% after 6.2% fall in June, with many choosing to buy online instead, research for retail body finds",
@@ -65,13 +71,7 @@
     {
       "en": "New Mexico court orders Meta to pay $567m over harms to children’s mental health. Ruling comes as part of second phase of landmark trial that found social media company enabled harm against users",
       "it": "Un tribunale del New Mexico condanna Meta a pagare 567 milioni di dollari per i danni causati alla salute mentale dei minori. La sentenza fa parte della seconda fase di un processo storico in cui è stato accertato che la società di social media ha favorito il verificarsi di danni a danno degli utenti",
-      "cz": "Soud v Novém Mexiku nařídil společnosti Meta zaplatit 567 milionů dolarů za újmu na duševním zdraví dětí. Rozsudek je součástí druhé fáze přelomového soudního řízení, v jehož rámci bylo shledáno, že tato společnost provozující sociální sítě umožnila způsobení újmy svým uživatelům.",
-      "origin": "guardian"
-    },
-    {
-      "en": "Lloyds Bank should publish the human cost of its AI savings | Letters. Letter: Banks should factor in the time spent by humans checking invented facts, writes Dr Gleb Tsipursky",
-      "it": "La Lloyds Bank dovrebbe rendere noto il costo umano dei risparmi ottenuti grazie all’intelligenza artificiale | Lettere. Lettera: Le banche dovrebbero tenere conto del tempo impiegato dal personale per verificare informazioni inventate, scrive il dott. Gleb Tsipursky",
-      "cz": "Lloyds Bank by měla zveřejnit lidské náklady spojené s úsporami díky umělé inteligenci | Dopisy. Dopis: Banky by měly zohlednit čas, který lidé stráví ověřováním smyšlených údajů, píše Dr. Gleb Tsipursky",
+      "cz": "Soud v Novém Mexiku nařídil společnosti Meta zaplatit 567 milionů dolarů za újmu na duševním zdraví dětí. Rozsudek je součástí druhé fáze přelomového soudního řízení, v němž bylo shledáno, že tato společnost provozující sociální sítě umožnila způsobení újmy svým uživatelům.",
       "origin": "guardian"
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "en": "Did you know that the music video for \"Light Up the Night\" was released seven years after the song?",
-      "it": "Lo sapevate che il video musicale di \"Light Up the Night\" è stato pubblicato sette anni dopo l'uscita della canzone?",
+      "it": "Lo sapevi che il video musicale di \"Light Up the Night\" è stato pubblicato sette anni dopo l'uscita della canzone?",
       "cz": "Věděli jste, že videoklip k písni „Light Up the Night“ vyšel až sedm let po vydání samotné písně?",
       "origin": "dyk"
     }
@@ -98,7 +98,7 @@
     "url": "https://en.wikipedia.org/wiki/Iguala_mass_kidnapping",
     "en": "On September 26, 2014, forty-three male students from the Ayotzinapa Rural Teachers' College disappeared after being forcibly abducted in Iguala, Guerrero, Mexico, in what has been called one of Mexico's most infamous human rights cases. They were allegedly taken into custody by local policemen from Iguala and Cocula in collusion with organized crime, with later evidence implicating the Mexican Army.  Officials have concluded there is no indication the students are alive, but as of 2025, only three students' remains have been identified and their deaths confirmed.\nWhile tens of thousands have gone missing during the Mexican drug war, the 43 missing have become a famous case due to the persistent activism and demands for an explanation by their parents and relatives.",
     "it": "Il 26 settembre 2014, quarantatré studenti maschi dell’Istituto di formazione per insegnanti rurali di Ayotzinapa sono scomparsi dopo essere stati rapiti con la forza a Iguala, nello Stato di Guerrero, in Messico, in quello che è stato definito uno dei casi più tristemente famosi in materia di diritti umani in Messico. Sarebbero stati arrestati da agenti di polizia locali di Iguala e Cocula, in collusione con la criminalità organizzata, mentre prove successive hanno coinvolto anche l’esercito messicano. Le autorità hanno concluso che non vi sono indicazioni che gli studenti siano ancora in vita, ma, al 2025, sono stati identificati solo i resti di tre studenti e ne è stata confermata la morte.\nSebbene decine di migliaia di persone siano scomparse durante la guerra alla droga in Messico, i 43 dispersi sono diventati un caso famoso grazie al persistente attivismo e alle richieste di spiegazioni da parte dei loro genitori e parenti.",
-    "cz": "26. září 2014 zmizelo čtyřicet tři studentů z Vysoké školy pro venkovské učitele v Ayotzinapě poté, co byli násilně uneseni v Iguale ve státě Guerrero v Mexiku; tento případ je označován za jeden z nejznámějších případů porušování lidských práv v Mexiku. Údajně je zadrželi místní policisté z Igualy a Coculy ve spolupráci s organizovaným zločinem, přičemž pozdější důkazy naznačují zapojení mexické armády. Úřady dospěly k závěru, že nic nenasvědčuje tomu, že by studenti byli naživu, avšak k roku 2025 byly identifikovány pouze ostatky tří studentů a potvrzena jejich smrt.\nAčkoli během mexické drogové války zmizely desítky tisíc lidí, těchto 43 pohřešovaných se stalo známým případem díky vytrvalému aktivismu a požadavkům na vysvětlení ze strany jejich rodičů a příbuzných."
+    "cz": "26. září 2014 zmizelo čtyřicet tři studentů z Vysoké školy pro venkovské učitele v Ayotzinapě poté, co byli násilně uneseni v Iguale ve státě Guerrero v Mexiku; tento případ je označován za jeden z nejznámějších případů porušování lidských práv v Mexiku. Byli údajně zadrženi místními policisty z Igualy a Coculy ve spolupráci s organizovaným zločinem, přičemž pozdější důkazy naznačují zapojení mexické armády. Úřady dospěly k závěru, že nic nenasvědčuje tomu, že by studenti byli naživu, avšak k roku 2025 byly identifikovány pouze ostatky tří studentů a potvrzena jejich smrt.\nAčkoli během mexické drogové války zmizely desítky tisíc lidí, těchto 43 pohřešovaných se stalo známým případem díky vytrvalému aktivismu a požadavkům na vysvětlení ze strany jejich rodičů a příbuzných."
   },
   "shadows": [
     {
