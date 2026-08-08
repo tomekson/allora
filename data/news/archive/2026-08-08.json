@@ -26,7 +26,7 @@
     },
     {
       "en": "Change in the management of the Moravia Regional Division. The Director of the Moravia Regional Division in the Cash and Payments Department resigned from her position with effect from 5 August 2026 and left the Czech National Bank. ...",
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia. La direttrice della Divisione regionale della Moravia, appartenente al Dipartimento di cassa e pagamenti, ha rassegnato le dimissioni con effetto dal 5 agosto 2026 e ha lasciato la Banca nazionale ceca. ...",
+      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia. La direttrice della Divisione regionale della Moravia, appartenente al Dipartimento Contante e Pagamenti, ha rassegnato le dimissioni con effetto dal 5 agosto 2026 e ha lasciato la Banca nazionale ceca. ...",
       "cz": "Změna ve vedení Moravského regionálního ředitelství. Ředitelka Moravského regionálního ředitelství v odboru hotovosti a plateb podala výpověď s účinností od 5. srpna 2026 a odešla z České národní banky. ...",
       "origin": "econ"
     },
@@ -38,7 +38,7 @@
     },
     {
       "en": "Industrial production - June 2026. In June 2026 the index decreased by 1.0% over May and by 0.6% year-over-year",
-      "it": "Produzione industriale - giugno 2026. A giugno 2026 l'indice è sceso dell'1,0% rispetto a maggio e dello 0,6% su base annua",
+      "it": "Produzione industriale - giugno 2026. A giugno 2026 l'indice è diminuito dell'1,0% rispetto a maggio e dello 0,6% su base annua",
       "cz": "Průmyslová výroba – červen 2026. V červnu 2026 se index oproti květnu snížil o 1,0 % a meziročně o 0,6 %.",
       "origin": "econ"
     },
@@ -49,33 +49,39 @@
       "origin": "econ"
     },
     {
+      "en": "Rising number of UK children report seeing explicit deepfakes of themselves. Exclusive: anonymous flagging service says cases have surged, as watchdog says AI is making sexualised or ‘nudified’ content easier to produce",
+      "it": "Aumenta il numero di bambini nel Regno Unito che dichiarano di aver visto deepfake espliciti che li ritraggono. Esclusiva: un servizio di segnalazione anonimo afferma che i casi sono aumentati vertiginosamente, mentre l’autorità di vigilanza sostiene che l’intelligenza artificiale stia rendendo più facile la produzione di contenuti sessualizzati o “nudificati”",
+      "cz": "Stále více britských dětí uvádí, že viděly explicitní deepfaky, na nichž jsou zachyceny ony samy. Exkluzivně: anonymní služba pro hlášení takových případů uvádí, že počet případů prudce vzrostl, zatímco dozorový orgán tvrdí, že díky umělé inteligenci je výroba sexualizovaného nebo „odhaleného“ obsahu stále snazší.",
+      "origin": "guardian"
+    },
+    {
+      "en": "Union calls for robust review of OBR over fears it holds back economic growth. TUC will urge John Healey to order ‘root and branch’ assessment of watchdog amid claims its forecasts downplay investment benefits",
+      "it": "I sindacati chiedono una revisione approfondita dell’OBR, temendo che l’organismo freni la crescita economica. Il TUC esorterà John Healey a disporre una valutazione “approfondita e radicale” dell’organismo di controllo, alla luce delle accuse secondo cui le sue previsioni sottovaluterebbero i benefici degli investimenti.",
+      "cz": "Odborový svaz požaduje důkladnou revizi úřadu OBR kvůli obavám, že brzdí hospodářský růst. TUC bude naléhat na Johna Healeyho, aby nařídil „komplexní“ posouzení tohoto dozorového orgánu, a to v souvislosti s tvrzeními, že jeho prognózy podceňují přínosy investic.",
+      "origin": "guardian"
+    },
+    {
       "en": "Wasted medicine in England could fill 75 swimming pools a year, pharmacy group says. Industry body calls for greater scrutiny of patients with multiple repeat prescriptions to tackle ‘growing problem’",
       "it": "Secondo un’associazione di farmacisti, i farmaci sprecati in Inghilterra potrebbero riempire 75 piscine all’anno. L’organismo di categoria chiede un maggiore controllo sui pazienti con prescrizioni ripetute multiple per affrontare questo “problema crescente”",
-      "cz": "Podle lékárnické skupiny by v Anglii bylo možné ročně vyplnit 75 plaveckých bazénů vyhozenými léky. Odvětvová organizace vyzývá k důkladnější kontrole pacientů s opakovanými předpisy na více léků, aby se vyřešil tento „rostoucí problém“",
+      "cz": "Podle lékárnické skupiny by vyhozené léky v Anglii mohly ročně zaplnit 75 plaveckých bazénů. Odvětvová organizace vyzývá k důkladnější kontrole pacientů s opakovanými předpisy na více léků, aby se vyřešil tento „rostoucí problém“",
       "origin": "guardian"
     },
     {
-      "en": "Trump renews bid to fire Fed governor Lisa Cook despite supreme court ruling. White House continues to target Cook despite decision from justices that upheld Federal Reserve’s independence",
-      "it": "Trump rinnova il tentativo di licenziare la governatrice della Fed Lisa Cook nonostante la sentenza della Corte Suprema. La Casa Bianca continua a prendere di mira la Cook nonostante la decisione dei giudici che ha confermato l’indipendenza della Federal Reserve",
-      "cz": "Trump se znovu pokouší odvolat členku Rady guvernérů Fedu Lisu Cookovou navzdory rozhodnutí Nejvyššího soudu. Bílý dům se i nadále zaměřuje na Cookovou, a to i přes rozhodnutí soudců, kteří potvrdili nezávislost Federálního rezervního systému.",
-      "origin": "guardian"
-    },
-    {
-      "en": "China’s AI ecosystem is not as open as it claims. Nor is any other country’s | Letters. Letters: Responding to an article by China’s ambassador to the UK, Prof Paul H Cleverley advocates shared openness standards, while Dr Claire Jenkins says British AI can offer a distinctive path",
-      "it": "L’ecosistema cinese dell’intelligenza artificiale non è così aperto come sostiene. E lo stesso vale per quello di qualsiasi altro Paese | Lettere. Lettere: In risposta a un articolo dell’ambasciatore cinese nel Regno Unito, il prof. Paul H. Cleverley sostiene la necessità di standard condivisi in materia di apertura, mentre la dott.ssa Claire Jenkins afferma che l’intelligenza artificiale britannica può offrire un percorso distintivo",
-      "cz": "Čínský ekosystém umělé inteligence není tak otevřený, jak se tváří. Stejně tak tomu není ani v žádné jiné zemi | Dopisy. Dopisy: V reakci na článek čínského velvyslance ve Velké Británii se prof. Paul H. Cleverley zasazuje za společné standardy otevřenosti, zatímco dr. Claire Jenkinsová tvrdí, že britská umělá inteligence může nabídnout vlastní cestu",
-      "origin": "guardian"
-    },
-    {
-      "en": "The governments of Mexico and Peru reinstate diplomatic relations after agreeing to allow former Peruvian prime minister Betssy Chávez to seek asylum in Mexico.",
-      "it": "I governi del Messico e del Perù hanno ripristinato le relazioni diplomatiche dopo aver concordato di consentire all’ex primo ministro peruviano Betssy Chávez di chiedere asilo in Messico.",
-      "cz": "Vlády Mexika a Peru obnovily diplomatické vztahy poté, co se dohodly, že umožní bývalé peruánské premiérce Betssy Chávezové požádat o azyl v Mexiku.",
+      "en": "The Ministry of Climate Change and Environment reports that markets in the United Arab Emirates remain free of lettuce linked to cyclosporiasis amidst a outbreak in countries including the United States.",
+      "it": "Il Ministero per i Cambiamenti Climatici e l’Ambiente riferisce che i mercati degli Emirati Arabi Uniti non presentano tracce di lattuga collegata alla ciclosporiasi, nonostante il focolaio in atto in alcuni paesi, tra cui gli Stati Uniti.",
+      "cz": "Ministerstvo pro změnu klimatu a životní prostředí uvádí, že na trzích ve Spojených arabských emirátech se nevyskytuje salát spojený s cyklosporiázou, a to navzdory epidemii v některých zemích, včetně Spojených států.",
       "origin": "world"
     },
     {
-      "en": "Michigan health officials lift an advisory against the consumption of lettuce in the U.S. state after reporting a decline in cases of cyclosporiasis, which is caused by cyclospora cayetanensis.",
+      "en": "Michigan health officials lift an advisory against the consumption of lettuce in the U.S. state after reporting a decline in cases of cyclosporiasis, which is caused by Cyclospora cayetanensis.",
       "it": "Le autorità sanitarie del Michigan hanno revocato l'avviso che sconsigliava il consumo di lattuga nello Stato americano, dopo aver segnalato un calo dei casi di ciclosporiasi, malattia causata dal parassita Cyclospora cayetanensis.",
-      "cz": "Zdravotnické úřady státu Michigan zrušily varování před konzumací salátu v tomto americkém státě poté, co zaznamenaly pokles počtu případů cyklosporiózy, kterou způsobuje parazit Cyclospora cayetanensis.",
+      "cz": "Zdravotnické úřady ve státě Michigan zrušily varování před konzumací salátu v tomto americkém státě poté, co zaznamenaly pokles počtu případů cyklosporiózy, kterou způsobuje parazit Cyclospora cayetanensis.",
+      "origin": "world"
+    },
+    {
+      "en": "The governments of Mexico and Peru reinstate diplomatic relations after agreeing to allow former Peruvian prime minister Betssy Chávez to seek asylum in Mexico.",
+      "it": "I governi del Messico e del Perù hanno ripristinato le relazioni diplomatiche dopo aver concordato di consentire all'ex primo ministro peruviano Betssy Chávez di chiedere asilo in Messico.",
+      "cz": "Vlády Mexika a Peru obnovily diplomatické vztahy poté, co se dohodly, že umožní bývalé peruánské premiérce Betssy Chávezové požádat o azyl v Mexiku.",
       "origin": "world"
     },
     {
@@ -98,10 +104,10 @@
     }
   ],
   "article": {
-    "topic": "Mexico–Peru relations",
-    "url": "https://en.wikipedia.org/wiki/Mexico–Peru_relations",
-    "en": "The nations of Mexico and Peru established diplomatic relations in 1823. Diplomatic relations were briefly cut in 1932 and reinstated in 1933. Diplomatic relations were cut in November 2025,  however, they were reinstated again in August 2026.\nBoth nations are members of the Asia-Pacific Economic Cooperation, Community of Latin American and Caribbean States, Lima Group, Organization of Ibero-American States, Organization of American States, Pacific Alliance and the United Nations.",
-    "it": "Il Messico e il Perù hanno instaurato relazioni diplomatiche nel 1823. Le relazioni diplomatiche sono state brevemente interrotte nel 1932 e ripristinate nel 1933. Sono state nuovamente interrotte nel novembre 2025, ma sono state ripristinate ancora una volta nell’agosto 2026.\nEntrambe le nazioni sono membri della Cooperazione Economica Asia-Pacifico (APEC), della Comunità degli Stati dell’America Latina e dei Caraibi, del Gruppo di Lima, dell’Organizzazione degli Stati Ibero-americani, dell’Organizzazione degli Stati Americani, dell’Alleanza del Pacifico e delle Nazioni Unite.",
-    "cz": "Mexiko a Peru navázaly diplomatické vztahy v roce 1823. V roce 1932 byly diplomatické vztahy na krátkou dobu přerušeny a v roce 1933 obnoveny. V listopadu 2025 byly diplomatické vztahy přerušeny, avšak v srpnu 2026 byly opět obnoveny.\nObě země jsou členy Asijsko-pacifického hospodářského společenství (APEC), Společenství latinskoamerických a karibských států, Limské skupiny, Organizace iberoamerických států, Organizace amerických států, Pacifické aliance a Organizace spojených národů."
+    "topic": "2026 United States cyclosporiasis outbreak",
+    "url": "https://en.wikipedia.org/wiki/2026_United_States_cyclosporiasis_outbreak",
+    "en": "Cyclosporiasis is a disease caused by infection by oocysts of Cyclospora cayetanensis, a pathogenic apicomplexan protozoan transmitted by feces-contaminated food and water. It is a cause of food poisoning. Because the oocysts of Cyclospora must sporulate in the environment for 1–2 weeks before they become infectious, direct person-to-person transmission is unlikely.\nInfections occur worldwide, primarily in tropical and subtropical regions, but since the 2010s have also occurred seasonally in the United States during summers. Outbreaks in the United States have been linked to contaminated fruits and vegetables, and infection elsewhere is sometimes associated more broadly with poor sanitation standards. \nThe primary symptom of cyclosporiasis is watery diarrhea.",
+    "it": "La ciclosporiasi è una malattia causata dall’infezione da oocisti di Cyclospora cayetanensis, un protozoo apicomplesso patogeno trasmesso tramite alimenti e acqua contaminati da feci. È una causa di intossicazione alimentare. Poiché le oocisti di Cyclospora devono sporulare nell’ambiente per 1–2 settimane prima di diventare infettive, la trasmissione diretta da persona a persona è improbabile.\nLe infezioni si verificano in tutto il mondo, principalmente nelle regioni tropicali e subtropicali, ma a partire dagli anni 2010 si sono verificate stagionalmente anche negli Stati Uniti durante l’estate. I focolai negli Stati Uniti sono stati collegati a frutta e verdura contaminate, mentre altrove l’infezione è talvolta associata più in generale a scarse condizioni igienico-sanitarie.\nIl sintomo principale della ciclosporiasi è la diarrea acquosa.",
+    "cz": "Cyklosporióza je onemocnění způsobené infekcí oocystami Cyclospora cayetanensis, patogenního apikomplexního prvoka, který se přenáší potravinami a vodou kontaminovanými výkaly. Jedná se o příčinu otravy jídlem. Vzhledem k tomu, že oocysty Cyclospora musí v prostředí sporulovat po dobu 1–2 týdnů, než se stanou infekčními, je přímý přenos z člověka na člověka nepravděpodobný.\nK infekcím dochází po celém světě, především v tropických a subtropických oblastech, ale od roku 2010 se sezónně vyskytují také v USA během letních měsíců. Ohniska nákazy ve Spojených státech byla spojována s kontaminovaným ovocem a zeleninou, zatímco jinde je infekce někdy obecněji spojována s nedostatečnými hygienickými standardy. \nHlavním příznakem cyklosporiózy je vodnatý průjem."
   }
 }
