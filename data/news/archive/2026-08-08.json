@@ -1,8 +1,5 @@
 {
   "date": "2026-08-08",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_8",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "A Strážnice è stato superato, per il terzo giorno consecutivo, il record assoluto di temperatura per la Moravia, con un valore di 41 °C.",
@@ -106,42 +103,5 @@
     "en": "The nations of Mexico and Peru established diplomatic relations in 1823. Diplomatic relations were briefly cut in 1932 and reinstated in 1933. Diplomatic relations were cut in November 2025,  however, they were reinstated again in August 2026.\nBoth nations are members of the Asia-Pacific Economic Cooperation, Community of Latin American and Caribbean States, Lima Group, Organization of Ibero-American States, Organization of American States, Pacific Alliance and the United Nations.",
     "it": "Il Messico e il Perù hanno instaurato relazioni diplomatiche nel 1823. Le relazioni diplomatiche sono state brevemente interrotte nel 1932 e ripristinate nel 1933. Sono state nuovamente interrotte nel novembre 2025, ma sono state ripristinate ancora una volta nell’agosto 2026.\nEntrambe le nazioni sono membri della Cooperazione Economica Asia-Pacifico (APEC), della Comunità degli Stati dell’America Latina e dei Caraibi, del Gruppo di Lima, dell’Organizzazione degli Stati Ibero-americani, dell’Organizzazione degli Stati Americani, dell’Alleanza del Pacifico e delle Nazioni Unite.",
     "cz": "Mexiko a Peru navázaly diplomatické vztahy v roce 1823. V roce 1932 byly diplomatické vztahy na krátkou dobu přerušeny a v roce 1933 obnoveny. V listopadu 2025 byly diplomatické vztahy přerušeny, avšak v srpnu 2026 byly opět obnoveny.\nObě země jsou členy Asijsko-pacifického hospodářského společenství (APEC), Společenství latinskoamerických a karibských států, Limské skupiny, Organizace iberoamerických států, Organizace amerických států, Pacifické aliance a Organizace spojených národů."
-  },
-  "shadows": [
-    {
-      "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-      "cz": "Rozšiřte fond Evropa a začněte investovat.",
-      "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
-    },
-    {
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-      "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-      "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Produzione industriale - giugno 2026.",
-      "cz": "Průmyslová výroba – červen 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le DŽÚ-ňo]"
-    },
-    {
-      "it": "Commercio al dettaglio - giugno 2026.",
-      "cz": "Maloobchod – červen 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo DŽÚ-ňo]"
-    },
-    {
-      "it": "L’ecosistema cinese dell’intelligenza artificiale non è così aperto come sostiene.",
-      "cz": "Čínský ekosystém umělé inteligence není tak otevřený, jak se tváří.",
-      "phon": "[le-ko-zis-TÉ-ma či-NÉ-ze del-lin-tel-li-DŽÉN-ca ar-ti-fi-ČÁ-le non è ko-ZÍ a-PÉR-to KÓ-me sos-TÍE-ne]"
-    }
-  ],
-  "shadow": {
-    "it": "Scaleup Europe Fund per iniziare a fare investimenti.",
-    "cz": "Rozšiřte fond Evropa a začněte investovat.",
-    "phon": "[SKÁ-leup eu-RÓ-pe fund per i-ni-CÍA-re a FÁ-re in-ves-ti-MÉN-ti]"
   }
 }
