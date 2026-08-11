@@ -1,8 +1,5 @@
 {
   "date": "2026-08-11",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_11",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "L'hantec, il caratteristico dialetto degli abitanti di Brno, è stato inserito nell'elenco del patrimonio culturale immateriale della regione della Moravia meridionale.",
@@ -99,37 +96,5 @@
     "en": "On 14 May 2026, an epidemic of Ebola was reported in the Ituri Province of the Democratic Republic of the Congo (DRC). It is the 17th Ebola outbreak in the DRC and began only five months after the end of the previous outbreak. Early infections have been theorised to have occurred in January or February 2026 in the town of Mongbwalu, with imported cases from Ituri reported in North Kivu, Haut-Uélé and Tshopo Provinces, and in Uganda's capital, Kampala. Cases were also reported in South Kivu province. By early August 2026, the epidemic had become  the fastest growing Ebola outbreak on record, as well as the second largest.",
     "it": "Il 14 maggio 2026 è stata segnalata un’epidemia di Ebola nella provincia di Ituri della Repubblica Democratica del Congo (RDC). Si tratta del 17° focolaio di Ebola nella RDC, scoppiato a soli cinque mesi dalla fine del focolaio precedente. Si ipotizza che i primi contagi si siano verificati nel gennaio o febbraio 2026 nella città di Mongbwalu; sono stati segnalati casi importati dall’Ituri nelle province del Kivu del Nord, dell’Haut-Uélé e del Tshopo, nonché nella capitale dell’Uganda, Kampala. Sono stati segnalati casi anche nella provincia del Kivu Meridionale. All’inizio di agosto 2026, l’epidemia era diventata l’epidemia di Ebola con la crescita più rapida mai registrata, nonché la seconda più estesa.",
     "cz": "Dne 14. května 2026 byla v provincii Ituri v Demokratické republice Kongo (DRK) hlášena epidemie eboly. Jedná se o 17. ohnisko eboly v DRK, které vypuklo pouhých pět měsíců po skončení předchozího ohniska. Předpokládá se, že k prvním infekcím došlo v lednu nebo únoru 2026 ve městě Mongbwalu, přičemž případy dovezené z Ituri byly hlášeny v provinciích Severní Kivu, Haut-Uélé a Tshopo a také v ugandském hlavním městě Kampale. Případy byly hlášeny také v provincii Jižní Kivu. Na začátku srpna 2026 se tato epidemie stala nejrychleji se šířícím ohniskem eboly v historii a zároveň druhým největším."
-  },
-  "shadows": [
-    {
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-      "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-      "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Produzione industriale - giugno 2026.",
-      "cz": "Průmyslová výroba – červen 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le DŽÚ-ňo]"
-    },
-    {
-      "it": "Commercio al dettaglio - giugno 2026.",
-      "cz": "Maloobchod – červen 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo DŽÚ-ňo]"
-    },
-    {
-      "it": "Zuckerberg promuove un'IA “superintelligente” per tutti mentre Meta abbandona il modello open source.",
-      "cz": "Zuckerberg prosazuje „superinteligentní“ umělou inteligenci pro všechny, zatímco Meta upouští od open-source modelu.",
-      "phon": "[cuk-KÉR-berg pro-MÚO-ve Ú-nia su-pe-rin-tel-li-DŽÉN-te per TÚT-ti MÉNT-re MÉ-ta ab-ban-DÓ-na il mo-DÉL-lo Ó-pen SÓUR-če]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-    "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-    "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
   }
 }
