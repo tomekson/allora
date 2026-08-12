@@ -1,8 +1,5 @@
 {
   "date": "2026-08-12",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_12",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Il Parlamento ungherese ha eletto András Baku, ex presidente della Corte suprema, alla carica di presidente dell’Ungheria. In una votazione a scrutinio segreto ha ottenuto 140 voti; l’opposizione ha boicottato l’elezione.",
@@ -104,32 +101,5 @@
     "en": "An early indirect presidential election was held in Hungary on 11 August 2026 following the removal of Tamás Sulyok by a constitutional amendment. András Baka, former President of the Supreme Court nominated by the governing Tisza Party, was elected with a two-thirds majority. Since 1995, this was the first election not won by Fidesz or a candidate supported by it and also the first one when Fidesz–KDNP did not nominate a candidate.",
     "it": "L'11 agosto 2026 si è tenuta in Ungheria un'elezione presidenziale anticipata a indiretta, a seguito della destituzione di Tamás Sulyok mediante un emendamento costituzionale. András Baka, ex presidente della Corte Suprema designato dal partito di governo Tisza, è stato eletto con una maggioranza di due terzi. Si è trattato della prima elezione dal 1995 a non essere vinta dal Fidesz o da un candidato da esso sostenuto, nonché della prima in cui la coalizione Fidesz–KDNP non ha presentato alcun candidato.",
     "cz": "Dne 11. srpna 2026 se v Maďarsku konaly předčasné nepřímé prezidentské volby poté, co byl Tamás Sulyok odvolán na základě ústavní novely. András Baka, bývalý předseda Nejvyššího soudu nominovaný vládnoucí stranou Tisza, byl zvolen dvoutřetinovou většinou. Od roku 1995 se jednalo o první volby, které nevyhrála strana Fidesz ani kandidát podporovaný touto stranou, a také o první volby, v nichž koalice Fidesz–KDNP nenominovala žádného kandidáta."
-  },
-  "shadows": [
-    {
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-      "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-      "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Commercio estero e prezzi all’importazione – giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny – červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Produzione industriale - giugno 2026.",
-      "cz": "Průmyslová výroba – červen 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le DŽÚ-ňo]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-    "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-    "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
   }
 }
