@@ -2,7 +2,7 @@
   "date": "2026-08-12",
   "stories": [
     {
-      "it": "Il Parlamento ungherese ha eletto András Baku, ex presidente della Corte suprema, alla carica di presidente dell’Ungheria. In una votazione a scrutinio segreto ha ottenuto 140 voti; l’opposizione ha boicottato l’elezione.",
+      "it": "Il Parlamento ungherese ha eletto András Baku, ex presidente della Corte suprema, presidente dell’Ungheria. In una votazione a scrutinio segreto ha ottenuto 140 voti; l’opposizione ha boicottato l’elezione.",
       "cz": "Maďarský parlament zvolil bývalého předsedu nejvyššího soudu Andráse Baku prezidentem Maďarska. V&nbsp;tajném hlasování získal 140 hlasů, opozice volbu bojkotovala.",
       "origin": "cz"
     },
@@ -12,7 +12,7 @@
       "origin": "cz"
     },
     {
-      "it": "L'hantec, il caratteristico dialetto degli abitanti di Brno, è stato inserito nell'elenco del patrimonio culturale immateriale della regione della Moravia meridionale.",
+      "it": "L'hantec, il caratteristico dialetto degli abitanti di Brno, è stato inserito nell'elenco del patrimonio culturale immateriale della Regione della Moravia Meridionale.",
       "cz": "Hantec, svérázná mluva Brňanů, byl zapsán na&nbsp;seznam nehmotného kulturního dědictví Jihomoravského kraje.",
       "origin": "cz"
     },
@@ -47,27 +47,27 @@
       "origin": "econ"
     },
     {
+      "en": "Consumer prices - July 2026. In July 2026 the CPI was +0.2% over June and +2.9% y-o-y",
+      "it": "Prezzi al consumo - luglio 2026. A luglio 2026 l'indice dei prezzi al consumo (IPC) è risultato in aumento dello 0,2% rispetto a giugno e del 2,9% su base annua.",
+      "cz": "Spotřebitelské ceny – červenec 2026. V červenci 2026 činil meziroční nárůst indexu spotřebitelských cen (CPI) +0,2 % oproti červnu a +2,9 % ve srovnání se stejným obdobím předchozího roku.",
+      "origin": "econ"
+    },
+    {
       "en": "Foreign trade and import prices - June 2026. In June 2026 import +1.2%, export +1.6%; import prices -1.3% over May",
       "it": "Commercio estero e prezzi all’importazione – giugno 2026. A giugno 2026 le importazioni sono aumentate dell’1,2%, le esportazioni dell’1,6%; i prezzi all’importazione sono diminuiti dell’1,3% rispetto a maggio",
       "cz": "Zahraniční obchod a dovozní ceny – červen 2026. V červnu 2026 vzrostl dovoz o 1,2 %, vývoz o 1,6 %; dovozní ceny klesly oproti květnu o 1,3 %",
       "origin": "econ"
     },
     {
-      "en": "Industrial production - June 2026. In June 2026 the index decreased by 1.0% over May and by 0.6% year-over-year",
-      "it": "Produzione industriale - giugno 2026. A giugno 2026 l'indice è sceso dell'1,0% rispetto a maggio e dello 0,6% su base annua",
-      "cz": "Průmyslová výroba – červen 2026. V červnu 2026 se index oproti květnu snížil o 1,0 % a meziročně o 0,6 %.",
-      "origin": "econ"
-    },
-    {
       "en": "UK heatwaves may have cost economy £4.4bn in lost output so far this year, analysis finds. Verdant thinktank says cost could top £25bn a year by 2030 and calls for maximum temperature for working and urban redesign to cool down cities",
-      "it": "Secondo un’analisi, le ondate di caldo nel Regno Unito potrebbero aver causato all’economia una perdita di produzione pari a 4,4 miliardi di sterline da inizio anno. Il think tank Verdant afferma che il costo potrebbe superare i 25 miliardi di sterline all’anno entro il 2030 e chiede l’introduzione di limiti massimi di temperatura sul posto di lavoro e una riprogettazione urbana volta a raffreddare le città.",
-      "cz": "Analýza ukazuje, že vlny veder ve Velké Británii mohly letos dosud způsobit ekonomice ztrátu ve výši 4,4 mld. liber v podobě ušlého výkonu. Think-tank Verdant uvádí, že do roku 2030 by tyto náklady mohly přesáhnout 25 mld. liber ročně, a vyzývá k zavedení maximální teploty pro práci a k urbanistickým změnám s cílem ochladit města.",
+      "it": "Secondo un’analisi, le ondate di caldo nel Regno Unito potrebbero aver causato all’economia una perdita di produzione pari a 4,4 miliardi di sterline da inizio anno. Il think tank Verdant afferma che il costo potrebbe superare i 25 miliardi di sterline all’anno entro il 2030 e chiede l’introduzione di una temperatura massima consentita sul posto di lavoro e una riprogettazione urbana volta a rinfrescare le città.",
+      "cz": "Analýza ukazuje, že vlny veder ve Velké Británii mohly letos dosud způsobit ekonomice ztrátu ve výši 4,4 miliardy liber v podobě ušlého výkonu. Think-tank Verdant uvádí, že do roku 2030 by tyto náklady mohly přesáhnout 25 miliard liber ročně, a vyzývá k zavedení maximální teploty pro práci a k urbanistickým změnám s cílem ochladit města.",
       "origin": "guardian"
     },
     {
       "en": "Households near new pylons to get £250 taken off annual energy bills. Discounts confirmed near more than 40 locations across Great Britain amid biggest upgrade to electricity grid since 1960s",
       "it": "Le famiglie che vivono nei pressi dei nuovi tralicci beneficeranno di uno sconto di 250 sterline sulle bollette energetiche annuali. Gli sconti sono stati confermati in oltre 40 località in tutta la Gran Bretagna, nell’ambito del più grande potenziamento della rete elettrica dagli anni ’60.",
-      "cz": "Domácnosti v blízkosti nových stožárů dostanou slevu 250 liber z ročních účtů za energii. Slevy byly potvrzeny v okolí více než 40 lokalit po celé Velké Británii v rámci největší modernizace elektrické sítě od 60. let minulého století.",
+      "cz": "Domácnosti v blízkosti nových stožárů dostanou slevu 250 liber na roční účty za energii. Slevy byly potvrzeny v okolí více než 40 lokalit po celé Velké Británii v rámci největší modernizace elektrické sítě od 60. let minulého století.",
       "origin": "guardian"
     },
     {
@@ -78,8 +78,8 @@
     },
     {
       "en": "Former Supreme Court president András Baka is elected as Hungarian president through a supermajority and is scheduled to take office on 19 August. He ran uncontested as the Tisza Party's candidate, as neither Fidesz nor its partner KNDP nominated a candidate.",
-      "it": "L'ex presidente della Corte Suprema András Baka è stato eletto presidente dell'Ungheria con una maggioranza qualificata e dovrebbe insediarsi il 19 agosto. Si è presentato senza oppositori come candidato del Partito Tisza, poiché né il Fidesz né il suo alleato KNDP hanno designato un candidato.",
-      "cz": "Bývalý předseda Nejvyššího soudu András Baka byl zvolen maďarským prezidentem nadpoloviční většinou hlasů a do úřadu by měl nastoupit 19. srpna. Kandidoval bez protikandidáta jako kandidát Strany Tisza, jelikož ani strana Fidesz, ani její koaliční partner KNDP nikoho nenominovali.",
+      "it": "L'ex presidente della Corte Suprema András Baka è stato eletto presidente dell'Ungheria con una maggioranza qualificata e dovrebbe insediarsi il 19 agosto. Si è presentato senza oppositori come candidato del Partito Tisza, poiché né Fidesz né il suo alleato KNDP hanno designato un candidato.",
+      "cz": "Bývalý předseda Nejvyššího soudu András Baka byl zvolen maďarským prezidentem nadpoloviční většinou hlasů a do úřadu by měl nastoupit 19. srpna. Kandidoval bez protikandidáta jako kandidát Strany Tisza, jelikož ani strana Fidesz, ani její koaliční partner KNDP žádného kandidáta nenominovali.",
       "origin": "world"
     },
     {
@@ -99,7 +99,7 @@
     "topic": "2026 Hungarian presidential election",
     "url": "https://en.wikipedia.org/wiki/2026_Hungarian_presidential_election",
     "en": "An early indirect presidential election was held in Hungary on 11 August 2026 following the removal of Tamás Sulyok by a constitutional amendment. András Baka, former President of the Supreme Court nominated by the governing Tisza Party, was elected with a two-thirds majority. Since 1995, this was the first election not won by Fidesz or a candidate supported by it and also the first one when Fidesz–KDNP did not nominate a candidate.",
-    "it": "L'11 agosto 2026 si è tenuta in Ungheria un'elezione presidenziale anticipata a indiretta, a seguito della destituzione di Tamás Sulyok mediante un emendamento costituzionale. András Baka, ex presidente della Corte Suprema designato dal partito di governo Tisza, è stato eletto con una maggioranza di due terzi. Si è trattato della prima elezione dal 1995 a non essere vinta dal Fidesz o da un candidato da esso sostenuto, nonché della prima in cui la coalizione Fidesz–KDNP non ha presentato alcun candidato.",
+    "it": "L'11 agosto 2026 si è tenuta in Ungheria un'elezione presidenziale anticipata e indiretta, a seguito della destituzione di Tamás Sulyok mediante un emendamento costituzionale. András Baka, ex presidente della Corte Suprema designato dal partito di governo Tisza, è stato eletto con una maggioranza di due terzi. Si è trattato della prima elezione dal 1995 a non essere vinta dal Fidesz o da un candidato da esso sostenuto, nonché della prima in cui la coalizione Fidesz–KDNP non ha presentato alcun candidato.",
     "cz": "Dne 11. srpna 2026 se v Maďarsku konaly předčasné nepřímé prezidentské volby poté, co byl Tamás Sulyok odvolán na základě ústavní novely. András Baka, bývalý předseda Nejvyššího soudu nominovaný vládnoucí stranou Tisza, byl zvolen dvoutřetinovou většinou. Od roku 1995 se jednalo o první volby, které nevyhrála strana Fidesz ani kandidát podporovaný touto stranou, a také o první volby, v nichž koalice Fidesz–KDNP nenominovala žádného kandidáta."
   }
 }
