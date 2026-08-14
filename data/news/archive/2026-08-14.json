@@ -1,8 +1,5 @@
 {
   "date": "2026-08-14",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_14",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "La sera, gli abitanti della Repubblica Ceca hanno potuto osservare un’eclissi parziale di Sole molto marcata (oltre l’85%). In alcune zone della Spagna si è verificata un’eclissi totale.",
@@ -121,47 +118,5 @@
     "en": "Starting in late May 2026, several severe heatwaves affected Europe. Temperature records were broken in Austria, Belarus, Belgium, Czechia, Denmark, France, Germany, Hungary, Ireland, Italy, the Netherlands, Poland, Romania, Slovakia, Slovenia, Spain, Switzerland and the United Kingdom. The first heatwave began on 24 May, with temperatures higher than normal and several heat-related deaths. Temperatures were the highest ever recorded for May, with climate change causing the earlier onset of Central Europe's summer. Western Europe was the most affected area, with reports of record-breaking temperatures in France, Ireland and the United Kingdom.",
     "it": "A partire dalla fine di maggio 2026, diverse gravi ondate di calore hanno colpito l’Europa. Sono stati battuti i record di temperatura in Austria, Bielorussia, Belgio, Repubblica Ceca, Danimarca, Francia, Germania, Ungheria, Irlanda, Italia, Paesi Bassi, Polonia, Romania, Slovacchia, Slovenia, Spagna, Svizzera e Regno Unito. La prima ondata di caldo è iniziata il 24 maggio, con temperature superiori alla media stagionale e diversi decessi legati al caldo. Le temperature hanno raggiunto i valori più alti mai registrati nel mese di maggio, con i cambiamenti climatici che hanno determinato l’inizio anticipato dell’estate nell’Europa centrale. L’Europa occidentale è stata la zona più colpita, con segnalazioni di temperature da record in Francia, Irlanda e Regno Unito.",
     "cz": "Od konce května 2026 zasáhlo Evropu několik silných vln veder. Teplotní rekordy byly překonány v Rakousku, Bělorusku, Belgii, České republice, Dánsku, Francii, Německu, Maďarsku, Irsku, Itálii, Nizozemsku, Polsku, Rumunsku, na Slovensku, ve Slovinsku, Španělsku, Švýcarsku a ve Spojeném království. První vlna veder začala 24. května, kdy byly zaznamenány nadprůměrné teploty a došlo k několika úmrtím v souvislosti s horkem. Teploty dosáhly nejvyšších hodnot, jaké kdy byly v květnu zaznamenány, přičemž změna klimatu způsobila dřívější nástup léta ve střední Evropě. Nejvíce postiženou oblastí byla západní Evropa, kde byly hlášeny rekordní teploty ve Francii, Irsku a Spojeném království."
-  },
-  "shadows": [
-    {
-      "it": "Ad Ostrava ha avuto inizio l'incontro nazionale dei giovani.",
-      "cz": "V Ostravě začalo celostátní setkání mládeže.",
-      "phon": "[ad ost-RÁ-va a a-VÚ-to i-NÍ-cio lin-KÓNT-ro na-cio-NÁ-le dei džo-VÁ-ni]"
-    },
-    {
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-      "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-      "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny – červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all’importazione – giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny – červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Le ricerche di case nel Regno Unito dotate di aria condizionata sono più che raddoppiate.",
-      "cz": "Počet vyhledávání nemovitostí ve Velké Británii vybavených klimatizací se více než zdvojnásobil.",
-      "phon": "[le ri-ČÉR-ke di KÁ-ze nel RÉ-ňo u-NÍ-to do-TÁ-te di Á-ria kon-di-cio-NÁ-ta SÓ-no più ke rad-dop-PÍA-te]"
-    },
-    {
-      "it": "Gli zambiani sono chiamati alle urne per eleggere il presidente e i 280 membri dell'Assemblea nazionale.",
-      "cz": "Zambijci volí prezidenta a 280 poslanců Národního shromáždění.",
-      "phon": "[lj cam-BÍA-ni SÓ-no kia-MÁ-ti ÁL-le ÚR-ne per e-leg-DŽÉ-re il pre-zi-DÉN-te e i MÉMB-ri del-las-SÉMB-lea na-cio-NÁ-le]"
-    }
-  ],
-  "shadow": {
-    "it": "Ad Ostrava ha avuto inizio l'incontro nazionale dei giovani.",
-    "cz": "V Ostravě začalo celostátní setkání mládeže.",
-    "phon": "[ad ost-RÁ-va a a-VÚ-to i-NÍ-cio lin-KÓNT-ro na-cio-NÁ-le dei džo-VÁ-ni]"
   }
 }
