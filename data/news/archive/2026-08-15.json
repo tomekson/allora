@@ -2,7 +2,7 @@
   "date": "2026-08-15",
   "stories": [
     {
-      "it": "La sera, gli abitanti della Repubblica Ceca hanno potuto osservare un’eclissi solare parziale molto marcata (oltre l’85%). In alcune zone della Spagna si è verificata un’eclissi totale.",
+      "it": "La sera, gli abitanti della Repubblica Ceca hanno potuto osservare un’eclissi parziale di Sole molto marcata (oltre l’85%). In alcune zone della Spagna si è verificata un’eclissi totale.",
       "cz": "Lidé v&nbsp;Česku večer pozorovali velmi výrazné částečné zatmění Slunce (více než 85%). V&nbsp;části Španělska nastalo zatmění úplné.",
       "origin": "cz"
     },
@@ -44,7 +44,7 @@
     {
       "en": "Consumer prices - July 2026. In July 2026 the CPI was +0.2% over June and +2.9% y-o-y",
       "it": "Prezzi al consumo - luglio 2026. A luglio 2026 l'indice dei prezzi al consumo (IPC) è risultato pari a +0,2% rispetto a giugno e a +2,9% su base annua",
-      "cz": "Spotřebitelské ceny – červenec 2026. V červenci 2026 činil meziroční nárůst indexu spotřebitelských cen (CPI) +0,2 % oproti červnu a +2,9 % ve srovnání se stejným obdobím předchozího roku.",
+      "cz": "Spotřebitelské ceny – červenec 2026. V červenci 2026 činil meziroční nárůst indexu spotřebitelských cen (CPI) +0,2 % oproti červnu a +2,9 % meziročně.",
       "origin": "econ"
     },
     {
@@ -54,8 +54,14 @@
       "origin": "econ"
     },
     {
+      "en": "‘Watch your spending, use free perks’: an insider’s tips on student money. Avoid getting into debt at university with tricks to save cash, earn extra funds and have a good time",
+      "it": "«Controlla le tue spese, approfitta dei vantaggi gratuiti»: i consigli di un esperto sulla gestione del denaro da studente. Evita di indebitarti all’università grazie a questi trucchi per risparmiare, guadagnare qualche soldo in più e divertirti",
+      "cz": "„Hlídejte si výdaje, využívejte bezplatné výhody“: tipy od zasvěceného odborníka na studentské finance. Vyhněte se zadlužení na vysoké škole díky trikům, jak ušetřit peníze, vydělat si něco navíc a užít si zábavu",
+      "origin": "guardian"
+    },
+    {
       "en": "US long-term borrowing costs hit 25-year high; weakening of UK’s EV sales targets criticised – as it happened. Rolling coverage of the latest and economic news, as US sells 30-year bonds at highest borrowing costs since 2001",
-      "it": "I costi di finanziamento a lungo termine degli Stati Uniti raggiungono il massimo degli ultimi 25 anni; critiche per l’indebolimento degli obiettivi di vendita di veicoli elettrici nel Regno Unito – come si è svolto. Aggiornamenti in tempo reale sulle ultime notizie economiche, mentre gli Stati Uniti collocano titoli a 30 anni ai costi di finanziamento più elevati dal 2001",
+      "it": "I costi di finanziamento a lungo termine degli Stati Uniti raggiungono il massimo degli ultimi 25 anni; critiche per l’indebolimento degli obiettivi di vendita di veicoli elettrici nel Regno Unito – come è andata. Aggiornamenti in tempo reale sulle ultime notizie economiche, mentre gli Stati Uniti collocano titoli a 30 anni ai costi di finanziamento più elevati dal 2001",
       "cz": "Náklady na dlouhodobé financování v USA dosáhly 25letého maxima; kritika za oslabení cílů prodeje elektromobilů ve Velké Británii – jak se to odehrálo. Průběžné zpravodajství o nejnovějších událostech a ekonomických zprávách, zatímco USA prodávají 30leté dluhopisy za nejvyšší úrokové sazby od roku 2001",
       "origin": "guardian"
     },
@@ -63,12 +69,6 @@
       "en": "Smart glasses controversy sidelines the benefits for disabled people | Letter. Letters: Guardian readers reflect on the ableism rife in the debate about Ray-Ban Meta eyewear, despite the life-changing difference they can make",
       "it": "La polemica sugli occhiali intelligenti mette in secondo piano i benefici per le persone con disabilità | Lettera. Lettere: i lettori del Guardian riflettono sull’abilismo dilagante nel dibattito sugli occhiali Ray-Ban Meta, nonostante la differenza che questi dispositivi possono fare, cambiando la vita delle persone",
       "cz": "Kontroverze kolem chytrých brýlí zastíňuje jejich přínos pro osoby se zdravotním postižením | Dopis. Dopisy: Čtenáři deníku Guardian se zamýšlejí nad diskriminací na základě zdravotního postižení, která v debatě o brýlích Ray-Ban Meta převládá, a to navzdory tomu, že tyto brýle mohou lidem zásadně změnit život",
-      "origin": "guardian"
-    },
-    {
-      "en": "Thames Water plans to restart desalination plant – after drought has ended. Utility company’s plant, which has only run five times, now has an estimated total cost of £500m",
-      "it": "Thames Water intende riavviare l'impianto di desalinizzazione, una volta terminata la siccità. L'impianto dell'azienda, che è stato utilizzato solo cinque volte, ha ora un costo totale stimato di 500 milioni di sterline.",
-      "cz": "Společnost Thames Water plánuje znovu spustit odsolovací zařízení – až po skončení sucha. Odhadované celkové náklady na zařízení této energetické společnosti, které bylo dosud v provozu pouze pětkrát, nyní činí 500 milionů liber.",
       "origin": "guardian"
     },
     {
