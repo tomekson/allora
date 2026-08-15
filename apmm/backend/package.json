@@ -1,0 +1,40 @@
+{
+  "name": "apmm-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "APMM (Alternative Payment Methods Monitor) - REST API a datova vrstva",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "db:migrate": "prisma migrate dev",
+    "db:seed": "tsx scripts/seed.ts",
+    "db:studio": "prisma studio",
+    "shop:add": "tsx scripts/add-shop.ts",
+    "shop:list": "tsx scripts/list-shops.ts",
+    "scrape": "tsx scripts/scrape-shop.ts",
+    "scrape:apply": "tsx scripts/apply-scrape.ts"
+  },
+  "prisma": {
+    "seed": "tsx scripts/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/client": "^6.10.0",
+    "fastify": "^5.4.0",
+    "playwright": "^1.61.1",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "prisma": "^6.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}
