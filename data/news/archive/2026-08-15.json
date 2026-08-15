@@ -1,8 +1,5 @@
 {
   "date": "2026-08-15",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_15",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "La sera, gli abitanti della Repubblica Ceca hanno potuto osservare un’eclissi solare parziale molto marcata (oltre l’85%). In alcune zone della Spagna si è verificata un’eclissi totale.",
@@ -87,42 +84,5 @@
       "origin": "dyk"
     }
   ],
-  "article": null,
-  "shadows": [
-    {
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-      "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-      "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny – červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all’importazione – giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny – červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Thames Water intende riavviare l'impianto di desalinizzazione, una volta terminata la siccità.",
-      "cz": "Společnost Thames Water plánuje znovu spustit odsolovací zařízení – až po skončení sucha.",
-      "phon": "[TÁ-mes WÁ-ter in-TÉN-de riav-VÍA-re lim-PÍAN-to di de-za-li-nic-ca-CÍO-ne u-na VÓL-ta ter-mi-NÁ-ta la sik-či-TÁ]"
-    },
-    {
-      "it": "Lo sapevate che all’interno della Penisola Coreana c’è un’altra Penisola Coreana?",
-      "cz": "Věděli jste, že na Korejském poloostrově se nachází ještě jeden Korejský poloostrov?",
-      "phon": "[lo sa-pe-VÁ-te ke al-lin-TÉR-no DÉL-la pe-ni-ZÓ-la ko-RÉA-na čè u-NÁLT-ra pe-ni-ZÓ-la ko-RÉA-na]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-    "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-    "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-  }
+  "article": null
 }
