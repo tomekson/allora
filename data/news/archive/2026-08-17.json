@@ -1,8 +1,5 @@
 {
   "date": "2026-08-17",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_17",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Un terremoto di magnitudo 7,7 ha colpito la costa dell'isola indonesiana di Flores, causando almeno 38 vittime.",
@@ -97,42 +94,5 @@
       "origin": "dyk"
     }
   ],
-  "article": null,
-  "shadows": [
-    {
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-      "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-      "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny – červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all’importazione – giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny – červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "I piani di Microsoft in materia di intelligenza artificiale sono ostacolati dalla carenza di chip?",
-      "cz": "Brzdí plány společnosti Microsoft v oblasti umělé inteligence nedostatek čipů?",
-      "phon": "[i PÍA-ni di mik-RÓ-zoft in ma-TÉ-ria di in-tel-li-DŽÉN-ca ar-ti-fi-ČÁ-le SÓ-no os-ta-ko-LÁ-ti DÁL-la ka-RÉN-ca di kip]"
-    },
-    {
-      "it": "I lavori estivi tornano a crescere nel Regno Unito grazie a un fitto calendario di eventi sportivi e musicali.",
-      "cz": "Letní brigády ve Velké Británii zažívají oživení díky nabitému kalendáři sportovních a hudebních akcí.",
-      "phon": "[i la-VÓ-ri es-TÍ-vi tor-NÁ-no a kre-ŠÉ-re nel RÉ-ňo u-NÍ-to GRÁ-cie a un FÍT-to ka-len-DÁ-rio di e-VÉN-ti spor-TÍ-vi e mu-zi-KÁ-li]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-    "cz": "Změna ve vedení Moravského regionálního ředitelství.",
-    "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-  }
+  "article": null
 }
