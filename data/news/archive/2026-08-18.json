@@ -1,8 +1,5 @@
 {
   "date": "2026-08-18",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_18",
-  "translator": "DeepL",
   "stories": [
     {
       "it": "Un terremoto di magnitudo 7,7 ha colpito la costa dell'isola indonesiana di Flores, causando almeno 38 vittime.",
@@ -117,47 +114,5 @@
     "en": "Opposition to the government of President Vladimir Putin in Russia, commonly referred to as the Russian opposition, can be divided between the parliamentary opposition parties in the State Duma and the various non-systemic opposition organizations. While the former are largely viewed as being more or less loyal to the government and Putin, the latter oppose the government and are mostly unrepresented in government bodies. According to Russian NGO Levada Center, about 15% of the Russian population disapproved of Putin at the beginning of 2023. The opposition to Putin's political views is also called anti-Putinism.",
     "it": "L’opposizione al governo del presidente Vladimir Putin in Russia, comunemente definita “opposizione russa”, può essere suddivisa tra i partiti di opposizione presenti nella Duma di Stato e le varie organizzazioni di opposizione non sistemiche. Mentre i primi sono in gran parte considerati più o meno fedeli al governo e a Putin, i secondi si oppongono al governo e sono per lo più privi di rappresentanza negli organi governativi. Secondo l’ONG russa Levada Center, all’inizio del 2023 circa il 15% della popolazione russa disapprovava Putin. L’opposizione alle idee politiche di Putin viene anche definita «anti-putinismo».",
     "cz": "Opozici vůči vládě prezidenta Vladimira Putina v Rusku, běžně označovanou jako ruská opozice, lze rozdělit na parlamentní opoziční strany ve Státní dumě a různé nesystémové opoziční organizace. Zatímco první z nich jsou obecně považovány za více či méně loajální vůči vládě a Putinovi, druhé se staví proti vládě a ve vládních orgánech většinou nemají zastoupení. Podle ruské nevládní organizace Levada Center nesouhlasilo s Putinem na počátku roku 2023 přibližně 15 % ruského obyvatelstva. Opozice vůči Putinovým politickým názorům se také nazývá antiputinismus."
-  },
-  "shadows": [
-    {
-      "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-      "cz": "Změna ve vedení Moravské regionální divize.",
-      "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechala úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny – červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all'importazione - giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny – červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Claude inizierà ad applicare filigrane ai testi generati dall'IA, ma questo ne comprometterà la qualità?",
-      "cz": "Claude začne do textů generovaných umělou inteligencí vkládat vodoznaky – zhorší se tím však kvalita?",
-      "phon": "[KLÁU-de i-ni-cie-RÁ ad app-li-KÁ-re fi-lig-RÁ-ne ai TÉS-ti dže-ne-RÁ-ti DÁL-lia ma KVÉS-to ne komp-ro-met-te-RÁ la kva-li-TÁ]"
-    },
-    {
-      "it": "Il commissario della Dogana e Protezione delle Frontiere degli Stati Uniti (CBP), Rodney S.",
-      "cz": "Komisař Úřadu pro celní a hraniční ochranu Spojených států (CBP) Rodney S.",
-      "phon": "[il kom-mis-SÁ-rio DÉL-la do-GÁ-na e pro-te-CÍO-ne DÉL-le fron-TÍE-re delj STÁ-ti u-NÍ-ti kbp RÓD-ney s]"
-    },
-    {
-      "it": "Sapevate che Nicholas Dockery, insignito della Medaglia d’Onore, era un “White House Fellow”?",
-      "cz": "Věděli jste, že Nicholas Dockery, držitel Medaile cti, byl stážistou v Bílém domě?",
-      "phon": "[sa-pe-VÁ-te ke ni-KÓ-las DÓK-kery in-si-ŇÍ-to DÉL-la me-DÁL-ja do-NÓ-re e-ra un WÍ-te ÓU-ze FÉL-low]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambiamenti nella direzione della Divisione regionale della Moravia.",
-    "cz": "Změna ve vedení Moravské regionální divize.",
-    "phon": "[kam-bia-MÉN-ti NÉL-la di-re-CÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
   }
 }
