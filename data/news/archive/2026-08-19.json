@@ -1,8 +1,5 @@
 {
   "date": "2026-08-19",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_19",
-  "translator": "MyMemory (DeepL fallback)",
   "stories": [
     {
       "en": "Commission greenlights Poland's fifth payment request for €7.9 billion under NextGenerationEU. Today, the European Commission positively assessed Poland's fifth payment request for €7.9 billion under the Recovery and Resilience Facility, the centrepiece of NextGenerationEU.",
@@ -95,47 +92,5 @@
     "en": "The imprisonment of Imran Khan refers to the ongoing detention of Imran Khan, the former Prime Minister of Pakistan, since his arrest in August 2023. Khan, who founded the Pakistan Tehreek-e-Insaf (PTI) party, has faced multiple legal cases following his removal from office via a no-confidence vote in April 2022. His detention stems from convictions in corruption cases, including the Toshakhana case and Al-Qadir Trust case, as well as charges related to leaking state secrets and incitement during protests. Some convictions have been overturned or suspended on appeal, but new charges have kept him incarcerated.\nKhan's imprisonment has sparked widespread protests by PTI supporters demanding his release, with notable clashes in May 2023 and November 2024.",
     "it": "L'incarcerazione di Imran Khan si riferisce alla detenzione in corso di Imran Khan, l'ex primo ministro del Pakistan, dal suo arresto nell'agosto 2023. Khan, che ha fondato il partito pakistano Tehreek-e-Insaf (PTI), ha affrontato più casi legali in seguito alla sua rimozione dall'incarico tramite un voto di sfiducia nell'aprile 2022. La sua detenzione deriva da condanne in casi di corruzione, tra cui il caso Toshakhana e il caso Al-Qadir Trust, nonché da accuse relative alla divulgazione di segreti di stato e all'incitamento durante le proteste. Alcune condanne sono state annullate o sospese in appello, ma nuove accuse lo hanno tenuto in carcere. L'incarcerazione di Khan ha scatenato diffuse proteste da parte dei sostenitori del PTI che chiedono il suo rilascio, con notevoli scontri nel maggio 2023 e nel novembre 2024.",
     "cz": "Uvěznění Imrana Chána odkazuje na pokračující zadržování Imrana Chána, bývalého premiéra Pákistánu, od jeho zatčení v srpnu 2023. Khan, který založil pákistánskou stranu Tehreek-e-Insaf (PTI), čelil po svém odvolání z funkce prostřednictvím hlasování o nedůvěře v dubnu 2022 několika právním sporům. Jeho zadržení vyplývá z odsouzení v případech korupce, včetně případu Toshakhana a případu Al-Qadir Trust, jakož i obvinění souvisejících s únikem státních tajemství a podněcováním během protestů. Některá odsouzení byla zrušena nebo pozastavena na základě odvolání, ale nová obvinění ho držela ve vězení. Chánovo uvěznění vyvolalo rozsáhlé protesty stoupenců PTI, kteří požadovali jeho propuštění, s pozoruhodnými střety v květnu 2023 a listopadu 2024."
-  },
-  "shadows": [
-    {
-      "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-      "cz": "Změna ve vedení Moravskoslezského kraje.",
-      "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all'importazione - giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny - červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Secondo uno studio, dormire poco può costare più di cinquanta nove mesi di carriera.",
-      "cz": "Špatný spánek může stát přes 50 let devět měsíců kariéry, zjistila studie.",
-      "phon": "[se-KÓN-do u-no STÚ-dio dor-MÍ-re PÓ-ko può kos-TÁ-re più di čink-VÁN-ta NÓ-ve MÉ-zi di kar-RÍE-ra]"
-    },
-    {
-      "it": "OpenAI annuncia un rallentamento del ritmo di sviluppo dopo l'hacking da parte di un agente canaglia.",
-      "cz": "OpenAI oznamuje zpomalení tempa vývoje po hacknutí nepoctivým agentem.",
-      "phon": "[o-PÉ-nai an-NÚN-ča un ral-len-ta-MÉN-to del RÍT-mo di svi-LÚP-po DÓ-po LÁK-king da PÁR-te di un a-DŽÉN-te ka-NÁL-ja]"
-    },
-    {
-      "it": "Sapevi che l'arco di 600 metri del ponte Tian'e Longtan è il più lungo di tutti i ponti in cemento armato?",
-      "cz": "Věděli jste, že 600 metrů dlouhý oblouk mostu Tian'e Longtan je nejdelší ze všech železobetonových mostů?",
-      "phon": "[sa-PÉ-vi ke LÁR-ko di MÉT-ri del PÓN-te TÍA-ne LÓNG-tan è il più LÚN-go di TÚT-ti i PÓN-ti in če-MÉN-to ar-MÁ-to]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-    "cz": "Změna ve vedení Moravskoslezského kraje.",
-    "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
   }
 }
