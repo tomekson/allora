@@ -1,8 +1,5 @@
 {
   "date": "2026-08-20",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_20",
-  "translator": "MyMemory (DeepL fallback)",
   "stories": [
     {
       "en": "Joint statement by High Representative/Vice-President Kallas and Commissioner Lahbib ahead of World Humanitarian Day*.",
@@ -89,47 +86,5 @@
     "en": "The United States has a highly developed and diversified market-oriented economy. It is the world's largest economy by nominal GDP, generating 26% of global economic output. It is the second-largest by purchasing power parity (PPP). On a per capita basis, the U.S. ranks ninth-highest nominal GDP per capita and 10th-highest GDP per capita by PPP. The U.S. dollar is the world's foremost reserve currency with widespread international usage and serves as reference standard for the petrodollar and eurodollar. Since the end of World War II, the economy has achieved relatively steady growth, low unemployment and inflation, along with rapid advances in technology.",
     "it": "Gli Stati Uniti hanno un'economia di mercato altamente sviluppata e diversificata. È la più grande economia del mondo per PIL nominale, generando il 26% della produzione economica globale. È il secondo più grande per parità di potere d'acquisto (PPP). Su base pro capite, gli Stati Uniti si classificano al nono posto per PIL nominale pro capite e al decimo per PIL pro capite per PPP. Gli Stati Uniti il dollaro è la valuta di riserva più importante del mondo con un uso internazionale diffuso e funge da standard di riferimento per il petrodollaro e l'eurodollaro. Dalla fine della seconda guerra mondiale, l'economia ha raggiunto una crescita relativamente costante, una bassa disoccupazione e inflazione, insieme a rapidi progressi tecnologici.",
     "cz": "Spojené státy mají vysoce rozvinutou a diverzifikovanou tržně orientovanou ekonomiku. Jedná se o největší světovou ekonomiku podle nominálního HDP, která vytváří 26% celosvětového hospodářského výstupu. Jedná se o druhou největší podle parity kupní síly (PPP). V přepočtu na obyvatele se USA řadí na deváté místo v nominálním HDP na obyvatele a na desáté místo v HDP na obyvatele podle PPP. USA dolar je přední světovou rezervní měnou s rozšířeným mezinárodním používáním a slouží jako referenční standard pro petrodolar a eurodolar. Od konce druhé světové války dosáhla ekonomika relativně stabilního růstu, nízké nezaměstnanosti a inflace spolu s rychlým technologickým pokrokem."
-  },
-  "shadows": [
-    {
-      "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-      "cz": "Změna ve vedení Moravskoslezského kraje.",
-      "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all'importazione - giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny - červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Andy Burnham può ricablare il \"cervello del Tesoro\" per aumentare la crescita?.",
-      "cz": "Může Andy Burnham přeprogramovat „mozek státní pokladny“, aby podpořil růst?.",
-      "phon": "[andy BÚR-nam può ri-kab-LÁ-re il čer-VÉL-lo del te-ZÓ-ro per au-men-TÁ-re la kre-ŠÍ-ta]"
-    },
-    {
-      "it": "Zero stelle per il gioco di valutazione online | Brevi lettere.",
-      "cz": "Nulové hvězdičky pro online hodnotící hru | Stručné dopisy.",
-      "phon": "[CÉ-ro STÉL-le per il DŽÓ-ko di va-lu-ta-CÍO-ne on-LÍ-ne BRÉ-vi let-TÉ-re]"
-    },
-    {
-      "it": "Sapevi che il pittore Abdullah Suriosubroto è stato adottato da un eroe nazionale dell'Indonesia?",
-      "cz": "Věděli jste, že malíř Abdullah Suriosubroto byl adoptován indonéským národním hrdinou?",
-      "phon": "[sa-PÉ-vi ke il pit-TÓ-re ab-DÚL-la su-rio-zub-RÓ-to è STÁ-to a-dot-TÁ-to da un É-roe na-cio-NÁ-le del-lin-do-NÉ-zia]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-    "cz": "Změna ve vedení Moravskoslezského kraje.",
-    "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
   }
 }
