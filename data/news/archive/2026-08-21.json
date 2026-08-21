@@ -1,8 +1,5 @@
 {
   "date": "2026-08-21",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_21",
-  "translator": "MyMemory (DeepL fallback)",
   "stories": [
     {
       "en": "Joint statement by High Representative/Vice-President Kallas and Commissioner Lahbib ahead of World Humanitarian Day*.",
@@ -95,42 +92,5 @@
     "en": "Corruption has been a significant problem in the People's Republic of China. Like other socialist economies that have undertaken economic reforms, such as post-Soviet Eastern Europe and Central Asia, reform-era China has experienced increasing levels of corruption.\nPublic surveys on the mainland since the late 1980s have shown that corruption is among the top concerns of the general public. According to Yan Sun, Associate Professor of Political Science at the City University of New York, it was cadre corruption, rather than a demand for democracy as such, that lay at the root of the social dissatisfaction that led to the 1989 Tiananmen Square protests and massacre.",
     "it": "La corruzione è stata un problema significativo nella Repubblica popolare cinese. Come altre economie socialiste che hanno intrapreso riforme economiche, come l'Europa orientale post-sovietica e l'Asia centrale, la Cina dell'era delle riforme ha registrato livelli crescenti di corruzione.\nI sondaggi pubblici sulla terraferma dalla fine degli anni '80 hanno dimostrato che la corruzione è tra le principali preoccupazioni del pubblico in generale. Secondo Yan Sun, professore associato di scienze politiche presso la City University di New York, è stata la corruzione dei quadri, piuttosto che una richiesta di democrazia in quanto tale, alla base dell'insoddisfazione sociale che ha portato alle proteste e al massacro di Piazza Tiananmen del 1989.",
     "cz": "Korupce je v Čínské lidové republice významným problémem. Stejně jako jiné socialistické ekonomiky, které provedly hospodářské reformy, jako je postsovětská východní Evropa a střední Asie, i Čína zažila rostoucí míru korupce.\nVeřejné průzkumy na pevnině od konce 80. let ukázaly, že korupce patří mezi hlavní obavy široké veřejnosti. Podle Yan Sun, docenta politologie na City University of New York, to byla kádrová korupce, spíše než požadavek na demokracii jako takovou, která ležela u kořene sociální nespokojenosti, která vedla k protestům a masakru na náměstí Nebeského klidu v roce 1989."
-  },
-  "shadows": [
-    {
-      "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-      "cz": "Změna ve vedení Moravskoslezského kraje.",
-      "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all'importazione - giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny - červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Di nuovo in carreggiata: Burnham può riparare gli infelici servizi ferroviari del nord?.",
-      "cz": "Zpět na trať: může Burnham opravit žalostné železniční služby na severu?.",
-      "phon": "[di NÚO-vo in kar-reg-DŽÁ-ta BÚR-nam può ri-pa-RÁ-re lj in-fe-LÍ-či ser-VÍ-ci fer-ro-VÍA-ri del nord]"
-    },
-    {
-      "it": "L'uomo arrestato per l'attentato al Nord Stream è stato consulente per il film con Sean Penn.",
-      "cz": "Muž zatčený v souvislosti s bombovým útokem na Nord Stream byl filmovým konzultantem se Seanem Pennem v hlavní roli.",
-      "phon": "[LÚO-mo ar-res-TÁ-to per lat-ten-TÁ-to al nord stream è STÁ-to kon-su-LÉN-te per il film kon sean penn]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-    "cz": "Změna ve vedení Moravskoslezského kraje.",
-    "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
   }
 }
