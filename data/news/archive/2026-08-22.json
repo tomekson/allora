@@ -1,8 +1,5 @@
 {
   "date": "2026-08-22",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_22",
-  "translator": "MyMemory (DeepL fallback)",
   "stories": [
     {
       "en": "Statement by Executive Vice-President Virkkunen and Commissioner McGrath ahead of the Europe-wide Day of Remembrance of the victims of all totalitarian and authoritarian regimes. On 23 August, we commemorate the anniversary of the Molotov-Ribbentrop Pact, signed in 1939 between Nazi Germany and the Soviet Union.",
@@ -113,47 +110,5 @@
     "en": "Since the start of the Gaza war on 7 October 2023, the UN Human Rights Council has identified \"clear evidence\" of war crimes by both Hamas and the Israel Defense Forces. A UN Commission to the Israel–Palestine conflict stated that there is \"clear evidence that war crimes may have been committed in the latest explosion of violence in Israel and Gaza, and all those who have violated international law and targeted civilians must be held accountable\". On 27 October, a spokesperson for the OHCHR called for an independent court to review potential war crimes committed by both sides. On 29 December, South Africa filed a case against Israel at the International Court of Justice, alleging that Israel's conduct amounted to genocide.",
     "it": "Dall'inizio della guerra di Gaza il 7 ottobre 2023, il Consiglio per i diritti umani delle Nazioni Unite ha identificato \"prove evidenti\" di crimini di guerra sia da parte di Hamas che delle Forze di difesa israeliane. Una Commissione delle Nazioni Unite per il conflitto israelo-palestinese ha dichiarato che ci sono \"prove evidenti che crimini di guerra potrebbero essere stati commessi nell'ultima esplosione di violenza in Israele e Gaza, e tutti coloro che hanno violato il diritto internazionale e preso di mira i civili devono essere ritenuti responsabili\". Il 27 ottobre, un portavoce dell'OHCHR ha chiesto un tribunale indipendente per esaminare i potenziali crimini di guerra commessi da entrambe le parti. Il 29 dicembre, il Sudafrica ha intentato una causa contro Israele presso la Corte internazionale di giustizia, sostenendo che la condotta di Israele equivaleva a un genocidio.",
     "cz": "Od začátku války v Gaze dne 7. října 2023 Rada OSN pro lidská práva identifikovala „jasné důkazy“ o válečných zločinech jak Hamásu, tak Izraelských obranných sil. Komise OSN pro izraelsko-palestinský konflikt uvedla, že „existují jasné důkazy, že při posledním výbuchu násilí v Izraeli a Gaze mohly být spáchány válečné zločiny a všichni, kteří porušili mezinárodní právo a zaměřili se na civilisty, musí být pohnáni k odpovědnosti“. Dne 27. října vyzval mluvčí OHCHR k nezávislému soudu, aby přezkoumal potenciální válečné zločiny spáchané oběma stranami. Dne 29. prosince Jihoafrická republika podala žalobu proti Izraeli u Mezinárodního soudního dvora s tvrzením, že izraelské chování se rovnalo genocidě."
-  },
-  "shadows": [
-    {
-      "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-      "cz": "Změna ve vedení Moravskoslezského kraje.",
-      "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all'importazione - giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny - červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Equilibrio tra lavoro e vita privata e lunedì santo | Brevi lettere.",
-      "cz": "Rovnováha mezi pracovním a soukromým životem a Svaté pondělí | Stručné dopisy.",
-      "phon": "[ek-vi-LÍB-rio tra la-VÓ-ro e VÍ-ta pri-VÁ-ta e lu-ne-DÍ SÁN-to BRÉ-vi let-TÉ-re]"
-    },
-    {
-      "it": "Sapevi che un tempo i ghepardi erano comunemente addomesticati come compagni di caccia?",
-      "cz": "Věděli jste, že gepardi byli kdysi běžně kroceni jako lovečtí společníci?",
-      "phon": "[sa-PÉ-vi ke un TÉM-po i ge-PÁR-di e-RÁ-no ko-mu-ne-MÉN-te ad-do-mes-ti-KÁ-ti KÓ-me kom-PÁ-ňi di KÁK-ča]"
-    },
-    {
-      "it": "Sapevi che la doppiatrice Yuri Usui ha una licenza di nutrizionista?",
-      "cz": "Věděli jste, že hlasová herečka Yuri Usui je držitelem licence odborníka na výživu?",
-      "phon": "[sa-PÉ-vi ke la dop-piat-RÍ-če YÚ-ri Ú-zui a u-na li-ČÉN-ca di nut-ri-cio-NÍS-ta]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-    "cz": "Změna ve vedení Moravskoslezského kraje.",
-    "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
   }
 }
