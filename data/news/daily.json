@@ -52,21 +52,21 @@
       "origin": "econ"
     },
     {
-      "en": "40,000 bottles of eye drops across the US recalled over issues with sterility of product. Prestige Brand Holdings has voluntarily recalled a batch of its Clear Eyes eye drops after FDA alert",
-      "it": "40.000 flaconi di collirio negli Stati Uniti richiamati per problemi di sterilità del prodotto. Prestige Brand Holdings ha richiamato volontariamente un lotto dei suoi colliri Clear Eyes dopo l'allarme della FDA",
-      "cz": "40 000 lahví očních kapek po celých USA bylo staženo z oběhu kvůli problémům se sterilitou produktu. Společnost Prestige Brand Holdings dobrovolně stáhla šarži očních kapek Clear Eyes po upozornění FDA",
+      "en": "‘Pretty shambolic’: new EU border checks cause stress for UK travellers. Britons report that EES digital entry and exit system has led to frustration, visa mix-ups and long queues",
+      "it": "\"Abbastanza caotico\": i nuovi controlli alle frontiere dell'UE causano stress ai viaggiatori del Regno Unito. I britannici riferiscono che il sistema digitale di ingresso e uscita EES ha portato a frustrazione, confusione di visti e lunghe code",
+      "cz": "„Docela chaotické“: nové hraniční kontroly EU způsobují stres pro cestovatele ve Spojeném království. Britové uvádějí, že digitální vstupní a výstupní systém EES vedl k frustraci, záměnám víz a dlouhým frontám",
       "origin": "guardian"
     },
     {
-      "en": "‘Penchant for bling’: can Sports Direct’s Mike Ashley take a bigger slice of luxury retail?. Frasers billionaire bought Harvey Nichols and increased Hugo Boss stake despite tough times for high-end stores",
-      "it": "\"Pena di bling\": Mike Ashley di Sports Direct può prendere una fetta più grande di vendita al dettaglio di lusso?. Il miliardario di Frasers ha acquistato Harvey Nichols e aumentato la quota di Hugo Boss nonostante i tempi difficili per i negozi di fascia alta",
-      "cz": "„Záliba v blingu“: zvládne Mike Ashley ze Sports Direct větší kus luxusního maloobchodu?. Miliardář Frasers koupil Harvey Nichols a zvýšil podíl Hugo Boss navzdory těžkým časům pro luxusní obchody",
+      "en": " UK orders reviews of franchising sector after Vodafone allegations. Two studies will be used to shape government policy amid claims about a former franchisee who took his own life",
+      "it": "Il Regno Unito ordina revisioni del settore del franchising dopo le accuse di Vodafone. Due studi saranno utilizzati per modellare la politica del governo tra le affermazioni su un ex franchisee che si è tolto la vita",
+      "cz": "Velká Británie objednává revize franchisingového sektoru po obvinění Vodafonu. Dvě studie budou použity k formování vládní politiky uprostřed tvrzení o bývalém franšízantovi, který si vzal život",
       "origin": "guardian"
     },
     {
-      "en": "Diamonds for sale: lab-grown gem auctions are all over TikTok right now, but some aren’t happy about it. Streamed auctions offer a cheap way to buy the precious gems, but experts warn that quality is not guaranteed",
-      "it": "Diamanti in vendita: le aste di gemme coltivate in laboratorio sono ovunque su TikTok in questo momento, ma alcuni non ne sono felici. Le aste in streaming offrono un modo economico per acquistare le gemme preziose, ma gli esperti avvertono che la qualità non è garantita",
-      "cz": "Diamanty na prodej: aukce drahokamů vypěstovaných v laboratoři jsou právě teď po celém TikToku, ale někteří z toho nejsou nadšeni. Streamované aukce nabízejí levný způsob, jak koupit drahokamy, ale odborníci varují, že kvalita není zaručena",
+      "en": "First Bus bans under-16s in Stoke-on-Trent travelling alone after 6pm after disorder. Company says decision comes after spate of antisocial behaviour since free travel scheme was introduced",
+      "it": "Il primo autobus vieta ai minori di 16 anni a Stoke-on-Trent di viaggiare da soli dopo le 18:00 dopo un disturbo. L'azienda afferma che la decisione arriva dopo l'ondata di comportamenti antisociali da quando è stato introdotto il programma di viaggio gratuito",
+      "cz": "První autobus ve Stoke-on-Trent zakazuje cestovat sám po 18:00 po nepořádku. Společnost říká, že rozhodnutí přichází po řadě antisociálního chování od zavedení programu bezplatného cestování",
       "origin": "guardian"
     },
     {
@@ -134,9 +134,14 @@
       "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
     },
     {
-      "it": "40.000 flaconi di collirio negli Stati Uniti richiamati per problemi di sterilità del prodotto.",
-      "cz": "40 000 lahví očních kapek po celých USA bylo staženo z oběhu kvůli problémům se sterilitou produktu.",
-      "phon": "[fla-KÓ-ni di kol-LÍ-rio nelj STÁ-ti u-NÍ-ti ri-kia-MÁ-ti per prob-LÉ-mi di ste-ri-li-TÁ del pro-DÓT-to]"
+      "it": "\"Abbastanza caotico\": i nuovi controlli alle frontiere dell'UE causano stress ai viaggiatori del Regno Unito.",
+      "cz": "„Docela chaotické“: nové hraniční kontroly EU způsobují stres pro cestovatele ve Spojeném království.",
+      "phon": "[ab-bas-TÁN-ca kao-TÍ-ko i NÚO-vi kont-RÓL-li ÁL-le fron-TÍE-re DÉL-lue kau-ZÁ-no stress ai viag-dža-TÓ-ri del RÉ-ňo u-NÍ-to]"
+    },
+    {
+      "it": "Il Regno Unito ordina revisioni del settore del franchising dopo le accuse di Vodafone.",
+      "cz": "Velká Británie objednává revize franchisingového sektoru po obvinění Vodafonu.",
+      "phon": "[il RÉ-ňo u-NÍ-to or-DÍ-na re-vi-ZÍO-ni del set-TÓ-re del fran-KÍ-zing DÓ-po le ak-KÚ-ze di vo-da-FÓ-ne]"
     }
   ],
   "shadow": {
