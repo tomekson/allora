@@ -1,8 +1,5 @@
 {
   "date": "2026-08-23",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_23",
-  "translator": "MyMemory (DeepL fallback)",
   "stories": [
     {
       "it": "L'epidemia di Ebola nella Repubblica Democratica del Congo ha finora causato oltre 2.500 vittime.",
@@ -106,42 +103,5 @@
     "en": "On February 1, 2025, a trade war started by the United States against Canada and Mexico began when the U.S. president Donald Trump signed orders imposing near-universal tariffs on goods from the two countries entering the United States. The order called for 25 percent tariffs on all imports from Mexico and all imports from Canada except for oil and energy, which would be taxed at 10 percent.\nIn response, then Canadian prime minister Justin Trudeau said Canada would retaliate with 25 percent tariffs on CA$30 billion (US$20.6 billion) of American goods, which would expand to CA$155 billion (US$106 billion) after three weeks. Mexican president Claudia Sheinbaum said Mexico would enact tariffs and non-tariff retaliation against the United States.",
     "it": "Il 1° febbraio 2025, una guerra commerciale iniziata dagli Stati Uniti contro il Canada e il Messico è iniziata quando il presidente degli Stati Uniti Donald Trump ha firmato ordini che impongono tariffe quasi universali sulle merci provenienti dai due paesi che entrano negli Stati Uniti. L'ordine prevedeva tariffe del 25% su tutte le importazioni dal Messico e tutte le importazioni dal Canada ad eccezione del petrolio e dell'energia, che sarebbero state tassate al 10%. In risposta, l'allora primo ministro canadese Justin Trudeau ha dichiarato che il Canada si vendicherà con tariffe del 25% su 30 miliardi di $ CA (20,6 miliardi di $ USA) di beni americani, che si espanderanno a 155 miliardi di $ CA (106 miliardi di $ USA) dopo tre settimane. La presidente messicana Claudia Sheinbaum ha dichiarato che il Messico metterà in atto tariffe e ritorsioni non tariffarie contro gli Stati Uniti.",
     "cz": "1. února 2025 začala obchodní válka Spojených států proti Kanadě a Mexiku, když americký prezident Donald Trump podepsal příkazy k uložení téměř univerzálních cel na zboží z obou zemí vstupující do Spojených států. Vyhláška požadovala 25procentní cla na veškerý dovoz z Mexika a veškerý dovoz z Kanady s výjimkou ropy a energie, která by byla zdaněna sazbou 10 procent. V reakci na to kanadský premiér Justin Trudeau uvedl, že Kanada odpoví 25procentními cly na americké zboží v hodnotě 30 miliard dolarů (20,6 miliardy dolarů), které se po třech týdnech zvýší na 155 miliard dolarů (106 miliard dolarů). Mexická prezidentka Claudia Sheinbaumová uvedla, že Mexiko zavede cla a necelní odplatu vůči Spojeným státům."
-  },
-  "shadows": [
-    {
-      "it": "L'epidemia di Ebola nella Repubblica Democratica del Congo ha finora causato oltre 2.500 vittime.",
-      "cz": "Epidemie eboly v&nbsp;Konžské demokratické republice si dosud vyžádala více než 2&nbsp;500 životů.",
-      "phon": "[le-pi-DÉ-mia di e-BÓ-la NÉL-la re-pubb-LÍ-ka de-mok-ra-TÍ-ka del KÓN-go a fi-NÓ-ra kau-ZÁ-to ÓLT-re vit-TÍ-me]"
-    },
-    {
-      "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-      "cz": "Změna ve vedení Moravskoslezského kraje.",
-      "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all'importazione - giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny - červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "40.000 flaconi di collirio negli Stati Uniti richiamati per problemi di sterilità del prodotto.",
-      "cz": "40 000 lahví očních kapek po celých USA bylo staženo z oběhu kvůli problémům se sterilitou produktu.",
-      "phon": "[fla-KÓ-ni di kol-LÍ-rio nelj STÁ-ti u-NÍ-ti ri-kia-MÁ-ti per prob-LÉ-mi di ste-ri-li-TÁ del pro-DÓT-to]"
-    }
-  ],
-  "shadow": {
-    "it": "L'epidemia di Ebola nella Repubblica Democratica del Congo ha finora causato oltre 2.500 vittime.",
-    "cz": "Epidemie eboly v&nbsp;Konžské demokratické republice si dosud vyžádala více než 2&nbsp;500 životů.",
-    "phon": "[le-pi-DÉ-mia di e-BÓ-la NÉL-la re-pubb-LÍ-ka de-mok-ra-TÍ-ka del KÓN-go a fi-NÓ-ra kau-ZÁ-to ÓLT-re vit-TÍ-me]"
   }
 }
