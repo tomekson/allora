@@ -2,6 +2,11 @@
   "date": "2026-08-25",
   "stories": [
     {
+      "it": "Il comune di Pomas, nel dipartimento dell'Aude, nel sud della Francia, è stato colpito da un tornado che ha danneggiato 300 case e ferito 41 persone. I temporali hanno privato circa 2.800 famiglie di elettricità e interrotto il traffico aereo.",
+      "cz": "Obec Pomas v departementu Aude na jihu Francie zasáhlo tornádo, které poškodilo 300 domů a zranilo 41 lidí. Bouřky připravily asi 2800 domácností o elektřinu a narušily leteckou dopravu.",
+      "origin": "cz"
+    },
+    {
       "it": "Il Giappone orientale è stato colpito da un terremoto di magnitudo 5,9. Almeno 37 persone sono rimaste ferite, circa 460 famiglie sono state colpite dall'interruzione di corrente e il funzionamento dei treni è stato limitato.",
       "cz": "Východní Japonsko zasáhlo zemětřesení o síle 5,9 stupně. Nejméně 37 lidí utrpělo zranění, výpadek elektřiny postihl asi 460 domácností a provoz vlaků byl omezen.",
       "origin": "cz"
@@ -54,21 +59,21 @@
       "origin": "econ"
     },
     {
-      "en": "Woolworths’ Ooshies craze causes Coles sales slump with parents shopping at rival supermarket to collect toys. Coles full-year results show that despite gaining market share over past 12 months, sales fell over four weeks of ‘competitor’s collectables campaign’",
-      "it": "La mania di Ooshies di Woolworths causa il crollo delle vendite di Coles con i genitori che fanno acquisti al supermercato rivale per raccogliere giocattoli. I risultati dell'intero anno di Coles mostrano che, nonostante l'aumento della quota di mercato negli ultimi 12 mesi, le vendite sono diminuite in quattro settimane di \"campagna da collezione della concorrenza\"",
-      "cz": "Woolworthsovo Ooshiesovo šílenství způsobuje Colesův pokles prodeje s rodiči nakupujícími v konkurenčním supermarketu, aby sbírali hračky. Celoroční výsledky společnosti Coles ukazují, že navzdory získání podílu na trhu za posledních 12 měsíců prodeje klesly během čtyř týdnů „sběratelské kampaně konkurence“",
+      "en": "Gold hits highest level in three months as traders worry about US inflation and bond market jitters – business live. Spot gold touches almost $4,700 an ounce and Bitcoin tops $80,000 while oil prices fall despite threat of heavy US sanctions on Iran and any country trading with it",
+      "it": "L'oro raggiunge il livello più alto in tre mesi mentre i trader si preoccupano dell'inflazione negli Stati Uniti e del nervosismo del mercato obbligazionario – affari in diretta. L'oro spot tocca quasi $4.700 l'oncia e Bitcoin raggiunge $80.000 mentre i prezzi del petrolio scendono nonostante la minaccia di pesanti sanzioni statunitensi sull'Iran e su qualsiasi paese che commercia con esso",
+      "cz": "Zlato dosáhlo nejvyšší úrovně za tři měsíce, protože obchodníci se obávají inflace v USA a nervozity na dluhopisovém trhu – živě. Spotové zlato se dotýká téměř 4 700 $ za unci a Bitcoin dosahuje 80 000 $, zatímco ceny ropy klesají navzdory hrozbě tvrdých amerických sankcí vůči Íránu a jakékoli zemi, která s ním obchoduje",
       "origin": "guardian"
     },
     {
-      "en": "Washington Post ordered to reinstate opinion writer fired over Charlie Kirk posts. Arbitrator determined the Post improperly fired Karen Attiah, a union-protected employee, over social media posts",
-      "it": "Il Washington Post ha ordinato di reintegrare l'opinionista licenziato per i post di Charlie Kirk. L'arbitro ha stabilito che il Post ha licenziato impropriamente Karen Attiah, una dipendente protetta dal sindacato, per i post sui social media",
-      "cz": "Washington Post nařídil obnovit spisovatele názorů, který byl propuštěn kvůli příspěvkům Charlieho Kirka. Rozhodce rozhodl, že příspěvek neoprávněně vyhodil Karen Attiahovou, zaměstnankyni chráněnou odbory, kvůli příspěvkům na sociálních sítích",
+      "en": "US Treasury’s Scott Bessent ‘will lose’ battle with bond markets, former mentor warns. Trump ally should cut budget deficit rather than try to suppress bond yields, says billionaire Stanley Druckenmiller",
+      "it": "Scott Bessent del Tesoro degli Stati Uniti \"perderà\" la battaglia con i mercati obbligazionari, avverte l'ex mentore. L'alleato di Trump dovrebbe ridurre il deficit di bilancio piuttosto che cercare di sopprimere i rendimenti obbligazionari, afferma il miliardario Stanley Druckenmiller",
+      "cz": "Scott Bessent z amerického ministerstva financí „prohraje“ bitvu s trhy s dluhopisy, varuje bývalý mentor. Trump spojenec by měl snížit rozpočtový schodek spíše než se snažit potlačit výnosy dluhopisů, říká miliardář Stanley Druckenmiller",
       "origin": "guardian"
     },
     {
-      "en": "Households in Great Britain ‘could owe energy suppliers £7bn by end of year’. After higher prices for winter kick in, energy debt unpaid for more than 30 days likely to rise, says Energy UK",
-      "it": "Le famiglie in Gran Bretagna \"potrebbero dover pagare ai fornitori di energia £7 miliardi entro la fine dell'anno\". Dopo l'aumento dei prezzi per l'inverno, è probabile che il debito energetico non pagato per più di 30 giorni aumenti, afferma Energy UK",
-      "cz": "Domácnosti ve Velké Británii „by mohly do konce roku dlužit dodavatelům energie 7 miliard £“. Po vyšších cenách za zimu se energetický dluh nesplacený déle než 30 dní pravděpodobně zvýší, říká Energy UK",
+      "en": "Lloyds Bank is holding on to our urgently needed £5,500. We want our balance back, but we can’t access the money to pay for essential repairs and settle an electricity bill",
+      "it": "Lloyds Bank si sta aggrappando ai nostri £5.500 urgentemente necessari. Rivogliamo il nostro saldo, ma non possiamo accedere ai soldi per pagare le riparazioni essenziali e saldare una bolletta elettrica",
+      "cz": "Lloyds Bank se drží našich naléhavě potřebných 5 500 £. Chceme zpět svůj zůstatek, ale nemáme přístup k penězům na zaplacení nezbytných oprav a vyrovnání účtu za elektřinu",
       "origin": "guardian"
     },
     {
@@ -90,9 +95,9 @@
       "origin": "world"
     },
     {
-      "en": "Former British snooker Graeme Dott is found guilty of sexually abusing two primary school children.",
-      "it": "L'ex giocatore di biliardo britannico Graeme Dott è stato riconosciuto colpevole di aver abusato sessualmente di due bambini della scuola elementare.",
-      "cz": "Bývalý britský snooker Graeme Dott je shledán vinným ze sexuálního zneužívání dvou dětí na základní škole.",
+      "en": "Former British snooker player Graeme Dott is found guilty of sexually abusing two primary school children.",
+      "it": "L'ex giocatore di biliardo britannico Graeme Dott viene riconosciuto colpevole di aver abusato sessualmente di due bambini della scuola elementare.",
+      "cz": "Bývalý britský snookerový hráč Graeme Dott je shledán vinným ze sexuálního zneužívání dvou dětí na základní škole.",
       "origin": "world"
     },
     {
