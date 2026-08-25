@@ -1,8 +1,5 @@
 {
   "date": "2026-08-25",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_25",
-  "translator": "MyMemory (DeepL fallback)",
   "stories": [
     {
       "it": "Il Giappone orientale è stato colpito da un terremoto di magnitudo 5,9. Almeno 37 persone sono rimaste ferite, circa 460 famiglie sono state colpite dall'interruzione di corrente e il funzionamento dei treni è stato limitato.",
@@ -123,52 +120,5 @@
     "en": "International sanctions against Iran are a set of punitive economic and diplomatic measures imposed by the United Nations, and also unilaterally by the United States, the European Union, and numerous other countries and international bodies. These sanctions have been applied across successive decades in response to a range of Iranian policies, including its nuclear programme, alleged support for terrorism, human rights violations, and its military conduct in the Persian Gulf. Iran was the most heavily sanctioned country in the world until Russia surpassed it following the 2022 Russian invasion of Ukraine.\nThe first American sanctions were imposed in November 1979 after radical students seized the United States Embassy in Tehran.",
     "it": "Le sanzioni internazionali contro l'Iran sono un insieme di misure economiche e diplomatiche punitive imposte dalle Nazioni Unite, e anche unilateralmente dagli Stati Uniti, dall'Unione Europea e da numerosi altri paesi e organismi internazionali. Queste sanzioni sono state applicate nei decenni successivi in risposta a una serie di politiche iraniane, tra cui il suo programma nucleare, il presunto sostegno al terrorismo, le violazioni dei diritti umani e la sua condotta militare nel Golfo Persico. L'Iran era il paese più pesantemente sanzionato al mondo fino a quando la Russia non lo ha superato dopo l'invasione russa dell'Ucraina del 2022. Le prime sanzioni americane furono imposte nel novembre 1979 dopo che studenti radicali sequestrarono l'ambasciata degli Stati Uniti a Teheran.",
     "cz": "Mezinárodní sankce proti Íránu jsou souborem represivních ekonomických a diplomatických opatření uložených Organizací spojených národů a také jednostranně Spojenými státy, Evropskou unií a mnoha dalšími zeměmi a mezinárodními orgány. Tyto sankce byly uplatňovány po celá desetiletí v reakci na řadu íránských politik, včetně jeho jaderného programu, údajné podpory terorismu, porušování lidských práv a vojenského chování v Perském zálivu. Írán byl nejvíce sankcionovanou zemí na světě, dokud ho Rusko nepřekonalo po ruské invazi na Ukrajinu v roce 2022. První americké sankce byly uvaleny v listopadu 1979 poté, co radikální studenti obsadili velvyslanectví Spojených států v Teheránu."
-  },
-  "shadows": [
-    {
-      "it": "Il Giappone orientale è stato colpito da un terremoto di magnitudo 5,9.",
-      "cz": "Východní Japonsko zasáhlo zemětřesení o síle 5,9 stupně.",
-      "phon": "[il džap-PÓ-ne o-rien-TÁ-le è STÁ-to kol-PÍ-to da un ter-re-MÓ-to di ma-ňi-TÚ-do]"
-    },
-    {
-      "it": "Gli Stati Uniti hanno imposto una tariffa del 50% su 20 miliardi di dollari di importazioni canadesi.",
-      "cz": "USA zavedly 50% clo na kanadský dovoz v hodnotě 20 miliard dolarů.",
-      "phon": "[lj STÁ-ti u-NÍ-ti ÁN-no im-PÓS-to u-na ta-RÍF-fa del su mi-LÍAR-di di dol-LÁ-ri di im-por-ta-CÍO-ni ka-na-DÉ-zi]"
-    },
-    {
-      "it": "La Commissione propone possibilità di pesca per il 2027 nel Mar Baltico.",
-      "cz": "Komise navrhuje rybolovná práva pro rok 2027 v Baltském moři.",
-      "phon": "[la kom-mis-SÍO-ne pro-PÓ-ne pos-si-bi-li-TÁ di PÉS-ka per il nel mar bal-TÍ-ko]"
-    },
-    {
-      "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-      "cz": "Změna ve vedení Moravskoslezského kraje.",
-      "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Commercio estero e prezzi all'importazione - giugno 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny - červen 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci al-lim-por-ta-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Il Washington Post ha ordinato di reintegrare l'opinionista licenziato per i post di Charlie Kirk.",
-      "cz": "Washington Post nařídil obnovit spisovatele názorů, který byl propuštěn kvůli příspěvkům Charlieho Kirka.",
-      "phon": "[il wa-SÍNG-ton post a or-di-NÁ-to di rein-teg-RÁ-re lo-pi-nio-NÍS-ta li-čen-CÍA-to per i post di KÁR-lie kirk]"
-    }
-  ],
-  "shadow": {
-    "it": "Il Giappone orientale è stato colpito da un terremoto di magnitudo 5,9.",
-    "cz": "Východní Japonsko zasáhlo zemětřesení o síle 5,9 stupně.",
-    "phon": "[il džap-PÓ-ne o-rien-TÁ-le è STÁ-to kol-PÍ-to da un ter-re-MÓ-to di ma-ňi-TÚ-do]"
   }
 }
