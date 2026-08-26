@@ -56,13 +56,18 @@ data/
 GitHub Actions workflow `.github/workflows/fetch-news.yml` + `scripts/fetch-news.mjs`:
 - **cron denně 04:30 UTC** (~06:30 Prahy) + záložní běh 07:00 UTC + `workflow_dispatch` pro ruční spuštění
 - Zdroj: **Wikipedia Portal:Current_events** (CC BY-SA, denní jednověté zprávy anglicky) — původně plánovaná VOA Learning English je od března 2025 mrtvá (přestala publikovat), ANSA/iRozhlas nejsou licenčně čisté pro veřejné repo
-- Překlad: **DeepL API Free** (EN→IT + EN→CS), klíč v repo secretu `DEEPL_API_KEY`; free klíč končí `:fx` → endpoint api-free.deepl.com. Bez klíče script projede dry-run a nic nezapíše (cron nespadne)
-- Fallback: bez klíče nebo při chybě/vyčerpané kvótě DeepL překládá **MyMemory** (zdarma, bez klíče)
-- Kvóty: použitelnost DeepL se předem ověří jedním dvouznakovým překladem; když neprojde, jde celý
-  běh rovnou přes MyMemory a nemarní se desítka volání na `456 Quota exceeded`. Na `/v2/usage` se
-  spolehnout nelze — umí hlásit statisíce volných znaků a překlad přesto odmítnout, proto je jeho
-  výstup jen v logu. MyMemory má anonymně 5 000 znaků/den na IP, s e-mailem v repo secretu
-  `MYMEMORY_EMAIL` 50 000
+- Překlad: **Google Cloud Translation v2** (EN→IT + EN→CS), klíč v repo secretu `GOOGLE_TRANSLATE_API_KEY`
+- Fallback: bez klíče nebo při chybě/vyčerpané kvótě Googlu překládá **MyMemory** (zdarma, bez klíče)
+- Kvóty: free tier Google Translate je **500 000 znaků měsíčně na fakturační účet**, tedy sdílený
+  mezi ¡pues! a allora. Naměřená spotřeba je ~222 k + ~256 k = ~480 k, takže rezerva je jen 4 % —
+  přetečení se účtuje 20 $ za milion znaků. Použitelnost se předem ověří jedním dvouznakovým
+  překladem; když neprojde (vyčerpaná kvóta, neplatný klíč), jde celý běh rovnou přes MyMemory
+  a nemarní se tucet volání do zdi. MyMemory má anonymně 5 000 znaků/den na IP, s e-mailem
+  v repo secretu `MYMEMORY_EMAIL` 50 000
+- Google vrací i s `format: 'text'` HTML entity (`&#39;`), překlad se proto ještě unescapuje
+- **DeepL** tu byl do srpna 2026, kdy jeho Free tier vyčerpal **lifetime** limit 1M znaků. To se
+  přes API nepozná: `/v2/usage` hlásí jen aktuální období, takže tvrdil statisíce volných znaků,
+  zatímco každý překlad končil na `456 Quota exceeded`
 - Když ani jeden překladač nestačí, zprávy bez překladu se zahodí a vydání vyjde kratší; teprve když
   nezbyde ani jedna, `daily.json` se nepřepíše a job skončí chybou
 - Záložní běh v 07:00 UTC se přeskočí, pokud `daily.json` už má dnešní datum — jinak by jeden den
