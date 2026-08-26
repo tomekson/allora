@@ -1,8 +1,5 @@
 {
   "date": "2026-08-26",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_26",
-  "translator": "MyMemory (DeepL fallback)",
   "stories": [
     {
       "it": "Il comune di Pomas, nel dipartimento dell'Aude, nel sud della Francia, è stato colpito da un tornado che ha danneggiato 300 case e ferito 41 persone. I temporali hanno privato circa 2.800 famiglie di elettricità e interrotto il traffico aereo.",
@@ -123,47 +120,5 @@
     "en": "On February 1, 2025, a trade war started by the United States against Canada and Mexico began when the U.S. president Donald Trump signed orders imposing near-universal tariffs on goods from the two countries entering the United States. The order called for 25 percent tariffs on all imports from Mexico and all imports from Canada except for oil and energy, which would be taxed at 10 percent.\nIn response, then Canadian prime minister Justin Trudeau said Canada would retaliate with 25 percent tariffs on CA$30 billion (US$20.6 billion) of American goods, which would expand to CA$155 billion (US$106 billion) after three weeks. Mexican president Claudia Sheinbaum said Mexico would enact tariffs and non-tariff retaliation against the United States.",
     "it": "Il 1° febbraio 2025, una guerra commerciale iniziata dagli Stati Uniti contro il Canada e il Messico è iniziata quando il presidente degli Stati Uniti Donald Trump ha firmato ordini che impongono tariffe quasi universali sulle merci provenienti dai due paesi che entrano negli Stati Uniti. L'ordine prevedeva tariffe del 25% su tutte le importazioni dal Messico e tutte le importazioni dal Canada ad eccezione del petrolio e dell'energia, che sarebbero state tassate al 10%. In risposta, l'allora primo ministro canadese Justin Trudeau ha dichiarato che il Canada si vendicherà con tariffe del 25% su 30 miliardi di $ CA (20,6 miliardi di $ USA) di beni americani, che si espanderanno a 155 miliardi di $ CA (106 miliardi di $ USA) dopo tre settimane. La presidente messicana Claudia Sheinbaum ha dichiarato che il Messico metterà in atto tariffe e ritorsioni non tariffarie contro gli Stati Uniti.",
     "cz": "1. února 2025 začala obchodní válka Spojených států proti Kanadě a Mexiku, když americký prezident Donald Trump podepsal příkazy k uložení téměř univerzálních cel na zboží z obou zemí vstupující do Spojených států. Vyhláška požadovala 25procentní cla na veškerý dovoz z Mexika a veškerý dovoz z Kanady s výjimkou ropy a energie, která by byla zdaněna sazbou 10 procent. V reakci na to kanadský premiér Justin Trudeau uvedl, že Kanada odpoví 25procentními cly na americké zboží v hodnotě 30 miliard dolarů (20,6 miliardy dolarů), které se po třech týdnech zvýší na 155 miliard dolarů (106 miliard dolarů). Mexická prezidentka Claudia Sheinbaumová uvedla, že Mexiko zavede cla a necelní odplatu vůči Spojeným státům."
-  },
-  "shadows": [
-    {
-      "it": "Il Giappone orientale è stato colpito da un terremoto di magnitudo 5,9.",
-      "cz": "Východní Japonsko zasáhlo zemětřesení o síle 5,9 stupně.",
-      "phon": "[il džap-PÓ-ne o-rien-TÁ-le è STÁ-to kol-PÍ-to da un ter-re-MÓ-to di ma-ňi-TÚ-do]"
-    },
-    {
-      "it": "La Commissione propone possibilità di pesca per il 2027 nel Mar Baltico*.",
-      "cz": "Komise navrhuje rybolovná práva pro rok 2027 v Baltském moři*.",
-      "phon": "[la kom-mis-SÍO-ne pro-PÓ-ne pos-si-bi-li-TÁ di PÉS-ka per il nel mar bal-TÍ-ko]"
-    },
-    {
-      "it": "Visite dans les Hautes Fagnes.",
-      "cz": "Visite dans les Hautes Fagnes.",
-      "phon": "[vi-ZÍ-te dans les ÁU-tes FÁ-ňes]"
-    },
-    {
-      "it": "Cambio nella gestione della Divisione Regionale Moravia.",
-      "cz": "Změna ve vedení Moravskoslezského kraje.",
-      "phon": "[KÁM-bio NÉL-la džes-TÍO-ne DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene invariati i tassi di interesse.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne in-va-RÍA-ti i TÁS-si di in-te-RÉS-se]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "Burnham rimugina sul diritto fallimentare per contribuire a portare le utenze sotto il controllo pubblico.",
-      "cz": "Burnham se otřásá insolvenčním právem, aby pomohl dostat veřejné služby pod veřejnou kontrolu.",
-      "phon": "[BÚR-nam ri-mu-DŽÍ-na sul di-RÍT-to fal-li-men-TÁ-re per kont-ri-BÚI-re a por-TÁ-re le u-TÉN-ce SÓT-to il kont-RÓL-lo pubb-LÍ-ko]"
-    }
-  ],
-  "shadow": {
-    "it": "Il Giappone orientale è stato colpito da un terremoto di magnitudo 5,9.",
-    "cz": "Východní Japonsko zasáhlo zemětřesení o síle 5,9 stupně.",
-    "phon": "[il džap-PÓ-ne o-rien-TÁ-le è STÁ-to kol-PÍ-to da un ter-re-MÓ-to di ma-ňi-TÚ-do]"
   }
 }
