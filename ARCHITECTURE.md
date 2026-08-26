@@ -54,9 +54,17 @@ data/
 ## Pipeline 1 — denní zprávy (implementováno 2026-07, bez AI tokenů)
 
 GitHub Actions workflow `.github/workflows/fetch-news.yml` + `scripts/fetch-news.mjs`:
-- **cron denně 04:30 UTC** (~06:30 Prahy) + `workflow_dispatch` pro ruční spuštění
+- **cron denně 04:30 UTC** (~06:30 Prahy) + záložní běh 07:00 UTC + `workflow_dispatch` pro ruční spuštění
 - Zdroj: **Wikipedia Portal:Current_events** (CC BY-SA, denní jednověté zprávy anglicky) — původně plánovaná VOA Learning English je od března 2025 mrtvá (přestala publikovat), ANSA/iRozhlas nejsou licenčně čisté pro veřejné repo
 - Překlad: **DeepL API Free** (EN→IT + EN→CS), klíč v repo secretu `DEEPL_API_KEY`; free klíč končí `:fx` → endpoint api-free.deepl.com. Bez klíče script projede dry-run a nic nezapíše (cron nespadne)
+- Fallback: bez klíče nebo při chybě/vyčerpané kvótě DeepL překládá **MyMemory** (zdarma, bez klíče)
+- Kvóty: před překladem se jedním dotazem na DeepL `/v2/usage` zjistí zbývající kvóta; při vyčerpání
+  jde všechno rovnou přes MyMemory a nemarní se desítka volání na `456 Quota exceeded`. MyMemory má
+  anonymně 5 000 znaků/den na IP, s e-mailem v repo secretu `MYMEMORY_EMAIL` 50 000
+- Když ani jeden překladač nestačí, zprávy bez překladu se zahodí a vydání vyjde kratší; teprve když
+  nezbyde ani jedna, `daily.json` se nepřepíše a job skončí chybou
+- Záložní běh v 07:00 UTC se přeskočí, pokud `daily.json` už má dnešní datum — jinak by jeden den
+  spotřeboval kvótu překladače dvakrát
 - Výstup: `data/news/daily.json` `{date, source, sourceUrl, stories: [{en, it, cz}]}` — jedna úroveň (~B1 dle zdroje), v app sekce "Notizie del giorno" nad session zprávami
 - Commit z workflow zároveň drží scheduled cron naživu (60denní auto-disable při neaktivitě)
 - Plně odstupňované A1/A2/B1 zprávy dál generuje jen Claude (`/allora` session, případně scheduled agent)
