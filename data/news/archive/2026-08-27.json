@@ -1,8 +1,5 @@
 {
   "date": "2026-08-27",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_27",
-  "translator": "Google Translate",
   "stories": [
     {
       "it": "Un tornado ha colpito il villaggio di Pomas, nel dipartimento dell'Aude, nel sud della Francia, danneggiando 300 abitazioni e ferendo 41 persone. La tempesta ha lasciato circa 2.800 case senza elettricità e ha causato disagi al traffico aereo.",
@@ -118,37 +115,5 @@
     "en": "The Bosnian War (Serbo-Croatian: Rat u Bosni i Hercegovini / Рат у Босни и Херцеговини) was an armed conflict that took place in Bosnia and Herzegovina, from 1992 until 1995. Following several earlier violent incidents, the war is commonly seen as having started on 6 April 1992 when the newly independent Republic of Bosnia and Herzegovina was internationally recognized. It ended on 21 November 1995 when the Dayton Accords were initialed. The main belligerents were the forces of the government of the Republic of Bosnia and Herzegovina, and those of the breakaway proto-states of the Republic of Herzeg-Bosnia and the Republika Srpska which were led and supplied by Croatia and Serbia, respectively.\nThe war was part of the breakup of Yugoslavia.",
     "it": "La guerra in Bosnia (in serbo-croato: Rat u Bosni i Hercegovini / Рат у Босни и Херцеговини) è stato un conflitto armato che ha avuto luogo in Bosnia ed Erzegovina dal 1992 al 1995. A seguito di diversi episodi di violenza precedenti, la guerra è comunemente considerata iniziata il 6 aprile 1992, quando la neonata Repubblica di Bosnia ed Erzegovina, da poco indipendente, ottenne il riconoscimento internazionale. Si concluse il 21 novembre 1995 con la firma degli Accordi di Dayton. I principali belligeranti furono le forze governative della Repubblica di Bosnia ed Erzegovina e quelle dei proto-stati secessionisti della Repubblica di Erzegovina-Bosnia e della Republika Srpska, guidati e riforniti rispettivamente da Croazia e Serbia.\n\nLa guerra fu parte integrante della dissoluzione della Jugoslavia.",
     "cz": "Bosenská válka (srbochorvatsky: Rat u Bosne i Hercegovine / Рат у Босни и Херцеговини) byl ozbrojený konflikt, který probíhal v Bosně a Hercegovině od roku 1992 do roku 1995. Po několika dřívějších násilných incidentech je válka obecně považována za začátek 6. dubna 1992, kdy byla mezinárodně uznána nově nezávislá Republika Bosna a Hercegovina. Skončila 21. listopadu 1995 parafováním Daytonských dohod. Hlavními válčícími stranami byly síly vlády Republiky Bosna a Hercegovina a síly odtržených protostátů Republiky Herceg-Bosna a Republiky srbské, které vedly a zásobovaly Chorvatsko a Srbsko.\nVálka byla součástí rozpadu Jugoslávie."
-  },
-  "shadows": [
-    {
-      "it": "La Commissione invia una comunicazione di obiezioni in merito alla proposta di joint venture tra UPM e Sappi.",
-      "cz": "Komise zaslala prohlášení o námitkách k navrhovanému společnému podniku mezi společnostmi UPM a Sappi.",
-      "phon": "[la kom-mis-SÍO-ne ÍN-via u-na ko-mu-ni-ka-CÍO-ne di o-bie-CÍO-ni in me-RÍ-to ÁL-la pro-PÓS-ta di joint ven-TÚ-re tra upm e SÁP-pi]"
-    },
-    {
-      "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-      "cz": "Změna ve vedení Regionální divize Morava.",
-      "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "Prezzi al consumo - luglio 2026.",
-      "cz": "Spotřebitelské ceny - červenec 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo LÚL-jo]"
-    },
-    {
-      "it": "A prova di intelligenza artificiale?",
-      "cz": "Odolnost vůči umělé inteligenci?",
-      "phon": "[a PRÓ-va di in-tel-li-DŽÉN-ca ar-ti-fi-ČÁ-le]"
-    }
-  ],
-  "shadow": {
-    "it": "La Commissione invia una comunicazione di obiezioni in merito alla proposta di joint venture tra UPM e Sappi.",
-    "cz": "Komise zaslala prohlášení o námitkách k navrhovanému společnému podniku mezi společnostmi UPM a Sappi.",
-    "phon": "[la kom-mis-SÍO-ne ÍN-via u-na ko-mu-ni-ka-CÍO-ne di o-bie-CÍO-ni in me-RÍ-to ÁL-la pro-PÓS-ta di joint ven-TÚ-re tra upm e SÁP-pi]"
   }
 }
