@@ -1,0 +1,60 @@
+---
+import Base from "../../layouts/Base.astro";
+import { shops, slugify, COUNTRY_LABELS, ASSORTMENT_LABELS } from "../../lib/catalog";
+
+export function getStaticPaths() {
+  return shops.map((shop) => ({ params: { slug: shop.slug }, props: { shop } }));
+}
+
+const { shop } = Astro.props;
+---
+
+<Base
+  title={`${shop.name}: platební metody | APMM`}
+  description={`Jaké platební metody přijímá ${shop.name}: přehled včetně alternativních plateb a podmínek vracení zboží.`}
+>
+  <h1>{shop.name}</h1>
+  <p class="meta">
+    <a href={shop.url} rel="noopener nofollow">{shop.url}</a><br />
+    Sídlo: {COUNTRY_LABELS[shop.country]} · Sortiment: {ASSORTMENT_LABELS[shop.assortment]}
+  </p>
+  {shop.note && <p>{shop.note}</p>}
+
+  <h2>Platební metody</h2>
+  <table>
+    <thead>
+      <tr><th>Metoda</th><th>Typ</th><th>Poznámka</th></tr>
+    </thead>
+    <tbody>
+      {shop.payments.map((p) => (
+        <tr>
+          <td>
+            {p.method.isAlternative
+              ? <a href={`/metoda/${slugify(p.method.name)}/`}>{p.method.name}</a>
+              : p.method.name}
+          </td>
+          <td>{p.method.isAlternative ? <span class="badge">alternativní</span> : <span class="badge plain">běžná</span>}</td>
+          <td>{p.note ?? ""}</td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+  {shop.payments.length === 0 && <p>Platební metody u tohoto obchodu zatím evidujeme, údaje doplníme po ověření.</p>}
+
+  <h2>Vracení zboží</h2>
+  <p>
+    {shop.returnPeriodDays
+      ? `Obchod uvádí lhůtu pro vrácení ${shop.returnPeriodDays} dní.`
+      : "Lhůtu pro vrácení zatím nemáme ověřenou."}
+    {shop.returnPolicyUrl && (
+      <> Podmínky: <a href={shop.returnPolicyUrl} rel="noopener nofollow">{shop.returnPolicyUrl}</a></>
+    )}
+  </p>
+
+  {shop.sourceUrl && (
+    <p class="meta">
+      Zdroj informací o platbách: <a href={shop.sourceUrl} rel="noopener nofollow">{shop.sourceUrl}</a>
+    </p>
+  )}
+  <p><a href="/">Zpět na katalog</a></p>
+</Base>
