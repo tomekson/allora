@@ -1,8 +1,5 @@
 {
   "date": "2026-08-29",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_August_29",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commission endorses Greece's €4.8 billion Social Climate Plan to support vulnerable households, transport users and micro-enterprises in the clean transition. Today, the European Commission adopted Greece's Social Climate Plan.",
@@ -113,52 +110,5 @@
     "en": "Corruption in Ecuador is a serious problem. According to a report by Adam Zuckerman, \"institutionalized graft has become a driving force\" of Ecuador's economy, and this graft is \"flourishing in a vacuum of transparency or accountability\". The same report indicated that \"the entire business class of Guayaquil\" owns offshore bank accounts. David Rosero, a member of the opposition party and a member of Ecuador's Council for Citizen Participation, has stated that $2 billion is lost annually to corruption.",
     "it": "La corruzione in Ecuador è un problema serio. Secondo un rapporto di Adam Zuckerman, \"la corruzione istituzionalizzata è diventata una forza trainante\" dell'economia ecuadoriana, e questa corruzione \"prospera in un vuoto di trasparenza e responsabilità\". Lo stesso rapporto indicava che \"l'intera classe imprenditoriale di Guayaquil\" possiede conti bancari offshore. David Rosero, membro del partito di opposizione e del Consiglio per la Partecipazione Cittadina dell'Ecuador, ha affermato che la corruzione causa una perdita annuale di 2 miliardi di dollari.",
     "cz": "Korupce v Ekvádoru je vážný problém. Podle zprávy Adama Zuckermana se „institucionalizovaný úplatek stal hnací silou“ ekvádorské ekonomiky a tento úplatek „vzkvétá ve vakuu transparentnosti a odpovědnosti“. Stejná zpráva uvádí, že „celá podnikatelská třída Guayaquilu“ vlastní zahraniční bankovní účty. David Rosero, člen opoziční strany a člen ekvádorské Rady pro občanskou účast, uvedl, že každoročně se kvůli korupci ztrácejí 2 miliardy dolarů."
-  },
-  "shadows": [
-    {
-      "it": "La Commissione invia una comunicazione di obiezioni in merito alla proposta di joint venture tra UPM e Sappi.",
-      "cz": "Komise zaslala prohlášení o námitkách k navrhovanému společnému podniku mezi společnostmi UPM a Sappi.",
-      "phon": "[la kom-mis-SÍO-ne ÍN-via u-na ko-mu-ni-ka-CÍO-ne di o-bie-CÍO-ni in me-RÍ-to ÁL-la pro-PÓS-ta di joint ven-TÚ-re tra upm e SÁP-pi]"
-    },
-    {
-      "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-      "cz": "Změna ve vedení Regionální divize Morava.",
-      "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "Fiducia dei consumatori e delle imprese - Agosto 2026.",
-      "cz": "Důvěra spotřebitelů a podniků - srpen 2026.",
-      "phon": "[fi-DÚ-ča dei kon-su-ma-TÓ-ri e DÉL-le imp-RÉ-ze a-GÓS-to]"
-    },
-    {
-      "it": "Fatturato dell'industria e dei servizi - giugno 2026.",
-      "cz": "Tržby v průmyslu a službách - červen 2026.",
-      "phon": "[fat-tu-RÁ-to del-lin-DÚST-ria e dei ser-VÍ-ci DŽÚ-ňo]"
-    },
-    {
-      "it": "«Se è prodotto negli Stati Uniti, non lo compro»: i canadesi sul boicottaggio dell'America di Trump.",
-      "cz": "„Pokud je to vyrobeno v USA, nekoupím si to“: Kanaďané bojkotují Trumpovu Ameriku.",
-      "phon": "[se è pro-DÓT-to nelj STÁ-ti u-NÍ-ti non lo KÓMP-ro i ka-na-DÉ-zi sul boi-kot-TÁG-džo del-la-me-RÍ-ka di trump]"
-    },
-    {
-      "it": "Un'importante ricerca rivela un forte aumento dei casi in cui l'IA sfugge al controllo degli utenti.",
-      "cz": "Výzkum ukazuje prudký nárůst incidentů, kdy umělá inteligence uniká kontrole uživatelů.",
-      "phon": "[u-nim-por-TÁN-te ri-ČÉR-ka ri-VÉ-la un FÓR-te au-MÉN-to dei KÁ-zi in kui lia SFÚG-dže al kont-RÓL-lo delj u-TÉN-ti]"
-    },
-    {
-      "it": "Lo sapevate che Qi Zai è l'unico panda gigante bianco e marrone al mondo a vivere in cattività?",
-      "cz": "Věděli jste, že Qi Zai je jediná hnědobílá panda velká na světě žijící v zajetí?",
-      "phon": "[lo sa-pe-VÁ-te ke qi cai è lu-NÍ-ko PÁN-da dži-GÁN-te BÍAN-ko e mar-RÓ-ne al MÓN-do a vi-VÉ-re in kat-ti-vi-TÁ]"
-    }
-  ],
-  "shadow": {
-    "it": "La Commissione invia una comunicazione di obiezioni in merito alla proposta di joint venture tra UPM e Sappi.",
-    "cz": "Komise zaslala prohlášení o námitkách k navrhovanému společnému podniku mezi společnostmi UPM a Sappi.",
-    "phon": "[la kom-mis-SÍO-ne ÍN-via u-na ko-mu-ni-ka-CÍO-ne di o-bie-CÍO-ni in me-RÍ-to ÁL-la pro-PÓS-ta di joint ven-TÚ-re tra upm e SÁP-pi]"
   }
 }
