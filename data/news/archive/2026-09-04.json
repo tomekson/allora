@@ -1,8 +1,5 @@
 {
   "date": "2026-09-04",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_4",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commission adopts EU Guidelines on exclusionary abuses of dominance. The European Commission has today adopted Guidelines on the application of Article 102 of the Treaty on the Functioning of the European Union ('TFEU') to abusive exclusionary conduct by dominant companies.",
@@ -113,42 +110,5 @@
     "en": "OpenAI is an American artificial intelligence (AI) public benefit corporation (PBC) headquartered in San Francisco. It develops proprietary generative AI models, particularly its generative pre-trained transformer (GPT) series of large language models (LLMs). Its release of ChatGPT in November 2022 has been credited with catalyzing the AI boom; as of September 2026, ChatGPT is the fifth-most-visited website globally. OpenAI also releases the GPT Image models and Codex, an AI coding agent. In March 2026, OpenAI closed a funding round with a post-money valuation of US$852 billion, making it one of the most valuable AI pure play companies in the world, rivalled only by Anthropic.",
     "it": "OpenAI è una società statunitense di pubblica utilità (PBC) operante nel settore dell'intelligenza artificiale (IA), con sede a San Francisco. Sviluppa modelli di IA generativa proprietari, in particolare la serie di modelli linguistici di grandi dimensioni (LLM) GPT (Generative Pre-Trained Transformer). Il lancio di ChatGPT nel novembre 2022 è stato considerato il catalizzatore del boom dell'IA; a settembre 2026, ChatGPT era il quinto sito web più visitato al mondo. OpenAI rilascia anche i modelli GPT Image e Codex, un agente di codifica basato sull'IA. Nel marzo 2026, OpenAI ha chiuso un round di finanziamento con una valutazione post-money di 852 miliardi di dollari, diventando una delle società di IA pure play più preziose al mondo, seconda solo ad Anthropic.",
     "cz": "OpenAI je americká veřejně prospěšná společnost (PBC) zabývající se umělou inteligencí (AI) se sídlem v San Franciscu. Vyvíjí proprietární generativní modely AI, zejména řadu generativních předtrénovaných transformátorů (GPT) a velkých jazykových modelů (LLM). Její vydání ChatGPT v listopadu 2022 bylo považováno za katalyzátor boomu AI; v září 2026 je ChatGPT pátým nejnavštěvovanějším webem na světě. OpenAI také vydává modely GPT Image a Codex, kódovacího agenta AI. V březnu 2026 OpenAI uzavřela kolo financování s oceněním po investici ve výši 852 miliard USD, což z ní činí jednu z nejcennějších čistě hravých společností AI na světě, s níž se může porovnávat pouze Anthropic."
-  },
-  "shadows": [
-    {
-      "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-      "cz": "Změna ve vedení Regionální divize Morava.",
-      "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "Commercio al dettaglio - luglio 2026.",
-      "cz": "Maloobchod - červenec 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo LÚL-jo]"
-    },
-    {
-      "it": "Prezzi dei servizi alla produzione - Secondo trimestre 2026.",
-      "cz": "Ceny výrobců služeb - 2.",
-      "phon": "[PRÉC-ci dei ser-VÍ-ci ÁL-la pro-du-CÍO-ne se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Volkswagen annuncia il taglio di 100.000 posti di lavoro entro il 2030.",
-      "cz": "Volkswagen oznámil, že do roku 2030 zruší 100 000 pracovních míst.",
-      "phon": "[volk-SWÁ-džen an-NÚN-ča il TÁL-jo di PÓS-ti di la-VÓ-ro ÉNT-ro il]"
-    },
-    {
-      "it": "Il governo di Giorgia Meloni diventa il più longevo in Italia dal dopoguerra.",
-      "cz": "Vláda Giorgie Meloni se stala nejdéle vládnoucí v Itálii od poválečné éry.",
-      "phon": "[il go-VÉR-no di DŽÓR-dža me-LÓ-ni di-VÉN-ta il più lon-DŽÉ-vo in i-TÁ-lia dal do-po-GÚER-ra]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-    "cz": "Změna ve vedení Regionální divize Morava.",
-    "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
   }
 }
