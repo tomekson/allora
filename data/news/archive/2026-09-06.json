@@ -1,8 +1,5 @@
 {
   "date": "2026-09-06",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_6",
-  "translator": "Google Translate",
   "stories": [
     {
       "it": "A Praga, i rappresentanti di nove paesi dell'Europa centrale hanno firmato la Dichiarazione di Praga sull'intelligenza artificiale, il cui obiettivo è, tra l'altro, la cooperazione sulle infrastrutture per l'IA.",
@@ -133,37 +130,5 @@
     "en": "Since March 2025, protests against immigration have taken place in parts of the United Kingdom, some of which have led to violent disorder. At least 41 police officers have been injured and over 180 people have been arrested. Some have been focused around hotels being used by the government of the United Kingdom to provide accommodation for asylum seekers, while others are against immigration more broadly. Many were organised or attended by far-right groups including Reform UK, Britain First, UKIP, Homeland Party, and Patriotic Alternative, who have also been accused of spreading misinformation online.",
     "it": "A partire da marzo 2025, in diverse zone del Regno Unito si sono svolte proteste contro l'immigrazione, alcune delle quali sfociate in violenti disordini. Almeno 41 agenti di polizia sono rimasti feriti e oltre 180 persone sono state arrestate. Alcune proteste si sono concentrate sull'utilizzo da parte del governo britannico di hotel adibiti all'accoglienza dei richiedenti asilo, mentre altre sono rivolte contro l'immigrazione in generale. Molte di queste manifestazioni sono state organizzate o vi hanno partecipato gruppi di estrema destra, tra cui Reform UK, Britain First, UKIP, Homeland Party e Patriotic Alternative, accusati anche di diffondere disinformazione online.",
     "cz": "Od března 2025 probíhají v některých částech Spojeného království protesty proti imigraci, z nichž některé vedly k násilným nepokojům. Nejméně 41 policistů bylo zraněno a přes 180 lidí bylo zatčeno. Některé se zaměřovaly na hotely, které vláda Spojeného království využívá k ubytování žadatelů o azyl, zatímco jiné jsou proti imigraci obecně. Mnohé z nich organizovaly nebo se jich zúčastnily krajně pravicové skupiny, včetně Reform UK, Britain First, UKIP, Homeland Party a Patriotic Alternative, které byly také obviněny z šíření dezinformací online."
-  },
-  "shadows": [
-    {
-      "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-      "cz": "Změna ve vedení Regionální divize Morava.",
-      "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "Quinto seminario sulle metodologie per le statistiche ufficiali.",
-      "cz": "Pátý workshop o metodikách pro oficiální statistiku.",
-      "phon": "[KVÍN-to se-mi-NÁ-rio SÚL-le me-to-do-LÓ-dže per le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
-    },
-    {
-      "it": "Il numero verde 1522: chi chiama, perché e cosa ci rivela.",
-      "cz": "Bezplatná linka 1522: kdo volá, proč a co nám říká.",
-      "phon": "[il nu-MÉ-ro VÉR-de ki KÍA-ma per-KÉ e KÓ-za či ri-VÉ-la]"
-    },
-    {
-      "it": "La truffa dei prestiti studenteschi mira a ingannare studenti già in ansia.",
-      "cz": "Podvod se studentskými půjčkami, jehož cílem je oklamat již tak úzkostlivé studenty.",
-      "phon": "[la TRÚF-fa dei pres-TÍ-ti stu-den-TÉS-ki MÍ-ra a in-gan-NÁ-re stu-DÉN-ti džà in ÁN-sia]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-    "cz": "Změna ve vedení Regionální divize Morava.",
-    "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
   }
 }
