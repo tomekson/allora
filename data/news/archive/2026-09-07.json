@@ -1,8 +1,5 @@
 {
   "date": "2026-09-07",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_7",
-  "translator": "Google Translate",
   "stories": [
     {
       "it": "A Praga, i rappresentanti di nove paesi dell'Europa centrale hanno firmato la Dichiarazione di Praga sull'intelligenza artificiale, il cui obiettivo è, tra l'altro, la cooperazione sulle infrastrutture per l'IA.",
@@ -115,32 +112,5 @@
     "en": "The 2026 Saxony-Anhalt state election was held on 6 September 2026 to elect the 9th Landtag of Saxony-Anhalt, two weeks before the state elections in Berlin and Mecklenburg-Vorpommern.\nThis election drew significant attention due to the large polling lead of the far-right Alternative for Germany (AfD), including the possibility it could win an outright majority. The AfD is subject to a firewall policy as all other major parties refuse to cooperate with them; its state branch is under surveillance by the Federal Office for the Protection of the Constitution, which classified it as a \"confirmed right-wing extremist movement\" in 2023.\nThe far-right AfD won a landslide victory, doubling its support and placing first with 43.",
     "it": "Le elezioni regionali della Sassonia-Anhalt del 2026 si sono tenute il 6 settembre 2026 per eleggere il 9° Landtag della Sassonia-Anhalt, due settimane prima delle elezioni regionali di Berlino e del Meclemburgo-Pomerania Anteriore.\nQueste elezioni hanno attirato notevole attenzione a causa dell'ampio vantaggio nei sondaggi del partito di estrema destra Alternativa per la Germania (AfD), che prevedeva anche la possibilità di ottenere la maggioranza assoluta. L'AfD è soggetta a una politica di \"firewall\" poiché tutti gli altri principali partiti si rifiutano di collaborare con essa; la sua sezione regionale è sotto sorveglianza dell'Ufficio federale per la protezione della Costituzione, che nel 2023 l'ha classificata come \"movimento estremista di destra confermato\".\nL'AfD ha ottenuto una vittoria schiacciante, raddoppiando i suoi consensi e piazzandosi al primo posto con 43 seggi.",
     "cz": "Volby do zemského sněmu Saska-Anhaltska v roce 2026 se konaly 6. září 2026, dva týdny před zemskými volbami v Berlíně a Meklenbursku-Předním Pomořansku.\nTyto volby přitáhly značnou pozornost kvůli velkému náskoku krajně pravicové strany Alternativa pro Německo (AfD) v průzkumech veřejného mínění, včetně možnosti, že by mohla získat naprostou většinu. AfD podléhá politice omezování, protože všechny ostatní hlavní strany s ní odmítají spolupracovat; její zemská pobočka je pod dohledem Spolkového úřadu pro ochranu ústavy, který ji v roce 2023 klasifikoval jako „potvrzené pravicové extremistické hnutí“.\nKrajně pravicová AfD zvítězila drtivě, zdvojnásobila svou podporu a umístila se na prvním místě se 43 hlasy."
-  },
-  "shadows": [
-    {
-      "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-      "cz": "Změna ve vedení Regionální divize Morava.",
-      "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "Quinto seminario sulle metodologie per le statistiche ufficiali.",
-      "cz": "Pátý workshop o metodikách pro oficiální statistiku.",
-      "phon": "[KVÍN-to se-mi-NÁ-rio SÚL-le me-to-do-LÓ-dže per le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
-    },
-    {
-      "it": "Il numero verde 1522: chi chiama, perché e cosa ci rivela.",
-      "cz": "Bezplatná linka 1522: kdo volá, proč a co nám říká.",
-      "phon": "[il nu-MÉ-ro VÉR-de ki KÍA-ma per-KÉ e KÓ-za či ri-VÉ-la]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-    "cz": "Změna ve vedení Regionální divize Morava.",
-    "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
   }
 }
