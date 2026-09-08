@@ -1,8 +1,5 @@
 {
   "date": "2026-09-08",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_8",
-  "translator": "Google Translate",
   "stories": [
     {
       "it": "A Praga, i rappresentanti di nove paesi dell'Europa centrale hanno firmato la Dichiarazione di Praga sull'intelligenza artificiale, il cui obiettivo è, tra l'altro, la cooperazione sulle infrastrutture per l'IA.",
@@ -127,42 +124,5 @@
     "en": "On February 1, 2025, a trade war started by the United States against Canada and Mexico began when the U.S. president Donald Trump signed orders imposing near-universal tariffs on goods from the two countries entering the United States. The order called for 25 percent tariffs on all imports from Mexico and all imports from Canada except for oil and energy, which would be taxed at 10 percent.\nIn response, then Canadian prime minister Justin Trudeau said Canada would retaliate with 25 percent tariffs on CA$30 billion (US$20.6 billion) of American goods, which would expand to CA$155 billion (US$106 billion) after three weeks. Mexican president Claudia Sheinbaum said Mexico would enact tariffs and non-tariff retaliation against the United States.",
     "it": "Il 1° febbraio 2025, ebbe inizio una guerra commerciale scatenata dagli Stati Uniti contro Canada e Messico, quando il presidente statunitense Donald Trump firmò decreti che imponevano dazi quasi universali sulle merci provenienti dai due paesi e in ingresso negli Stati Uniti. Il decreto prevedeva dazi del 25% su tutte le importazioni dal Messico e tutte le importazioni dal Canada, ad eccezione di petrolio ed energia, che sarebbero state tassate al 10%.\nIn risposta, l'allora primo ministro canadese Justin Trudeau annunciò che il Canada avrebbe reagito con dazi del 25% su 30 miliardi di dollari canadesi (20,6 miliardi di dollari statunitensi) di merci americane, cifra che sarebbe salita a 155 miliardi di dollari canadesi (106 miliardi di dollari statunitensi) dopo tre settimane. La presidente messicana Claudia Sheinbaum dichiarò che il Messico avrebbe adottato misure di ritorsione, sia tariffarie che non tariffarie, contro gli Stati Uniti.",
     "cz": "1. února 2025 začala obchodní válka mezi Spojenými státy a Kanadou a Mexikem, když americký prezident Donald Trump podepsal nařízení o zavedení téměř univerzálních cel na zboží z obou zemí vstupující do Spojených států. Nařízení požadovalo 25% cla na veškerý dovoz z Mexika a veškerý dovoz z Kanady s výjimkou ropy a energií, které by byly zdaněny 10% sazbou cla.\n\nV reakci na to tehdejší kanadský premiér Justin Trudeau prohlásil, že Kanada zavede odvetná opatření ve výši 25% na americké zboží v hodnotě 30 miliard kanadských dolarů (20,6 miliardy amerických dolarů), která by se po třech týdnech zvýšila na 155 miliard kanadských dolarů (106 miliard amerických dolarů). Mexická prezidentka Claudia Sheinbaumová uvedla, že Mexiko zavede proti Spojeným státům cla a necelní odvetná opatření."
-  },
-  "shadows": [
-    {
-      "it": "Discorso del Commissario Roswall alla conferenza \"Giornata Mondiale dei Laghi nella Regione del Lago Balaton\".",
-      "cz": "Projev komisaře Roswalla na konferenci „Světový den jezer v oblasti Balatonu“.",
-      "phon": "[dis-KÓR-so del kom-mis-SÁ-rio RÓS-wall ÁL-la kon-fe-RÉN-ca džor-NÁ-ta mon-DÍA-le dei LÁ-gi NÉL-la re-DŽÓ-ne del LÁ-go ba-LÁ-ton]"
-    },
-    {
-      "it": "Cambio ai vertici della Divisione Regionale della Moravia.",
-      "cz": "Změna ve vedení Regionální divize Morava.",
-      "phon": "[KÁM-bio ai ver-TÍ-či DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "Quinto seminario sulle metodologie per le statistiche ufficiali.",
-      "cz": "Pátý workshop o metodikách pro oficiální statistiku.",
-      "phon": "[KVÍN-to se-mi-NÁ-rio SÚL-le me-to-do-LÓ-dže per le sta-tis-TÍ-ke uf-fi-ČÁ-li]"
-    },
-    {
-      "it": "Il numero verde 1522: chi chiama, perché e cosa ci rivela.",
-      "cz": "Bezplatná linka 1522: kdo volá, proč a co nám říká.",
-      "phon": "[il nu-MÉ-ro VÉR-de ki KÍA-ma per-KÉ e KÓ-za či ri-VÉ-la]"
-    },
-    {
-      "it": "Ho pagato la tariffa ULEZ, ma continuo a ricevere minacce da TfL.",
-      "cz": "Zaplatil jsem poplatek Ulez, ale stále dostávám výhrůžky od TfL.",
-      "phon": "[o pa-GÁ-to la ta-RÍF-fa Ú-lec ma kon-TÍ-nuo a ri-če-VÉ-re mi-NÁK-če da tfl]"
-    },
-    {
-      "it": "Dei ladri hanno rubato opere d'arte di Pierre Renoir dal Musée Renoir di Cagnes-sur-Mer, in Francia.",
-      "cz": "Zloději ukradli umělecká díla Pierra Renoira z Muzea Renior v Cagnes-sur-Mer ve Francii.",
-      "phon": "[dei LÁD-ri ÁN-no ru-BÁ-to o-PÉ-re DÁR-te di PÍER-re RÉ-noir dal mu-ZÉE RÉ-noir di ka-ňes-SÚR-mer in FRÁN-ča]"
-    }
-  ],
-  "shadow": {
-    "it": "Discorso del Commissario Roswall alla conferenza \"Giornata Mondiale dei Laghi nella Regione del Lago Balaton\".",
-    "cz": "Projev komisaře Roswalla na konferenci „Světový den jezer v oblasti Balatonu“.",
-    "phon": "[dis-KÓR-so del kom-mis-SÁ-rio RÓS-wall ÁL-la kon-fe-RÉN-ca džor-NÁ-ta mon-DÍA-le dei LÁ-gi NÉL-la re-DŽÓ-ne del LÁ-go ba-LÁ-ton]"
   }
 }
