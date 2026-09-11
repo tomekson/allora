@@ -1,8 +1,5 @@
 {
   "date": "2026-09-11",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_11",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commissioner Roswall's speech at the event, ‘Experimentation Journey for Achieving Circularity' hosted by the JRC. Dear Birgitta, dear Blerta, Distinguished guests from Dalarna and partner territories. It is a pleasure to join you in Avesta – my hometown! You know, I have s...",
@@ -113,42 +110,5 @@
     "en": "The Hutch Organised Crime Gang (HOCG), also known as the Hutch Gang, is a criminal organisation with a long history of illegal activities, primarily based in Ireland. Over the years, they have been involved in a range of criminal enterprises, including murders, drug trafficking, armed robberies, and property deals. The gang has operated in Ireland, Spain and the United Kingdom, amassing assets estimated to be as high as €20 million.",
     "it": "La banda criminale organizzata Hutch (HOCG), nota anche come Hutch Gang, è un'organizzazione criminale con una lunga storia di attività illegali, principalmente con base in Irlanda. Nel corso degli anni, è stata coinvolta in una serie di attività criminali, tra cui omicidi, traffico di droga, rapine a mano armata e speculazioni immobiliari. La banda ha operato in Irlanda, Spagna e Regno Unito, accumulando un patrimonio stimato fino a 20 milioni di euro.",
     "cz": "Hutchův organizovaný zločinecký gang (HOCG), známý také jako Hutchův gang, je zločinecká organizace s dlouhou historií nelegálních aktivit, sídlící především v Irsku. V průběhu let se zapojila do řady kriminálních aktivit, včetně vražd, obchodování s drogami, ozbrojených loupeží a obchodů s nemovitostmi. Gang operoval v Irsku, Španělsku a Spojeném království a nashromáždil majetek odhadovaný až na 20 milionů eur."
-  },
-  "shadows": [
-    {
-      "it": "Dichiarazioni alla stampa del Commissario Lahbib in Romania.",
-      "cz": "Tiskové vyjádření komisaře Lahbiba v Rumunsku.",
-      "phon": "[di-kia-ra-CÍO-ni ÁL-la STÁM-pa del kom-mis-SÁ-rio LÁ-bib in ro-MÁ-nia]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca mantiene il coefficiente di riserva di capitale anticiclica all'1,5%.",
-      "cz": "Česká národní banka ponechává sazbu proticyklické kapitálové rezervy na 1,5 %.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka man-TÍE-ne il koef-fi-ČÉN-te di ri-ZÉR-va di ka-pi-TÁ-le an-ti-čik-LÍ-ka all]"
-    },
-    {
-      "it": "Esportazioni delle regioni italiane - Secondo trimestre 2026.",
-      "cz": "Export italských regionů - 2.",
-      "phon": "[es-por-ta-CÍO-ni DÉL-le re-DŽÓ-ni i-ta-LÍA-ne se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Mercato del lavoro - Secondo trimestre 2026.",
-      "cz": "Trh práce - 2.",
-      "phon": "[mer-KÁ-to del la-VÓ-ro se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Cresce la pressione su Burnham affinché si impegni ad aumentare il congedo di paternità previsto dalla legge.",
-      "cz": "Tlak na Burnhama roste, aby se zavázal k prodloužení zákonné otcovské dovolené.",
-      "phon": "[KRÉ-še la pres-SÍO-ne su BÚR-nam af-fin-KÉ si im-PÉ-ňi ad au-men-TÁ-re il kon-DŽÉ-do di pa-ter-ni-TÁ pre-VÍS-to DÁL-la LÉG-dže]"
-    },
-    {
-      "it": "Lo sapevate che nel 2001 un giocatore esordiente della NFL di 32 anni ha mentito sulla sua età?",
-      "cz": "Věděli jste, že 32letý nováček NFL v roce 2001 lhal o svém věku?",
-      "phon": "[lo sa-pe-VÁ-te ke nel un džo-ka-TÓ-re e-zor-DÍEN-te DÉL-la nfl di ÁN-ni a men-TÍ-to SÚL-la sua e-tà]"
-    }
-  ],
-  "shadow": {
-    "it": "Dichiarazioni alla stampa del Commissario Lahbib in Romania.",
-    "cz": "Tiskové vyjádření komisaře Lahbiba v Rumunsku.",
-    "phon": "[di-kia-ra-CÍO-ni ÁL-la STÁM-pa del kom-mis-SÁ-rio LÁ-bib in ro-MÁ-nia]"
   }
 }
