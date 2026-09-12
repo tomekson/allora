@@ -1,8 +1,5 @@
 {
   "date": "2026-09-12",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_12",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commission presents landmark India trade deal to Council for signature. Today, the European Commission has put forward its proposals to the Council for the signature and conclusion of Free Trade Agreement (FTA) between the European Union and India, seeking authorization for its signature and conclusion.",
@@ -113,42 +110,5 @@
     "en": "Members of the Norwegian royal family are people related to King Haakon VIII who hold royal titles. The term does not include non-royal relatives. The current family who holds the throne are members of the House of Glücksburg who ascended to the Norwegian throne after the election of Prince Carl of Denmark as King of Norway (regnal name Haakon VII) during the dissolution of the Swedish-Norwegian union in 1905.\nThe monarch, if male, is titled king. His wife is titled queen. They are entitled to the style Majesty. The heir apparent to the Norwegian throne is crown prince or crown princess, with the style Royal Highness. The children of the reigning monarch and the children of the heir apparent are princes and princesses.",
     "it": "I membri della famiglia reale norvegese sono persone imparentate con il re Haakon VIII che detengono titoli reali. Il termine non include i parenti non appartenenti alla famiglia reale. L'attuale famiglia che detiene il trono è composta da membri della Casa di Glücksburg, saliti al trono norvegese dopo l'elezione del principe Carlo di Danimarca a re di Norvegia (nome reale Haakon VII) durante lo scioglimento dell'unione svedese-norvegese nel 1905. Il monarca, se di sesso maschile, ha il titolo di re. Sua moglie ha il titolo di regina. Entrambi hanno diritto al titolo di Maestà. L'erede al trono norvegese è il principe ereditario o la principessa ereditaria, con il titolo di Altezza Reale. I figli del monarca regnante e i figli dell'erede al trono hanno il titolo di principi e principesse.",
     "cz": "Členové norské královské rodiny jsou osoby příbuzné králi Haakonovi VIII., které jsou držiteli královských titulů. Tento termín nezahrnuje nekrálovské příbuzné. Současná rodina, která drží trůn, jsou členové rodu Glücksburgů, kteří nastoupili na norský trůn po zvolení prince Karla Dánského norským králem (královské jméno Haakon VII.) během rozpadu švédsko-norské unie v roce 1905.\nMonarcha, pokud je mužského pohlaví, je titulován král. Jeho manželka je titulována královna. Mají nárok na titul Veličenstvo. Dědicem norského trůnu je korunní princ nebo korunní princezna, s titulem Královská Výsost. Děti vládnoucího monarchy a děti dědice trůnu jsou princové a princezny."
-  },
-  "shadows": [
-    {
-      "it": "La Commissione presenta al Consiglio un importante accordo commerciale con l'India per la firma.",
-      "cz": "Komise předkládá Radě k podpisu přelomovou obchodní dohodu s Indií.",
-      "phon": "[la kom-mis-SÍO-ne pre-ZÉN-ta al kon-SÍL-jo un im-por-TÁN-te ak-KÓR-do kom-mer-ČÁ-le kon LÍN-dia per la FÍR-ma]"
-    },
-    {
-      "it": "Dichiarazioni alla stampa del Commissario Lahbib in Moldova.",
-      "cz": "Tiskové prohlášení komisaře Lahbiba v Moldavsku.",
-      "phon": "[di-kia-ra-CÍO-ni ÁL-la STÁM-pa del kom-mis-SÁ-rio LÁ-bib in mol-DÓ-va]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca mantiene il coefficiente di riserva di capitale anticiclica all'1,5%.",
-      "cz": "Česká národní banka ponechává sazbu proticyklické kapitálové rezervy na 1,5 %.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka man-TÍE-ne il koef-fi-ČÉN-te di ri-ZÉR-va di ka-pi-TÁ-le an-ti-čik-LÍ-ka all]"
-    },
-    {
-      "it": "Bilancio demografico mensile della popolazione - giugno 2026.",
-      "cz": "Měsíční demografická bilance populace - červen 2026.",
-      "phon": "[bi-LÁN-čo de-mog-ra-FÍ-ko men-SÍ-le DÉL-la po-po-la-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Esportazioni delle regioni italiane - Secondo trimestre 2026.",
-      "cz": "Export italských regionů - 2.",
-      "phon": "[es-por-ta-CÍO-ni DÉL-le re-DŽÓ-ni i-ta-LÍA-ne se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "I chatbot possono provare emozioni o persino sognare?",
-      "cz": "Mohou chatboti cítit – nebo dokonce snít?",
-      "phon": "[i KÁT-bot pos-SÓ-no pro-VÁ-re e-mo-CÍO-ni o per-SÍ-no so-ŇÁ-re]"
-    }
-  ],
-  "shadow": {
-    "it": "La Commissione presenta al Consiglio un importante accordo commerciale con l'India per la firma.",
-    "cz": "Komise předkládá Radě k podpisu přelomovou obchodní dohodu s Indií.",
-    "phon": "[la kom-mis-SÍO-ne pre-ZÉN-ta al kon-SÍL-jo un im-por-TÁN-te ak-KÓR-do kom-mer-ČÁ-le kon LÍN-dia per la FÍR-ma]"
   }
 }
