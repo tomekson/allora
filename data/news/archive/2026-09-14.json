@@ -1,8 +1,5 @@
 {
   "date": "2026-09-14",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_14",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "EU Missions drive systemic change, new assessment shows.",
@@ -113,42 +110,5 @@
     "en": "The Mexican drug war (Spanish: Guerra contra el narcotráfico en México) is an ongoing asymmetric armed conflict between the Mexican government and various drug trafficking syndicates. When the Mexican military intervened in 2006, the government's main objective was to reduce drug-related violence. The Mexican government has asserted that its primary focus is on dismantling the cartels and preventing drug trafficking. The conflict has been described as the Mexican theater of the global war on drugs, as led by the United States federal government. Analysts estimate wholesale earnings from illicit drug sales range from $13.6 to $49.4 billion annually.",
     "it": "La guerra messicana alla droga (in spagnolo: Guerra contra el narcotráfico en México) è un conflitto armato asimmetrico tuttora in corso tra il governo messicano e diverse organizzazioni criminali dedite al narcotraffico. Quando l'esercito messicano è intervenuto nel 2006, l'obiettivo principale del governo era ridurre la violenza legata al narcotraffico. Il governo messicano ha affermato che la sua priorità è smantellare i cartelli e prevenire il traffico di droga. Il conflitto è stato descritto come il teatro messicano della guerra globale alla droga, guidata dal governo federale degli Stati Uniti. Gli analisti stimano che i ricavi all'ingrosso derivanti dalla vendita di droga illecita si aggirino tra i 13,6 e i 49,4 miliardi di dollari all'anno.",
     "cz": "Mexická drogová válka (španělsky: Guerra contra el narcotráfico en México) je probíhající asymetrický ozbrojený konflikt mezi mexickou vládou a různými syndikáty obchodujícími s drogami. Když v roce 2006 zasáhla mexická armáda, hlavním cílem vlády bylo snížit násilí související s drogami. Mexická vláda tvrdí, že se primárně zaměřuje na rozbití kartelů a prevenci obchodu s drogami. Konflikt byl popisován jako mexické dějiště globální války proti drogám, vedené federální vládou Spojených států. Analytici odhadují, že velkoobchodní příjmy z prodeje nelegálních drog se pohybují od 13,6 do 49,4 miliard dolarů ročně."
-  },
-  "shadows": [
-    {
-      "it": "Una nuova valutazione dimostra che le missioni dell'UE promuovono un cambiamento sistemico.",
-      "cz": "Nové hodnocení ukazuje, že mise EU vedou k systémovým změnám.",
-      "phon": "[u-na NÚO-va va-lu-ta-CÍO-ne di-MÓST-ra ke le mis-SÍO-ni DÉL-lue pro-muo-VÓ-no un kam-bia-MÉN-to sis-te-MÍ-ko]"
-    },
-    {
-      "it": "Dichiarazioni alla stampa del Commissario Lahbib in Moldova.",
-      "cz": "Tiskové prohlášení komisaře Lahbiba v Moldavsku.",
-      "phon": "[di-kia-ra-CÍO-ni ÁL-la STÁM-pa del kom-mis-SÁ-rio LÁ-bib in mol-DÓ-va]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca mantiene il coefficiente di riserva di capitale anticiclica all'1,5%.",
-      "cz": "Česká národní banka ponechává sazbu proticyklické kapitálové rezervy na 1,5 %.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka man-TÍE-ne il koef-fi-ČÉN-te di ri-ZÉR-va di ka-pi-TÁ-le an-ti-čik-LÍ-ka all]"
-    },
-    {
-      "it": "Bilancio demografico mensile della popolazione - giugno 2026.",
-      "cz": "Měsíční demografická bilance populace - červen 2026.",
-      "phon": "[bi-LÁN-čo de-mog-ra-FÍ-ko men-SÍ-le DÉL-la po-po-la-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "Esportazioni delle regioni italiane - Secondo trimestre 2026.",
-      "cz": "Export italských regionů - 2.",
-      "phon": "[es-por-ta-CÍO-ni DÉL-le re-DŽÓ-ni i-ta-LÍA-ne se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Sapevate che molti Sherpa prendono il nome dal giorno della settimana in cui sono nati?",
-      "cz": "Věděli jste, že mnoho Šerpů je pojmenováno po dni v týdnu, ve kterém se narodili?",
-      "phon": "[sa-pe-VÁ-te ke MÓL-ti SÉR-pa pren-DÓ-no il NÓ-me dal DŽÓR-no DÉL-la set-ti-MÁ-na in kui SÓ-no NÁ-ti]"
-    }
-  ],
-  "shadow": {
-    "it": "Una nuova valutazione dimostra che le missioni dell'UE promuovono un cambiamento sistemico.",
-    "cz": "Nové hodnocení ukazuje, že mise EU vedou k systémovým změnám.",
-    "phon": "[u-na NÚO-va va-lu-ta-CÍO-ne di-MÓST-ra ke le mis-SÍO-ni DÉL-lue pro-muo-VÓ-no un kam-bia-MÉN-to sis-te-MÍ-ko]"
   }
 }
