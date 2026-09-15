@@ -1,8 +1,5 @@
 {
   "date": "2026-09-15",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_15",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "EU Missions drive systemic change, new assessment shows.",
@@ -113,42 +110,5 @@
     "en": "Tom Phillips and his three young children disappeared from the isolated rural Waikato town of Marokopa on 9 December 2021. New Zealand Police believe that the children were taken by their father to a location somewhere in the western Waikato, after a dispute with their mother. Phillips is alleged to have committed a bank robbery in September 2023, but the first sighting of all three children with their father was on 3 October 2024, when they were spotted walking through Marokopa farmland.\nIn September 2025, Phillips was shot dead by police during an altercation after he was interrupted during a burglary. During the incident a police officer was shot in the head and shoulder, but survived.",
     "it": "Tom Phillips e i suoi tre figli piccoli sono scomparsi dalla remota cittadina rurale di Marokopa, nella regione di Waikato, il 9 dicembre 2021. La polizia neozelandese ritiene che i bambini siano stati portati dal padre in un luogo imprecisato nella parte occidentale di Waikato, dopo una lite con la madre. Phillips è accusato di aver commesso una rapina in banca nel settembre 2023, ma il primo avvistamento dei tre bambini con il padre risale al 3 ottobre 2024, quando furono visti camminare nei campi di Marokopa.\nNel settembre 2025, Phillips è stato ucciso a colpi d'arma da fuoco dalla polizia durante un alterco, dopo essere stato sorpreso a commettere un furto con scasso. Durante l'incidente, un agente di polizia è stato colpito alla testa e alla spalla, ma è sopravvissuto.",
     "cz": "Tom Phillips a jeho tři malé děti zmizeli z odlehlého venkovského města Marokopa na Waikatu 9. prosince 2021. Novozélandská policie se domnívá, že děti po sporu s matkou odvedl jejich otec na místo někde v západním Waikatu. Phillips se údajně dopustil bankovní loupeže v září 2023, ale poprvé byly všechny tři děti s otcem spatřeny 3. října 2024, když byly spatřeny při procházce po zemědělské půdě v Marokopě.\n\nV září 2025 byl Phillips zastřelen policií během hádky poté, co byl vyrušen při vloupání. Během incidentu byl policista střelen do hlavy a ramene, ale přežil."
-  },
-  "shadows": [
-    {
-      "it": "Una nuova valutazione dimostra che le missioni dell'UE promuovono un cambiamento sistemico.",
-      "cz": "Nové hodnocení ukazuje, že mise EU vedou k systémovým změnám.",
-      "phon": "[u-na NÚO-va va-lu-ta-CÍO-ne di-MÓST-ra ke le mis-SÍO-ni DÉL-lue pro-muo-VÓ-no un kam-bia-MÉN-to sis-te-MÍ-ko]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca mantiene il coefficiente di riserva di capitale anticiclica all'1,5%.",
-      "cz": "Česká národní banka ponechává sazbu proticyklické kapitálové rezervy na 1,5 %.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka man-TÍE-ne il koef-fi-ČÉN-te di ri-ZÉR-va di ka-pi-TÁ-le an-ti-čik-LÍ-ka all]"
-    },
-    {
-      "it": "Commercio estero e prezzi delle importazioni - luglio 2026.",
-      "cz": "Zahraniční obchod a dovozní ceny - červenec 2026.",
-      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci DÉL-le im-por-ta-CÍO-ni LÚL-jo]"
-    },
-    {
-      "it": "Bilancio demografico mensile della popolazione - giugno 2026.",
-      "cz": "Měsíční demografická bilance populace - červen 2026.",
-      "phon": "[bi-LÁN-čo de-mog-ra-FÍ-ko men-SÍ-le DÉL-la po-po-la-CÍO-ne DŽÚ-ňo]"
-    },
-    {
-      "it": "I genitori cercano offerte sulle uniformi scolastiche, riducendo la spesa media a 54,53 sterline.",
-      "cz": "Rodiče vyhledávají slevy na školní uniformy, čímž snižují průměrné výdaje na 54,53 liber.",
-      "phon": "[i dže-ni-TÓ-ri čer-KÁ-no of-FÉR-te SÚL-le u-ni-FÓR-mi sko-las-TÍ-ke ri-du-ČÉN-do la SPÉ-za MÉ-dia a ster-LÍ-ne]"
-    },
-    {
-      "it": "Il giudice distrettuale statunitense F.",
-      "cz": "Okresní soudce Spojených států F.",
-      "phon": "[il džu-DÍ-če dist-ret-TÚA-le sta-tu-ni-TÉN-se f]"
-    }
-  ],
-  "shadow": {
-    "it": "Una nuova valutazione dimostra che le missioni dell'UE promuovono un cambiamento sistemico.",
-    "cz": "Nové hodnocení ukazuje, že mise EU vedou k systémovým změnám.",
-    "phon": "[u-na NÚO-va va-lu-ta-CÍO-ne di-MÓST-ra ke le mis-SÍO-ni DÉL-lue pro-muo-VÓ-no un kam-bia-MÉN-to sis-te-MÍ-ko]"
   }
 }
