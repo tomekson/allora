@@ -1,8 +1,5 @@
 {
   "date": "2026-09-18",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_18",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "EU KIDS Act to restrict social media platforms' access to children in the EU. Today, the European Commission has adopted the EU KIDS Act to enhance the online safety of children throughout the Union.",
@@ -113,47 +110,5 @@
     "en": "The nations of France and Mexico established diplomatic relations in 1830. Initially, relations between both nations were unstable as a result of France's first and second interventions in Mexico. During World War II Mexico did not recognize Vichy France, instead it maintained diplomatic relations with the French government in exile in London. Diplomatic relations were restored between both nations at the end of the war in 1945 and have continued unabated since.\nBoth nations are members of the G-20 major economies, Organisation for Economic Co-operation and Development and the United Nations.",
     "it": "Francia e Messico stabilirono relazioni diplomatiche nel 1830. Inizialmente, i rapporti tra le due nazioni furono instabili a causa del primo e del secondo intervento francese in Messico. Durante la Seconda Guerra Mondiale, il Messico non riconobbe la Francia di Vichy, mantenendo invece relazioni diplomatiche con il governo francese in esilio a Londra. Le relazioni diplomatiche tra i due paesi furono ristabilite alla fine della guerra nel 1945 e da allora sono proseguite senza interruzioni.\nEntrambe le nazioni sono membri del G20, dell'Organizzazione per la Cooperazione e lo Sviluppo Economico (OCSE) e delle Nazioni Unite.",
     "cz": "Francie a Mexiko navázaly diplomatické vztahy v roce 1830. Zpočátku byly vztahy mezi oběma národy nestabilní v důsledku první a druhé francouzské intervence v Mexiku. Během druhé světové války Mexiko neuznalo vichistickou Francii, místo toho udržovalo diplomatické vztahy s francouzskou exilovou vládou v Londýně. Diplomatické vztahy mezi oběma národy byly obnoveny na konci války v roce 1945 a od té doby trvají v neustálé útlumu.\n\nOba národy jsou členy hlavních ekonomik G-20, Organizace pro hospodářskou spolupráci a rozvoj a Organizace spojených národů."
-  },
-  "shadows": [
-    {
-      "it": "Legge EU KIDS per limitare l'accesso delle piattaforme di social media ai minori nell'UE.",
-      "cz": "Akt EU o KIDS, který omezuje přístup platforem sociálních médií k dětem v EU.",
-      "phon": "[LÉG-dže eu kids per li-mi-TÁ-re lak-ČÉS-so DÉL-le piat-ta-FÓR-me di SÓ-čal MÉ-dia ai mi-NÓ-ri NÉL-lue]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca mantiene il coefficiente di riserva di capitale anticiclica all'1,5%.",
-      "cz": "Česká národní banka ponechává sazbu proticyklické kapitálové rezervy na 1,5 %.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka man-TÍE-ne il koef-fi-ČÉN-te di ri-ZÉR-va di ka-pi-TÁ-le an-ti-čik-LÍ-ka all]"
-    },
-    {
-      "it": "Produzione nel settore delle costruzioni - luglio 2026.",
-      "cz": "Produkce ve stavebnictví - červenec 2026.",
-      "phon": "[pro-du-CÍO-ne nel set-TÓ-re DÉL-le kost-ru-CÍO-ni LÚL-jo]"
-    },
-    {
-      "it": "Prezzi delle case (dati provvisori) - Secondo trimestre 2026.",
-      "cz": "Ceny domů (předběžné) – 2.",
-      "phon": "[PRÉC-ci DÉL-le KÁ-ze DÁ-ti prov-vi-ZÓ-ri se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Le vendite al dettaglio in Gran Bretagna riprendono slancio grazie a segnali più incoraggianti per l'economia.",
-      "cz": "Maloobchodní tržby ve Velké Británii se zotavují uprostřed lepších signálů o hospodářském vývoji.",
-      "phon": "[le ven-DÍ-te al det-TÁL-jo in gran bre-TÁ-ňa rip-ren-DÓ-no SLÁN-čo GRÁ-cie a se-ŇÁ-li più in-ko-rag-DŽÁN-ti per le-ko-NÓ-mia]"
-    },
-    {
-      "it": "Lo sapevate che Kalpana Chawla è stata la prima donna indiana ad andare nello spazio?",
-      "cz": "Věděli jste, že Kalpana Chawla byla první indickou ženou, která letěla do vesmíru?",
-      "phon": "[lo sa-pe-VÁ-te ke kal-PÁ-na KÁW-la è STÁ-ta la PRÍ-ma DÓN-na in-DÍA-na ad an-DÁ-re NÉL-lo SPÁ-cio]"
-    }
-  ],
-  "shadow": {
-    "it": "Legge EU KIDS per limitare l'accesso delle piattaforme di social media ai minori nell'UE.",
-    "cz": "Akt EU o KIDS, který omezuje přístup platforem sociálních médií k dětem v EU.",
-    "phon": "[LÉG-dže eu kids per li-mi-TÁ-re lak-ČÉS-so DÉL-le piat-ta-FÓR-me di SÓ-čal MÉ-dia ai mi-NÓ-ri NÉL-lue]"
   }
 }
