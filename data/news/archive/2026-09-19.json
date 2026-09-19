@@ -1,8 +1,5 @@
 {
   "date": "2026-09-19",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_19",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commission proposes €489 million to help Portugal, Spain, Italy and Malta recover from severe storms.",
@@ -113,52 +110,5 @@
     "en": "The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition. The closure of the Strait of Hormuz, through which over 20% of the world's oil trade passes, and attacks on energy infrastructure in Iran and several Gulf Cooperation Council countries led to a large disruption in global oil supplies. The disruption led to global oil prices rising and caused fuel shortages in countries which imported most of their fuel from the Persian Gulf region. Much of the world has been affected by panic buying and severe disruption to the distribution of petroleum products, liquefied natural gas (LNG), and urea used for fertiliser.",
     "it": "La crisi petrolifera del 2026 causata dalla guerra in Iran è una crisi energetica mondiale provocata dal conflitto tra l'Iran e la coalizione israelo-americana. La chiusura dello Stretto di Hormuz, attraverso il quale transita oltre il 20% del commercio petrolifero mondiale, e gli attacchi alle infrastrutture energetiche in Iran e in diversi paesi del Consiglio di Cooperazione del Golfo hanno causato una grave interruzione delle forniture globali di petrolio. Tale interruzione ha portato a un aumento dei prezzi del petrolio a livello globale e a carenze di carburante nei paesi che importavano la maggior parte del loro combustibile dalla regione del Golfo Persico. Gran parte del mondo è stata colpita da acquisti dettati dal panico e da gravi interruzioni nella distribuzione di prodotti petroliferi, gas naturale liquefatto (GNL) e urea, utilizzata come fertilizzante.",
     "cz": "Íránská válka s palivovou krizí v roce 2026 je celosvětová palivová krize způsobená válkou mezi Íránem a americko-izraelskou koalicí. Uzavření Hormuzského průlivu, kterým prochází více než 20 % světového obchodu s ropou, a útoky na energetickou infrastrukturu v Íránu a několika zemích Rady pro spolupráci v Perském zálivu vedly k velkému narušení globálních dodávek ropy. Toto narušení vedlo k růstu světových cen ropy a způsobilo nedostatek paliv v zemích, které většinu svého paliva dovážely z oblasti Perského zálivu. Velká část světa byla zasažena panickými nákupy a vážným narušením distribuce ropných produktů, zkapalněného zemního plynu (LNG) a močoviny používané jako hnojiva."
-  },
-  "shadows": [
-    {
-      "it": "Discorso del Commissario Roswall al Vertice sulla Crescita Pulita – Verso la COP31.",
-      "cz": "Projev komisaře Roswalla na summitu o čistém růstu – Cesta k COP31.",
-      "phon": "[dis-KÓR-so del kom-mis-SÁ-rio RÓS-wall al ver-TÍ-če SÚL-la kre-ŠÍ-ta pu-LÍ-ta VÉR-so la kop]"
-    },
-    {
-      "it": "Discorso del Commissario Jørgensen all'inaugurazione del progetto Greensand CCS.",
-      "cz": "Projev komisaře Jørgensena na slavnostním zahájení projektu Greensand CCS.",
-      "phon": "[dis-KÓR-so del kom-mis-SÁ-rio JRDŽÉN-sen al-li-nau-gu-ra-CÍO-ne del pro-DŽÉT-to GRÉEN-sand kks]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca mantiene il coefficiente di riserva di capitale anticiclica all'1,5%.",
-      "cz": "Česká národní banka ponechává sazbu proticyklické kapitálové rezervy na 1,5 %.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka man-TÍE-ne il koef-fi-ČÉN-te di ri-ZÉR-va di ka-pi-TÁ-le an-ti-čik-LÍ-ka all]"
-    },
-    {
-      "it": "Produzione nel settore delle costruzioni - luglio 2026.",
-      "cz": "Produkce ve stavebnictví - červenec 2026.",
-      "phon": "[pro-du-CÍO-ne nel set-TÓ-re DÉL-le kost-ru-CÍO-ni LÚL-jo]"
-    },
-    {
-      "it": "Prezzi delle case (dati provvisori) - Secondo trimestre 2026.",
-      "cz": "Ceny domů (předběžné) – 2.",
-      "phon": "[PRÉC-ci DÉL-le KÁ-ze DÁ-ti prov-vi-ZÓ-ri se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Commercianti improvvisati: una nuova stretta può stroncare sul nascere questi costruttori infernali?",
-      "cz": "Kovbojští obchodníci: Může nový zásah vymýtit stavitele z pekla?",
-      "phon": "[kom-mer-ČÁN-ti imp-rov-vi-ZÁ-ti u-na NÚO-va STRÉT-ta può stron-KÁ-re sul na-ŠÉ-re KVÉS-ti kost-rut-TÓ-ri in-fer-NÁ-li]"
-    },
-    {
-      "it": "Harrods cerca di recuperare i costi del risarcimento per gli abusi dal patrimonio di Mohamed Al Fayed.",
-      "cz": "Obchodní dům Harrods se snaží získat od pozůstalosti Mohameda Al Fayeda odškodnění za zneužívání.",
-      "phon": "[ÁR-rods ČÉR-ka di re-ku-pe-RÁ-re i KÓS-ti del ri-zar-či-MÉN-to per lj a-BÚ-zi dal pat-ri-MÓ-nio di MÓA-med al FÁ-yed]"
-    }
-  ],
-  "shadow": {
-    "it": "Discorso del Commissario Roswall al Vertice sulla Crescita Pulita – Verso la COP31.",
-    "cz": "Projev komisaře Roswalla na summitu o čistém růstu – Cesta k COP31.",
-    "phon": "[dis-KÓR-so del kom-mis-SÁ-rio RÓS-wall al ver-TÍ-če SÚL-la kre-ŠÍ-ta pu-LÍ-ta VÉR-so la kop]"
   }
 }
