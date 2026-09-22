@@ -1,8 +1,5 @@
 {
   "date": "2026-09-22",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_22",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Substantial agreement on EU-Philippines trade deal. Today, the EU and the Philippines reached substantial agreement in their negotiations for a Free Trade Agreement (FTA), envisaged to deepen economic ties between the EU and another strategic, fast-growing partner in Southeast Asia.",
@@ -89,32 +86,5 @@
     "en": "On November 25, 2023, three 20-year-old students of Palestinian descent were shot and injured in Burlington, Vermont. The students, who were visiting Burlington for Thanksgiving break, were wearing keffiyehs to show solidarity with Palestine amid the Gaza war when they were shot near the University of Vermont. A suspect, 48-year-old Jason Eaton, was arrested two days later and charged with three counts of attempted second-degree murder. Although initially investigated as a possible hate crime, no official motive has been established. Ahead of the trial, the judge allowed an insanity defense based on Eaton's claim that he was a CIA operative acting under orders. On September 21, 2026, Eaton was convicted in the shooting.",
     "it": "Il 25 novembre 2023, tre studenti ventenni di origine palestinese sono stati feriti a colpi d'arma da fuoco a Burlington, nel Vermont. Gli studenti, che si trovavano a Burlington per le vacanze del Ringraziamento, indossavano la kefiah in segno di solidarietà con la Palestina nel contesto della guerra di Gaza, quando sono stati colpiti vicino all'Università del Vermont. Un sospettato, Jason Eaton, di 48 anni, è stato arrestato due giorni dopo e accusato di triplice tentato omicidio di secondo grado. Sebbene inizialmente le indagini siano state condotte come possibile crimine d'odio, non è stato ancora accertato un movente ufficiale. Prima del processo, il giudice ha ammesso la difesa per infermità mentale, basata sull'affermazione di Eaton di essere un agente della CIA che agiva su ordine. Il 21 settembre 2026, Eaton è stato condannato per la sparatoria.",
     "cz": "Dne 25. listopadu 2023 byli v Burlingtonu ve Vermontu postřeleni a zraněni tři dvacetiletí studenti palestinského původu. Studenti, kteří byli v Burlingtonu na Den díkůvzdání, měli na sobě kufíje na projev solidarity s Palestinou uprostřed války v Gaze, když byli postřeleni poblíž Vermontské univerzity. Podezřelý, 48letý Jason Eaton, byl o dva dny později zatčen a obviněn ze tří pokusů o vraždu druhého stupně. Ačkoli byl původně vyšetřován jako možný trestný čin z nenávisti, nebyl oficiální motiv stanoven. Před zahájením soudního procesu soudce povolil obhajobu na základě nepříčetnosti na základě Eatonova tvrzení, že byl agentem CIA jednajícím na rozkaz. Dne 21. září 2026 byl Eaton za střelbu usvědčen."
-  },
-  "shadows": [
-    {
-      "it": "Accordo sostanziale sull'accordo commerciale UE-Filippine.",
-      "cz": "Podstatná dohoda o obchodní dohodě mezi EU a Filipínami.",
-      "phon": "[ak-KÓR-do sos-tan-CÍA-le sul-lak-KÓR-do kom-mer-ČÁ-le ue-fi-lip-PÍ-ne]"
-    },
-    {
-      "it": "Dichiarazioni alla stampa del Commissario Šefčovič sulle relazioni commerciali tra l'UE e le Filippine.",
-      "cz": "Tiskové vyjádření komisaře Šefčoviče k obchodním vztahům mezi EU a Filipínami.",
-      "phon": "[di-kia-ra-CÍO-ni ÁL-la STÁM-pa del kom-mis-SÁ-rio e-FÓ-vi SÚL-le re-la-CÍO-ni kom-mer-ČÁ-li tra lue e le fi-lip-PÍ-ne]"
-    },
-    {
-      "it": "La CNB mantiene i tassi d'interesse invariati.",
-      "cz": "ČNB ponechává úrokové sazby beze změny.",
-      "phon": "[la knb man-TÍE-ne i TÁS-si din-te-RÉS-se in-va-RÍA-ti]"
-    },
-    {
-      "it": "Lo sapevate che Guntur Soekarnoputra ha sventato un tentativo di rapimento allattando al seno?",
-      "cz": "Věděli jste, že Guntur Soekarnoputra zmařil pokus o únos kojením?",
-      "phon": "[lo sa-pe-VÁ-te ke GÚN-tur soe-kar-no-PÚT-ra a sven-TÁ-to un ten-ta-TÍ-vo di ra-pi-MÉN-to al-lat-TÁN-do al SÉ-no]"
-    }
-  ],
-  "shadow": {
-    "it": "Accordo sostanziale sull'accordo commerciale UE-Filippine.",
-    "cz": "Podstatná dohoda o obchodní dohodě mezi EU a Filipínami.",
-    "phon": "[ak-KÓR-do sos-tan-CÍA-le sul-lak-KÓR-do kom-mer-ČÁ-le ue-fi-lip-PÍ-ne]"
   }
 }
