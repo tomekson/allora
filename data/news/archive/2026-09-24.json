@@ -1,8 +1,5 @@
 {
   "date": "2026-09-24",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_24",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "EU and Canada secure at least €211 million in pledges for Global Ocean Observation. Today, President of the European Commission Ursula von der Leyen and Prime Minister of Canada Mark Carney launched the OceanEye International Alliance for the Global Ocean Observing System at a high‑level pledging event in New York.",
@@ -113,42 +110,5 @@
     "en": "The 2026 OpenAI infiltration of Medicare was a cyber security incident on 18 June 2026 in which artificial intelligence agents built by American technology company OpenAI accessed internal files from Medicare, Australia's national universal health insurance scheme. During internal evaluation of the underlying AI model, the agents gained unauthorised access to internal, unreleased data files in the Medicare Statistics Reporting Service portal and implanted new files into the system. It is believed to be the first instance of an AI agent hacking a government network.\nThe incident was announced on 24 September 2026 by Australian prime minister Anthony Albanese at a press conference held in New York City while attending a United Nations General Assembly meeting.",
     "it": "L'infiltrazione di OpenAI in Medicare nel 2026 è stato un incidente di sicurezza informatica avvenuto il 18 giugno 2026, in cui agenti di intelligenza artificiale sviluppati dalla società tecnologica americana OpenAI hanno avuto accesso a file interni di Medicare, il sistema sanitario nazionale australiano. Durante la valutazione interna del modello di IA sottostante, gli agenti hanno ottenuto accesso non autorizzato a file di dati interni non pubblicati nel portale del Servizio di Reporting Statistico di Medicare e hanno inserito nuovi file nel sistema. Si ritiene che sia il primo caso di un agente di IA che ha violato una rete governativa.\nL'incidente è stato annunciato il 24 settembre 2026 dal primo ministro australiano Anthony Albanese in una conferenza stampa tenutasi a New York, in occasione di una riunione dell'Assemblea Generale delle Nazioni Unite.",
     "cz": "Infiltrace OpenAI do systému Medicare v roce 2026 byla kybernetickým bezpečnostním incidentem, k němuž došlo 18. června 2026. Agenti umělé inteligence, které vytvořila americká technologická společnost OpenAI, získali přístup k interním souborům australského systému Medicare, národního systému univerzálního zdravotního pojištění. Během interního hodnocení základního modelu umělé inteligence agenti získali neoprávněný přístup k interním, nezveřejněným datovým souborům na portálu služby Medicare Statistics Reporting Service a implantovali do systému nové soubory. Předpokládá se, že se jedná o první případ, kdy agent umělé inteligence naboural vládní síť.\nIncident oznámil 24. září 2026 australský premiér Anthony Albanese na tiskové konferenci konané v New Yorku během účasti na zasedání Valného shromáždění OSN."
-  },
-  "shadows": [
-    {
-      "it": "L'UE e il Canada si assicurano almeno 211 milioni di euro in impegni per l'osservazione globale degli oceani.",
-      "cz": "EU a Kanada zajistily nejméně 211 milionů eur v závazcích na globální pozorování oceánů.",
-      "phon": "[lue e il ka-NÁ-da si as-si-ku-RÁ-no al-MÉ-no mi-LÍO-ni di ÉU-ro in im-PÉ-ňi per los-ser-va-CÍO-ne glo-BÁ-le delj o-ČÉA-ni]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-      "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
-    },
-    {
-      "it": "Concorso Istat 2026 per la realizzazione di poster.",
-      "cz": "Soutěž plakátů Istat 2026.",
-      "phon": "[kon-KÓR-so ÍS-tat per la rea-lic-ca-CÍO-ne di PÓS-ter]"
-    },
-    {
-      "it": "Conti nazionali annuali - Anni 2010-2025.",
-      "cz": "Roční národní účty – roky 2010–2025.",
-      "phon": "[KÓN-ti na-cio-NÁ-li an-NÚA-li ÁN-ni]"
-    },
-    {
-      "it": "Nick Clegg minimizza i timori che un'intelligenza artificiale \"onnipotente\" possa sterminare l'umanità.",
-      "cz": "Nick Clegg bagatelizuje obavy, že by „božská“ umělá inteligence mohla vyhladit lidstvo.",
-      "phon": "[nikk klegg mi-ni-MÍC-ca i ti-MÓ-ri ke u-nin-tel-li-DŽÉN-ca ar-ti-fi-ČÁ-le on-ni-po-TÉN-te PÓS-sa ster-mi-NÁ-re lu-ma-ni-TÁ]"
-    },
-    {
-      "it": "L'impresa edile Vistry riduce drasticamente le previsioni di profitto a causa dell'aumento delle perdite.",
-      "cz": "Stavební firma Vistry snižuje prognózy zisku kvůli rostoucím ztrátám.",
-      "phon": "[limp-RÉ-za e-DÍ-le vistry ri-DÚ-če dras-ti-ka-MÉN-te le pre-vi-ZÍO-ni di pro-FÍT-to a KÁU-za del-lau-MÉN-to DÉL-le per-DÍ-te]"
-    }
-  ],
-  "shadow": {
-    "it": "L'UE e il Canada si assicurano almeno 211 milioni di euro in impegni per l'osservazione globale degli oceani.",
-    "cz": "EU a Kanada zajistily nejméně 211 milionů eur v závazcích na globální pozorování oceánů.",
-    "phon": "[lue e il ka-NÁ-da si as-si-ku-RÁ-no al-MÉ-no mi-LÍO-ni di ÉU-ro in im-PÉ-ňi per los-ser-va-CÍO-ne glo-BÁ-le delj o-ČÉA-ni]"
   }
 }
