@@ -1,8 +1,5 @@
 {
   "date": "2026-09-25",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_25",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "EU advances Global Health Resilience Initiative with new Global Gateway investments in Africa and Latin America.",
@@ -113,47 +110,5 @@
     "en": "The 2026 Iran war fuel crisis is a worldwide fuel crisis caused by the war between Iran and the U.S.-Israel coalition. The closure of the Strait of Hormuz, through which over 20% of the world's oil trade passes, and attacks on energy infrastructure in Iran and several Gulf Cooperation Council countries led to a large disruption in global oil supplies. The disruption led to global oil prices rising and caused fuel shortages in countries which imported most of their fuel from the Persian Gulf region. Much of the world has been affected by panic buying and severe disruption to the distribution of petroleum products, liquefied natural gas (LNG), and urea used for fertiliser.",
     "it": "La crisi petrolifera del 2026 causata dalla guerra in Iran è una crisi energetica mondiale provocata dal conflitto tra l'Iran e la coalizione israelo-americana. La chiusura dello Stretto di Hormuz, attraverso il quale transita oltre il 20% del commercio petrolifero mondiale, e gli attacchi alle infrastrutture energetiche in Iran e in diversi paesi del Consiglio di Cooperazione del Golfo hanno causato una grave interruzione delle forniture globali di petrolio. Tale interruzione ha portato a un aumento dei prezzi del petrolio a livello globale e a carenze di carburante nei paesi che importavano la maggior parte del loro combustibile dalla regione del Golfo Persico. Gran parte del mondo è stata colpita da acquisti dettati dal panico e da gravi interruzioni nella distribuzione di prodotti petroliferi, gas naturale liquefatto (GNL) e urea, utilizzata come fertilizzante.",
     "cz": "Íránská válka s palivovou krizí v roce 2026 je celosvětová palivová krize způsobená válkou mezi Íránem a americko-izraelskou koalicí. Uzavření Hormuzského průlivu, kterým prochází více než 20 % světového obchodu s ropou, a útoky na energetickou infrastrukturu v Íránu a několika zemích Rady pro spolupráci v Perském zálivu vedly k velkému narušení globálních dodávek ropy. Toto narušení vedlo k růstu světových cen ropy a způsobilo nedostatek paliv v zemích, které většinu svého paliva dovážely z oblasti Perského zálivu. Velká část světa byla zasažena panickými nákupy a vážným narušením distribuce ropných produktů, zkapalněného zemního plynu (LNG) a močoviny používané jako hnojivo."
-  },
-  "shadows": [
-    {
-      "it": "Discorso del Commissario Lahbib su Haiti durante l'Assemblea Generale delle Nazioni Unite.",
-      "cz": "Projev komisaře Lahbiba o Haiti během Valného shromáždění OSN.",
-      "phon": "[dis-KÓR-so del kom-mis-SÁ-rio LÁ-bib su ÁI-ti du-RÁN-te las-SÉMB-lea dže-ne-RÁ-le DÉL-le na-CÍO-ni u-NÍ-te]"
-    },
-    {
-      "it": "L'UE promuove la resilienza sanitaria globale.",
-      "cz": "EU posiluje globální odolnost v oblasti zdraví.",
-      "phon": "[lue pro-MÚO-ve la re-zi-LÍEN-ca sa-ni-TÁ-ria glo-BÁ-le]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-      "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
-    },
-    {
-      "it": "Concorso Istat 2026 per la realizzazione di poster.",
-      "cz": "Soutěž plakátů Istat 2026.",
-      "phon": "[kon-KÓR-so ÍS-tat per la rea-lic-ca-CÍO-ne di PÓS-ter]"
-    },
-    {
-      "it": "Conti nazionali annuali - Anni 2010-2025.",
-      "cz": "Roční národní účty – roky 2010–2025.",
-      "phon": "[KÓN-ti na-cio-NÁ-li an-NÚA-li ÁN-ni]"
-    },
-    {
-      "it": "Imposta sulle plusvalenze: come funziona e i pro e i contro di un ulteriore aumento.",
-      "cz": "Daň z kapitálových výnosů: jak funguje a výhody a nevýhody dalšího zvýšení.",
-      "phon": "[im-PÓS-ta SÚL-le plus-va-LÉN-ce KÓ-me fun-CÍO-na e i pro e i KÓNT-ro di un ul-te-RÍO-re au-MÉN-to]"
-    },
-    {
-      "it": "Lo sapevate che il nome d'arte di Jasmine Wong deriva dalla parola finlandese che significa \"cieco\"?",
-      "cz": "Věděli jste, že umělecké jméno Jasmine Wong odkazuje na finské slovo pro „slepou“?",
-      "phon": "[lo sa-pe-VÁ-te ke il NÓ-me DÁR-te di jas-MÍ-ne wong de-RÍ-va DÁL-la pa-RÓ-la fin-lan-DÉ-ze ke si-ňi-FÍ-ka ČÉ-ko]"
-    }
-  ],
-  "shadow": {
-    "it": "Discorso del Commissario Lahbib su Haiti durante l'Assemblea Generale delle Nazioni Unite.",
-    "cz": "Projev komisaře Lahbiba o Haiti během Valného shromáždění OSN.",
-    "phon": "[dis-KÓR-so del kom-mis-SÁ-rio LÁ-bib su ÁI-ti du-RÁN-te las-SÉMB-lea dže-ne-RÁ-le DÉL-le na-CÍO-ni u-NÍ-te]"
   }
 }
