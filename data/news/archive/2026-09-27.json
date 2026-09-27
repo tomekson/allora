@@ -1,8 +1,5 @@
 {
   "date": "2026-09-27",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_27",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "President von der Leyen announces €710 million to support displaced people in Africa and global crisis relief.",
@@ -83,32 +80,5 @@
       "origin": "dyk"
     }
   ],
-  "article": null,
-  "shadows": [
-    {
-      "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-      "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
-    },
-    {
-      "it": "Concorso Istat 2026 per la realizzazione di poster.",
-      "cz": "Soutěž plakátů Istat 2026.",
-      "phon": "[kon-KÓR-so ÍS-tat per la rea-lic-ca-CÍO-ne di PÓS-ter]"
-    },
-    {
-      "it": "Conti nazionali annuali - Anni 2010-2025.",
-      "cz": "Roční národní účty – roky 2010–2025.",
-      "phon": "[KÓN-ti na-cio-NÁ-li an-NÚA-li ÁN-ni]"
-    },
-    {
-      "it": "Oxford permette a OpenAI di addestrare i suoi modelli di intelligenza artificiale sulla Bodleian Library.",
-      "cz": "Oxford nechává OpenAI trénovat své modely umělé inteligence na Bodleianově knihovně.",
-      "phon": "[ÓX-ford per-MÉT-te a o-PÉ-nai di ad-dest-RÁ-re i suoi mo-DÉL-li di in-tel-li-DŽÉN-ca ar-ti-fi-ČÁ-le SÚL-la BÓD-leian LÍB-rary]"
-    }
-  ],
-  "shadow": {
-    "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-    "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-    "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
-  }
+  "article": null
 }
