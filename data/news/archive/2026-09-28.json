@@ -1,8 +1,5 @@
 {
   "date": "2026-09-28",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_28",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "EU provides €61 million in humanitarian aid amidst rapidly deteriorating situation in Ethiopia.",
@@ -113,42 +110,5 @@
     "en": "The Turkish economic crisis (Turkish: Türkiye ekonomik krizi) is a financial and economic crisis in Turkey. It is characterized by the Turkish lira (TRY) plunging in value, high inflation, rising borrowing costs, and correspondingly rising loan defaults. The crisis was caused by the Turkish economy's excessive current account deficit and large amounts of private foreign-currency denominated debt. \nSome analysts also stress the leveraging effects of the geopolitical frictions with the United States. Following the detention of American pastor Andrew Brunson, who was arrested on espionage charges after the failed 2016 Turkish coup d'état attempt, the Trump administration exerted pressure towards Turkey by imposing further sanctions.",
     "it": "La crisi economica turca (in turco: Türkiye ekonomik krizi) è una crisi finanziaria ed economica che ha colpito la Turchia. È caratterizzata dal crollo del valore della lira turca (TRY), da un'inflazione elevata, dall'aumento dei costi di finanziamento e dal conseguente incremento dei mancati pagamenti dei prestiti. La crisi è stata causata dall'eccessivo deficit delle partite correnti dell'economia turca e dall'ingente quantità di debito privato denominato in valuta estera.\nAlcuni analisti sottolineano anche l'effetto leva delle tensioni geopolitiche con gli Stati Uniti. In seguito all'arresto del pastore americano Andrew Brunson, accusato di spionaggio dopo il fallito tentativo di colpo di stato in Turchia del 2016, l'amministrazione Trump ha esercitato pressioni sulla Turchia imponendo ulteriori sanzioni.",
     "cz": "Turecká hospodářská krize (turecky: Türkiye ekonomik krizi) je finanční a ekonomická krize v Turecku. Je charakterizována propadem hodnoty turecké liry (TRY), vysokou inflací, rostoucími náklady na půjčky a odpovídajícím způsobem rostoucími nesplácenými úvěry. Krizi způsobil nadměrný deficit běžného účtu turecké ekonomiky a velké množství soukromého dluhu denominovaného v cizích měnách.\n\nNěkteří analytici také zdůrazňují pákový efekt geopolitických třenic se Spojenými státy. Po zadržení amerického pastora Andrewa Brunsona, který byl po neúspěšném pokusu o turecký převrat v roce 2016 zatčen na základě obvinění ze špionáže, vyvinula Trumpova administrativa tlak na Turecko zavedením dalších sankcí."
-  },
-  "shadows": [
-    {
-      "it": "Gli accordi commerciali dell'UE continuano a giovare alle imprese europee.",
-      "cz": "Obchodní dohody EU jsou i nadále přínosem pro evropské podniky.",
-      "phon": "[lj ak-KÓR-di kom-mer-ČÁ-li DÉL-lue kon-ti-NÚA-no a džo-VÁ-re ÁL-le imp-RÉ-ze eu-RÓ-pee]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-      "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
-    },
-    {
-      "it": "Scambi commerciali con paesi extra-UE - agosto 2026.",
-      "cz": "Zahraniční obchod se zeměmi mimo EU - srpen 2026.",
-      "phon": "[SKÁM-bi kom-mer-ČÁ-li kon PÁE-zi ÉXT-raue a-GÓS-to]"
-    },
-    {
-      "it": "Concorso Istat 2026 per la realizzazione di poster.",
-      "cz": "Soutěž plakátů Istat 2026.",
-      "phon": "[kon-KÓR-so ÍS-tat per la rea-lic-ca-CÍO-ne di PÓS-ter]"
-    },
-    {
-      "it": "Il prezzo del diesel presso le stazioni di servizio del Regno Unito raggiunge il massimo storico.",
-      "cz": "Cena nafty na britských nábřežních kolejích dosáhla historického maxima.",
-      "phon": "[il PRÉC-co del DÍE-zel PRÉS-so le sta-CÍO-ni di ser-VÍ-cio del RÉ-ňo u-NÍ-to rag-DŽÚN-dže il mas-SÍ-mo sto-RÍ-ko]"
-    },
-    {
-      "it": "Il capo di Beaverbrooks esorta il governo a dare alle imprese \"un po' di tregua\".",
-      "cz": "Šéf Beaverbrooks naléhavě žádá vládu, aby dala firmám „trochu pauzu“.",
-      "phon": "[il KÁ-po di bea-VÉRB-rooks e-ZÓR-ta il go-VÉR-no a DÁ-re ÁL-le imp-RÉ-ze un po di TRÉ-gua]"
-    }
-  ],
-  "shadow": {
-    "it": "Gli accordi commerciali dell'UE continuano a giovare alle imprese europee.",
-    "cz": "Obchodní dohody EU jsou i nadále přínosem pro evropské podniky.",
-    "phon": "[lj ak-KÓR-di kom-mer-ČÁ-li DÉL-lue kon-ti-NÚA-no a džo-VÁ-re ÁL-le imp-RÉ-ze eu-RÓ-pee]"
   }
 }
