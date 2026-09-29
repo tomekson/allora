@@ -1,8 +1,5 @@
 {
   "date": "2026-09-29",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_September_29",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commission proposes 5-point plan to strengthen resilience and security of EU external borders. Today, the Commission is proposing a 5-point plan to prevent, anticipate and respond to sudden, mass illegal arrivals. It will strengthen the resilience and security of EU external borders",
@@ -113,42 +110,5 @@
     "en": "The Myanmar civil war began following the military coup on 1 February 2021. The seizure of power triggered mass anti-coup demonstrations and a violent crackdown by the Tatmadaw (Myanmar armed forces), which significantly escalated the country's longstanding insurgencies.\nIn response to the coup, the exiled National Unity Government (NUG) and major ethnic armed organisations repudiated the 2008 Constitution and called instead for a democratic federal state. Besides engaging this alliance, the ruling military junta the State Administration Council (SAC), led by Min Aung Hlaing, contended with other anti-regime forces in areas under its control. The insurgents are apportioned into hundreds of armed groups scattered across the country.",
     "it": "La guerra civile in Myanmar è iniziata in seguito al colpo di stato militare del 1° febbraio 2021. La presa del potere ha scatenato manifestazioni di massa contro il golpe e una violenta repressione da parte del Tatmadaw (le forze armate birmane), che ha significativamente intensificato le insurrezioni di lunga data nel paese.\n\nIn risposta al colpo di stato, il Governo di Unità Nazionale (NUG) in esilio e le principali organizzazioni armate etniche hanno ripudiato la Costituzione del 2008 e hanno chiesto invece uno stato federale democratico. Oltre a confrontarsi con questa alleanza, la giunta militare al potere, il Consiglio di Amministrazione Statale (SAC), guidato da Min Aung Hlaing, si è scontrata con altre forze anti-regime nelle aree sotto il suo controllo. Gli insorti sono suddivisi in centinaia di gruppi armati sparsi in tutto il paese.",
     "cz": "Občanská válka v Myanmaru začala po vojenském převratu 1. února 2021. Uchopení moci vyvolalo masové demonstrace proti převratu a násilné zásahy ze strany Tatmadaw (myanmarských ozbrojených sil), což výrazně eskalovalo dlouhodobé povstání v zemi.\nV reakci na převrat exilová vláda národní jednoty (NUG) a hlavní etnické ozbrojené organizace odmítly ústavu z roku 2008 a místo toho vyzvaly k demokratickému federálnímu státu. Kromě navázání této aliance se vládnoucí vojenská junta, Rada státní správy (SAC), vedená Min Aung Hlaingem, postavila dalším protivládním silám v oblastech pod svou kontrolou. Povstalci jsou rozděleni do stovek ozbrojených skupin roztroušených po celé zemi."
-  },
-  "shadows": [
-    {
-      "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-      "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
-    },
-    {
-      "it": "Infografica sugli incidenti stradali - Anno 2025.",
-      "cz": "Infografika o dopravních nehodách - rok 2025.",
-      "phon": "[in-fog-ra-FÍ-ka sulj in-či-DÉN-ti stra-DÁ-li ÁN-no]"
-    },
-    {
-      "it": "Prezzi alla produzione per il settore industriale e delle costruzioni - agosto 2026.",
-      "cz": "Ceny průmyslových a stavebních výrobců - srpen 2026.",
-      "phon": "[PRÉC-ci ÁL-la pro-du-CÍO-ne per il set-TÓ-re in-dust-RÍA-le e DÉL-le kost-ru-CÍO-ni a-GÓS-to]"
-    },
-    {
-      "it": "Svelata: l'email in cinque paragrafi che OpenAI ha usato per informare l'Australia dell'attacco all'agente.",
-      "cz": "Odhaleno: pětidílný e-mail, který OpenAI použila k informování Austrálie o útoku agenta.",
-      "phon": "[sve-LÁ-ta LÉ-mail in ČÍNK-ve pa-rag-RÁ-fi ke o-PÉ-nai a u-ZÁ-to per in-for-MÁ-re laust-RÁ-lia del-lat-TÁK-ko al-la-DŽÉN-te]"
-    },
-    {
-      "it": "Anthropic mette in guardia dai rischi esistenziali dell'IA per l'umanità nel documento di IPO.",
-      "cz": "Společnost Anthropic v dokumentu o IPO „varuje před existenčními riziky pro lidstvo v souvislosti s umělou inteligencí“.",
-      "phon": "[ant-RÓ-pik MÉT-te in GÚAR-dia dai RÍS-ki e-zis-ten-CÍA-li DÉL-lia per lu-ma-ni-TÁ nel do-ku-MÉN-to di i-po]"
-    },
-    {
-      "it": "La missione Starship Flight 14 di SpaceX decolla in orbita dalla Starbase, in Texas, Stati Uniti.",
-      "cz": "Starship Flight 14 společnosti SpaceX startuje na oběžnou dráhu ze základny Starbase v Texasu ve Spojených státech.",
-      "phon": "[la mis-SÍO-ne STÁR-sip fligt di SPÁ-čex de-KÓL-la in or-BÍ-ta DÁL-la star-BÁ-ze in TÉ-xas STÁ-ti u-NÍ-ti]"
-    }
-  ],
-  "shadow": {
-    "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-    "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-    "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
   }
 }
