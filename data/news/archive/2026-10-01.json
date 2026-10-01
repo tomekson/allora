@@ -1,8 +1,5 @@
 {
   "date": "2026-10-01",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_1",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commission delivers more than €210 million to support over 700 researchers to build their careers in Europe.",
@@ -113,32 +110,5 @@
     "en": "On February 27, 2026, Paramount Skydance announced its intent to acquire Warner Bros. Discovery (WBD). As part of their definitive agreement, the company was to acquire WBD for $31 per share, valuing the company at $110.9 billion. The acquisition is being funded by the Ellison family and RedBird Capital Partners, with additional funding being provided by the sovereign wealth funds of Saudi Arabia, Qatar, and the United Arab Emirates (which will hold non-voting shares in the company). The acquisition came following initial plans by WBD to split back into two companies, separating its less-profitable linear television assets (including the legacy Turner networks such as CNN) from the flagship Warner Bros. (WB) studio business, HBO, and streaming service HBO Max.",
     "it": "Il 27 febbraio 2026, Paramount Skydance ha annunciato l'intenzione di acquisire Warner Bros. Discovery (WBD). Nell'ambito dell'accordo definitivo, la società avrebbe acquisito WBD per 31 dollari per azione, valutando l'azienda 110,9 miliardi di dollari. L'acquisizione è stata finanziata dalla famiglia Ellison e da RedBird Capital Partners, con un ulteriore contributo da parte dei fondi sovrani di Arabia Saudita, Qatar ed Emirati Arabi Uniti (che deterranno azioni senza diritto di voto nella società). L'acquisizione è avvenuta in seguito ai piani iniziali di WBD di dividersi in due società, separando le attività televisive lineari meno redditizie (tra cui le reti storiche di Turner come CNN) dall'attività principale di Warner Bros. (WB), ovvero gli studi cinematografici, HBO e il servizio di streaming HBO Max.",
     "cz": "Dne 27. února 2026 společnost Paramount Skydance oznámila svůj záměr získat společnost Warner Bros. Discovery (WBD). Součástí definitivní dohody bylo, že společnost získá WBD za 31 dolarů za akcii, což by společnost ocenilo na 110,9 miliard dolarů. Akvizici financuje rodina Ellisonových a RedBird Capital Partners, přičemž další financování poskytnou státní investiční fondy Saúdské Arábie, Kataru a Spojených arabských emirátů (které budou držet akcie společnosti bez hlasovacího práva). K akvizici došlo po původních plánech společnosti WBD rozdělit se zpět na dvě společnosti, oddělit tak méně zisková lineární televizní aktiva (včetně starších sítí Turner, jako je CNN) od vlajkové lodi studiové divize Warner Bros. (WB), HBO, a streamovací služby HBO Max."
-  },
-  "shadows": [
-    {
-      "it": "Il Tesoro offre a comuni e regioni un conto di risparmio vantaggioso con accesso immediato ai fondi.",
-      "cz": "Ministerstvo financí nabízí obcím a krajům atraktivní spořicí účet s okamžitým přístupem k finančním prostředkům.",
-      "phon": "[il te-ZÓ-ro ÓFF-re a ko-MÚ-ni e re-DŽÓ-ni un KÓN-to di ris-PÁR-mio van-tag-DŽÓ-zo kon ak-ČÉS-so im-me-DÍA-to ai FÓN-di]"
-    },
-    {
-      "it": "La Banca Nazionale Ceca figura tra i migliori datori di lavoro di Praga.",
-      "cz": "Česká národní banka se řadí mezi nejlepší zaměstnavatele v Praze.",
-      "phon": "[la BÁN-ka na-cio-NÁ-le ČÉ-ka fi-GÚ-ra tra i mil-JÓ-ri da-TÓ-ri di la-VÓ-ro di PRÁ-ga]"
-    },
-    {
-      "it": "Occupazione e disoccupazione (dati provvisori) - agosto 2026.",
-      "cz": "Zaměstnanost a nezaměstnanost (předběžné údaje) - srpen 2026.",
-      "phon": "[ok-ku-pa-CÍO-ne e di-zok-ku-pa-CÍO-ne DÁ-ti prov-vi-ZÓ-ri a-GÓS-to]"
-    },
-    {
-      "it": "Innovazione nelle imprese - Anni 2022-2024.",
-      "cz": "Inovace v podnicích – roky 2022–2024.",
-      "phon": "[in-no-va-CÍO-ne NÉL-le imp-RÉ-ze ÁN-ni]"
-    }
-  ],
-  "shadow": {
-    "it": "Il Tesoro offre a comuni e regioni un conto di risparmio vantaggioso con accesso immediato ai fondi.",
-    "cz": "Ministerstvo financí nabízí obcím a krajům atraktivní spořicí účet s okamžitým přístupem k finančním prostředkům.",
-    "phon": "[il te-ZÓ-ro ÓFF-re a ko-MÚ-ni e re-DŽÓ-ni un KÓN-to di ris-PÁR-mio van-tag-DŽÓ-zo kon ak-ČÉS-so im-me-DÍA-to ai FÓN-di]"
   }
 }
