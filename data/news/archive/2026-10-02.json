@@ -1,8 +1,5 @@
 {
   "date": "2026-10-02",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_2",
-  "translator": "Google Translate",
   "stories": [
     {
       "en": "Commission delivers more than €210 million to support over 700 researchers to build their careers in Europe.",
@@ -113,37 +110,5 @@
     "en": "Egypt–Ethiopia relations are the bilateral relations between the governments of Egypt and Ethiopia. Both countries established diplomatic ties in 1927 to be the oldest on the African continent and one of the oldest in the world. They are both members of the African Union, Nile Basin Initiative and share a relation of special nature due to their crucial roles in vital issues such as the Nile water file and the interest both share on establishing security in the Horn of Africa region by combating terrorism and piracy. In 2021, Ethiopia closed its embassy in Cairo due to financial reasons. In November 2022, Ethiopia reopened its embassy in Cairo.",
     "it": "Le relazioni tra Egitto ed Etiopia sono le relazioni bilaterali tra i governi di Egitto ed Etiopia. Entrambi i paesi hanno stabilito legami diplomatici nel 1927, i più antichi del continente africano e tra i più antichi al mondo. Sono entrambi membri dell'Unione Africana e dell'Iniziativa del Bacino del Nilo e condividono una relazione di natura speciale a causa del loro ruolo cruciale in questioni vitali come la gestione delle acque del Nilo e dell'interesse comune a garantire la sicurezza nella regione del Corno d'Africa attraverso la lotta al terrorismo e alla pirateria. Nel 2021, l'Etiopia ha chiuso la sua ambasciata al Cairo per motivi finanziari. Nel novembre 2022, l'Etiopia ha riaperto la sua ambasciata al Cairo.",
     "cz": "Vztahy mezi Egyptem a Etiopií jsou bilaterální vztahy mezi vládami Egypta a Etiopie. Obě země navázaly diplomatické styky v roce 1927 a patří k nejstarším na africkém kontinentu a k nejstarším na světě. Obě země jsou členy Africké unie, Iniciativy pro povodí Nilu, a sdílejí vztah zvláštní povahy díky své klíčové roli v životně důležitých otázkách, jako je problém s vodou Nilu, a zájmu, který obě země sdílejí, na zajištění bezpečnosti v oblasti Afrického rohu bojem proti terorismu a pirátství. V roce 2021 Etiopie z finančních důvodů uzavřela své velvyslanectví v Káhiře. V listopadu 2022 Etiopie znovu otevřela své velvyslanectví v Káhiře."
-  },
-  "shadows": [
-    {
-      "it": "Cambiamenti di personale nel Dipartimento Contanti e Pagamenti della CNB.",
-      "cz": "Personální změny v sekci pokladního a platebního styku ČNB.",
-      "phon": "[kam-bia-MÉN-ti di per-so-NÁ-le nel di-par-ti-MÉN-to kon-TÁN-ti e pa-ga-MÉN-ti DÉL-la knb]"
-    },
-    {
-      "it": "Il Tesoro offre a comuni e regioni un conto di risparmio vantaggioso con accesso immediato ai fondi.",
-      "cz": "Ministerstvo financí nabízí obcím a krajům atraktivní spořicí účet s okamžitým přístupem k finančním prostředkům.",
-      "phon": "[il te-ZÓ-ro ÓFF-re a ko-MÚ-ni e re-DŽÓ-ni un KÓN-to di ris-PÁR-mio van-tag-DŽÓ-zo kon ak-ČÉS-so im-me-DÍA-to ai FÓN-di]"
-    },
-    {
-      "it": "Commercio al dettaglio - agosto 2026.",
-      "cz": "Maloobchod - srpen 2026.",
-      "phon": "[kom-MÉR-čo al det-TÁL-jo a-GÓS-to]"
-    },
-    {
-      "it": "Occupazione e disoccupazione (dati provvisori) - agosto 2026.",
-      "cz": "Zaměstnanost a nezaměstnanost (předběžné údaje) - srpen 2026.",
-      "phon": "[ok-ku-pa-CÍO-ne e di-zok-ku-pa-CÍO-ne DÁ-ti prov-vi-ZÓ-ri a-GÓS-to]"
-    },
-    {
-      "it": "OpenAI ha rivelato un altro attacco informatico ai danni di un dipartimento governativo australiano.",
-      "cz": "OpenAI odhaluje další útok na vládní úřad v Austrálii.",
-      "phon": "[o-PÉ-nai a ri-ve-LÁ-to un ÁLT-ro at-TÁK-ko in-for-ma-TÍ-ko ai DÁN-ni di un di-par-ti-MÉN-to go-ver-na-TÍ-vo aust-ra-LÍA-no]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambiamenti di personale nel Dipartimento Contanti e Pagamenti della CNB.",
-    "cz": "Personální změny v sekci pokladního a platebního styku ČNB.",
-    "phon": "[kam-bia-MÉN-ti di per-so-NÁ-le nel di-par-ti-MÉN-to kon-TÁN-ti e pa-ga-MÉN-ti DÉL-la knb]"
   }
 }
