@@ -1,8 +1,5 @@
 {
   "date": "2026-10-05",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_5",
-  "translator": "Google Translate",
   "stories": [
     {
       "it": "Durante un volo Flydubai da Dubai a Tel Aviv, si è verificato un violento scontro tra i piloti, e il pilota del velivolo ha effettuato un atterraggio di emergenza a Tabuk, in Arabia Saudita.",
@@ -133,37 +130,5 @@
     "en": "The United States has often accused the People's Republic of China (PRC) of unlawfully acquiring US military technology, classified information, personnel data, and trade secrets of US companies in order to support China's long-term military and commercial development. Alleged perpetrators include Chinese government agencies, affiliated personnel, civilian-in-name companies and their network of academic or business contacts.\nIndividuals convicted of traditional espionage include Larry Wu-tai Chin, Katrina Leung, Gwo-Bao Min, Chi Mak, Peter Lee, and Shujun Wang. The PRC also uses cyber espionage to penetrate the computer networks of U.S. businesses and government agencies. Notable examples include the 2009 Operation Aurora and the 2015 Office of Personnel Management data breach.",
     "it": "Gli Stati Uniti hanno spesso accusato la Repubblica Popolare Cinese (RPC) di aver acquisito illegalmente tecnologia militare statunitense, informazioni classificate, dati del personale e segreti commerciali di aziende americane al fine di sostenere lo sviluppo militare e commerciale a lungo termine della Cina. Tra i presunti responsabili figurano agenzie governative cinesi, personale affiliato, società di comodo e la loro rete di contatti accademici o commerciali.\nTra gli individui condannati per spionaggio tradizionale si annoverano Larry Wu-tai Chin, Katrina Leung, Gwo-Bao Min, Chi Mak, Peter Lee e Shujun Wang. La RPC utilizza anche lo spionaggio informatico per penetrare nelle reti informatiche di aziende e agenzie governative statunitensi. Esempi noti includono l'Operazione Aurora del 2009 e la violazione dei dati dell'Office of Personnel Management del 2015.",
     "cz": "Spojené státy často obviňují Čínskou lidovou republiku (ČLR) z nezákonného získávání amerických vojenských technologií, utajovaných informací, osobních údajů a obchodních tajemství amerických společností za účelem podpory dlouhodobého vojenského a obchodního rozvoje Číny. Mezi údajné pachatele patří čínské vládní agentury, přidružený personál, společnosti vydávající se za civilisty a jejich síť akademických nebo obchodních kontaktů.\nMezi osoby odsouzené za tradiční špionáž patří Larry Wu-tai Chin, Katrina Leung, Gwo-Bao Min, Chi Mak, Peter Lee a Shujun Wang. ČLR také využívá kybernetickou špionáž k pronikání do počítačových sítí amerických podniků a vládních agentur. Mezi pozoruhodné příklady patří operace Aurora z roku 2009 a únik dat Úřadu pro personální management z roku 2015."
-  },
-  "shadows": [
-    {
-      "it": "Cambiamenti di personale nel Dipartimento Contanti e Pagamenti della CNB.",
-      "cz": "Personální změny v sekci pokladního a platebního styku ČNB.",
-      "phon": "[kam-bia-MÉN-ti di per-so-NÁ-le nel di-par-ti-MÉN-to kon-TÁN-ti e pa-ga-MÉN-ti DÉL-la knb]"
-    },
-    {
-      "it": "Il Tesoro offre a comuni e regioni un conto di risparmio vantaggioso con accesso immediato ai fondi.",
-      "cz": "Ministerstvo financí nabízí obcím a krajům atraktivní spořicí účet s okamžitým přístupem k finančním prostředkům.",
-      "phon": "[il te-ZÓ-ro ÓFF-re a ko-MÚ-ni e re-DŽÓ-ni un KÓN-to di ris-PÁR-mio van-tag-DŽÓ-zo kon ak-ČÉS-so im-me-DÍA-to ai FÓN-di]"
-    },
-    {
-      "it": "Conti nazionali trimestrali (revisione della serie storica) - Q2 2026.",
-      "cz": "Čtvrtletní národní účty (revize časových řad) - 2.",
-      "phon": "[KÓN-ti na-cio-NÁ-li tri-mest-RÁ-li re-vi-ZÍO-ne DÉL-la SÉ-rie sto-RÍ-ka q]"
-    },
-    {
-      "it": "Conti trimestrali del settore non finanziario - secondo trimestre 2026.",
-      "cz": "Čtvrtletní účty nefinančního sektoru - 2.",
-      "phon": "[KÓN-ti tri-mest-RÁ-li del set-TÓ-re non fi-nan-CÍA-rio se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Il tasso medio dei mutui a tasso fisso quinquennale raggiunge il 6% per la prima volta in tre anni.",
-      "cz": "Průměrná pětiletá fixní hypoteční sazba dosáhla poprvé za tři roky 6 %.",
-      "phon": "[il TÁS-so MÉ-dio dei MÚ-tui a TÁS-so FÍS-so kvink-ven-NÁ-le rag-DŽÚN-dže il per la PRÍ-ma VÓL-ta in tre ÁN-ni]"
-    }
-  ],
-  "shadow": {
-    "it": "Cambiamenti di personale nel Dipartimento Contanti e Pagamenti della CNB.",
-    "cz": "Personální změny v sekci pokladního a platebního styku ČNB.",
-    "phon": "[kam-bia-MÉN-ti di per-so-NÁ-le nel di-par-ti-MÉN-to kon-TÁN-ti e pa-ga-MÉN-ti DÉL-la knb]"
   }
 }
