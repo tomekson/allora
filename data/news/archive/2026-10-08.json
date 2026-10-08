@@ -1,8 +1,5 @@
 {
   "date": "2026-10-08",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_8",
-  "translator": "Google Translate",
   "stories": [
     {
       "it": "Il Premio Nobel per la Letteratura è stato assegnato alla poetessa, traduttrice e studiosa di letteratura canadese Anne Carson, che si concentra sull'antica Grecia nelle sue opere.",
@@ -133,42 +130,5 @@
     "en": "This chronological list of school attacks in Poland that occurred at K–12 public and private schools, as well as at colleges and universities, and on school buses. Excluded from this list are the following:\n\nIncidents that occurred as a result of police actions.\nSuicides or suicide attempts involving only one person.\nIncidents during World War II.",
     "it": "Questo elenco cronologico riporta gli attacchi scolastici avvenuti in Polonia presso scuole pubbliche e private di ogni ordine e grado, nonché presso università e scuolabus. Sono esclusi da questo elenco i seguenti casi:\n\nIncidenti verificatisi a seguito di interventi di polizia.\nSuicidi o tentativi di suicidio che hanno coinvolto una sola persona.\nIncidenti avvenuti durante la Seconda Guerra Mondiale.",
     "cz": "Tento chronologický seznam útoků na školy v Polsku, ke kterým došlo na veřejných a soukromých školách od mateřské školy do 12. třídy, na vysokých školách a univerzitách a ve školních autobusech. Z tohoto seznamu jsou vyloučeny následující:\n\nIncidenty, k nimž došlo v důsledku policejních zásahů.\nSebevraždy nebo pokusy o sebevraždu, kterých se účastnila pouze jedna osoba.\nIncidenty během druhé světové války."
-  },
-  "shadows": [
-    {
-      "it": "Eurobarometro mostra la crescente fiducia dei consumatori nel marchio Ecolabel UE.",
-      "cz": "Eurobarometr ukazuje rostoucí důvěru spotřebitelů v ekoznačku EU.",
-      "phon": "[eu-ro-ba-ro-MÉT-ro MÓST-ra la kre-ŠÉN-te fi-DÚ-ča dei kon-su-ma-TÓ-ri nel MÁR-kio e-ko-LÁ-bel ue]"
-    },
-    {
-      "it": "Il bilancio dell'UE continua a produrre risultati per l'Europa nel 2025.",
-      "cz": "Rozpočet EU pokračuje v plnění rozpočtu pro Evropu v roce 2025.",
-      "phon": "[il bi-LÁN-čo DÉL-lue kon-TÍ-nua a pro-DÚR-re ri-zul-TÁ-ti per leu-RÓ-pa nel]"
-    },
-    {
-      "it": "Cambiamenti di personale nel Dipartimento Contanti e Pagamenti della CNB.",
-      "cz": "Personální změny v sekci pokladního a platebního styku ČNB.",
-      "phon": "[kam-bia-MÉN-ti di per-so-NÁ-le nel di-par-ti-MÉN-to kon-TÁN-ti e pa-ga-MÉN-ti DÉL-la knb]"
-    },
-    {
-      "it": "Il Tesoro offre a comuni e regioni un conto di risparmio vantaggioso con accesso immediato ai fondi.",
-      "cz": "Ministerstvo financí nabízí obcím a krajům atraktivní spořicí účet s okamžitým přístupem k finančním prostředkům.",
-      "phon": "[il te-ZÓ-ro ÓFF-re a ko-MÚ-ni e re-DŽÓ-ni un KÓN-to di ris-PÁR-mio van-tag-DŽÓ-zo kon ak-ČÉS-so im-me-DÍA-to ai FÓN-di]"
-    },
-    {
-      "it": "Conti nazionali trimestrali (revisione della serie storica) - Q2 2026.",
-      "cz": "Čtvrtletní národní účty (revize časových řad) - 2.",
-      "phon": "[KÓN-ti na-cio-NÁ-li tri-mest-RÁ-li re-vi-ZÍO-ne DÉL-la SÉ-rie sto-RÍ-ka q]"
-    },
-    {
-      "it": "Conti trimestrali del settore non finanziario - secondo trimestre 2026.",
-      "cz": "Čtvrtletní účty nefinančního sektoru - 2.",
-      "phon": "[KÓN-ti tri-mest-RÁ-li del set-TÓ-re non fi-nan-CÍA-rio se-KÓN-do tri-MÉST-re]"
-    }
-  ],
-  "shadow": {
-    "it": "Eurobarometro mostra la crescente fiducia dei consumatori nel marchio Ecolabel UE.",
-    "cz": "Eurobarometr ukazuje rostoucí důvěru spotřebitelů v ekoznačku EU.",
-    "phon": "[eu-ro-ba-ro-MÉT-ro MÓST-ra la kre-ŠÉN-te fi-DÚ-ča dei kon-su-ma-TÓ-ri nel MÁR-kio e-ko-LÁ-bel ue]"
   }
 }
