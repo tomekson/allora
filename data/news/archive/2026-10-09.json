@@ -1,8 +1,5 @@
 {
   "date": "2026-10-09",
-  "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_9",
-  "translator": "Google Translate",
   "stories": [
     {
       "it": "Il Premio Nobel per la Pace è stato assegnato all'avvocato sudafricano Navanethem \"Navi\" Pillay, ex giudice della Corte penale internazionale e del Tribunale internazionale per il Ruanda.",
@@ -133,42 +130,5 @@
     "en": "An AI boom is a period of rapid growth in the field of artificial intelligence. The most recent boom happened in the 2020s before seeing increased acceleration and media coverage. Generative AI technologies include large language models (LLM), which generate text and code, image models, and video models, and world models. This period is sometimes referred to as an AI spring, a term used to contrast it with previous AI winters.\nKey advances preceding the boom include the transformer (2017), generative pre-trained transformer (2018) and reinforcement learning from human feedback. During the boom, LLMs have evolved via the reasoning model, mixture of experts technique, and multimodal learning.",
     "it": "Il boom dell'IA è un periodo di rapida crescita nel campo dell'intelligenza artificiale. Il boom più recente si è verificato negli anni 2020, prima di registrare un'accelerazione e una maggiore copertura mediatica. Le tecnologie di IA generativa includono i modelli linguistici su larga scala (LLM), che generano testo e codice, modelli di immagini, modelli video e modelli del mondo. Questo periodo viene talvolta definito \"primavera dell'IA\", un termine usato per contrapporlo ai precedenti \"inverni dell'IA\".\nTra i progressi chiave che hanno preceduto il boom si annoverano il Transformer (2017), il Generative Pre-Trained Transformer (2018) e l'apprendimento per rinforzo dal feedback umano. Durante il boom, gli LLM si sono evoluti attraverso il modello di ragionamento, la tecnica del mix di esperti e l'apprendimento multimodale.",
     "cz": "Boom umělé inteligence (AI) je období rychlého růstu v oblasti umělé inteligence. Poslední boom nastal ve 20. letech 21. století, než se projevil zrychlením a mediální pozorností. Generativní technologie AI zahrnují modely velkých jazyků (LLM), které generují text a kód, obrazové modely, video modely a modely světa. Toto období se někdy označuje jako AI jaro, což je termín používaný k jeho kontrastu s předchozími AI zimami.\nMezi klíčové pokroky předcházející boomu patří transformátor (2017), generativní předtrénovaný transformátor (2018) a posilovací učení z lidské zpětné vazby. Během boomu se LLM vyvíjely prostřednictvím modelu uvažování, techniky kombinace expertů a multimodálního učení."
-  },
-  "shadows": [
-    {
-      "it": "Eurobarometro mostra la crescente fiducia dei consumatori nel marchio Ecolabel UE.",
-      "cz": "Eurobarometr ukazuje rostoucí důvěru spotřebitelů v ekoznačku EU.",
-      "phon": "[eu-ro-ba-ro-MÉT-ro MÓST-ra la kre-ŠÉN-te fi-DÚ-ča dei kon-su-ma-TÓ-ri nel MÁR-kio e-ko-LÁ-bel ue]"
-    },
-    {
-      "it": "Lumír Šatran nominato Direttore della Divisione Regionale della Moravia.",
-      "cz": "Lumír Šatran jmenován ředitelem Regionální divize Morava.",
-      "phon": "[lumr ÁT-ran no-mi-NÁ-to di-ret-TÓ-re DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
-    },
-    {
-      "it": "Indicatori relativi ai permessi di costruzione - Secondo trimestre 2026.",
-      "cz": "Ukazatele stavebních povolení - 2.",
-      "phon": "[in-di-ka-TÓ-ri re-la-TÍ-vi ai per-MÉS-si di kost-ru-CÍO-ne se-KÓN-do tri-MÉST-re]"
-    },
-    {
-      "it": "Produzione industriale - agosto 2026.",
-      "cz": "Průmyslová produkce - srpen 2026.",
-      "phon": "[pro-du-CÍO-ne in-dust-RÍA-le a-GÓS-to]"
-    },
-    {
-      "it": "Inviateci le vostre domande all'economista Isabella Weber su inflazione e accessibilità economica.",
-      "cz": "Pošlete nám své otázky ekonomce Isabelle Weberové ohledně inflace a cenové dostupnosti.",
-      "phon": "[in-via-TÉ-či le VÓST-re do-MÁN-de al-le-ko-no-MÍS-ta i-za-BÉL-la WÉ-ber su inf-la-CÍO-ne e ak-čes-si-bi-li-TÁ e-ko-no-MÍ-ka]"
-    },
-    {
-      "it": "Si prevede che OpenAI genererà 20 miliardi di dollari di entrate in meno rispetto alle aspettative.",
-      "cz": "OpenAI by měla generovat o 20 miliard dolarů nižší tržby, než se očekávalo.",
-      "phon": "[si pre-VÉ-de ke o-PÉ-nai dže-ne-re-RÁ mi-LÍAR-di di dol-LÁ-ri di ent-RÁ-te in MÉ-no ris-PÉT-to ÁL-le as-pet-ta-TÍ-ve]"
-    }
-  ],
-  "shadow": {
-    "it": "Eurobarometro mostra la crescente fiducia dei consumatori nel marchio Ecolabel UE.",
-    "cz": "Eurobarometr ukazuje rostoucí důvěru spotřebitelů v ekoznačku EU.",
-    "phon": "[eu-ro-ba-ro-MÉT-ro MÓST-ra la kre-ŠÉN-te fi-DÚ-ča dei kon-su-ma-TÓ-ri nel MÁR-kio e-ko-LÁ-bel ue]"
   }
 }
