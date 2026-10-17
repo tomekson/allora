@@ -1,9 +1,14 @@
 {
-  "date": "2026-10-16",
+  "date": "2026-10-17",
   "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_16",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_17",
   "translator": "Google Translate",
   "stories": [
+    {
+      "it": "Nella Repubblica Ceca è iniziato il secondo turno delle elezioni per un terzo dei seggi del Senato del Parlamento.",
+      "cz": "V Česku začalo druhé kolo voleb do třetiny Senátu Parlamentu České republiky.",
+      "origin": "cz"
+    },
     {
       "it": "È stata completata la demolizione della struttura più alta della Repubblica Ceca, la coppia di trasmettitori di Liblice B vicino a Český Brod.",
       "cz": "Proběhla demolice nejvyšší stavby v Česku, dvojice vysílačů Liblice B u Českého Brodu.",
@@ -20,21 +25,21 @@
       "origin": "cz"
     },
     {
-      "en": "Steady progress on the One Europe, One Market roadmap. In their second review of the joint declaration and roadmap, designed to boost economic growth, the EU institutions reaffirmed their commitment to timely delivery.",
-      "it": "Progressi costanti nella tabella di marcia \"Un'Europa, un mercato unico\". Nella seconda revisione della dichiarazione comune e della tabella di marcia, concepite per stimolare la crescita economica, le istituzioni dell'UE hanno ribadito il loro impegno a conseguire risultati tempestivi.",
-      "cz": "Stálý pokrok v plánu „Jedna Evropa, jeden trh“. Ve svém druhém přezkumu společného prohlášení a plánu, jejichž cílem je podpořit hospodářský růst, orgány EU znovu potvrdily svůj závazek včasného plnění.",
+      "en": "Commission sets out new strategy on combating trafficking in human beings. Today, the European Commission sets out a new strategy to combat trafficking in human beings. In 2023 and 2024, more than 20,000 victims were registered in the EU, a 16.1% increase, though many cases remain unseen.",
+      "it": "La Commissione definisce una nuova strategia per combattere la tratta di esseri umani. Oggi la Commissione europea definisce una nuova strategia per combattere la tratta di esseri umani.",
+      "cz": "Komise představila novou strategii boje proti obchodování s lidmi. Evropská komise dnes představila novou strategii boje proti obchodování s lidmi. V letech 2023 a 2024 bylo v EU registrováno více než 20 000 obětí, což představuje nárůst o 16,1 %, ačkoli mnoho případů zůstává nezaznamenaných.",
+      "origin": "eu"
+    },
+    {
+      "en": "Commission awards 2026 New European Bauhaus prizes for sustainable, inclusive and beautiful projects.",
+      "it": "La Commissione assegna i premi New European Bauhaus 2026 a progetti sostenibili, inclusivi e di grande bellezza.",
+      "cz": "Komise uděluje ceny Nové evropské ceny Bauhaus za rok 2026 za udržitelné, inkluzivní a krásné projekty.",
       "origin": "eu"
     },
     {
       "en": "Commission launches RAISE pledging initiative to boost AI support for researchers across Europe. Today, at the European AI in Science Summit in Dublin, the European Commission launched the RAISE (Resource for AI Science in Europe) pledging initiative for AI in Science Enablers.",
-      "it": "La Commissione lancia l'iniziativa RAISE per potenziare il supporto all'IA per i ricercatori in tutta Europa. Oggi, in occasione dell'European AI in Science Summit di Dublino, la Commissione europea ha lanciato l'iniziativa RAISE (Resource for AI Science in Europe) per i promotori dell'IA nella scienza.",
+      "it": "La Commissione lancia l'iniziativa RAISE per potenziare il supporto all'IA per i ricercatori in tutta Europa. Oggi, in occasione dell'European AI in Science Summit di Dublino, la Commissione europea ha lanciato l'iniziativa RAISE (Resource for AI Science in Europe) a sostegno delle tecnologie abilitanti per l'IA nella scienza.",
       "cz": "Komise spouští darovací iniciativu RAISE na posílení podpory umělé inteligence pro výzkumníky v celé Evropě. Evropská komise dnes na Evropském summitu o umělé inteligenci ve vědě v Dublinu zahájila darovací iniciativu RAISE (Resource for AI Science in Europe) na podporu aktiv pro umělou inteligenci ve vědě.",
-      "origin": "eu"
-    },
-    {
-      "en": "Main messages from the Tripartite Social Summit. EU leaders and social partners met in Brussels for the Tripartite Social Summit, a twice-yearly forum for dialogue that brings together the leaders of the EU institutions and the European social partners.",
-      "it": "Principali messaggi del Vertice sociale tripartito. I leader dell'UE e le parti sociali si sono riuniti a Bruxelles per il Vertice sociale tripartito, un forum di dialogo che si tiene due volte l'anno e che riunisce i leader delle istituzioni dell'UE e le parti sociali europee.",
-      "cz": "Hlavní sdělení z tripartitní sociální vrcholné schůzky. Vedoucí představitelé EU a sociální partneři se setkali v Bruselu na tripartitní sociální vrcholné schůzce, což je fórum pro dialog, které se koná dvakrát ročně a sdružuje vedoucí představitele institucí EU a evropské sociální partnery.",
       "origin": "eu"
     },
     {
@@ -45,89 +50,71 @@
     },
     {
       "en": "CNB economic data now available in a clearer, more interactive form and in one place. From Thursday 8 October, the Czech National Bank’s statistics are available through a redesigned and modernised Statistics section of the CNB website and a new version of the ARAD database, ...",
-      "it": "I dati economici della Banca Nazionale Ceca (CNB) sono ora disponibili in una forma più chiara e interattiva e in un unico luogo. Da giovedì 8 ottobre, le statistiche della Banca Nazionale Ceca sono disponibili attraverso una sezione Statistiche riprogettata e modernizzata del sito web della CNB e una nuova versione del database ARAD, ...",
+      "it": "I dati economici della Banca Nazionale Ceca (CNB) sono ora disponibili in una forma più chiara e interattiva e in un unico luogo. A partire da giovedì 8 ottobre, le statistiche della Banca Nazionale Ceca sono disponibili attraverso una sezione Statistiche riprogettata e modernizzata del sito web della CNB e una nuova versione del database ARAD, ...",
       "cz": "Ekonomická data ČNB jsou nyní k dispozici v přehlednější, interaktivnější podobě a na jednom místě. Od čtvrtka 8. října jsou statistiky České národní banky k dispozici prostřednictvím přepracované a modernizované sekce Statistika na webových stránkách ČNB a nové verze databáze ARAD,...",
       "origin": "econ"
     },
     {
-      "en": "Consumer prices - September 2026. In September 2026 the Italian consumer price index for the whole nation (NIC) was +0.7% compared with the previous month and +4.2% on annual basis",
-      "it": "Prezzi al consumo - Settembre 2026. A settembre 2026 l'indice dei prezzi al consumo italiano per l'intera nazione (NIC) è aumentato dello 0,7% rispetto al mese precedente e del 4,2% su base annua.",
-      "cz": "Spotřebitelské ceny - září 2026. V září 2026 činil index spotřebitelských cen v Itálii pro celou zemi (NIC) +0,7 % ve srovnání s předchozím měsícem a +4,2 % meziročně.",
+      "en": "Anti-violence centres and women who have started the pathway out of violence - 2024. There are 409 active Centres in 2024, +1.2% compared to 2023 and +45.6% compared to 2017 (the year of the first survey), when there were 281",
+      "it": "Centri antiviolenza e donne che hanno intrapreso il percorso di uscita dalla violenza - 2024. Nel 2024 sono attivi 409 centri, +1,2% rispetto al 2023 e +45,6% rispetto al 2017 (anno della prima indagine), quando erano 281.",
+      "cz": "Centra pro boj s násilím a ženy, které zahájily cestu z násilí - 2024. V roce 2024 bylo aktivních 409 center, což představuje nárůst o 1,2 % oproti roku 2023 a o 45,6 % oproti roku 2017 (rok prvního průzkumu), kdy jich bylo 281.",
       "origin": "econ"
     },
     {
-      "en": "Non-observed economy in national accounts - Years 2021-2024. In 2024 the non-observed economy (underground and illegal activities) is worth 218.2 billion euro, equal to 9.9% of GDP",
-      "it": "Economia sommersa nei conti nazionali - Anni 2021-2024. Nel 2024 l'economia sommersa (attività illegali e clandestine) ammonta a 218,2 miliardi di euro, pari al 9,9% del PIL.",
-      "cz": "Nepozorovaná ekonomika v národních účtech – roky 2021–2024. V roce 2024 dosáhla hodnota nepozorované ekonomiky (podzemní a nelegální aktivity) 218,2 miliardy eur, což odpovídá 9,9 % HDP.",
+      "en": "Foreign trade and import prices - August 2026. In August 2026, seasonally adjusted data showed a decline in both exports (-1.5%) and imports (-1.6%); import prices increased by 1.7% on a monthly basis",
+      "it": "Commercio estero e prezzi delle importazioni - agosto 2026. Ad agosto 2026, i dati destagionalizzati hanno mostrato un calo sia delle esportazioni (-1,5%) che delle importazioni (-1,6%); i prezzi delle importazioni sono aumentati dell'1,7% su base mensile.",
+      "cz": "Zahraniční obchod a dovozní ceny - srpen 2026. Sezónně očištěná data v srpnu 2026 vykázala pokles jak vývozu (-1,5 %), tak dovozu (-1,6 %); dovozní ceny se meziměsíčně zvýšily o 1,7 %.",
       "origin": "econ"
     },
     {
-      "en": "Bank shares drop as John Healey prepares to raise taxes on the banking sector in the budget – business live. Rolling coverage of the latest economic and financial news",
-      "it": "Le azioni delle banche crollano mentre John Healey si prepara ad aumentare le tasse sul settore bancario nella legge di bilancio – notizie economiche in diretta. Aggiornamenti continui sulle ultime notizie economiche e finanziarie.",
-      "cz": "Akcie bank klesají, John Healey se chystá v rozpočtu zvýšit daně pro bankovní sektor – živé zpravodajství. Průběžné zpravodajství o nejnovějších ekonomických a finančních zprávách.",
-      "origin": "guardian"
-    },
-    {
-      "en": "Ofgem could force energy suppliers to pay rivals if they lure customers with cheaper deals. Regulator for Great Britain weighs up reintroducing market stabilisation charge to prevent firms going bust",
-      "it": "Ofgem potrebbe obbligare i fornitori di energia a pagare i concorrenti se questi attirano i clienti con offerte più economiche. L'autorità di regolamentazione della Gran Bretagna sta valutando la reintroduzione di una tassa di stabilizzazione del mercato per impedire il fallimento delle aziende.",
-      "cz": "Ofgem by mohl donutit dodavatele energie platit konkurentům, pokud nalákají zákazníky levnějšími nabídkami. Regulátor pro Velkou Británii zvažuje znovuzavedení poplatku za stabilizaci trhu, aby zabránil krachu firem.",
-      "origin": "guardian"
-    },
-    {
-      "en": "Repairing Brexit economic damage should be Burnham’s top priority, business chief says. Shevaun Haviland argues PM is right to revisit Labour’s EU red lines as current trading relationship is bad for business",
-      "it": "Riparare i danni economici causati dalla Brexit dovrebbe essere la priorità assoluta di Burnham, afferma un esperto del settore. Shevaun Haviland sostiene che il Primo Ministro ha ragione a rivedere le linee rosse del Partito Laburista sull'UE, poiché l'attuale rapporto commerciale è dannoso per le imprese.",
-      "cz": "Náprava ekonomických škod způsobených Brexitem by měla být pro Burnham nejvyšší prioritou, říká šéfka pro obchod. Shevaun Haviland tvrdí, že premiér má pravdu, když se vrací k červeným liniím labouristů ohledně EU, protože současné obchodní vztahy jsou pro podnikání špatné.",
-      "origin": "guardian"
-    },
-    {
-      "en": "The European Central Bank authorizes UniCredit to raise its stake in Commerzbank above 30% without an upper limit, allowing the Italian bank to proceed toward taking control of the German lender.",
-      "it": "La Banca Centrale Europea autorizza UniCredit ad aumentare la propria partecipazione in Commerzbank oltre il 30% senza un limite massimo, consentendo alla banca italiana di procedere all'acquisizione del controllo dell'istituto di credito tedesco.",
-      "cz": "Evropská centrální banka povolila UniCredit navýšit svůj podíl v Commerzbank nad 30 % bez horního limitu, což italské bance umožní převzít kontrolu nad německou bankou.",
+      "en": "Cockroach Janta Party leader Abhijeet Dipke is detained in Delhi, India, ahead of the party's planned march.",
+      "it": "Abhijeet Dipke, leader del Cockroach Janta Party, è stato arrestato a Delhi, in India, in vista della marcia organizzata dal partito.",
+      "cz": "Předseda strany Šváb Janta Abhijeet Dipke je zadržen v indickém Dillí před plánovaným pochodem strany.",
       "origin": "world"
     },
     {
-      "en": "The New Yalu River Bridge connecting Dandong, China, and Sinuiju, North Korea, opens following a 12-year delay.",
-      "it": "Il nuovo ponte sul fiume Yalu, che collega Dandong, in Cina, e Sinuiju, in Corea del Nord, è stato inaugurato dopo un ritardo di 12 anni.",
-      "cz": "Nový most přes řeku Jalu spojující čínský Dandong a severokorejský Sinuiju byl otevřen po 12letém zpoždění.",
+      "en": "South African police rescue about 200 people from an unregistered rehabilitation centre in Mpumalanga and arrest two people while investigating alleged kidnapping and health and safety violations. Fourteen people receive medical treatment following the rescue.",
+      "it": "La polizia sudafricana ha tratto in salvo circa 200 persone da un centro di riabilitazione non registrato nel Mpumalanga e ha arrestato due persone nell'ambito di un'indagine su un presunto rapimento e violazioni delle norme sanitarie e di sicurezza. Quattordici persone hanno ricevuto cure mediche in seguito al salvataggio.",
+      "cz": "Jihoafrická policie zachránila asi 200 lidí z neregistrovaného rehabilitačního centra v Mpumalangě a zatkla dva lidi při vyšetřování údajného únosu a porušení předpisů o zdraví a bezpečnosti. Čtrnáct lidí bylo po záchraně ošetřeno.",
       "origin": "world"
     },
     {
-      "en": "Argentine police arrest at least 25 people after clashes during a university funding protest in Buenos Aires, while eight police officers are injured.",
-      "it": "La polizia argentina ha arrestato almeno 25 persone in seguito agli scontri avvenuti durante una protesta per i finanziamenti universitari a Buenos Aires, mentre otto agenti di polizia sono rimasti feriti.",
-      "cz": "Argentinská policie zatkla po střetech během protestu proti financování univerzit v Buenos Aires nejméně 25 lidí, přičemž osm policistů bylo zraněno.",
+      "en": "Brazilian environment minister João Paulo Capobianco reports that deforestation in Brazil's Amazon rainforest fell to in the year through July 2026, the lowest level since 1988 except for 2012.",
+      "it": "Il ministro dell'ambiente brasiliano João Paulo Capobianco riferisce che la deforestazione nella foresta pluviale amazzonica brasiliana è scesa a zero nell'anno conclusosi a luglio 2026, il livello più basso dal 1988, ad eccezione del 2012.",
+      "cz": "Brazilský ministr životního prostředí João Paulo Capobianco uvedl, že odlesňování v brazilském amazonském deštném pralese kleslo v roce končícím červencem 2026 na nejnižší úroveň od roku 1988 s výjimkou roku 2012.",
       "origin": "world"
     },
     {
-      "en": "Northern Irish politician and former Democratic Unionist Party leader Jeffrey Donaldson is sentenced to 15 years in prison for child sexual abuse and rape. The offences occurred between 1985 and 2008.",
-      "it": "Il politico nordirlandese ed ex leader del Partito Unionista Democratico, Jeffrey Donaldson, è stato condannato a 15 anni di carcere per abusi sessuali su minori e stupro. I reati sono stati commessi tra il 1985 e il 2008.",
-      "cz": "Severoirský politik a bývalý lídr Demokratické unionistické strany Jeffrey Donaldson byl odsouzen k 15 letům vězení za sexuální zneužívání dětí a znásilnění. K trestným činům došlo v letech 1985 až 2008.",
+      "en": "Australia agrees to provide Fiji with solar-, wind-, and wave-powered Bluebottle maritime drones and training for surveillance and efforts against drug trafficking and other transnational crime, with deployment expected in 2027.",
+      "it": "L'Australia ha accettato di fornire alle Figi droni marittimi Bluebottle, alimentati a energia solare, eolica e ondosa, e la relativa formazione, per attività di sorveglianza e contrasto al traffico di droga e ad altri crimini transnazionali, con un dispiegamento previsto per il 2027.",
+      "cz": "Austrálie souhlasila s tím, že Fidži poskytne námořní drony Bluebottle poháněné solární, větrnou a vlnovou energií a poskytne výcvik pro sledování a boj proti obchodu s drogami a další nadnárodní trestné činnosti, přičemž nasazení se očekává v roce 2027.",
       "origin": "world"
     },
     {
-      "en": "Astronomers discover the first green star according to a study published by RAS Techniques and Instruments.",
-      "it": "Gli astronomi hanno scoperto la prima stella verde, secondo uno studio pubblicato da RAS Techniques and Instruments.",
-      "cz": "Astronomové objevili první zelenou hvězdu podle studie publikované RAS Techniques and Instruments.",
+      "en": "Czechs begin voting in the second round to elect the rest 22 senators of the Senate, who wasn't elected in the first round.",
+      "it": "I cittadini cechi iniziano a votare al secondo turno per eleggere i restanti 22 senatori del Senato, che non sono stati eletti al primo turno.",
+      "cz": "Češi začínají hlasovat ve druhém kole, aby zvolili zbývajících 22 senátorů Senátu, kteří nebyli zvoleni v prvním kole.",
       "origin": "world"
     },
     {
-      "en": "Did you know that the Trump administration has designated an Italian email provider as a terrorist group?",
-      "it": "Lo sapevate che l'amministrazione Trump ha designato un fornitore di servizi di posta elettronica italiano come gruppo terroristico?",
-      "cz": "Věděli jste, že Trumpova administrativa označila italského poskytovatele e-mailových služeb za teroristickou skupinu?",
+      "en": "Did you know that one former owner of Frank Lloyd Wright's Arthur Heurtley House bought it after reading a book about Wright's work?",
+      "it": "Sapevate che uno dei precedenti proprietari dell'Arthur Heurtley House, progettata da Frank Lloyd Wright, l'ha acquistata dopo aver letto un libro sull'opera di Wright?",
+      "cz": "Věděli jste, že jeden bývalý majitel domu Arthura Heurtleyho, jehož autorem byl Frank Lloyd Wright, si ho koupil po přečtení knihy o Wrightově díle?",
       "origin": "dyk"
     },
     {
-      "en": "Did you know that a Cuban cigar factory was named after a union leader who was murdered there?",
-      "it": "Sapevate che una fabbrica di sigari cubana prende il nome da un sindacalista che vi fu assassinato?",
-      "cz": "Věděli jste, že kubánská továrna na doutníky byla pojmenována po odborovém předákovi, který tam byl zavražděn?",
+      "en": "Did you know that Niu Lai was created by a mother and son over the course of five years?",
+      "it": "Lo sapevate che Niu Lai è stato creato da una madre e un figlio nell'arco di cinque anni?",
+      "cz": "Věděli jste, že Niu Lai vznikla díky spolupráci matky a syna v průběhu pěti let?",
       "origin": "dyk"
     }
   ],
   "article": {
-    "topic": "China–North Korea relations",
-    "url": "https://en.wikipedia.org/wiki/China–North_Korea_relations",
-    "en": "The People's Republic of China (PRC) and the Democratic People's Republic of Korea (DPRK) established diplomatic relations on 6 October 1949, five days after the proclamation of the PRC. In 1950, China intervened in the Korean War through the People's Volunteer Army after the North Korean forces had been defeated by United Nations Forces in the Korean War, successfully ensuring North Korea's survival. In 1961, China and North Korea signed a mutual aid and co-operation treaty, which is currently the only defense pact China has with any nation. North Korea attempted to not take sides during the Sino-Soviet split, though relations deteriorated during the Cultural Revolution, leading North Korea to move closer to the Soviet Union.",
-    "it": "La Repubblica Popolare Cinese (RPC) e la Repubblica Popolare Democratica di Corea (RPDC) stabilirono relazioni diplomatiche il 6 ottobre 1949, cinque giorni dopo la proclamazione della RPC. Nel 1950, la Cina intervenne nella guerra di Corea attraverso l'Esercito dei Volontari del Popolo, dopo che le forze nordcoreane erano state sconfitte dalle forze delle Nazioni Unite, garantendo con successo la sopravvivenza della Corea del Nord. Nel 1961, Cina e Corea del Nord firmarono un trattato di mutua assistenza e cooperazione, che attualmente rappresenta l'unico patto di difesa che la Cina ha con un'altra nazione. La Corea del Nord cercò di non schierarsi durante la scissione sino-sovietica, sebbene le relazioni si deteriorarono durante la Rivoluzione Culturale, portando la Corea del Nord ad avvicinarsi all'Unione Sovietica.",
-    "cz": "Čínská lidová republika (ČLR) a Korejská lidově demokratická republika (KLDR) navázaly diplomatické vztahy 6. října 1949, pět dní po vyhlášení ČLR. V roce 1950 Čína zasáhla do korejské války prostřednictvím Lidové dobrovolnické armády poté, co byly severokorejské síly v korejské válce poraženy silami OSN, čímž úspěšně zajistila přežití Severní Koreje. V roce 1961 Čína a Severní Korea podepsaly smlouvu o vzájemné pomoci a spolupráci, která je v současnosti jedinou obrannou smlouvou, kterou Čína uzavřela s jakýmkoli národem. Severní Korea se během čínsko-sovětského rozkolu snažila nestavit na žádnou stranu, ačkoli se vztahy zhoršily během Kulturní revoluce, což vedlo Severní Koreu k sblížení se Sovětským svazem."
+    "topic": "2026 anti-CEC protests",
+    "url": "https://en.wikipedia.org/wiki/2026_anti-CEC_protests",
+    "en": "The 2026 protests against the Chief Election Commissioner of India, also described in news reports as the anti-CEC protests, are a series of demonstrations demanding the resignation of Chief Election Commissioner Gyanesh Kumar and changes to the Election Commission of India's (ECI) Special Intensive Revision (SIR) of electoral rolls as a result of the 2026 Indian electoral controversy.\nThe protests began in September 2026 following an investigation published by The Indian Express on 23 September, which reported that the two other election commissioners had formally objected on multiple occasions to decisions concerning the electoral-roll revision.",
+    "it": "Le proteste del 2026 contro il Presidente della Commissione Elettorale dell'India, note anche come proteste anti-CEC, sono una serie di manifestazioni che chiedono le dimissioni del Presidente Gyanesh Kumar e modifiche alla Revisione Intensiva Speciale (SIR) delle liste elettorali da parte della Commissione Elettorale dell'India (ECI), a seguito della controversia elettorale indiana del 2026.\n\nLe proteste sono iniziate nel settembre 2026 dopo un'inchiesta pubblicata da The Indian Express il 23 settembre, che riportava come gli altri due commissari elettorali avessero formalmente contestato in diverse occasioni le decisioni riguardanti la revisione delle liste elettorali.",
+    "cz": "Protesty proti hlavnímu volebnímu komisaři Indie v roce 2026, v médiích označované také jako protesty proti CEC, jsou sérií demonstrací požadujících rezignaci hlavního volebního komisaře Gyaneshe Kumara a změny ve zvláštní intenzivní revizi (SIR) volebních seznamů Indické volební komise (ECI) v důsledku kontroverze ohledně indických voleb v roce 2026.\nProtesty začaly v září 2026 po vyšetřování zveřejněném 23. září deníkem The Indian Express, který uvedl, že dva další volební komisaři opakovaně formálně vznesli námitky proti rozhodnutím týkajícím se revize volebních seznamů."
   },
   "shadows": [
     {
@@ -141,9 +128,9 @@
       "phon": "[il ves-KÓ-vo MÁ-rek forg è di-ven-TÁ-to il NÚO-vo ar-či-ves-KÓ-vo di KÓI-če]"
     },
     {
-      "it": "Progressi costanti nella tabella di marcia \"Un'Europa, un mercato unico\".",
-      "cz": "Stálý pokrok v plánu „Jedna Evropa, jeden trh“.",
-      "phon": "[prog-RÉS-si kos-TÁN-ti NÉL-la ta-BÉL-la di MÁR-ča u-neu-RÓ-pa un mer-KÁ-to u-NÍ-ko]"
+      "it": "La Commissione definisce una nuova strategia per combattere la tratta di esseri umani.",
+      "cz": "Komise představila novou strategii boje proti obchodování s lidmi.",
+      "phon": "[la kom-mis-SÍO-ne de-fi-NÍ-še u-na NÚO-va stra-TÉ-dža per kom-bat-TÉ-re la TRÁT-ta di es-SÉ-ri u-MÁ-ni]"
     },
     {
       "it": "La Commissione lancia l'iniziativa RAISE per potenziare il supporto all'IA per i ricercatori in tutta Europa.",
@@ -151,29 +138,24 @@
       "phon": "[la kom-mis-SÍO-ne LÁN-ča li-ni-cia-TÍ-va RÁI-ze per po-ten-CÍA-re il sup-PÓR-to ÁL-lia per i ri-čer-ka-TÓ-ri in TÚT-ta eu-RÓ-pa]"
     },
     {
-      "it": "Principali messaggi del Vertice sociale tripartito.",
-      "cz": "Hlavní sdělení z tripartitní sociální vrcholné schůzky.",
-      "phon": "[prin-či-PÁ-li mes-SÁG-dži del ver-TÍ-če so-ČÁ-le tri-par-TÍ-to]"
-    },
-    {
       "it": "Lumír Šatran nominato Direttore della Divisione Regionale della Moravia.",
       "cz": "Lumír Šatran jmenován ředitelem Regionální divize Morava.",
       "phon": "[lumr ÁT-ran no-mi-NÁ-to di-ret-TÓ-re DÉL-la di-vi-ZÍO-ne re-džo-NÁ-le DÉL-la mo-RÁ-via]"
     },
     {
-      "it": "Prezzi al consumo - Settembre 2026.",
-      "cz": "Spotřebitelské ceny - září 2026.",
-      "phon": "[PRÉC-ci al kon-SÚ-mo set-TÉMB-re]"
+      "it": "Centri antiviolenza e donne che hanno intrapreso il percorso di uscita dalla violenza - 2024.",
+      "cz": "Centra pro boj s násilím a ženy, které zahájily cestu z násilí - 2024.",
+      "phon": "[ČÉNT-ri an-ti-vio-LÉN-ca e DÓN-ne ke ÁN-no int-rap-RÉ-zo il per-KÓR-so di u-ŠÍ-ta DÁL-la vio-LÉN-ca]"
     },
     {
-      "it": "Economia sommersa nei conti nazionali - Anni 2021-2024.",
-      "cz": "Nepozorovaná ekonomika v národních účtech – roky 2021–2024.",
-      "phon": "[e-ko-NÓ-mia som-MÉR-sa nei KÓN-ti na-cio-NÁ-li ÁN-ni]"
+      "it": "Commercio estero e prezzi delle importazioni - agosto 2026.",
+      "cz": "Zahraniční obchod a dovozní ceny - srpen 2026.",
+      "phon": "[kom-MÉR-čo es-TÉ-ro e PRÉC-ci DÉL-le im-por-ta-CÍO-ni a-GÓS-to]"
     },
     {
-      "it": "Sapevate che una fabbrica di sigari cubana prende il nome da un sindacalista che vi fu assassinato?",
-      "cz": "Věděli jste, že kubánská továrna na doutníky byla pojmenována po odborovém předákovi, který tam byl zavražděn?",
-      "phon": "[sa-pe-VÁ-te ke u-na fabb-RÍ-ka di si-GÁ-ri ku-BÁ-na PRÉN-de il NÓ-me da un sin-da-ka-LÍS-ta ke vi fu as-sas-si-NÁ-to]"
+      "it": "Lo sapevate che Niu Lai è stato creato da una madre e un figlio nell'arco di cinque anni?",
+      "cz": "Věděli jste, že Niu Lai vznikla díky spolupráci matky a syna v průběhu pěti let?",
+      "phon": "[lo sa-pe-VÁ-te ke niu lai è STÁ-to KRÉA-to da u-na MÁD-re e un FÍL-jo nel-LÁR-ko di ČÍNK-ve ÁN-ni]"
     }
   ],
   "shadow": {
