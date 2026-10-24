@@ -1,30 +1,30 @@
 {
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_23",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_October_24",
   "translator": "Google Translate",
   "stories": [
     {
-      "it": "Gli elettori della provincia canadese dell'Alberta hanno respinto, tramite referendum, i tentativi di indipendenza della provincia.",
-      "cz": "Voliči v kanadské provincii Alberta odmítli v referendu snahy o nezávislost provincie.",
+      "it": "Due vulnerabilità critiche nel linguaggio di programmazione PHP hanno causato un'interruzione globale del servizio internet.",
+      "cz": "Dvě kritické zranitelnosti programovacího jazyka PHP způsobily globální výpadek internetových služeb.",
       "origin": "cz"
+    },
+    {
+      "en": "Commission proposes stronger recognition of European heritage sites*. The European Commission has proposed to renew and reinforce the legal framework of the European Heritage Label.",
+      "it": "La Commissione propone un maggiore riconoscimento dei siti del patrimonio europeo*. La Commissione europea ha proposto di rinnovare e rafforzare il quadro giuridico del marchio del patrimonio europeo.",
+      "cz": "Komise navrhuje větší uznání pamětihodností evropského dědictví*. Evropská komise navrhla obnovit a posílit právní rámec označení „Evropské dědictví“.",
+      "origin": "eu"
+    },
+    {
+      "en": "EU announces an additional €22.5 million to reinforce humanitarian assistance in Yemen. The European Commission is releasing €22.5 million in humanitarian aid to Yemen, in addition to the €87.",
+      "it": "L'UE annuncia un importo supplementare di 22,5 milioni di EUR per rafforzare l'assistenza umanitaria nello Yemen.",
+      "cz": "EU oznámila další 22,5 milionu eur na posílení humanitární pomoci v Jemenu. Kromě 87,5 milionu eur, které byly dříve přiděleny na rok 2026, uvolňuje Evropská komise do Jemenu humanitární pomoc ve výši 22,5 milionu eur na řešení důsledků obnovené eskalace konfliktu a kritických potřeb milionů lidí.",
+      "origin": "eu"
     },
     {
       "en": "Commission welcomes commitments of Coca-Cola, Nestlé, and Danone to modify recycling claims on plastic bottles.",
       "it": "La Commissione accoglie con favore gli impegni di Coca-Cola, Nestlé e Danone di modificare le dichiarazioni di riciclaggio delle bottiglie di plastica.",
       "cz": "Komise vítá závazky společností Coca-Cola, Nestlé a Danone upravit požadavky na recyklaci plastových lahví.",
-      "origin": "eu"
-    },
-    {
-      "en": "Commission greenlights Germany's final payment request for €6 billion under NextGenerationEU. Today, the European Commission positively assessed Germany's fourth and final payment request worth €6 billion under the Recovery and Resilience Facility (RRF), the centrepiece of NextGenerationEU.",
-      "it": "La Commissione dà il via libera alla richiesta di pagamento finale della Germania di 6 miliardi di euro nell'ambito di NextGenerationEU. Oggi, la Commissione europea ha valutato positivamente la quarta e ultima richiesta di pagamento della Germania, del valore di 6 miliardi di euro, nell'ambito del Dispositivo per la ripresa e la resilienza (RRF), fulcro di NextGenerationEU.",
-      "cz": "Komise schválila poslední žádost Německa o platbu ve výši 6 miliard eur v rámci programu NextGenerationEU. Evropská komise dnes kladně posoudila čtvrtou a zároveň poslední žádost Německa o platbu v hodnotě 6 miliard eur v rámci nástroje na podporu oživení a odolnosti (RRF), který je ústředním prvkem programu NextGenerationEU.",
-      "origin": "eu"
-    },
-    {
-      "en": "Speech by Commissioner Lahbib at the Resilient Europe Conference. When you arrived today, I hope you looked up at the roof of this palace. Four stone statues stand along the top. They represent the four elements: fire, water, ...",
-      "it": "Discorso del Commissario Lahbib alla Conferenza sull'Europa Resiliente. Spero che, al vostro arrivo oggi, abbiate alzato lo sguardo verso il tetto di questo palazzo. Quattro statue di pietra si ergono lungo la sommità. Rappresentano i quattro elementi: fuoco, acqua, ...",
-      "cz": "Projev komisaře Lahbiba na konferenci Odolná Evropa. Doufám, že když jste dnes přijel, podíval jste se na střechu tohoto paláce. Na vrcholu stojí čtyři kamenné sochy. Představují čtyři živly: oheň, vodu,...",
       "origin": "eu"
     },
     {
@@ -52,60 +52,48 @@
       "origin": "econ"
     },
     {
-      "en": "The European Parliament awards its 2026 Sakharov Prize to the International Criminal Court and its officials for their work in global justice and upholding international law.",
-      "it": "Il Parlamento europeo conferisce il Premio Sakharov 2026 alla Corte penale internazionale e ai suoi funzionari per il loro lavoro a favore della giustizia globale e per la difesa del diritto internazionale.",
-      "cz": "Evropský parlament uděluje Sacharovovu cenu za rok 2026 Mezinárodnímu trestnímu soudu a jeho úředníkům za jejich práci v oblasti globální spravedlnosti a dodržování mezinárodního práva.",
+      "en": "The Eagle's Nest in Germany is lit on fire. A suspect is arrested.",
+      "it": "Il Nido dell'Aquila in Germania viene dato alle fiamme. Un sospetto viene arrestato.",
+      "cz": "Orlí hnízdo v Německu je zapáleno. Podezřelý je zatčen.",
       "origin": "world"
     },
     {
-      "en": "Canada and Turkey open negotiations for a free trade agreement during Canadian prime minister Mark Carney's visit to Ankara.",
-      "it": "Il Canada e la Turchia hanno avviato i negoziati per un accordo di libero scambio durante la visita ad Ankara del primo ministro canadese Mark Carney.",
-      "cz": "Kanada a Turecko zahájily jednání o dohodě o volném obchodu během návštěvy kanadského premiéra Marka Carneyho v Ankaře.",
+      "en": "The Australian Government imposes financial sanctions and travel bans on two North Koreans and sanctions two companies accused of supporting fraudulent overseas information technology work that funds North Korea's weapons programs.",
+      "it": "Il governo australiano impone sanzioni finanziarie e divieti di viaggio a due cittadini nordcoreani e sanziona due società accusate di aver sostenuto attività fraudolente nel settore informatico all'estero, finanziando così i programmi di armamento della Corea del Nord.",
+      "cz": "Australská vláda uvalila finanční sankce a zákaz cestování na dva Severokorejce a sankcionovala dvě společnosti obviněné z podpory podvodných zahraničních prací v oblasti informačních technologií, které financují severokorejské zbrojní programy.",
       "origin": "world"
     },
     {
-      "en": "A Guatemalan court sentences seven former police officers to prison terms of up to 60 years for offenses related to the 2024 torture and killing of a gay couple at a police station.",
-      "it": "Un tribunale guatemalteco ha condannato sette ex agenti di polizia a pene detentive fino a 60 anni per reati legati alla tortura e all'omicidio di una coppia gay avvenuti nel 2024 in una stazione di polizia.",
-      "cz": "Guatemalský soud odsoudil sedm bývalých policistů k trestům odnětí svobody až na 60 let za trestné činy související s mučením a vraždou homosexuálního páru na policejní stanici v roce 2024.",
+      "en": "The Greek parliament approves a law banning children under 15 from using social media from January 1, 2027, requiring age verification and penalties for platforms that fail to comply.",
+      "it": "Il parlamento greco ha approvato una legge che vieta ai minori di 15 anni l'utilizzo dei social media a partire dal 1° gennaio 2027, prevedendo la verifica dell'età e sanzioni per le piattaforme che non si conformano.",
+      "cz": "Řecký parlament schválil zákon, který od 1. ledna 2027 zakazuje dětem mladším 15 let používání sociálních médií. Zákon vyžaduje ověření věku a sankce pro platformy, které jej nedodrží.",
       "origin": "world"
     },
     {
-      "en": "Ecuadorian opposition leader and former presidential candidate Luisa González is arrested over allegations of money laundering in campaign financing.",
-      "it": "Luisa González, leader dell'opposizione ecuadoriana ed ex candidata alla presidenza, è stata arrestata con l'accusa di riciclaggio di denaro nel finanziamento della campagna elettorale.",
-      "cz": "Ekvádorská opoziční vůdkyně a bývalá prezidentská kandidátka Luisa Gonzálezová byla zatčena kvůli obvinění z praní špinavých peněz při financování kampaně.",
-      "origin": "world"
-    },
-    {
-      "en": "The Finnish Government grants Posiva an operating license for the Onkalo spent nuclear fuel repository in Eurajoki, making it the world's first licensed deep geological disposal facility for spent nuclear fuel.",
-      "it": "Il governo finlandese concede a Posiva la licenza di esercizio per il deposito di combustibile nucleare esaurito di Onkalo a Eurajoki, rendendolo il primo impianto al mondo autorizzato per lo smaltimento geologico profondo di combustibile nucleare esaurito.",
-      "cz": "Finská vláda udělila společnosti Posiva provozní licenci pro úložiště vyhořelého jaderného paliva Onkalo v Eurajoki, čímž se z něj stalo první licencované hlubinné geologické úložiště vyhořelého jaderného paliva na světě.",
-      "origin": "world"
-    },
-    {
-      "en": "Did you know that Jodie Foster walked off the set when Swiss director Nicolas Gessner called for a nude scene?",
-      "it": "Lo sapevate che Jodie Foster abbandonò il set quando il regista svizzero Nicolas Gessner le chiese di girare una scena di nudo?",
-      "cz": "Věděli jste, že Jodie Foster odešla z natáčení, když švýcarský režisér Nicolas Gessner požadoval nahé scény?",
+      "en": "Did you know that Swiss artist Yves Netzhammer co-designed a postage stamp that looked and smelled like chocolate?",
+      "it": "Lo sapevate che l'artista svizzero Yves Netzhammer ha collaborato alla progettazione di un francobollo che aveva l'aspetto e il profumo del cioccolato?",
+      "cz": "Věděli jste, že švýcarský umělec Yves Netzhammer se podílel na návrhu poštovní známky, která vypadala a voněla jako čokoláda?",
       "origin": "dyk"
     },
     {
-      "en": "Did you know that the music video for Thundercat and Mac Miller's \"She Knows Too Much\" consists of several animated mediums?",
-      "it": "Lo sapevate che il videoclip di \"She Knows Too Much\" di Thundercat e Mac Miller è realizzato con diverse tecniche di animazione?",
-      "cz": "Věděli jste, že hudební video k písni „She Knows Too Much“ od Thundercata a Maca Millera se skládá z několika animovaných médií?",
+      "en": "Did you know that ... that, hours before the opening match of the 2026 Jaffna Kings season, the franchise's co-owner was arrested in Colombo over match-fixing allegations?",
+      "it": "Lo sapevate che... che, poche ore prima della partita inaugurale della stagione 2026 dei Jaffna Kings, il comproprietario della franchigia è stato arrestato a Colombo con l'accusa di aver truccato le partite?",
+      "cz": "Věděli jste, že... že jen několik hodin před úvodním zápasem sezóny Jaffna Kings v roce 2026 byl spolumajitel klubu zatčen v Kolombu kvůli obvinění z manipulace s výsledky zápasů?",
       "origin": "dyk"
     }
   ],
   "article": {
-    "topic": "Canada–Turkey relations",
-    "url": "https://en.wikipedia.org/wiki/Canada–Turkey_relations",
-    "en": "Canada and Turkey have maintained diplomatic relations since 1943. Both countries are members of the G20, NATO, Organization for Economic Co-operation and Development, Organization for Security and Co-operation in Europe, United Nations and the World Trade Organization.",
-    "it": "Il Canada e la Turchia mantengono relazioni diplomatiche dal 1943. Entrambi i paesi sono membri del G20, della NATO, dell'Organizzazione per la cooperazione e lo sviluppo economico, dell'Organizzazione per la sicurezza e la cooperazione in Europa, delle Nazioni Unite e dell'Organizzazione mondiale del commercio.",
-    "cz": "Kanada a Turecko udržují diplomatické vztahy od roku 1943. Obě země jsou členy G20, NATO, Organizace pro hospodářskou spolupráci a rozvoj, Organizace pro bezpečnost a spolupráci v Evropě, Organizace spojených národů a Světové obchodní organizace."
+    "topic": "Australia–North Korea relations",
+    "url": "https://en.wikipedia.org/wiki/Australia–North_Korea_relations",
+    "en": "Australia–North Korea relations (Korean: 오스트랄리아-조선민주주의인민공화국 관계) refers to the existing bilateral relationship between Australia and North Korea. Relations were officially established on 31 July 1974 when Australia extended diplomatic recognition to North Korea under the Whitlam government. Overall, relations have been stressed and at times, tense, due to Australia's historical involvement in the Korean War and military alliance with the United States, and contemporary disputes such as North Korea's nuclear weapons program and accusations of human rights abuses by both sides.\nThere have been several brief periods of direct diplomatic engagement, most notably during the 1970s and the 1990s and early 2000s.",
+    "it": "Le relazioni tra Australia e Corea del Nord (in coreano: 오스트랄리아-조선민주주의인민공화국 관계) si riferiscono al rapporto bilaterale esistente tra Australia e Corea del Nord. Le relazioni sono state ufficialmente stabilite il 31 luglio 1974, quando l'Australia ha esteso il riconoscimento diplomatico alla Corea del Nord sotto il governo Whitlam. Nel complesso, le relazioni sono state tese e a tratti difficili, a causa del coinvolgimento storico dell'Australia nella guerra di Corea e dell'alleanza militare con gli Stati Uniti, nonché di controversie contemporanee come il programma nucleare nordcoreano e le accuse di violazioni dei diritti umani da entrambe le parti.\nCi sono stati diversi brevi periodi di impegno diplomatico diretto, in particolare durante gli anni '70, '90 e i primi anni 2000.",
+    "cz": "Vztahy mezi Austrálií a Severní Koreou (korejsky: 오스트랄리아-조선민주주의인민공화국 관계) označují stávající bilaterální vztahy mezi Austrálií a Severní Koreou. Vztahy byly oficiálně navázány 31. července 1974, kdy Austrálie za vlády Whitlama uznala Severní Koreu diplomaticky. Celkově byly vztahy napjaté a občas i napjaté kvůli historickému zapojení Austrálie do korejské války a vojenské alianci se Spojenými státy a současným sporům, jako je severokorejský jaderný program a obvinění z porušování lidských práv na obou stranách.\nDošlo k několika krátkým obdobím přímé diplomatické spolupráce, zejména v 70. a 90. letech 20. století a na začátku roku 2000."
   },
   "shadows": [
     {
-      "it": "Discorso del Commissario Lahbib alla Conferenza sull'Europa Resiliente.",
-      "cz": "Projev komisaře Lahbiba na konferenci Odolná Evropa.",
-      "phon": "[dis-KÓR-so del kom-mis-SÁ-rio LÁ-bib ÁL-la kon-fe-RÉN-ca sul-leu-RÓ-pa re-zi-LÍEN-te]"
+      "it": "La Commissione propone un maggiore riconoscimento dei siti del patrimonio europeo*.",
+      "cz": "Komise navrhuje větší uznání pamětihodností evropského dědictví*.",
+      "phon": "[la kom-mis-SÍO-ne pro-PÓ-ne un mag-DŽÓ-re ri-ko-no-ši-MÉN-to dei SÍ-ti del pat-ri-MÓ-nio eu-RÓ-peo]"
     },
     {
       "it": "Lumír Šatran nominato Direttore della Divisione Regionale della Moravia.",
@@ -121,11 +109,16 @@
       "it": "Bilancio demografico mensile della popolazione - luglio 2026.",
       "cz": "Měsíční demografická bilance populace - červenec 2026.",
       "phon": "[bi-LÁN-čo de-mog-ra-FÍ-ko men-SÍ-le DÉL-la po-po-la-CÍO-ne LÚL-jo]"
+    },
+    {
+      "it": "Il Nido dell'Aquila in Germania viene dato alle fiamme.",
+      "cz": "Orlí hnízdo v Německu je zapáleno.",
+      "phon": "[il NÍ-do del-lak-VÍ-la in džer-MÁ-nia VÍE-ne DÁ-to ÁL-le FÍAM-me]"
     }
   ],
   "shadow": {
-    "it": "Discorso del Commissario Lahbib alla Conferenza sull'Europa Resiliente.",
-    "cz": "Projev komisaře Lahbiba na konferenci Odolná Evropa.",
-    "phon": "[dis-KÓR-so del kom-mis-SÁ-rio LÁ-bib ÁL-la kon-fe-RÉN-ca sul-leu-RÓ-pa re-zi-LÍEN-te]"
+    "it": "La Commissione propone un maggiore riconoscimento dei siti del patrimonio europeo*.",
+    "cz": "Komise navrhuje větší uznání pamětihodností evropského dědictví*.",
+    "phon": "[la kom-mis-SÍO-ne pro-PÓ-ne un mag-DŽÓ-re ri-ko-no-ši-MÉN-to dei SÍ-ti del pat-ri-MÓ-nio eu-RÓ-peo]"
   }
 }
