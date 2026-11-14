@@ -1,9 +1,15 @@
 {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "source": "Wikipedia: Portál:Aktuality + Portal:Current events (CC BY-SA 4.0)",
-  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_13",
+  "sourceUrl": "https://en.wikipedia.org/wiki/Portal:Current_events/2026_November_14",
   "translator": "Google Translate",
   "stories": [
+    {
+      "en": "Commission sends Supplementary Statement of Objections to PPC over predatory pricing in the Greek wholesale electricity market. The European Commission has sent a Supplementary Statement of Objections to the Greek electricity provider Public Power Corporation S.A. ('PPC').",
+      "it": "La Commissione invia una comunicazione integrativa di addebiti a PPC in merito a prezzi predatori nel mercato greco all'ingrosso dell'energia elettrica. La Commissione europea ha inviato una comunicazione integrativa di addebiti al fornitore greco di energia elettrica Public Power Corporation S.A. ('PPC').",
+      "cz": "Komise zaslala společnosti PPC doplňující prohlášení o námitkách ohledně predátorských cen na řeckém velkoobchodním trhu s elektřinou. Evropská komise zaslala řeckému dodavateli elektřiny, společnosti Public Power Corporation S.A. („PPC“), doplňující prohlášení o námitkách.",
+      "origin": "eu"
+    },
     {
       "en": "Commission approves €286 million German State aid to port of Hamburg. The European Commission has approved, under EU State aid rules, two €143 million German measures to support infrastructure works in the port of Hamburg.",
       "it": "La Commissione approva 286 milioni di euro di aiuti di Stato tedeschi al porto di Amburgo. La Commissione europea ha approvato, ai sensi delle norme UE in materia di aiuti di Stato, due misure tedesche da 143 milioni di euro a sostegno dei lavori infrastrutturali nel porto di Amburgo.",
@@ -11,15 +17,9 @@
       "origin": "eu"
     },
     {
-      "en": "Doorstep by President von der Leyen ahead of the informal meeting of the European Council of 13 November. Today, we are going to discuss AI. It is going to be very interesting. Of course, we are going to discuss the risks, like, for example, runaway AI, but also the...",
-      "it": "Sulla soglia di casa, la Presidente von der Leyen in vista della riunione informale del Consiglio europeo del 13 novembre. Oggi parleremo di intelligenza artificiale. Sarà molto interessante. Naturalmente, discuteremo dei rischi, come ad esempio un'intelligenza artificiale fuori controllo, ma anche...",
-      "cz": "Projev předsedkyně Ursuly von der Leyenové před neformálním zasedáním Evropské rady 13. listopadu. Dnes budeme diskutovat o umělé inteligenci. Bude to velmi zajímavé. Samozřejmě budeme diskutovat o rizicích, jako je například nekontrolovatelná AI, ale také o...",
-      "origin": "eu"
-    },
-    {
-      "en": "Opening and closing remarks of Executive Vice-President Virkkunen at the MSS Stakeholder Forum. Opening remarks Ladies and Gentlemen, It is an honour to host you all here today to exchange on a key file for Europe's sovereignty and competitiveness. As you ...",
-      "it": "Discorso di apertura e di chiusura del Vicepresidente esecutivo Virkkunen al Forum degli stakeholder MSS. Discorso di apertura Signore e signori, è un onore ospitarvi qui oggi per un confronto su un tema chiave per la sovranità e la competitività dell'Europa. Come sapete...",
-      "cz": "Úvodní a závěrečné slovo výkonného místopředsedy Virkkunena na Fóru zúčastněných stran MSS. Úvodní slovo Dámy a pánové, je mi ctí, že vás dnes mohu všechny přivítat, abychom si vyměnili názory na klíčový dokument pro evropskou suverenitu a konkurenceschopnost. Jak jste...",
+      "en": "Statement by President von der Leyen at the joint press conference with President Costa following the informal meeting of the European Council of November 2026.",
+      "it": "Dichiarazione della Presidente von der Leyen in occasione della conferenza stampa congiunta con il Presidente Costa a seguito della riunione informale del Consiglio europeo del novembre 2026.",
+      "cz": "Prohlášení předsedkyně Ursuly von der Leyen na společné tiskové konferenci s prezidentem Costou po neformálním zasedání Evropské rady v listopadu 2026.",
       "origin": "eu"
     },
     {
@@ -47,59 +47,42 @@
       "origin": "econ"
     },
     {
-      "en": "Europol announces that Operation TorNado, an international investigation into illegal dark web marketplaces, resulted in 354 arrests across 14 countries and the seizure of approximately 5.7 tonnes of drugs, 209 firearms, and €211 million (US$234 million) in assets.",
-      "it": "Europol annuncia che l'operazione TorNado, un'indagine internazionale sui mercati illegali del dark web, ha portato a 354 arresti in 14 paesi e al sequestro di circa 5,7 tonnellate di droga, 209 armi da fuoco e beni per un valore di 211 milioni di euro (234 milioni di dollari).",
-      "cz": "Europol oznámil, že operace TorNado, mezinárodní vyšetřování nelegálních tržišť na dark webu, vedla k 354 zatčením ve 14 zemích a zabavení přibližně 5,7 tuny drog, 209 kusů střelných zbraní a majetku v hodnotě 211 milionů eur (234 milionů USD).",
+      "en": "In the United Kingdom, Metropolitan Police announce a criminal investigation into actor David Walliams about \"alleged serious sexual offences\". The police say they are separate to those investigated by ITN and The Guardian.",
+      "it": "Nel Regno Unito, la polizia metropolitana ha annunciato l'avvio di un'indagine penale a carico dell'attore David Walliams per \"presunti gravi reati sessuali\". La polizia ha precisato che l'indagine è separata da quelle condotte da ITN e The Guardian.",
+      "cz": "Ve Spojeném království Metropolitní policie oznámila zahájení trestního vyšetřování herce Davida Walliamse kvůli „údajným závažným sexuálním trestným činům“. Policie uvedla, že toto vyšetřování probíhá odděleně od vyšetřování ITN a deníku The Guardian.",
       "origin": "world"
     },
     {
-      "en": "Jensen Huang resigns as chief executive officer (CEO) and president of Nvidia and leaves the company's board following reports of two extramarital affairs, including one involving a suspected Chinese intelligence agent. Chief financial officer Colette Kress becomes interim CEO.",
-      "it": "Jensen Huang si dimette da amministratore delegato (CEO) e presidente di Nvidia e lascia il consiglio di amministrazione in seguito alle notizie riguardanti due relazioni extraconiugali, una delle quali con un presunto agente dei servizi segreti cinesi. La direttrice finanziaria Colette Kress assume la carica di CEO ad interim.",
-      "cz": "Jensen Huang rezignuje na funkci generálního ředitele (CEO) a prezidenta společnosti Nvidia a opouští představenstvo společnosti po zprávách o dvou mimomanželských aférách, z nichž jedna zahrnovala údajného čínského agenta tajných služeb. Finanční ředitelka Colette Kress se stává prozatímní generální ředitelkou.",
+      "en": "The United States Department of State designates three Guatemalan criminal groups as foreign terrorist organizations for providing material support to Mexican cartels.",
+      "it": "Il Dipartimento di Stato degli Stati Uniti ha designato tre gruppi criminali guatemaltechi come organizzazioni terroristiche straniere per aver fornito supporto materiale ai cartelli messicani.",
+      "cz": "Ministerstvo zahraničí Spojených států označuje tři guatemalské zločinecké skupiny za zahraniční teroristické organizace za poskytování materiální podpory mexickým kartelům.",
       "origin": "world"
     },
     {
-      "en": "A British court convicts two Iranian men of spying on journalists from London-based broadcaster Iran International. One of them is also convicted of preparing a violent attack, while a third defendant is acquitted.",
-      "it": "Un tribunale britannico ha condannato due uomini iraniani per spionaggio ai danni di giornalisti dell'emittente londinese Iran International. Uno di loro è stato anche condannato per aver preparato un attentato violento, mentre un terzo imputato è stato assolto.",
-      "cz": "Britský soud usvědčil dva íránské muže ze špehování novinářů londýnské televizní společnosti Iran International. Jeden z nich byl také usvědčen z přípravy násilného útoku, zatímco třetí obžalovaný byl osvobozen.",
-      "origin": "world"
-    },
-    {
-      "en": "A major outage impacts multiple Microsoft services, including Microsoft 365, Copilot and Teams, worldwide.",
-      "it": "Un'interruzione di servizio di vasta portata ha avuto un impatto su numerosi servizi Microsoft, tra cui Microsoft 365, Copilot e Teams, in tutto il mondo.",
-      "cz": "Velký výpadek ovlivňuje řadu služeb společnosti Microsoft po celém světě, včetně Microsoft 365, Copilot a Teams.",
-      "origin": "world"
-    },
-    {
-      "en": "Did you know that from 1775, when Conrad Ekhof directed the court theatre in Gotha, one of the oldest Baroque theatres with working stage machinery, citizens were given access to performances?",
-      "it": "Sapevate che dal 1775, quando Conrad Ekhof dirigeva il teatro di corte di Gotha, uno dei più antichi teatri barocchi con macchinari di scena funzionanti, i cittadini ebbero accesso agli spettacoli?",
-      "cz": "Věděli jste, že od roku 1775, kdy Conrad Ekhof řídil dvorní divadlo v Gothě, jedno z nejstarších barokních divadel s funkčním jevištním aparátem, měli občané přístup na představení?",
+      "en": "Did you know that the flag of Tuvalu was changed three times in under two years?",
+      "it": "Lo sapevate che la bandiera di Tuvalu è stata cambiata tre volte in meno di due anni?",
+      "cz": "Věděli jste, že vlajka Tuvalu se během necelých dvou let změnila třikrát?",
       "origin": "dyk"
     },
     {
-      "en": "Did you know that the construction of Swinomish Channel destroyed large areas of seagrass habitat?",
-      "it": "Sapevate che la costruzione del canale di Swinomish ha distrutto vaste aree di habitat di praterie sottomarine?",
-      "cz": "Věděli jste, že výstavba Swinomish Channel zničila velké plochy mořské trávy?",
+      "en": "Did you know that Hungary has an EU-funded forest canopy walkway around which the forest was cut down?",
+      "it": "Sapevate che in Ungheria esiste una passerella sospesa tra le cime degli alberi, finanziata dall'UE, attorno alla quale è stato necessario abbattere parte della foresta?",
+      "cz": "Věděli jste, že v Maďarsku existuje lesní chodník financovaný z prostředků EU, kolem kterého byl pokácen les?",
       "origin": "dyk"
     }
   ],
   "article": {
-    "topic": "Mass shootings in the United States",
-    "url": "https://en.wikipedia.org/wiki/Mass_shootings_in_the_United_States",
-    "en": "Mass shootings are incidents involving multiple victims of firearm related violence. Definitions vary, with no single, broadly accepted definition. One definition is an act of public firearm violence—excluding gang killings, domestic violence, or terrorist acts sponsored by an organization—in which a shooter kills at least four victims. Using this definition, a 2016 study found that nearly one-third of the world's public mass shootings between 1966 and 2012 (90 of 292 incidents) occurred in the United States. In 2017, The New York Times recorded the same total of mass shootings for that span of years.\nPerpetrator demographics vary by type of mass shooting, though in almost all cases they are male.",
-    "it": "Le sparatorie di massa sono episodi che coinvolgono più vittime a causa di atti di violenza con armi da fuoco. Le definizioni variano e non esiste una definizione univoca e universalmente accettata. Una definizione è quella di un atto di violenza pubblica con armi da fuoco – escludendo omicidi di bande, violenza domestica o atti terroristici sponsorizzati da un'organizzazione – in cui un aggressore uccide almeno quattro vittime. Utilizzando questa definizione, uno studio del 2016 ha rilevato che quasi un terzo delle sparatorie di massa avvenute in luoghi pubblici tra il 1966 e il 2012 (90 su 292 episodi) si sono verificate negli Stati Uniti. Nel 2017, il New York Times ha registrato lo stesso numero di sparatorie di massa per lo stesso periodo.\nLe caratteristiche demografiche degli autori variano a seconda del tipo di sparatoria di massa, sebbene in quasi tutti i casi si tratti di uomini.",
-    "cz": "Masové střelby jsou incidenty, kterých se účastní více obětí násilí souvisejícího se střelnými zbraněmi. Definice se liší a neexistuje jediná, široce přijímaná definice. Jednou z definic je akt veřejného násilí se střelnými zbraněmi – s výjimkou vražd gangů, domácího násilí nebo teroristických činů sponzorovaných organizací – při kterém střelec zabije nejméně čtyři oběti. Na základě této definice studie z roku 2016 zjistila, že téměř třetina veřejných masových střeleb na světě mezi lety 1966 a 2012 (90 z 292 incidentů) se odehrála ve Spojených státech. V roce 2017 zaznamenal The New York Times stejný počet masových střeleb za toto období.\nDemografické údaje pachatelů se liší podle typu masové střelby, ačkoli téměř ve všech případech se jedná o muže."
+    "topic": "Guatemala–United States relations",
+    "url": "https://en.wikipedia.org/wiki/Guatemala–United_States_relations",
+    "en": "There is a U.S. Embassy in Guatemala located in Guatemala City. According to the United States Department of State, relations between the United States and Guatemala have traditionally been close, although sometimes they are tense regarding human, civil, and military rights.\nAccording to a world opinion poll, 82% of Guatemalans viewed the United States positively in 2002. According to the 2012 United States Global Leadership Report, 41% of Guatemalans approved of U.S. leadership, with 16% disapproving and 43% uncertain. In 2017, 67% of Guatemalans had either a \"good\" or \"very good\" perception of the United States, down from 80% in 2015.",
+    "it": "In Guatemala è presente un'ambasciata statunitense a Città del Guatemala. Secondo il Dipartimento di Stato americano, le relazioni tra Stati Uniti e Guatemala sono tradizionalmente strette, sebbene a volte si verifichino tensioni in merito ai diritti umani, civili e militari.\nSecondo un sondaggio d'opinione mondiale, nel 2002 l'82% dei guatemaltechi aveva un'opinione positiva degli Stati Uniti. Secondo il Rapporto sulla leadership globale degli Stati Uniti del 2012, il 41% dei guatemaltechi approvava la leadership statunitense, il 16% la disapprovava e il 43% era incerto. Nel 2017, il 67% dei guatemaltechi aveva una percezione \"buona\" o \"molto buona\" degli Stati Uniti, in calo rispetto all'80% del 2015.",
+    "cz": "V Guatemale se nachází velvyslanectví USA. Podle Ministerstva zahraničí Spojených států jsou vztahy mezi Spojenými státy a Guatemalou tradičně blízké, i když někdy bývají napjaté, pokud jde o lidská, občanská a vojenská práva.\n\nPodle světového průzkumu veřejného mínění vnímalo Spojené státy v roce 2002 82 % Guatemalců pozitivně. Podle Zprávy o globálním vedení Spojených států z roku 2012 41 % Guatemalců schvalovalo vedení USA, 16 % nesouhlasilo a 43 % si nebylo jisté. V roce 2017 mělo 67 % Guatemalců vnímání Spojených států buď „dobré“, nebo „velmi dobré“, což je pokles oproti 80 % v roce 2015."
   },
   "shadows": [
     {
       "it": "La Commissione approva 286 milioni di euro di aiuti di Stato tedeschi al porto di Amburgo.",
       "cz": "Komise schválila německou státní pomoc přístavu Hamburk ve výši 286 milionů eur.",
       "phon": "[la kom-mis-SÍO-ne app-RÓ-va mi-LÍO-ni di ÉU-ro di ÁIU-ti di STÁ-to te-DÉS-ki al PÓR-to di am-BÚR-go]"
-    },
-    {
-      "it": "Discorso di apertura e di chiusura del Vicepresidente esecutivo Virkkunen al Forum degli stakeholder MSS.",
-      "cz": "Úvodní a závěrečné slovo výkonného místopředsedy Virkkunena na Fóru zúčastněných stran MSS.",
-      "phon": "[dis-KÓR-so di a-per-TÚ-ra e di kiu-ZÚ-ra del vi-čep-re-zi-DÉN-te e-ze-ku-TÍ-vo virk-KÚ-nen al FÓ-rum delj sta-KÉOL-der mss]"
     },
     {
       "it": "La CNB emette la sua prima obbligazione DLT.",
@@ -115,6 +98,11 @@
       "it": "Imprese multinazionali - Anno 2024.",
       "cz": "Nadnárodní podniky - rok 2024.",
       "phon": "[imp-RÉ-ze mul-ti-na-cio-NÁ-li ÁN-no]"
+    },
+    {
+      "it": "Lo sapevate che la bandiera di Tuvalu è stata cambiata tre volte in meno di due anni?",
+      "cz": "Věděli jste, že vlajka Tuvalu se během necelých dvou let změnila třikrát?",
+      "phon": "[lo sa-pe-VÁ-te ke la ban-DÍE-ra di tu-VÁ-lu è STÁ-ta kam-BÍA-ta tre VÓL-te in MÉ-no di due ÁN-ni]"
     }
   ],
   "shadow": {
